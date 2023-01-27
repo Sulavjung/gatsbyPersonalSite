@@ -1,0 +1,40 @@
+
+	[
+		{
+			"icons": "📚",
+			"title": "Books",
+			"description":"Reading is one of the most important part in my life. So, here are the book recomendation for you.",
+			"link":"/books"
+		},
+		{
+			"icons": "🗓",
+			"title": "Blogs",
+			"description":"I was always told to write down whatever there is that troubles me. It always helps me. Hope you find meaning reading them.",
+			"link":"/blogs"
+		},
+		{
+			"icons": "🧨",
+			"title": "Quotes",
+			"description":"There is something unique about quotes. They motivates and inspires you. So, tap to see some what my favourites are.",
+			"link":"/quotes"
+		},
+		
+		{
+			"icons": "📸",
+			"title": "Photos",
+			"description":"Taking pictures and visiting new places gives me the enjoyment and remind me of being alive.",
+			"link":"/photos"
+		},
+		{
+			"icons": "🏃🏻‍♂️",
+			"title": "Trails",
+			"description":"I'm not a pro-athlete by any means but I always had this idea of doing adventure. Hiking has always been an affordable way to live that adventure life.",
+			"link":"/trails"
+		},
+		{
+			"icons": "🧑🏼‍💻",
+			"title": "Languages",
+			"description":"Tap in to see how I got into computer science field and to learn more on my journey so far.",
+			"link":"/languages"
+		}
+	]

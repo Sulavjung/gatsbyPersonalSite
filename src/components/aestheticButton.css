@@ -1,0 +1,24 @@
+.signups{
+	background-color: #3897D3;
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+	border-radius: 8px;
+	border: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+}
+
+.sign{
+	font-family: 'Basier Circle';
+	font-size: 17pt;
+	margin-inline: 40px;
+	text-align: center;
+
+	text-decoration: none;
+	color: white
+}
+.sign-up{
+	
+	align-items: center;
+	justify-content: center;
+}
