@@ -2,7 +2,7 @@ import { graphql } from 'gatsby';
 import React from 'react';
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
-import { ExploreForFullPage } from '../pages/Blogs';
+import ExploreForFullPage from '../components/exploreForFullPage';
 import './notion.css'
 
 const BlogTemplate = ({data}) => {
