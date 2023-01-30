@@ -4,14 +4,17 @@ import Navbar from '../../components/navbar'
 import { graphql } from 'gatsby'
 import '../blogbox.css'
 import ExploreForFullPage from '../../components/exploreForFullPage'
+import BlogPageDescription from '../../components/blogComponents/blogPageDescription'
 //import '../components/index.css'
 
 
 
 const blogs = ({data}) => {
+	const {slug} = data.allMarkdownRemark.edges[0].node.frontmatter;
   return (
 	<>
 		<Navbar />
+		<BlogPageDescription slug = {slug} />
 		<ExploreForFullPage />
 		<Footer />
 	</>
@@ -21,7 +24,7 @@ const blogs = ({data}) => {
 export const pageQuery = graphql`
 query MyBlogsQuery {
 	allMarkdownRemark(
-	  sort: {frontmatter: {Date: ASC}}
+	  sort: {frontmatter: {Date: DESC}}
 	  filter: {frontmatter: {}}
 	  limit: 4
 	) {

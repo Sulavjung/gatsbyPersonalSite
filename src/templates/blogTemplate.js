@@ -16,14 +16,14 @@ const BlogTemplate = ({data}) => {
     return(
       <>
       
-      <img className = "img-fluid mt-1" height = "auto" width = "1320px" src={props.cover} alt="Cover Image" />
+      <img className = "img-fluid mt-1" height = "auto" width = "1320px" src={props.cover} alt="Cover" />
         
       <>
       <div className='text-center p-4  pb-0 fw-bold fs-1'>
         {props.titlename}
       </div>
       
-      <div className="text-center pb-4 fw-regular fs-6">
+      <div className="text-center pb-1 fw-regular fs-6">
         {props.authorName} - {props.dateCreated} - {props.type}
         <hr />
       </div>
@@ -37,11 +37,12 @@ const BlogTemplate = ({data}) => {
   return (
     <>
       <Navbar /> 
-      <div className="container pb-5">
+      <div className="container pb-2">
         <TitleBox titlename = {Title} authorName = {Author} dateCreated = {Date} type = {Type} cover = {Cover_Image}/>
         
-        <div className = "blogPost" dangerouslySetInnerHTML={{__html: html}} />
-        <hr className="pt-2"/>
+        <div className = "blogPost pb-0" dangerouslySetInnerHTML={{__html: html}} />
+        <hr className="pt-2 border border-start-0 border-end-0 border-dark"/>
+        
       </div>
 
       <ExploreForFullPage />

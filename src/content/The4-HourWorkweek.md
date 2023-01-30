@@ -1,6 +1,6 @@
 ---
 Title: "The 4-Hour Workweek - Summary"
-Date: "12/23/2022"
+Date: "2022/12/23"
 Author: "Sulav Jung Hamal"
 BookAuthor: "Timothy Ferris"
 Type: "📚Book"

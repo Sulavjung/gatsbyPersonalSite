@@ -1,6 +1,6 @@
 ---
 Title: "Steal Like An Artist"
-Date: "10/14/2022"
+Date: "2022/10/14"
 Author: "Sulav Jung Hamal"
 BookAuthor: "Austin Kleon"
 Type: "📚Book"

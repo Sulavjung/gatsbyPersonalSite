@@ -1,6 +1,6 @@
 .blogPost a {
   color: #B8D8D8;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 150%;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", sans-serif;
@@ -61,7 +61,7 @@
   line-height: 1.1;
   padding-top: 20px;
   padding-bottom: none;
-  color: #4F6367;
+  color: black;
   
 }
 
@@ -73,7 +73,7 @@
   font-variant: normal;
   font-weight: 700;
   line-height: 1.1;
-  color: #7A9E9F;
+  color: #00BD9D;
 }
 
 .blogPost h4 {
@@ -109,7 +109,7 @@
 
 .blogPost p {
   color: black;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 150%;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
@@ -257,7 +257,7 @@ ul {
 .blogPost li {
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
     "Helvetica Neue", Arial, sans-serif;
-  font-size: 25px;
+  font-size: 18px;
   line-height: 1.5;
 }
 

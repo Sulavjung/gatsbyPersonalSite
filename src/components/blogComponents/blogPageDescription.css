@@ -1,0 +1,29 @@
+/* This is the css for the blog Page Description .js file.  */
+
+.cardssImage{
+	border-radius: 10px 10px 0px 0px;
+	object-fit: cover;
+}
+
+#caraso{
+	overflow: scroll;
+}
+
+#caraso::-webkit-scrollbar{
+	display: none;
+}
+
+.cardss{
+	width: 400px;
+	box-shadow: 0 0 20px #efefef;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: #1674FD ;
+}
