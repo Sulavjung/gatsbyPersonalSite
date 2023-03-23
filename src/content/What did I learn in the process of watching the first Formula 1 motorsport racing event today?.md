@@ -8,7 +8,7 @@ slug: "whatdidIlearnintheprocessofwatchingthefirstformula1motorsportracingeventt
 Genera: "Entertainment"
 Status: "Finished"
 Fun_Meter: "Awesome"
-Cover_Image: "https://source.unsplash.com/9DaOYUYnOls/1320x400"
+Cover_Image: "https://source.unsplash.com//M5s9Ffs1KqU/1320x400"
 Tag:
  - "article"
 ---
