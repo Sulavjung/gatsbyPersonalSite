@@ -10,7 +10,7 @@ Status: "Finished"
 Fun_Meter: "Awesome"
 Cover_Image: "https://source.unsplash.com/hSY4lkFR_E0/1320x400"
 Tag:
- - "article"
+ - "Article"
 ---
 
 ## 📄 Overview
