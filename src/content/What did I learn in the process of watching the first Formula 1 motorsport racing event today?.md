@@ -1,6 +1,6 @@
 ---
 Title: "What did I learn in the process of watching the first Formula 1 motorsport racing event today?"
-Date: "2023/3/22"
+Date: "2023/03/22"
 Author: "Sulav Jung Hamal"
 BookAuthor: ""
 Type: "📄 Article"
