@@ -3,7 +3,7 @@ Title: "What did I learn in the process of watching the first Formula 1 motorspo
 Date: "2023/3/22"
 Author: "Sulav Jung Hamal"
 BookAuthor: ""
-Type: "Articles"
+Type: "📄 Article"
 slug: "whatdidIlearnintheprocessofwatchingthefirstformula1motorsportracingeventtoday"
 Genera: "Entertainment"
 Status: "Finished"
