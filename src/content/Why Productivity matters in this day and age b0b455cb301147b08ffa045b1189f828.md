@@ -2,7 +2,7 @@
 Area: Personal
 Author: Sulav Jung Hamal
 Cover_Image: https://source.unsplash.com/hSY4lkFR_E0/1320x400
-Date: 03/25/2023
+Date: 2023/03/25
 Fun_Meter: Awesome
 Genera: Personal Growth, Productivity
 Platform: 🕸️ Website
