@@ -7,11 +7,12 @@ Fun_Meter: Awesome
 Genera: Personal Growth, Productivity
 Platform: 🕸️ Website
 Status: Backlog
-Tag: article
 Title: Why Productivity matters in this day and age?
 Type: 📄 Article
 Visuals needed: Yes
 slug: productivity-matters-in-this-day-and-age
+Tag:
+ - "article"
 
 ---
 
