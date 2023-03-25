@@ -1,9 +1,8 @@
-# Why Productivity matters in this day and age
-
+---
 Area: Personal
 Author: Sulav Jung Hamal
 Cover_Image: https://source.unsplash.com/hSY4lkFR_E0/1320x400
-Date: March 15, 2023
+Date: 03/25/2023
 Fun_Meter: Awesome
 Genera: Personal Growth, Productivity
 Platform: 🕸️ Website
@@ -13,6 +12,8 @@ Title: Why Productivity matters in this day and age?
 Type: 📄 Article
 Visuals needed: Yes
 slug: productivity-matters-in-this-day-and-age
+
+---
 
 Hello lovely human being,
 You clicked this link to learn more about productivity and how to stay productive. I can tell you exactly what every other productivity guru says, and also exactly what you came here to hear. But how often have you actually applied those productivity mantras after reading or hearing them? None, right? Then what's the point of repeating them to you again and again? So let me be honest with you. Even, I started writing this article with the intention of giving some productivity tips, but then I realized that writing this article itself is a waste of time for me. Well,  What do I even know about productivity then?
