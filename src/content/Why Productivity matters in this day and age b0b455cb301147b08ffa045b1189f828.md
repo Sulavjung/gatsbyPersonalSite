@@ -8,7 +8,7 @@ Genera: Personal Growth, Productivity
 Platform: 🕸️ Website
 Status: Backlog
 Title: Why Productivity matters in this day and age?
-Type: 📄 Article
+Type: "📄 Article"
 Visuals needed: Yes
 slug: productivity-matters-in-this-day-and-age
 Tag:
@@ -27,7 +27,7 @@ This is one of the most useless techniques that might have worked for someone in
 
 If that didn't work for you, what might work is to train yourself to control your habits and behaviors. At first, you have to realize that everything you do is hard. Not hard in the sense that the task is hard, but rather because you feel uncomfortable doing it. So, what you end up doing is moving it to later times. But know this: just because something is hard doesn't mean it will get easier later on. So instead of using the Pomodoro Technique to make that 25-minute short run, try to be mindful of the situation around you and study your feelings and emotions. Make yourself aware of what's going on and what you do to avoid doing things when things get hard. And make counter-steps to avoid making the same mistake. The Pomodoro Technique can only push you for 25 minutes, but this will take you a long way.
 
-## 2. Not so useful Multi-tasking:
+## 2. Not so useful Multi-tasking
 
 Other than using your phone during the poop-time, I find this productivity technique to be the worst tips there exist to stay productive. Whoever thought of this as a productivity tip? The person must have been pooping when they came up with it. Whoever discovered this might have also discovered how to drive and use a phone at the same time. I hope you are not using this technique. Really, the question is, how can a person use this technique? I can't even walk properly when I'm using my phone. How can anyone do two things at once, especially when we are talking about being productive in both things? I can't think of one. If you can, good for you. You can always try this well-respected technique of multitasking, but have you tried the technique of doing only one thing at a time? It is quite handy to be able to focus on one thing at a time. Focusing on one thing, free of all the past, future, what's, and what's not, is the peaceful way of dealing with things. It helps you understand things better, see clearly, and be present in the moment. I highly recommend this technique to you.
 
