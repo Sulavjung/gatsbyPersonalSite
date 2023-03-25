@@ -11,7 +11,8 @@ const ArticleBlogCard = () => {
 	var data = useStaticQuery(graphql`
 	query boxLinksArticle {
 		allMarkdownRemark(
-		  filter: {frontmatter: {Tag: {eq: "Article"}}}
+		  filter: {frontmatter: {Tag: {eq: "Article"}}},
+		  sort: {fields: [frontmatter___Date], order: DESC}
 		) {
 		  edges {
 			node {
