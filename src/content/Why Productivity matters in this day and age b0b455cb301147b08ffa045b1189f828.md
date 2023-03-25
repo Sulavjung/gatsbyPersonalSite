@@ -12,7 +12,7 @@ Type: "📄 Article"
 Visuals needed: Yes
 slug: productivity-matters-in-this-day-and-age
 Tag:
- - "article"
+ - "Article"
 
 ---
 
