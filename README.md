@@ -1,16 +1,16 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+    <img alt="Gatsby" src="src/assets/helloImage.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Sulav Jung Hamal
 </h1>
 
-Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+This is my personal website where I write my daily blogs and understanding. 
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+_Have any idea that you want to work together with. Reach me out in my [email address](contact@sulavhamal.com)._
 
 ## 🚀 Quick start
 
