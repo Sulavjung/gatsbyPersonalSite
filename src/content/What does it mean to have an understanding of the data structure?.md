@@ -1,7 +1,7 @@
 ---
 Title: "Understanding Data Structures: A Comprehensive Guide for Beginners"
-Date: 2023-03-26
-Due_Date: 2023-03-26
+Date: 2023/03/26
+Due_Date: 2023/03/26
 Author: Sulav Jung Hamal
 BookAuthor:
 Type: 💻 Programming
