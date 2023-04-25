@@ -2,13 +2,61 @@
 @import url(../assets/fonts/abused-7413446/stylesheet.css);
 
 
-#boxDiv{
+#Books,#Blogs,#Quotes,#Photos,#Trails,#Languages{
 	text-align: center;
 	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.25);
 	border-radius: 19px;
 	background: rgb(255, 255, 255);
 	border: none;
-	
+	text-decoration: none !important;
+	color: inherit;
+
+
+}
+
+#Books{
+	transition: transform 0.3s ease;
+}
+
+#Blogs{
+	transition: transform 0.3s ease;
+}
+
+#Quotes{
+	transition: transform 0.3s ease;
+}
+
+#Photos{
+	transition: transform 0.3s ease;
+}
+
+#Trails{
+	transition: transform 0.3s ease;
+}
+
+#Languages{
+	transition: transform 0.3s ease;
+}
+
+#Languages:hover {
+	transform: translateY(-10px);
+}
+
+#Trails:hover {
+	transform: translateY(-10px);
+}
+
+#Photos:hover {
+	transform: translateY(-10px);
+}
+#Quotes:hover {
+	transform: translateY(-10px);
+}
+#Blogs:hover {
+	transform: translateY(-10px);
+}
+#Books:hover {
+	transform: translateY(-10px);
 }
 
 #pdescription{
@@ -22,4 +70,11 @@
 
 #h1Icon{
 	font-size: 32pt;
+}
+
+
+
+#links{
+	text-decoration: none;
+	color: inherit;
 }

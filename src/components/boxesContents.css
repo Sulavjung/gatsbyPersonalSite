@@ -1,0 +1,32 @@
+/* For screens smaller than 576px */
+@media (max-width: 575.98px) {
+	.wrapper{
+	  display: flex;
+	  flex-direction: column;
+	}
+	.wrapper> * {
+	  margin-bottom: 1rem;
+	}
+  }
+  
+  /* For screens between 576px and 991.98px */
+  @media (min-width: 576px) and (max-width: 991.98px) {
+	.wrapper{
+	  display: grid;
+	  grid-template-columns: repeat(2, 1fr);
+	  grid-gap: 2rem;
+	}
+  }
+  
+  /* For screens larger than 992px */
+  @media (min-width: 992px) {
+	.wrapper{
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  grid-gap: 2rem;
+	}
+  }
+  
+  
+
+  

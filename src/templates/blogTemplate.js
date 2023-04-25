@@ -4,8 +4,12 @@ import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import ExploreForFullPage from '../components/exploreForFullPage';
 import './notion.css'
+import ExploreAndBlog from '../components/exploreAndBlog';
 
 const BlogTemplate = ({data}) => {
+
+  console.log(data);
+
 
   const {html} = data.markdownRemark;
   const {Author, Date, Title, Type, Cover_Image} = data.markdownRemark.frontmatter;
@@ -44,8 +48,8 @@ const BlogTemplate = ({data}) => {
         <hr className="pt-2 border border-start-0 border-end-0 border-dark"/>
         
       </div>
-
-      <ExploreForFullPage />
+    
+      <ExploreAndBlog />
       <Footer /> 
     </>
   );

@@ -1,4 +1,4 @@
-const path = require('path')
+/* const path = require('path')
 
 exports.createPages = async({ graphql, actions }) => {
 
@@ -21,4 +21,70 @@ exports.createPages = async({ graphql, actions }) => {
       context: { slug: node.frontmatter.slug }
     })
   })
-}
+} */
+
+/* const path = require('path');
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { data } = await graphql(`
+    query {
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            slug
+            Type
+            Class
+          }
+        }
+      }
+    }
+  `);
+
+  data.allMarkdownRemark.nodes.forEach(node => {
+    const { slug, Type, Class} = node.frontmatter;
+    let basePath = Type === 'Class' ? '/programming' : '/blogs';
+    if (Class) {
+      basePath += `/${Class}`;
+    }
+    actions.createPage({
+      path: `${basePath}/${slug}`,
+      component: path.resolve('./src/templates/blogTemplate.js'),
+      context: { slug }
+    });
+  });
+}; */
+
+
+const path = require('path');
+
+exports.createPages = async ({ graphql, actions }) => {
+  const { data } = await graphql(`
+    query {
+      allMarkdownRemark {
+        nodes {
+          frontmatter {
+            slug
+            Type
+            Class
+          }
+        }
+      }
+    }
+  `);
+
+  data.allMarkdownRemark.nodes.forEach(node => {
+    const { slug, Type, Class} = node.frontmatter;
+    let basePath = Type === 'Class' ? '/programming' : '/blogs';
+    if (Class) {
+      basePath += `/${Class}`;
+    }
+    actions.createPage({
+      path: `${basePath}/${slug}`,
+      component: path.resolve('./src/templates/' + (Type === 'Class' ? 'classTemplate.js' : 'blogTemplate.js')),
+      context: { slug }
+    });
+  });
+};
+
+
+

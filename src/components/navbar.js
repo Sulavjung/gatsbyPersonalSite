@@ -12,7 +12,7 @@ export default class Navbar extends Component {
 	return (
 	  <><div id='navbar'>
 			<nav class="navbar navbar-expand bg-body-tertiary p-0 m-0">
-				<div class="container ">
+				<div class="container-xxl ">
 					
 						<Link to='/' className="navbar-brand fs-1 py-0" id='logoName'>Sulav</Link> 
 					

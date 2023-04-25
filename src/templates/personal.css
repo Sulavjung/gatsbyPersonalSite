@@ -1,0 +1,151 @@
+
+
+/* Font */
+body {
+	font-family: "Helvetica Neue", sans-serif;
+	font-size: 16px;
+  }
+  
+  /* Headers */
+  #classRandom h1, #classRandom h2, h3, #classRandom h4, #classRandom h5, #classRandom h6 {
+	font-weight: 600;
+	line-height: 1.25;
+	margin-top: 24px;
+	margin-bottom: 4px;
+  }
+  
+  #classRandom h1 {
+	font-size: 22px;
+	color: #E55749;
+  }
+  
+  #classRandom h2 {
+	font-size: 20px;
+	color: #B86B02;
+  }
+  
+  #classRandom h3 {
+	font-size: 18px;
+	color: #C18401;
+  }
+  
+  #classRandom h4 {
+	font-size: 16px;
+	color: #50A150;
+  }
+  
+  #classRandom h5 {
+	font-size: 16px;
+	color: #62AFEE;
+  }
+  
+  #classRandom h6 {
+	font-size: 16px;
+	color: #A627A4;
+  }
+  
+  /* Paragraphs */
+  #classRandom p {
+	margin-top: 0;
+	margin-bottom: 16px;
+  }
+  
+  /* Lists */
+  #classRandom ul, ol {
+	margin-top: 0;
+	margin-bottom: 16px;
+	padding-left: 24px;
+  }
+  
+  /* Code blocks */
+  /* Code blocks */
+pre {
+	display: flex;
+	flex-wrap: wrap !important;
+	position: relative; /* Add this line */
+	background-color: #ffffff;
+	border-radius: 5px;
+	color: #000000;
+	overflow-wrap: break-word !important;
+	word-wrap: break-word !important; /* Add this line */
+	font-size: 14px;
+	line-height: 1.5;
+	padding-top: 20px !important;
+	margin-bottom: 1.5rem;
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+	overflow: hidden;
+	overflow-x: auto !important;
+	padding: 20px !important;
+  }
+  
+  
+  
+  code {
+	background-color: #ffffff;
+	color: #EB5757;
+	border-radius: 4px;
+	line-height: 1.4;
+	margin-top: -10px;
+	word-wrap: break-word !important; /* Add this line */
+	overflow-x: auto !important;
+	white-space: pre-wrap !important; 
+	overflow: hidden !important;
+  }
+  
+
+  /* Blockquotes */
+  blockquote {
+	font-family: monospace !important;
+	padding: 2rem;
+	margin-bottom: 1.5rem;
+	border-left: 4px solid #ffffff;
+	padding-left: 16px;
+	color: #aa1717;
+  }
+  
+  
+  
+  /* Links */
+  a {
+	color: #06c;
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+
+  
+  
+  
+
+ 
+@media (max-width: 623px) {
+    #classRandom h1 {
+		font-size: 22px;
+	}
+
+	#classRandom h2 {
+		font-size: 20px;
+	}
+
+	#classRandom h3 {
+		font-size: 18px;
+	}
+
+	#classRandom h4 {
+		font-size: 16px;
+	}
+
+	#classRandom h5 {
+		font-size: 16px;
+	}
+
+	#classRandom h6 {
+		font-size: 16px;
+	}
+
+	pre code {
+		font-size: x-small !important;
+	}
+}

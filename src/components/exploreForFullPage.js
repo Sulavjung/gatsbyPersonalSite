@@ -1,3 +1,5 @@
+/*Don't use this. This shouldn't be use as this will break.  */
+
 import React from 'react';
 import LatestArticles from './latestArticles';
 

@@ -28,7 +28,7 @@ const BlogPageDescription = (props) => {
 	  }
 	`)
 
-	
+	console.log(props.slug);
 
 	const link = "/blogs/" + props.slug;
 	return (

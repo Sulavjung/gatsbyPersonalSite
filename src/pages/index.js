@@ -7,15 +7,18 @@ import BoxesContents from '../components/boxesContents';
 import Footer from '../components/footer';
 
 import '../components/index.css'
+import FreeJavaCheatSheet from '../components/freeJavaCheatSheet';
 
 
 
 const indexPage= () => {
+  
   return (
 	<>
 		<Navbar />
 		<Eyecatcher />
     <BoxesContents />
+    <FreeJavaCheatSheet />
     <ExploreAndBlog />
     <Footer />
 	</>

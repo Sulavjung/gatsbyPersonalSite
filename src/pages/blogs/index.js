@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import '../blogbox.css'
 import ExploreForFullPage from '../../components/exploreForFullPage'
 import BlogPageDescription from '../../components/blogComponents/blogPageDescription'
+import ExploreAndBlog from '../../components/exploreAndBlog'
 //import '../components/index.css'
 
 
@@ -15,7 +16,7 @@ const blogs = ({data}) => {
 	<>
 		<Navbar />
 		<BlogPageDescription slug = {slug} />
-		<ExploreForFullPage />
+		<ExploreAndBlog />
 		<Footer />
 	</>
   )
