@@ -1,12 +1,22 @@
-import img from '../assets/FreeJavaCheatSheet.PNG'
-import img1 from '../assets/Java Cheat Sheet 2.jpg'
+import { StaticImage } from 'gatsby-plugin-image'
 import "./freeJavaCheatSheet.css"
 import React, { useState } from "react"
+
+export function Img() {
+  return <StaticImage className="javacheat img-fluid rounded shadow" src="../assets/FreeJavaCheatSheet.PNG" alt="A Cheatsdfs" />
+}
+
+export function Img1() {
+  return <StaticImage className="javacheat img-fluid rounded" src="../assets/Java Cheat Sheet 2.jpg" alt="A Cheat" />
+}
+
+
 
 export default function FreeJavaCheatSheet() {
   const [showPopup, setShowPopup] = useState(false)
   const [email, setEmail] = useState("")
   const [isEmailValid, setIsEmailValid] = useState(false);
+
 
   // handle change event for email input field
   const handleEmailChange = (event) => {
@@ -37,12 +47,7 @@ export default function FreeJavaCheatSheet() {
       <h1 className="mt-5 mb-0 fw-bold">Free Java Cheat Sheet</h1>
       <hr className="mt-0" />
       <div className="freeJavaContent">
-        <img
-          className="javacheat img-fluid rounded shadow"
-          src={img}
-          id="classes"
-          alt="Hello"
-        />
+        {Img()}
         <div className="labelText text-start">
           <h1>
             <strong>Cheat Sheet</strong>
@@ -68,12 +73,7 @@ export default function FreeJavaCheatSheet() {
             <span className="close" onClick={handleClosePopup}>
               &times;
             </span>
-            <img
-              className="img-fluid rounded"
-              src={img1}
-              id="classes"
-              alt="Hello"
-            />
+            {Img1()}
             <form onSubmit={handleSubmit}>
               <div>
                 {/* email input field with bootstrap styling */}

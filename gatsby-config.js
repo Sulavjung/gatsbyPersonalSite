@@ -12,7 +12,7 @@ module.exports = {
     title: `sulavhamal`,
   },
   plugins: [
-    
+    `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
