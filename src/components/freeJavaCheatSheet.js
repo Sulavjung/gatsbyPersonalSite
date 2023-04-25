@@ -1,5 +1,5 @@
-import img from 'gatsbyPersonalSite/src/assets/FreeJavaCheatSheet.PNG'
-import img1 from 'gatsbyPersonalSite/src/assets/Java Cheat Sheet 2.jpg'
+import img from '../assets/FreeJavaCheatSheet.PNG'
+import img1 from '../assets/Java Cheat Sheet 2.jpg'
 import "./freeJavaCheatSheet.css"
 import React, { useState } from "react"
 
