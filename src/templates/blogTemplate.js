@@ -44,6 +44,7 @@ const BlogTemplate = ({data}) => {
       <div className="container pb-2">
         <TitleBox titlename = {Title} authorName = {Author} dateCreated = {Date} type = {Type} cover = {Cover_Image}/>
         
+        
         <div className = "blogPost pb-0" dangerouslySetInnerHTML={{__html: html}} />
         <hr className="pt-2 border border-start-0 border-end-0 border-dark"/>
         
