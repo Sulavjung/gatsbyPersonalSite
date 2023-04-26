@@ -63,8 +63,9 @@ pre {
 	display: flex;
 	flex-wrap: wrap !important;
 	position: relative; /* Add this line */
-	background-color: #ffffff;
+	background-color: #fbfbfb;
 	border-radius: 5px;
+	border-color: #f01c09;
 	color: #000000;
 	overflow-wrap: break-word !important;
 	word-wrap: break-word !important; /* Add this line */
@@ -72,7 +73,7 @@ pre {
 	line-height: 1.5;
 	padding-top: 20px !important;
 	margin-bottom: 1.5rem;
-	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+	box-shadow: 0 .5rem 1rem #d5d3d3;
 	overflow: hidden;
 	overflow-x: auto !important;
 	padding: 20px !important;
