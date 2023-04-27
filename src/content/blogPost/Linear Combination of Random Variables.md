@@ -13,7 +13,7 @@ Tag:
   - Article
 ---
 
-<!-- ## What is Linear Combination of Random Variables?
+## What is Linear Combination of Random Variables?
 **A linear combination of random variables is a new random variable that is formed by taking a weighted sum of two or more other random variables.**
 
 Let's suppose we have random variables $\large X_{1},X_{2},\dots,X_{n}$. Now, we are given means and variances as such: 
@@ -21,12 +21,12 @@ $$Means: \large \mu_{1},\mu_{2},\dots,\mu_{n}$$
 $$Variances: \large \sigma_{1}^2,\sigma_{2}^2, \dots, \sigma_{n}^2$$
 Then, linear combination gives us:
 #### Expected Value:
-$$\large E(c_{1}X_{1}+c_{2}X_{2}+\dots+c_{n}X_{n}) = c_{1}\mu_{1} +c_{n}\mu_{n} +\dots+c_{n}\mu_{n}   $$
+$$\large E(c_{1}X_{1}+c_{2}X_{2}+\dots+c_{n}X_{n}) = c_{1}\mu_{1} +c_{n}\mu_{n} +\dots+c_{n}\mu_{n}$$
 #### Variance (If independent):
 $$\large Var(c_{1}X_{1}+c_{2}X_{2}+\dots+c_{n}X_{n}) = c_{1}^2\sigma_{1}^2 +c_{2}^2\sigma_{2}^2 +\dots+c_{n}^2\sigma_{n}^2   $$
 #### Variance (if Dependent Event): 
 $$\large\sum^{n}_{i=1}\sum^{n}_{j=1}c_{i}c_{j}COV(X_{i}X_{j})$$
-![[Pasted image 20230413135616.png]]
+
 This is what we will learn in this note. Why it is true and how it can be used in different practical fields. Let's dive in. 
 
 ---
@@ -44,5 +44,5 @@ These are just a few examples of how linear combinations of random variables can
 $$T = 10F_{1} - 7F_{2}$$
 >**Assume the forces are random variables: $F_{1}$ mean 35 and standard deviation 2 lbs and $F_{2}$ has mean 50 and standard deviation 3 lbs. Then linearity of expectation shows the mean of T is zero. But variance?** 
 > - **This is linear combination of $F_{1}, F_{2}$ with coefficients $c_{1} = 10, c_{2} = -7$**
- -->
+
 Case 1: The forces are applied INDEPENDENTLY so that $COV(F_{1}, F_{2}) = 0$ 

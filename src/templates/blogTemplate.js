@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import ExploreForFullPage from '../components/exploreForFullPage';
 import './notion.css'
 import ExploreAndBlog from '../components/exploreAndBlog';
+require(`katex/dist/katex.min.css`);
 
 const BlogTemplate = ({data}) => {
 
@@ -41,7 +42,7 @@ const BlogTemplate = ({data}) => {
   return (
     <>
       <Navbar /> 
-      <div className="container pb-2">
+      <div className="container-xxl pb-2">
         <TitleBox titlename = {Title} authorName = {Author} dateCreated = {Date} type = {Type} cover = {Cover_Image}/>
         
         

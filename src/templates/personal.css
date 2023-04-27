@@ -150,3 +150,9 @@ pre {
 		font-size: x-small !important;
 	}
 }
+
+.katex {
+	overflow-x: auto;
+	overflow-y: hidden;
+  }
+  

@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import './personal.css'
 import Prism from 'prismjs';
 import './prism.css'
+require(`katex/dist/katex.min.css`);
 
 
 
