@@ -4,15 +4,20 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import "./personal.css"
 import ExploreAndBlog from "../components/exploreAndBlog"
+import { StaticImage } from "gatsby-plugin-image"
 
 export default function ClassOverviewTemplate({ data }) {
   const { markdownRemark, allMarkdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
+  const imglink = `../pages/programming/AssetsProgramming/${frontmatter.slug}.png`;
+
 
   return (
     <>
       <Navbar />
       <div className="container-xxl" id="classRandom">
+
+	  <StaticImage className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce" src={imglink} alt="Class Image" />
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
 		<h4>Related Topics</h4>
