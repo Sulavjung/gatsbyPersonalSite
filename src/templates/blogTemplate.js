@@ -1,5 +1,5 @@
 import { graphql } from 'gatsby';
-import React from 'react';
+import React, { useEffect } from "react"
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
 import ExploreForFullPage from '../components/exploreForFullPage';
@@ -19,6 +19,9 @@ const BlogTemplate = ({data}) => {
   const {html} = data.markdownRemark;
   const {Author, Date, Title, Type, Cover_Image} = data.markdownRemark.frontmatter;
   
+  useEffect(() => {
+    Prism.highlightAll()
+  }, [])
 
 
   const TitleBox = (props) =>{
