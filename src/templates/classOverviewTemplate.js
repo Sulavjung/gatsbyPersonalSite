@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import "./personal.css"
+import ExploreAndBlog from "../components/exploreAndBlog"
 
 export default function ClassOverviewTemplate({ data }) {
   const { markdownRemark, allMarkdownRemark } = data // data.markdownRemark holds your post data
@@ -15,6 +16,7 @@ export default function ClassOverviewTemplate({ data }) {
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
 		<h4>Related Topics</h4>
+		<hr className="mt-0" />
         <div className="border rounded p-0 mt-1 shadow">
           {allMarkdownRemark.nodes.map(node => (
             <Link
@@ -29,6 +31,7 @@ export default function ClassOverviewTemplate({ data }) {
           ))}
         </div>
       </div>
+	  <ExploreAndBlog />
       <Footer />
     </>
   )

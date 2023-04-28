@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import './personal.css'
 import Prism from 'prismjs';
 import './prism.css'
+import ExploreAndBlog from '../components/exploreAndBlog';
 require(`katex/dist/katex.min.css`);
 
 
@@ -28,6 +29,7 @@ const ClassTemplate = ({ data}) => {
       {/* <div dangerouslySetInnerHTML={{ __html: tableOfContents }}></div> */}
 			<div dangerouslySetInnerHTML={{ __html: html }}></div>
       </div>
+      <ExploreAndBlog />
       <Footer />
     </>
   );
