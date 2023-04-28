@@ -24,7 +24,7 @@ const ClassTemplate = ({ data}) => {
   return (
     <>
       <Navbar />
-      <div className="container-md" id='classRandom'>
+      <div className="container-xxl" id='classRandom'>
       {/* <div dangerouslySetInnerHTML={{ __html: tableOfContents }}></div> */}
 			<div dangerouslySetInnerHTML={{ __html: html }}></div>
       </div>

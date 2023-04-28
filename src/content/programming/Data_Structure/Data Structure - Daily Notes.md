@@ -1,5 +1,5 @@
 ---
-Title: Linear Combination of Random Variables
+Title: Tree and Binary Tree
 Date: 04/13/2023
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
@@ -10,6 +10,7 @@ Genera: Data Science
 Status: Planning 🔗
 Due_Date: 04/13/2023
 Cover_Image: https://source.unsplash.com/9DaOYUYnOls/1320x400
+Description: A Tree is an abstract data type (ADT) or data structure that simulates a hierarchical tree structure, with a root value and subtrees of children, represented as a set of linked nodes.
 Tag:
   - class
 ---

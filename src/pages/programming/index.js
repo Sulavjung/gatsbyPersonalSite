@@ -37,10 +37,12 @@ export default Flow;
 /* I tried to create the react flow nodes for this page but then felt like too much work so changed it to normal mode. */
 
 import React from 'react'
+import { Link } from 'gatsby'
 import Navbar from '../../components/navbar.js'
 import Footer from '../../components/footer.js'
 import '../../components/index.css'
 import img from './AssetsProgramming/Hero.png'
+import img2 from './AssetsProgramming/statistics.png'
 import profile from '../../images/blogSideProfileImage.jpeg'
 import './style.css'
 
@@ -77,8 +79,25 @@ export default function programming() {
 
 
 	<div className="container">
+			<Link
+              to={`/programming/dataStructure`}
+              className="text-decoration-none"
+            >
+              <img className='img-fluid rounded shadow cursor-pointer animate__animated animate__bounce' src={img} id='classes' alt="Hello" />
+            </Link>
 		{/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
-		<a href={link}><img className='img-fluid rounded shadow cursor-pointer animate__animated animate__bounce' src={img} id='classes' alt="Hello" /></a>
+		<a href={link}></a>
+	</div>
+	<br />
+	<div className="container mb-5">
+			<Link
+              to={`/programming/Probability_and_Statistics_with_Computing`}
+              className="text-decoration-none"
+            >
+              <img className='img-fluid rounded shadow cursor-pointer animate__animated animate__bounce ' src={img2} id='classes' alt="Hello" />
+            </Link>
+		{/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
+		<a href={link}></a>
 	</div>
 	<Footer />
 	</>

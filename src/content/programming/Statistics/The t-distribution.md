@@ -1,5 +1,5 @@
 ---
-Title: T_distribution
+Title: T-Distribution
 Date: 04/13/2023
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
@@ -10,6 +10,7 @@ Genera: Data Science
 Status: Planning 🔗
 Due_Date: 04/13/2023
 Cover_Image: https://source.unsplash.com/9DaOYUYnOls/1320x400
+Description: How is the t-distribution used to make inferences about population means? Learn more about the practical applications of t-distribution in daily life.
 Tag:
   - class
 ---
