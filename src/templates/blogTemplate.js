@@ -5,6 +5,7 @@ import Navbar from '../components/navbar';
 import ExploreForFullPage from '../components/exploreForFullPage';
 import './notion.css'
 import ExploreAndBlog from '../components/exploreAndBlog';
+import { Helmet } from 'react-helmet';
 require(`katex/dist/katex.min.css`);
 
 const BlogTemplate = ({data}) => {
@@ -41,6 +42,9 @@ const BlogTemplate = ({data}) => {
   }
   return (
     <>
+      <Helmet>
+      <title>{Title}</title>
+      </Helmet>
       <Navbar /> 
       <div className="container-xxl pb-2">
         <TitleBox titlename = {Title} authorName = {Author} dateCreated = {Date} type = {Type} cover = {Cover_Image}/>

@@ -5,23 +5,29 @@ import Footer from "../components/footer"
 import "./personal.css"
 import ExploreAndBlog from "../components/exploreAndBlog"
 import { StaticImage } from "gatsby-plugin-image"
+import { Helmet } from "react-helmet"
 
 export default function ClassOverviewTemplate({ data }) {
   const { markdownRemark, allMarkdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const imglink = `../pages/programming/AssetsProgramming/${frontmatter.slug}.png`;
-
+  const imglink = `../pages/programming/AssetsProgramming/${frontmatter.slug}.png`
 
   return (
     <>
+      <Helmet>
+        <title>{frontmatter.Title}</title>
+      </Helmet>
       <Navbar />
       <div className="container-xxl" id="classRandom">
-
-	  <StaticImage className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce" src={imglink} alt="Class Image" />
+        <StaticImage
+          className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce"
+          src={imglink}
+          alt="Class Image"
+        />
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
-		<h4>Related Topics</h4>
-		<hr className="mt-0" />
+        <h4>Related Topics</h4>
+        <hr className="mt-0" />
         <div className="border rounded p-0 mt-1 shadow">
           {allMarkdownRemark.nodes.map(node => (
             <Link
@@ -36,7 +42,7 @@ export default function ClassOverviewTemplate({ data }) {
           ))}
         </div>
       </div>
-	  <ExploreAndBlog />
+      <ExploreAndBlog />
       <Footer />
     </>
   )
