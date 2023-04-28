@@ -6,6 +6,7 @@ import '../blogbox.css'
 import ExploreForFullPage from '../../components/exploreForFullPage'
 import BlogPageDescription from '../../components/blogComponents/blogPageDescription'
 import ExploreAndBlog from '../../components/exploreAndBlog'
+import { Helmet } from 'react-helmet'
 //import '../components/index.css'
 
 
@@ -14,6 +15,13 @@ const blogs = ({data}) => {
 	const {slug} = data.allMarkdownRemark.edges[0].node.frontmatter;
   return (
 	<>
+		<Helmet>
+        <title>Sulav | Blogs</title>
+        <meta
+          name="description"
+          content="Learn about interesting topics and recent finding in the field of Science and Technology."
+        />
+		</Helmet>
 		<Navbar />
 		<BlogPageDescription slug = {slug} />
 		<ExploreAndBlog />

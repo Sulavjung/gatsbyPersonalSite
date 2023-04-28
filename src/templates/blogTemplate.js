@@ -6,7 +6,10 @@ import ExploreForFullPage from '../components/exploreForFullPage';
 import './notion.css'
 import ExploreAndBlog from '../components/exploreAndBlog';
 import { Helmet } from 'react-helmet';
+import Prism from "prismjs"
+import "./prism.css"
 require(`katex/dist/katex.min.css`);
+
 
 const BlogTemplate = ({data}) => {
 
@@ -22,11 +25,11 @@ const BlogTemplate = ({data}) => {
     return(
       <>
       
-      <img className = "img-fluid mt-1" height = "auto" width = "1320px" src={props.cover} alt="Cover" />
+      <img className = "img-fluid mt-1" style={{ height: "140px", objectFit: "cover" , width: "100%" }} src={props.cover} alt="Cover" />
         
       <>
-      <div className='text-center p-4  pb-0 fw-bold fs-1'>
-        {props.titlename}
+      <div className='text-center p-4  pb-0 fw-bold'>
+        <h2>{props.titlename}</h2>
       </div>
       
       <div className="text-center pb-1 fw-regular fs-6">

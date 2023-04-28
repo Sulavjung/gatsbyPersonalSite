@@ -38,10 +38,12 @@ Linear combinations of random variables can come in handy in many different situ
 4.  ***Statistical modeling:*** In statistical modeling, linear combinations of predictor variables can be used to create models that capture the relationship between the predictors and the response variable. For example, in regression analysis, a linear combination of predictors can be used to model the relationship between a response variable and one or more predictor variables.
 5.  ***Signal processing:*** In signal processing, linear combinations of signals can be used to filter out noise or extract important information from noisy data. For example, in speech recognition, a linear combination of spectral features can be used to recognize spoken words in noisy environments.
 These are just a few examples of how linear combinations of random variables can be used in different fields. The concept is quite versatile and can be applied to many different problems, making it a powerful tool for understanding complex systems and analyzing data.
+
 ---
-> [!NOTE] Question 1
 > **Suppose you load weights $F_{1}, F_{2}$ on opposite sides of a beam at distances 10, 7 from a fulcrum. For the load to be perfectly balanced, we need $7F_{2}= 10F_{1}$. So, we might measure the net torque about the fulcrum**
-$$T = 10F_{1} - 7F_{2}$$
+> $$
+>T = 10F_{1} - 7F_{2}
+>$$
 >**Assume the forces are random variables: $F_{1}$ mean 35 and standard deviation 2 lbs and $F_{2}$ has mean 50 and standard deviation 3 lbs. Then linearity of expectation shows the mean of T is zero. But variance?** 
 > - **This is linear combination of $F_{1}, F_{2}$ with coefficients $c_{1} = 10, c_{2} = -7$**
 
