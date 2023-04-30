@@ -211,17 +211,21 @@ blockquote::first-line {
 
 
 
+
+
 table {
   border: 1px solid #333;
   border-collapse: collapse;
-  padding: 20px;
   width: 100%;
-  overflow-x: auto;
+  overflow-x: scroll !important;
+  overflow: hidden;
+
 }
 
 tr {
   border: 1px solid #333;
   padding: 10px;
+
 }
 tr:nth-child(even) {
   background-color: #f1f1f1;
@@ -229,11 +233,11 @@ tr:nth-child(even) {
 
 td {
   border: 1px solid #333;
-  padding: 10px;
+
 }
 
 th {
   border: 1px solid #333;
-  text-align: left;
-  padding: 20px;
+  text-align: center;
+  padding: 5px;
 }
