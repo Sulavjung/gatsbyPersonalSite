@@ -158,22 +158,23 @@ blockquote {
   border-width: 2px;
   border-color: #00FFE1;
   border-radius: 10px;
-  padding: 20px 20px;
+  padding: 10px 10px;
   line-height: 120%;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", Arial, sans-serif;
   color: black;
+
 }
 
 blockquote::before {
   content: "\1F4DD\00A0Note\00A0";
-  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 1.2em;
   color: #000000;
   margin-right: 0.5em;
 }
 
 blockquote::first-line {
   display: block;
+
 }
 
 .nav-left {
@@ -214,6 +215,8 @@ table {
   border: 1px solid #333;
   border-collapse: collapse;
   padding: 20px;
+  width: 100%;
+  overflow-x: auto;
 }
 
 tr {
