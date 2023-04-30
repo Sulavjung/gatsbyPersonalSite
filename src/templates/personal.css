@@ -96,12 +96,13 @@ pre {
 
   /* Blockquotes */
   blockquote {
-	font-family: monospace !important;
-	padding: 2rem;
-	margin-bottom: 1.5rem;
 	border-left: 4px solid #ffffff;
 	padding-left: 16px;
 	color: #aa1717;
+  }
+
+  blockquote p {
+	margin-top: 10px !important;
   }
   
   
