@@ -1,7 +1,7 @@
 
 
 .blogPost a {
-  color: #B8D8D8;
+  color: #b8d8d8;
   font-size: 18px;
   line-height: 150%;
   font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
@@ -10,25 +10,23 @@
   font-variant: normal;
   font-weight: 400;
   text-decoration: underline;
-  padding:3px;
+  padding: 3px;
 }
 
-.blogPost a:link{
-    color: rgba(0, 0, 0, 0.6);
+.blogPost a:link {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.blogPost a:visited{
-    color: rgba(0, 0, 0, 0.6);
+.blogPost a:visited {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.blogPost a:hover{
-    background: linear-gradient(#eee, #eee);
-    background-size: auto 4em;
-    background-repeat: no-repeat;
-    background-position: 0% 15px; 
+.blogPost a:hover {
+  background: linear-gradient(#eee, #eee);
+  background-size: auto 4em;
+  background-repeat: no-repeat;
+  background-position: 0% 15px;
 }
-
-
 
 .blogPost .title {
   width: 100%;
@@ -43,55 +41,61 @@
 }
 
 /* Headers */
-.blogPost h1, .blogPost h2, h3, .blogPost h4, .blogPost h5, .blogPost h6 {
-	font-weight: 600;
-	line-height: 1.25;
-	margin-top: 24px;
-	margin-bottom: 4px;
-  }
-  
-	.blogPost h1 {
-	font-size: 22px;
-	color: #50A150;
-  }
-  
-  .blogPost h2 {
-	font-size: 20px;
-	color: #62AFEE;
-  }
-  
-  .blogPost h3 {
-	font-size: 18px;
-	color: #C18401;
-  }
-  
-  .blogPost h4 {
-	font-size: 16px;
-	color: #50A150;
-  }
-  
-  .blogPost h5 {
-	font-size: 16px;
-	color: #62AFEE;
-  }
-  
-  .blogPost h6 {
-	font-size: 16px;
-	color: #A627A4;
-  }
-  
-  /* Paragraphs */
-  .blogPost p {
-	margin-top: 0;
-	margin-bottom: 16px;
-  }
-  
-  /* Lists */
-  .blogPost ul, ol {
-	margin-top: 0;
-	margin-bottom: 16px;
-	padding-left: 24px;
-  }
+.blogPost h1,
+.blogPost h2,
+h3,
+.blogPost h4,
+.blogPost h5,
+.blogPost h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-top: 24px;
+  margin-bottom: 4px;
+}
+
+.blogPost h1 {
+  font-size: 22px;
+  color: #50a150;
+}
+
+.blogPost h2 {
+  font-size: 20px;
+  color: #62afee;
+}
+
+.blogPost h3 {
+  font-size: 18px;
+  color: #c18401;
+}
+
+.blogPost h4 {
+  font-size: 16px;
+  color: #50a150;
+}
+
+.blogPost h5 {
+  font-size: 16px;
+  color: #62afee;
+}
+
+.blogPost h6 {
+  font-size: 16px;
+  color: #a627a4;
+}
+
+/* Paragraphs */
+.blogPost p {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+/* Lists */
+.blogPost ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 24px;
+}
 .blogPost button {
   background-color: #f0f2f4;
   color: #404b59;
@@ -153,15 +157,14 @@ textarea {
 }
 
 blockquote {
-  background: #F0F9F8;
-  border-style:solid;
+  background: #f0f9f8;
+  border-style: solid;
   border-width: 2px;
-  border-color: #00FFE1;
+  border-color: #00ffe1;
   border-radius: 10px;
   padding: 10px 10px;
   line-height: 120%;
   color: black;
-
 }
 
 blockquote::before {
@@ -174,7 +177,6 @@ blockquote::before {
 
 blockquote::first-line {
   display: block;
-
 }
 
 .nav-left {
@@ -209,23 +211,17 @@ blockquote::first-line {
   color: #37352f;
 }
 
-
-
-
-
 table {
   border: 1px solid #333;
   border-collapse: collapse;
   width: 100%;
   overflow-x: scroll !important;
   overflow: hidden;
-
 }
 
 tr {
   border: 1px solid #333;
   padding: 10px;
-
 }
 tr:nth-child(even) {
   background-color: #f1f1f1;
@@ -233,11 +229,40 @@ tr:nth-child(even) {
 
 td {
   border: 1px solid #333;
-
 }
 
 th {
   border: 1px solid #333;
   text-align: center;
   padding: 5px;
+}
+
+div.sulav img {
+  height: 140px;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+@media (max-width: 576px) {
+  div.sulav {
+    height: 100px;
+    width: 100px;
+    min-width: 100px;
+    max-height: 100px;
+    margin-top: 32px;
+    margin-bottom:20px;
+    margin-inline: 20px;
+    transform: perspective(1000px) rotateX(-4deg) rotateY(16deg) rotateZ(-8deg);
+    box-shadow: -15px -6px 54px 0 rgba(80, 150, 124, 0.669);
+    border-radius: 10px;
+  }
+  div.sulav img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover !important;
+    border-radius: 10px;
+  
+  }
 }
