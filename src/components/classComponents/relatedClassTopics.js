@@ -1,4 +1,4 @@
-import React from "react"
+/* import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 
@@ -51,3 +51,4 @@ const ClassTopics = props => {
 }
 
 export default ClassTopics
+ */
