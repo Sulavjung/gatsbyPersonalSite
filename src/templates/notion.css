@@ -250,7 +250,7 @@ div.sulav img {
 
 @media (max-width: 576px) {
   div.sulav {
-    height: 150px;
+    height: auto;
     width: 100px;
     min-width: 100px;
     max-height: 100px;
@@ -263,6 +263,8 @@ div.sulav img {
     transition: 0.4s ease-in-out transform;
     animation: rotate 20s linear infinite; /* 5s duration, linear timing function, infinite loop */
   }
+
+  
   
   @keyframes rotate {
     0% {
@@ -281,6 +283,8 @@ div.sulav img {
     border-radius: 10px;
   
   }
+
+  
 
 }
 

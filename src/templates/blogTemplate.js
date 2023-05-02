@@ -2,7 +2,6 @@ import { graphql } from "gatsby"
 import React, { useEffect } from "react"
 import Footer from "../components/footer"
 import Navbar from "../components/navbar"
-import ExploreForFullPage from "../components/exploreForFullPage"
 import "./notion.css"
 import ExploreAndBlog from "../components/exploreAndBlog"
 import { Helmet } from "react-helmet"
@@ -24,7 +23,7 @@ const BlogTemplate = ({ data }) => {
   const TitleBox = props => {
     return (
       <>
-        <div className="d-flex flex-sm-column flex-row curvy-line">
+        <div className="d-flex flex-sm-column flex-row curvy-line pb-4">
           <div className="sulav ">
             <img src={props.cover} alt="Cover" />
           </div>
