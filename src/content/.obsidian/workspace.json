@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "569696ea4577e1ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blogPost/How to Use Templates in Django Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "565c669979a0e610",
@@ -85,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md",
+                "file": "blogPost/How to Use Templates in Django Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md",
+                "file": "blogPost/How to Use Templates in Django Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md"
+                "file": "blogPost/How to Use Templates in Django Project.md"
               }
             }
           }
@@ -146,12 +160,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cb803740a4cdba71",
+  "active": "569696ea4577e1ee",
   "lastOpenFiles": [
+    "programming/Data_Structure/Questions on ADT Tree.md",
+    "blogPost/How to Use Templates in Django Project.md",
     "programming/Data_Structure/Images/ADTTree3 1.png",
     "programming/Data_Structure/Images/ADTTree3.png",
     "programming/Data_Structure/Images/ADTtree3.png",
-    "programming/Data_Structure/Questions on ADT Tree.md",
     "programming/Data_Structure/Images/ADTTreeImage.png",
     "programming/Data_Structure/Images/ADTTreeImage2.png",
     "programming/Data_Structure/questionsOnList.md",
