@@ -3,7 +3,7 @@ Title: How to use templates in Django project?
 Date: 2023/05/02
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 💻 Programming
+Type: 🎒 Dev
 slug: how_to_use_templates_in_django_project
 Genera: Data Science
 Status: Draft
@@ -49,7 +49,7 @@ Once you've created a template folder inside each app, you'll need to tell Djang
     },
 ]
 ```
-1. With this configuration, Django will now look for templates in the `appname/templates` direrctory when rerndering views that belong to the `app` with `appname` here. 
+5. With this configuration, Django will now look for templates in the `appname/templates` direrctory when rerndering views that belong to the `app` with `appname` here. 
 ## 3. Create Template File
 Once you've created the template folder and configured the settings for your Django project, you're ready to create templates that can be used to render web pages. In this section, we'll look at how to create a simple template file and how to use context to pass data from a view to a template.
 

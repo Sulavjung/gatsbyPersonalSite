@@ -24,7 +24,7 @@ const BlogTemplate = ({ data }) => {
   const TitleBox = props => {
     return (
       <>
-        <div className="d-flex flex-sm-column flex-row">
+        <div className="d-flex flex-sm-column flex-row curvy-line">
           <div className="sulav ">
             <img src={props.cover} alt="Cover" />
           </div>
@@ -32,7 +32,7 @@ const BlogTemplate = ({ data }) => {
           <>
             <div>
               <div className="text-start py-4  pb-0 fw-bold text-sm-center">
-                <h4 className="fs-sm-1">{props.titlename}</h4>
+                <h4 className="fs-sm-1 fw-bold">{props.titlename}</h4>
               </div>
 
               <div className="text-start  fw-regular fs-10 text-sm-center">
@@ -42,7 +42,7 @@ const BlogTemplate = ({ data }) => {
           </>
           
         </div>
-        <hr />
+
       </>
     )
   }
