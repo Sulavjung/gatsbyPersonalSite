@@ -9,6 +9,7 @@ Genera: "Personal Growth"
 Status: "Finished"
 Fun_Meter: "Awesome"
 Cover_Image: "https://source.unsplash.com/hSY4lkFR_E0/1320x400"
+Description: When you head towards the unknown, you are stepping outside of your comfort zone and challenging yourself in new ways. This can help you to develop new skills, increase your confidence, and improve your overall sense of self-efficacy.
 Tag:
  - "Article"
 ---

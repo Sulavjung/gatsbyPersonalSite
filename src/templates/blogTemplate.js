@@ -13,7 +13,7 @@ const BlogTemplate = ({ data }) => {
   console.log(data)
 
   const { html } = data.markdownRemark
-  const { Author, Date, Title, Type, Cover_Image } =
+  const { Author, Date, Title, Type, Cover_Image, Description } =
     data.markdownRemark.frontmatter
 
   useEffect(() => {
@@ -49,7 +49,7 @@ const BlogTemplate = ({ data }) => {
     <>
       <Helmet>
         <title>{Title}</title>
-        <meta property="og:description" content="Click to Read More on the TOPIC!" />
+        <meta property="og:description" content={Description} />
         <meta property="og:image" content={Cover_Image} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -94,6 +94,7 @@ export const singleBlog = graphql`
         Title
         Type
         Cover_Image
+        Description
       }
       timeToRead
       tableOfContents

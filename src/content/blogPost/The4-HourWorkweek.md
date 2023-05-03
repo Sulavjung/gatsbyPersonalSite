@@ -9,6 +9,7 @@ Genera: "Business, Finance"
 Status: "Finished"
 Fun_Meter: "Awesome"
 Cover_Image: "https://source.unsplash.com/xcI7f25UQSs/1320x400"
+Description: Over the last few years of my life, I've learned to love, enjoy, and update my understanding from book. With that in mind, I have gone through books that talks about productivity, business, relationships, and so much more.
 Tag:
  - "Book"
 ---

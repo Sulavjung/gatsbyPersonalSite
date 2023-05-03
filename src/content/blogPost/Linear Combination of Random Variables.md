@@ -9,6 +9,7 @@ Genera: Data Science
 Status: Planning 🔗
 Due_Date: 04/13/2023
 Cover_Image: https://source.unsplash.com/9DaOYUYnOls/1320x400
+Description: A linear combination of random variables is a new random variable that is formed by taking a weighted sum of two or more other random variables.
 Tag:
   - Article
 ---

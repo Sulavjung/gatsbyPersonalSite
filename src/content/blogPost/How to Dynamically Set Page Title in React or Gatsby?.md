@@ -9,6 +9,7 @@ Genera: Data Science
 Status: Posted 🔗
 Due_Date: 04/27/2023
 Cover_Image: https://source.unsplash.com/UYsBCu9RP3Y/1320x400
+Description: This article explains how to dynamically set the page title in React or Gatsby using the `react-helmet` library. By following these steps, you can set the page title dynamically based on the component's props, making it easier to manage and update page titles in your application.
 Tag:
   - Article
 ---

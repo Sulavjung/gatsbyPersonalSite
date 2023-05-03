@@ -9,6 +9,7 @@ Genera: "Productivity"
 Status: "Finished"
 Fun_Meter: "Awesome"
 Cover_Image: "https://source.unsplash.com/9DaOYUYnOls/1320x400"
+Description: Steal from anywhere that resonates or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams, random conversations, architecture, bridges, street signs, trees, clouds, bodies of water, light and shadows. Select only things to steal from that speak directly to your soul. If you do this, your work will be authentic. - Jim Jarmusch. 
 Tag:
  - "Book"
 ---

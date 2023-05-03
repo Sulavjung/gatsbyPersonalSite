@@ -11,6 +11,7 @@ Title: Why Productivity matters in this day and age?
 Type: "📄 Article"
 Visuals needed: Yes
 slug: productivity-matters-in-this-day-and-age
+Description: With that being said, I do know a few things that can help you stay on track and motivate yourself. However, I suggest you listen to them with one ear and release them from the other like most of us usually do. These tips will only give you a dopamine release for a few minutes, so stay with this article for a split second. 
 Tag:
  - "Article"
 
