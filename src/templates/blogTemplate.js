@@ -49,6 +49,10 @@ const BlogTemplate = ({ data }) => {
     <>
       <Helmet>
         <title>{Title}</title>
+        <meta property="og:description" content="My Blog Post Description" />
+        <meta property="og:image" content={Cover_Image} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
       </Helmet>
       <Navbar />
       <div className="container-xxl pb-2">
