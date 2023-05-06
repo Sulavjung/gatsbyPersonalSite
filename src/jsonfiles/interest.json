@@ -1,6 +1,12 @@
 
 	[
 		{
+			"icons": "🧑🏼‍💻",
+			"title": "Languages",
+			"description":"Tap in to see how I got into computer science field and to learn more on my journey so far.",
+			"link":"/programming"
+		},
+		{
 			"icons": "📚",
 			"title": "Books",
 			"description":"Reading is one of the most important part in my life. So, here are the book recomendation for you.",
@@ -30,11 +36,5 @@
 			"title": "Trails",
 			"description":"I'm not a pro-athlete by any means but I always had this idea of doing adventure. Hiking has always been an affordable way to live that adventure life.",
 			"link":"https://alltrails.com/en/members/sulav-jung-hamal?utm_campaign=mobile-iphone&sh=567eta"
-		},
-		{
-			"icons": "🧑🏼‍💻",
-			"title": "Languages",
-			"description":"Tap in to see how I got into computer science field and to learn more on my journey so far.",
-			"link":"/programming"
 		}
 	]
