@@ -14,7 +14,7 @@ Tag:
   - Article
 ---
 
-## What is Linear Combination of Random Variables?
+# What is Linear Combination of Random Variables?
 **A linear combination of random variables is a new random variable that is formed by taking a weighted sum of two or more other random variables.**
 
 Let's suppose we have random variables $\large X_{1},X_{2},\dots,X_{n}$. Now, we are given means and variances as such: 
