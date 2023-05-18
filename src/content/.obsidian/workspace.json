@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
+                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
+                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
+                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md"
+                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md"
               }
             }
           }
@@ -169,13 +169,17 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
-    "blogPost/How to use Static Files in Django?.md",
+    "blogPost/Images/rmsmain.png",
+    "blogPost/Images/rmsallproduct.png",
     "blogPost/How to Use Templates in Django Project.md",
+    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
+    "blogPost/Images",
+    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
+    "programming/Data_Structure/Questions on ADT Tree.md",
+    "blogPost/Setting up the Django Admin Interface for Beginners.md",
+    "blogPost/How to use Static Files in Django?.md",
     "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/Linear Combination of Random Variables.md",
-    "blogPost/Setting up the Django Admin Interface for Beginners.md",
-    "programming/Data_Structure/Questions on ADT Tree.md",
     "programming/Data_Structure/Images/ADTTree3 1.png",
     "programming/Data_Structure/Images/ADTTree3.png",
     "programming/Data_Structure/Images/ADTtree3.png",
