@@ -1,15 +1,6 @@
-
-
 .blogPost a {
-  color: #b8d8d8;
-  font-size: 18px;
+  color: #0869da !important;
   line-height: 150%;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans",
-    "Helvetica Neue", sans-serif;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  text-decoration: underline;
   padding: 3px;
 }
 
@@ -22,7 +13,6 @@
 }
 
 .blogPost a:hover {
-  background: linear-gradient(#eee, #eee);
   background-size: auto 4em;
   background-repeat: no-repeat;
   background-position: 0% 15px;
@@ -241,12 +231,10 @@ div.sulav img {
   height: 140px;
   width: 100%;
   object-fit: cover;
-
 }
-.blogPost p{
+.blogPost p {
   text-indent: 1.5em;
 }
-
 
 @media (max-width: 576px) {
   div.sulav {
@@ -257,35 +245,29 @@ div.sulav img {
     margin-top: 12px;
     margin-bottom: 15px;
     margin-inline: 10px;
-    transform: perspective(1000px) translate3d(0px, 0px, -250px) rotateX(27deg) scale(0.9, 0.9);
+    transform: perspective(1000px) translate3d(0px, 0px, -250px) rotateX(27deg)
+      scale(0.9, 0.9);
     border-radius: 10px;
     box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
     transition: 0.4s ease-in-out transform;
     animation: rotate 20s linear infinite; /* 5s duration, linear timing function, infinite loop */
   }
 
-  
-  
   @keyframes rotate {
     0% {
-      transform: perspective(1000px) translate3d(0px, 0px, -250px) rotateX(27deg) rotateY(0deg) scale(0.9, 0.9);
+      transform: perspective(1000px) translate3d(0px, 0px, -250px)
+        rotateX(27deg) rotateY(0deg) scale(0.9, 0.9);
     }
     100% {
-      transform: perspective(1000px) translate3d(0px, 0px, -250px) rotateX(27deg) rotateY(360deg) scale(0.9, 0.9);
+      transform: perspective(1000px) translate3d(0px, 0px, -250px)
+        rotateX(27deg) rotateY(360deg) scale(0.9, 0.9);
     }
   }
-  
-  
+
   div.sulav img {
     height: 100%;
     width: 100%;
     object-fit: cover !important;
     border-radius: 10px;
-  
   }
-
-  
-
 }
-
-
