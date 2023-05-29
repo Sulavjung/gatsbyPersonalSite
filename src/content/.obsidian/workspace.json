@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb803740a4cdba71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "569696ea4577e1ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
+                "file": "blogPost/E-Myth Revisited.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "565c669979a0e610",
@@ -107,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
+                "file": "blogPost/E-Myth Revisited.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
+                "file": "blogPost/E-Myth Revisited.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md"
+                "file": "blogPost/E-Myth Revisited.md"
               }
             }
           }
@@ -170,16 +156,18 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
+    "blogPost/Let's Find Out A Taco Stand.md",
+    "blogPost/E-Myth Revisited.md",
+    "blogPost/Steal Like an.md",
+    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Images/rmsmain.png",
     "blogPost/Images/rmsallproduct.png",
     "blogPost/How to Use Templates in Django Project.md",
-    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Images",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "programming/Data_Structure/Questions on ADT Tree.md",
     "blogPost/Setting up the Django Admin Interface for Beginners.md",
     "blogPost/How to use Static Files in Django?.md",
-    "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/Linear Combination of Random Variables.md",
     "programming/Data_Structure/Images/ADTTree3 1.png",
     "programming/Data_Structure/Images/ADTTree3.png",
