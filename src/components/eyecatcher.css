@@ -1,17 +1,18 @@
 @import url(../assets/fonts/basierfont/stylesheet.css);
 @import url(../assets/fonts/abused-7413446/stylesheet.css);
 
-#helloImge{
-	width: fit-content;
-	max-height: fit-content;
+#helloImge {
+  width: fit-content;
+  height: fit-content;
+  max-height: 500px;
 }
 
-#eyecatcher{
-	font-family: 'Abused';
+#eyecatcher {
+  font-family: "Abused";
 }
 
-#paragraph{
-	font-size: 20px;
-	font-family: 'Basier Circle';
-	font-weight: 400;
+#paragraph {
+  font-size: 20px;
+  font-family: "Basier Circle";
+  font-weight: 400;
 }

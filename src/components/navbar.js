@@ -1,49 +1,67 @@
-import React, { Component } from 'react'
-import './navbarcss.css'
-import { Link } from 'gatsby-link'
-import './index.css'
-
-
-
-
+import React, { Component } from "react"
+import "./navbarcss.css"
+import { Link } from "gatsby-link"
+import "./index.css"
+import logo from "../assets/LogoInPng.svg"
 
 export default class Navbar extends Component {
   render() {
-	return (
-	  <><div id='navbar'>
-			<nav class="navbar navbar-expand bg-body-tertiary p-0 m-0">
-				<div class="container-xxl ">
-					
-						<Link to='/' className="navbar-brand fs-1 py-0" id='logoName'>Sulav</Link> 
-					
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-						<ul class="navbar-nav">
-							<li class="nav-item mx-2">
+    return (
+      <>
+        <div id="navbar">
+          <nav class="navbar navbar-expand bg-body-tertiary p-0 m-0">
+            <div class="container-xxl ">
+              <Link
+                to="/"
+                className="navbar-brand fs-1 py-0 cursor-pointer"
+                id="logoName"
+              >
+                <img
+                  src={logo}
+                  alt="Logo"
+                  className="logo-image pt-2 p-1"
+                  style={{ height: "50px", width: "auto" }}
+                />
+              </Link>
 
-								<Link className='nav-link' to="/">Home</Link>
-
-							</li>
-							<li class="nav-item mx-2">
-
-								<Link className='nav-link' to="/blogs">Blogs</Link>
-
-							</li>
-							{/* <li class="nav-item mx-2">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarSupportedContent"
+              >
+                <ul class="navbar-nav">
+                  <li class="nav-item mx-2">
+                    <Link
+                      className="nav-link fw-bold text-dark cursor-pointer"
+                      to="/"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <Link
+                      className="nav-link fw-bold text-dark cursor-pointer"
+                      to="/blogs"
+                    >
+                      Blogs
+                    </Link>
+                  </li>
+                  {/* <li class="nav-item mx-2">
 								<Link className="nav-link" to="/bucketlist">Bucketlist</Link>
 							</li> */}
-						</ul>
-					</div>
-				</div>
-			</nav>
-
-
-		</div>
-	
-		</>
-	  
-	)
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </>
+    )
   }
 }
