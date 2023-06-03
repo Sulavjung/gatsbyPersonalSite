@@ -37,14 +37,14 @@ export default class Navbar extends Component {
                 id="navbarSupportedContent"
               >
                 <ul class="navbar-nav">
-                  <li class="nav-item mx-2">
+                  {/* <li class="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"
                       to="/"
                     >
                       Home
                     </Link>
-                  </li>
+                  </li> */}
                   <li class="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"

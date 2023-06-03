@@ -18,7 +18,7 @@ export default function ClassOverviewTemplate({ data }) {
         <title>{frontmatter.Title}</title>
       </Helmet>
       <Navbar />
-      <div className="container-xxl" id="classRandom">
+      <div className="container-xxl px-2 p-xl-0" id="classRandom">
         <StaticImage
           className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce"
           src={imglink}
@@ -26,20 +26,26 @@ export default function ClassOverviewTemplate({ data }) {
         />
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
-        <h4>Related Topics</h4>
-        <hr className="mt-0" />
-        <div className="border rounded p-0 mt-1 shadow">
-          {allMarkdownRemark.nodes.map(node => (
-            <Link
-              to={`/programming/${frontmatter.Class}/${node.frontmatter.slug}`}
-              className="text-decoration-none"
-            >
-              <div className="border-top border-bottom p-3">
-                <h5 className="p-0 m-0">{node.frontmatter.Title}</h5>
-                <p className="p-0 m-0">{node.frontmatter.Description}</p>
+        <div className="container-xxl mt-4 p-0 pb-3">
+          <h1 className="text-dark">Related Topics</h1>
+          <hr className="mt-0" />
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
+            {allMarkdownRemark.nodes.map(node => (
+              <div className="col my-1 ">
+                <Link
+                  to={`/programming/${frontmatter.Class}/${node.frontmatter.slug}`}
+                  className="text-decoration-none"
+                >
+                  <div className="personal-background p-3 py-sm-3 h-100 d-flex align-items-center m-0">
+                    <div className="p-3">
+                      <h5 className="p-0 m-0">{node.frontmatter.Title}</h5>
+                      <p className="p-0 m-0">{node.frontmatter.Description}</p>
+                    </div>
+                  </div>
+                </Link>
               </div>
-            </Link>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
       <ExploreAndBlog />

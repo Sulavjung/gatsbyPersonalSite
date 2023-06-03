@@ -20,12 +20,12 @@ h3,
 
 #classRandom h1 {
   font-size: 22px;
-  color: #e55749;
+  color: #50a150;
 }
 
 #classRandom h2 {
   font-size: 20px;
-  color: #b86b02;
+  color: #62afee;
 }
 
 #classRandom h3 {
@@ -84,7 +84,6 @@ pre {
 }
 
 code {
-  background-color: #ffffff;
   color: #eb5757;
   border-radius: 4px;
   line-height: 1.4;
@@ -98,7 +97,6 @@ code {
 
 /* Blockquotes */
 blockquote {
-  border-left: 4px solid #ffffff;
   padding-left: 16px;
   color: #aa1717;
 }
@@ -150,4 +148,51 @@ a:hover {
 .katex {
   overflow-x: auto;
   overflow-y: hidden;
+}
+
+.personal-background {
+  /* Default styles */
+  background: rgba(255, 255, 255, 0.608);
+  box-shadow: 0 8px 32px 0 rgba(129, 135, 222, 0.37);
+  backdrop-filter: blur(8.5px);
+  -webkit-backdrop-filter: blur(8.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.personal-background:hover,
+.personal-background:active {
+  /* Inverted colors */
+  background: rgba(255, 255, 255, 0.978);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  color: #000000; /* Change the text color to white or any desired color */
+  border-color: rgba(0, 0, 0, 0.18);
+  animation: colorInvert 0.3s forwards;
+}
+
+.personal-background:active {
+  animation: clickAnimation 0.3s;
+}
+
+@keyframes colorInvert {
+  0% {
+    filter: invert(0);
+  }
+  100% {
+    filter: invert(1);
+  }
+}
+
+@keyframes clickAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
