@@ -14,7 +14,6 @@ const ClassTemplate = ({ data }) => {
   const { html, tableOfContents } = data.markdownRemark
   const { Title } = data.markdownRemark.frontmatter
   const { allMarkdownRemark } = data
-  const Class = "dataStructure"
 
   console.log(allMarkdownRemark)
 
@@ -28,30 +27,36 @@ const ClassTemplate = ({ data }) => {
         <title>{Title}</title>
       </Helmet>
       <Navbar />
-      <div className="container-xxl" id="classRandom">
-        {/* <div dangerouslySetInnerHTML={{ __html: tableOfContents }}></div> */}
-        <div dangerouslySetInnerHTML={{ __html: html }}></div>
+      <div className="">
+        <div className="container-xxl p-0" id="classRandom">
+          {/* <div dangerouslySetInnerHTML={{ __html: tableOfContents }}></div> */}
+          <div dangerouslySetInnerHTML={{ __html: html }}></div>
+        </div>
+        <div className="container-xxl mt-4 p-0 pb-3">
+          <h1 className="fw-bold pb-0 mb-0">Similar Topics</h1>
+          <hr className="m-0 mb-1" />
+          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
+            {allMarkdownRemark.edges.map(({ node }) => (
+              <div className="col my-1 ">
+                <Link
+                  to={`/programming/${node.frontmatter.Class}/${node.frontmatter.slug}`}
+                  className="text-decoration-none"
+                  key={node.frontmatter.slug}
+                >
+                  <div className="personal-background p-3 py-sm-3 h-100 d-flex align-items-center m-0">
+                    <div className="p-1">
+                      <h5 className="p-0 m-0 text-primary fw-bold">
+                        {node.frontmatter.Title}
+                      </h5>
+                      <p className="p-0 m-0">{node.frontmatter.Description}</p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
-      <div className="container-xxl mt-4">
-      <h4>Related Topics</h4>
-      <hr className="mt-0" />
-      <div className="border rounded p-0 mt-1 shadow">
-        {allMarkdownRemark.edges.map(({ node }) => (
-          <Link
-            to={`/programming/${node.frontmatter.Class}/${node.frontmatter.slug}`}
-            className="text-decoration-none"
-            key={node.frontmatter.slug}
-          >
-            <div className="border-top border-bottom p-3">
-              <h5 className="p-0 m-0">{node.frontmatter.Title}</h5>
-              <p className="p-0 m-0 text-decoration-none">{node.frontmatter.Description}</p>
-            </div>
-          </Link>
-        ))}
-      </div>
-      <hr />
-      </div>
-
       <ExploreAndBlog />
       <Footer />
     </>
@@ -61,7 +66,7 @@ const ClassTemplate = ({ data }) => {
 export default ClassTemplate
 
 export const classQuery = graphql`
-  query ClassBySlug($classnames: String, $slug: String ) {
+  query ClassBySlug($classnames: String, $slug: String) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       tableOfContents(maxDepth: 2)
@@ -75,7 +80,13 @@ export const classQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: {  slug: { ne: $slug }, Type: {eq: "Class" }, Class: { eq: $classnames } } }
+      filter: {
+        frontmatter: {
+          slug: { ne: $slug }
+          Type: { eq: "Class" }
+          Class: { eq: $classnames }
+        }
+      }
       limit: 5
     ) {
       edges {
