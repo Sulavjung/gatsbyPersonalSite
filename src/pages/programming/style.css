@@ -1,11 +1,11 @@
 #classes {
-	display: block;
-	max-width: 100%;
-	height: auto;
-	cursor: pointer; /* add pointer cursor on hover */
-	transition: all 0.3s ease; /* add smooth transition effect */
+  display: block;
+  max-width: 100%;
+  height: auto;
+  cursor: pointer; /* add pointer cursor on hover */
+  transition: all 0.3s ease; /* add smooth transition effect */
 }
 #classes:hover {
-	transform: scale(1.005); /* add zoom-in effect on hover */
-	filter: brightness(98%); /* add dark overlay on hover */
+  transform: scale(1.005); /* add zoom-in effect on hover */
+  filter: brightness(98%); /* add dark overlay on hover */
 }

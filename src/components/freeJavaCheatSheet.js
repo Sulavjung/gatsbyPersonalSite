@@ -28,7 +28,7 @@ export default function FreeJavaCheatSheet() {
   const handleSubmit = (event) => {
     event.preventDefault();
     // open pdf download link in new window
-    window.open('https://drive.google.com/file/d/1QYn0UBDd4EzpARIPNnF28rsGbaT1Urn4/view?usp=sharing')
+    window.open('https://sulavhamal.com/cheatsheet/')
     setShowPopup(false)
   };
 

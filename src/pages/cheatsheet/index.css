@@ -1,0 +1,170 @@
+.cheatsheetdiv {
+  padding: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+/* Colors */
+.teal {
+  border: 2px solid #3ad8cf;
+  background-color: #eefdfd;
+}
+
+.sun {
+  border: 2px solid #e4872b;
+  background-color: #fff4ec;
+}
+
+.cheatsheetdiv th {
+  text-align: start;
+  font-weight: bold;
+}
+
+.cheatsheetdiv table {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+}
+
+.cheatsheetdiv table td,
+.cheatsheetdiv table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.cheatsheetdiv table td:first-child,
+.cheatsheetdiv table th:first-child {
+  border-left: none !important;
+}
+
+.cheatsheetdiv table td:last-child,
+.cheatsheetdiv table th:last-child {
+  border-right: none;
+}
+
+.cheatsheetdiv table tr:first-child td,
+.cheatsheetdiv table tr:first-child th {
+  border-top: none;
+}
+
+.cheatsheetdiv table tr:last-child td,
+.cheatsheetdiv table tr:last-child th {
+  border-bottom: none;
+}
+
+.tx-yellow {
+  color: #e55500;
+  font-weight: bold;
+}
+
+.tx-sky {
+  color: #00b4ff;
+}
+
+@media (max-width: 768px) {
+  .small table {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .small table {
+    font-size: 0.6rem;
+  }
+}
+
+/* quoteblock */
+.quote-div {
+  padding: 15px;
+
+  border-radius: 10px;
+}
+
+.quote-div.warning {
+  background-color: #f4ece4;
+}
+
+.quote-div.note {
+  background-color: #cffafe;
+}
+
+.quote-div.tips {
+  background-color: #d1fae5;
+}
+
+.quote-div.fewmore {
+  background-color: #e0f2fe;
+}
+
+.quote-div.whoAmI {
+  background-color: #dcfce7;
+  margin-bottom: 0;
+}
+
+.quoteBlock::before {
+  content: "⚠ Warning";
+  font-weight: bold;
+  color: #b66b01;
+  font-size: 20px;
+  margin-right: 10px;
+  display: block;
+}
+
+.warning::before {
+  content: "⚠ Warning";
+}
+
+.note::before {
+  content: "📖 Note";
+  color: #06b6d4;
+}
+.tips::before {
+  content: "💡 Tips";
+  color: #22c55e;
+}
+.fewmore::before {
+  content: "💁‍♂️ Few More Things";
+  color: #06b6d4;
+}
+.whoAmI::before {
+  content: "🙋‍♂️ Who Am I?";
+  color: #84cc16;
+}
+
+.outer-block {
+  column-count: 1;
+  column-gap: 1em;
+}
+
+@media (min-width: 1000px) {
+  .outer-block {
+    column-count: 2;
+  }
+}
+@media (min-width: 1500px) {
+  .outer-block {
+    column-count: 3;
+  }
+}
+
+@media (min-width: 2000px) {
+  .outer-block {
+    column-count: 4;
+  }
+}
+
+.items {
+  display: inline-block;
+
+  width: 100%;
+}
+
+.pattern {
+	background-color: #EFF9FF;
+	opacity: 0.8;
+	background-image:  radial-gradient(#444cf7 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#444cf7 0.7000000000000001px, #EFF9FF 0.7000000000000001px);
+	background-size: 28px 28px;
+	background-position: 0 0,14px 14px;
+}
