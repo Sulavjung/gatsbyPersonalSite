@@ -8,13 +8,34 @@
 
 /* Colors */
 .teal {
-  border: 2px solid #3ad8cf;
-  background-color: #eefdfd;
+  border: 2px solid #00fff2;
+  background-color: #dafdfd;
 }
 
 .sun {
-  border: 2px solid #e4872b;
-  background-color: #fff4ec;
+	border: 2px solid #e4872b;
+	background-color: #fff4ec;
+}
+
+.amber { 
+	border: 2px solid #d97706;
+	background-color: #fef6d6;
+}
+.lime { 
+	border: 2px solid #4d7c0f;
+	background-color: #ebffc9;
+}
+.green { 
+	border: 2px solid #15803d;
+	background-color: #c2ffd9;
+}
+.pink { 
+	border: 2px solid #db2777;
+	background-color: #ffdef1;
+}
+.rose { 
+	border: 2px solid #be123c;
+	background-color: #fddfe2;
 }
 
 .cheatsheetdiv th {
@@ -54,9 +75,12 @@
   border-bottom: none;
 }
 
+
+
 .tx-yellow {
   color: #e55500;
   font-weight: bold;
+  font-size:18px
 }
 
 .tx-sky {
@@ -67,6 +91,11 @@
   .small table {
     font-size: 0.8rem;
   }
+
+  .name {
+	font-size: 8px !important;
+	margin-top: 2px !important;
+}
 }
 
 @media (max-width: 576px) {
@@ -113,7 +142,7 @@
 }
 
 .warning::before {
-  content: "⚠ Warning";
+  content: "⚠ Copyright";
 }
 
 .note::before {
@@ -163,8 +192,8 @@
 
 .pattern {
 	background-color: #EFF9FF;
-	opacity: 0.8;
-	background-image:  radial-gradient(#444cf7 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#444cf7 0.7000000000000001px, #EFF9FF 0.7000000000000001px);
-	background-size: 28px 28px;
-	background-position: 0 0,14px 14px;
+opacity: 0.8;
+background-image:  radial-gradient(#000 0.4px, transparent 0.4px), radial-gradient(#000 0.4px, #EFF9FF 0.4px);
+background-size: 16px 16px;
+background-position: 0 0,8px 8px;
 }
