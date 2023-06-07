@@ -4,7 +4,7 @@ import "../index.css"
 const DataTypes = () => {
   return (
     <div className="cheatsheetdiv teal small">
-      <h3 class="tx-yellow text-center fw-bold">Data Types</h3>
+      <h3 class="tx-sky text-center fw-bold">Data Types</h3>
       <br />
       <div class="table-container">
         <table class="table table-responsive table-borderless table-">

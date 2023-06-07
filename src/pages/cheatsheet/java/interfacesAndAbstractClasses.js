@@ -3,7 +3,7 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock"
 
 const InterfacesAndAbstractClasses = () => {
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv pink">
       <h2 className="tx-sky fw-bold text-center">Interfaces and Abstract Classes</h2>
 
       <h3 className="tx-yellow">1. Defining Interfaces:</h3>

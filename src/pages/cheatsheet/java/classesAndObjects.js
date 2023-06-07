@@ -3,7 +3,7 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock"
 
 const ClassesAndObjects = () => {
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv amber">
       <h2 className="tx-sky fw-bold text-center">Classes and Objects</h2>
 
       <h3 className="tx-yellow">1. Defining Classes:</h3>

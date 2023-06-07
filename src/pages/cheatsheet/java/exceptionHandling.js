@@ -3,7 +3,7 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock"
 
 const ExceptionHandling = () => {
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv sun">
       <h2 className="tx-sky fw-bold text-center">Exception Handling</h2>
 
       <h3 className="tx-yellow">1. Try-Catch Blocks:</h3>

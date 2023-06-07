@@ -3,7 +3,7 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock"
 
 const Generics = () => {
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv sun">
       <h2 className="tx-sky fw-bold text-center">Generics</h2>
 
       <h3 className="tx-yellow">1. Generic Classes:</h3>

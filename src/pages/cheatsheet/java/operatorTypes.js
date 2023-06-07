@@ -3,7 +3,7 @@ import React from "react"
 const OperatorTypes = () => {
   return (
     <div className="cheatsheetdiv sun">
-      <h3 className="text-center tx-yellow">Operator Types</h3>
+      <h3 className="text-center tx-sky">Operator Types</h3>
       <br />
 
       <table>

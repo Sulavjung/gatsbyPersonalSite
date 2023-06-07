@@ -3,7 +3,7 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock"
 
 const CollectionMethods = () => {
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv rose">
       <h2 className="tx-sky fw-bold text-center">Methods within Collection Types</h2>
 
       <h3 className="tx-yellow">ArrayList:</h3>

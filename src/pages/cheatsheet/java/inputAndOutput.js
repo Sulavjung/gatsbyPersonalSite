@@ -13,7 +13,7 @@ Type variableName = inputName.next<Type>();
 `
 
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv rose">
       <h2 className="tx-sky fw-bold text-center">Input and Output</h2>
 
       <h3 className="tx-yellow">1. Output:</h3>

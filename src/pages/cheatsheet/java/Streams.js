@@ -4,14 +4,14 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock";
 const Streams = () => {
   return (
     <div className="cheatsheetdiv sun">
-      <h2 className="tx-yellow fw-bold text-center">Streams</h2>
+      <h2 className="tx-sky fw-bold text-center">Streams</h2>
 
-      <h3 className="tx-sky">Using Streams to process collections:</h3>
+      <h3 className="tx-yellow">Using Streams to process collections:</h3>
       <JavaCodeBlock
         code={`collection.stream().forEach(element -> /* action */);`}
       />
 
-      <h3 className="tx-sky">Intermediate operations:</h3>
+      <h3 className="tx-yellow">Intermediate operations:</h3>
       <JavaCodeBlock
         code={`stream.filter(predicate)   // filters elements based on predicate
       .map(function)       // applies function to each element
@@ -21,7 +21,7 @@ const Streams = () => {
       .skip(n)             // skips first n elements`}
       />
 
-      <h3 className="tx-sky">Terminal Operations:</h3>
+      <h3 className="tx-yellow">Terminal Operations:</h3>
       <JavaCodeBlock
         code={`// iterate over each element in stream
 stream.forEach(consumer);
@@ -51,7 +51,7 @@ stream.allMatch(predicate);
 stream.noneMatch(predicate);`}
       />
 
-      <h3 className="tx-sky">Stream pipelines:</h3>
+      <h3 className="tx-yellow">Stream pipelines:</h3>
       <JavaCodeBlock
         code={`collection.stream()
     .filter(element -> /* condition */)
@@ -59,7 +59,7 @@ stream.noneMatch(predicate);`}
     .forEach(element -> /* action */);`}
       />
 
-      <h3 className="tx-sky">Parallel streams:</h3>
+      <h3 className="tx-yellow">Parallel streams:</h3>
       <JavaCodeBlock
         code={`collection.parallelStream().forEach(element -> /* action */);`}
       />

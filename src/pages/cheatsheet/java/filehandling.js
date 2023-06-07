@@ -3,7 +3,7 @@ import JavaCodeBlock from "./helperfunction/javaCodeBlock"
 
 const FileHandling = () => {
   return (
-    <div className="cheatsheetdiv teal">
+    <div className="cheatsheetdiv lime">
       <h2 className="tx-sky fw-bold text-center">File Handling</h2>
 
       <h3 className="tx-yellow">1. Creating a File Object:</h3>
