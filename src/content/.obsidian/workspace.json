@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md",
+                "file": "programming/Data_Structure/Questions on ADT Tree.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md",
+                "file": "programming/Data_Structure/Questions on ADT Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md",
+                "file": "programming/Data_Structure/Questions on ADT Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md"
+                "file": "programming/Data_Structure/Questions on ADT Tree.md"
               }
             }
           }
@@ -156,9 +156,13 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
+    "programming/Web_software_development/Linux.md",
+    "programming/Data_Structure/questionsOnList.md",
+    "programming/Statistics/The t-distribution.md",
+    "programming/Web_software_development/Overview.md",
+    "blogPost/E-Myth Revisited.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
-    "blogPost/E-Myth Revisited.md",
     "blogPost/Images/MacBook Pro 14_ -2.png",
     "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/Steal Like an.md",
@@ -177,7 +181,6 @@
     "programming/Data_Structure/Images/ADTtree3.png",
     "programming/Data_Structure/Images/ADTTreeImage.png",
     "programming/Data_Structure/Images/ADTTreeImage2.png",
-    "programming/Data_Structure/questionsOnList.md",
     "programming/Data_Structure/Tree and Binary Tree.md",
     "programming/Data_Structure/overview.md",
     "programming/Data_Structure/ADT Dictionary.md",

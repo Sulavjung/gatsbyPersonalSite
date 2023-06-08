@@ -9,8 +9,8 @@ export default class Navbar extends Component {
     return (
       <>
         <div id="navbar">
-          <nav class="navbar navbar-expand bg-body-tertiary p-0 m-0">
-            <div class="container-xxl ">
+          <nav className="navbar navbar-expand bg-body-tertiary p-0 m-0">
+            <div className="container-xxl ">
               <Link
                 to="/"
                 className="navbar-brand fs-1 py-0 cursor-pointer"
@@ -25,19 +25,19 @@ export default class Navbar extends Component {
               </Link>
 
               <button
-                class="navbar-toggler"
+                className="navbar-toggler"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent"
               >
-                <span class="navbar-toggler-icon"></span>
+                <span className="navbar-toggler-icon"></span>
               </button>
               <div
-                class="collapse navbar-collapse justify-content-end"
+                className="collapse navbar-collapse justify-content-end"
                 id="navbarSupportedContent"
               >
-                <ul class="navbar-nav">
-                  {/* <li class="nav-item mx-2">
+                <ul className="navbar-nav">
+                  {/* <li className="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"
                       to="/"
@@ -45,7 +45,7 @@ export default class Navbar extends Component {
                       Home
                     </Link>
                   </li> */}
-                  <li class="nav-item mx-2">
+                  <li className="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"
                       to="/blogs"

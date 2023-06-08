@@ -43,6 +43,7 @@ import Footer from "../../components/footer.js"
 import "../../components/index.css"
 import img from "./AssetsProgramming/dataStructure.png"
 import img2 from "./AssetsProgramming/statistics.png"
+import img3 from "./AssetsProgramming/websoftwaredevelopment.png"
 import profile from "../../images/blogSideProfileImage.jpeg"
 import "./style.css"
 import { Helmet } from "react-helmet"
@@ -118,10 +119,10 @@ export default function programming() {
           />
         </Link>
         {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
-        <a href={link}></a>
+
       </div>
       <br />
-      <div className="container mb-5">
+      <div className="container mb-4">
         <Link
           to={`/programming/Probability_and_Statistics_with_Computing`}
           className="text-decoration-none"
@@ -134,7 +135,22 @@ export default function programming() {
           />
         </Link>
         {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
-        <a href={link}></a>
+
+      </div>
+      <div className="container mb-5">
+        <Link
+          to={`/programming/websoftwaredevelopment`}
+          className="text-decoration-none"
+        >
+          <img
+            className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce "
+            src={img3}
+            id="classes"
+            alt="Hello"
+          />
+        </Link>
+        {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
+     
       </div>
       <Footer />
     </>

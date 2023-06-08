@@ -85,7 +85,7 @@ exports.createPages = async ({ graphql, actions }) => {
           "./src/templates/" +
             (Type === "Class" ? "classTemplate.js" : "blogTemplate.js")
         ),
-        context: { slug },
+        context: { Class: Class, slug: slug },
       })
     }
 

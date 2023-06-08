@@ -11,7 +11,7 @@ import ClassTopics from "../components/classComponents/relatedClassTopics"
 require(`katex/dist/katex.min.css`)
 
 const ClassTemplate = ({ data }) => {
-  const { html, tableOfContents } = data.markdownRemark
+   const { html, tableOfContents } = data.markdownRemark
   const { Title } = data.markdownRemark.frontmatter
   const { allMarkdownRemark } = data
 
@@ -37,7 +37,7 @@ const ClassTemplate = ({ data }) => {
           <hr className="m-0 mb-1" />
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
             {allMarkdownRemark.edges.map(({ node }) => (
-              <div className="col my-1 ">
+              <div className="col my-1 " key={node.frontmatter.slug}>
                 <Link
                   to={`/programming/${node.frontmatter.Class}/${node.frontmatter.slug}`}
                   className="text-decoration-none"
@@ -66,7 +66,7 @@ const ClassTemplate = ({ data }) => {
 export default ClassTemplate
 
 export const classQuery = graphql`
-  query ClassBySlug($classnames: String, $slug: String) {
+  query ClassBySlug( $Class: String, $slug: String) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       tableOfContents(maxDepth: 2)
@@ -83,11 +83,11 @@ export const classQuery = graphql`
       filter: {
         frontmatter: {
           slug: { ne: $slug }
-          Type: { eq: "Class" }
-          Class: { eq: $classnames }
+          Class: { eq: $Class }
+          Type: {eq: "Class"}
         }
       }
-      limit: 5
+      limit: 4
     ) {
       edges {
         node {
