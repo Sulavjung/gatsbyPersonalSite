@@ -11,7 +11,7 @@ import ClassTopics from "../components/classComponents/relatedClassTopics"
 require(`katex/dist/katex.min.css`)
 
 const ClassTemplate = ({ data }) => {
-   const { html, tableOfContents } = data.markdownRemark
+  const { html, tableOfContents } = data.markdownRemark
   const { Title } = data.markdownRemark.frontmatter
   const { allMarkdownRemark } = data
 
@@ -29,9 +29,26 @@ const ClassTemplate = ({ data }) => {
       <Navbar />
       <div className="px-2">
         <div className="container-xxl p-0" id="classRandom">
-          {/* <div dangerouslySetInnerHTML={{ __html: tableOfContents }}></div> */}
-          <div dangerouslySetInnerHTML={{ __html: html }}></div>
+          <div className="row">
+            <div className="col-lg-9">
+              {/* Content */}
+              <div dangerouslySetInnerHTML={{ __html: html }}></div>
+            </div>
+            <div className="tableOfContent col-lg-3">
+              {/* Table of Contents */}
+              {/* Render your table of contents here */}
+              <div className="toc-container py-5">
+                <div className="border-start">
+                  <h2 className="p-2 link-underline-primary">Contents</h2>
+                  <div
+                    dangerouslySetInnerHTML={{ __html: tableOfContents }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="container-xxl mt-4 p-0 pb-3">
           <h1 className="fw-bold pb-0 mb-0">Similar Topics</h1>
           <hr className="m-0 mb-1" />
@@ -66,7 +83,7 @@ const ClassTemplate = ({ data }) => {
 export default ClassTemplate
 
 export const classQuery = graphql`
-  query ClassBySlug( $Class: String, $slug: String) {
+  query ClassBySlug($Class: String, $slug: String) {
     markdownRemark(frontmatter: { slug: { eq: $slug } }) {
       html
       tableOfContents(maxDepth: 2)
@@ -84,7 +101,7 @@ export const classQuery = graphql`
         frontmatter: {
           slug: { ne: $slug }
           Class: { eq: $Class }
-          Type: {eq: "Class"}
+          Type: { eq: "Class" }
         }
       }
       limit: 4

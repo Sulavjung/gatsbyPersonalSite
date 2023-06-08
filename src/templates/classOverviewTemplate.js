@@ -18,7 +18,7 @@ export default function ClassOverviewTemplate({ data }) {
         <title>{frontmatter.Title}</title>
       </Helmet>
       <Navbar />
-      <div className="container-xxl px-2 p-xl-0" id="classRandom">
+      <div className="container-xxl px-2 p-xxl-0" id="classRandom">
         <StaticImage
           className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce"
           src={imglink}

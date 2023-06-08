@@ -25,6 +25,7 @@ module.exports = {
               maxWidth: 1296,
             },
           },
+          `gatsby-remark-autolink-headers`,
           {
             resolve: `gatsby-remark-katex`,
             options: {

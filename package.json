@@ -11,6 +11,8 @@
     "gatsby-plugin-image": "^3.3.2",
     "gatsby-plugin-manifest": "^5.3.1",
     "gatsby-plugin-sharp": "^5.3.2",
+    "gatsby-plugin-slug": "^2.0.0",
+    "gatsby-remark-autolink-headers": "^6.10.0",
     "gatsby-remark-images": "^7.9.0",
     "gatsby-remark-katex": "^7.9.0",
     "gatsby-remark-mathjax": "^1.0.0",
