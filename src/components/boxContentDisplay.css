@@ -8,9 +8,9 @@
 #Trails,
 #Languages {
   text-align: center;
-  background: #EFF9FF;
-box-shadow: 10px 10px 20px rgba(111, 182, 225, 0.57), -10px -10px 20px #FFFFFF;
-border-radius: 20px;
+  background: #eff9ff;
+  box-shadow: 10px 10px 20px rgba(111, 182, 225, 0.57), -10px -10px 20px #ffffff;
+  border-radius: 20px;
   border: none;
   text-decoration: none !important;
   color: inherit;
@@ -39,7 +39,6 @@ border-radius: 20px;
 #Languages {
   transition: transform 0.3s ease;
 }
-
 
 #Languages:hover {
   transform: scale(0.99);
