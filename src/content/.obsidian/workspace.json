@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md",
+                "file": "programming/Web_software_development/Linux Commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,8 +93,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md",
-                "collapseAll": false,
+                "file": "programming/Web_software_development/Linux Commands.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md",
+                "file": "programming/Web_software_development/Linux Commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,16 +133,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Data_Structure/Questions on ADT Tree.md"
+                "file": "programming/Web_software_development/Linux Commands.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 263.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,6 +157,8 @@
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
     "programming/Web_software_development/Linux.md",
+    "programming/Web_software_development/Linux Commands.md",
+    "programming/Data_Structure/Questions on ADT Tree.md",
     "programming/Data_Structure/questionsOnList.md",
     "programming/Statistics/The t-distribution.md",
     "programming/Web_software_development/Overview.md",
@@ -172,7 +174,6 @@
     "blogPost/How to Use Templates in Django Project.md",
     "blogPost/Images",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
-    "programming/Data_Structure/Questions on ADT Tree.md",
     "blogPost/Setting up the Django Admin Interface for Beginners.md",
     "blogPost/How to use Static Files in Django?.md",
     "blogPost/Linear Combination of Random Variables.md",

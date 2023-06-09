@@ -32,7 +32,7 @@ const ClassTemplate = ({ data }) => {
           <div className="row">
             <div className="col-lg-9">
               {/* Content */}
-              <div dangerouslySetInnerHTML={{ __html: html }}></div>
+              <div className="notes" dangerouslySetInnerHTML={{ __html: html }}></div>
             </div>
             <div className="tableOfContent col-lg-3">
               {/* Table of Contents */}
