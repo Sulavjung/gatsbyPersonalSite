@@ -61,10 +61,10 @@ const ClassTemplate = ({ data }) => {
                   key={node.frontmatter.slug}
                 >
                   <div className="personal-background p-3 py-sm-3 h-100 d-flex align-items-center m-0">
-                    <div className="p-1">
-                      <h5 className="p-0 m-0 text-primary fw-bold">
+                    <div className="p-1 ">
+                      <div className="blogPost"><h5 className="p-0 m-0">
                         {node.frontmatter.Title}
-                      </h5>
+                      </h5></div>
                       <p className="p-0 m-0">{node.frontmatter.Description}</p>
                     </div>
                   </div>
