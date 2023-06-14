@@ -1,4 +1,3 @@
-
 ---
 Title: Git’s Basics and Usage
 Date: 06/13/2023
@@ -14,6 +13,8 @@ Description: Git is an open source distributed VCS designed for speed and effici
 Tag:
   - class
 ---
+
+
 # Git 
 Throughout our careers, we have encountered the term **Git** in various contexts. While we may have had a general understanding of its purpose, we often found ourselves puzzled and uncertain. Today, let's delve into this concept and ensure that we gain a clear and comprehensive understanding of what **Git** truly is. In one of the most basic sense and most broadly explained terms, **Git** is a **VCS**(Version Control System). Firstly, let's understand what **VCS** is and we will come back to what **Git** is. 
 
