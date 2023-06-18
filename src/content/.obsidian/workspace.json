@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Web_software_development/Linux Commands.md",
+                "file": "programming/Web_software_development/Git's Basic and Usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Web_software_development/Linux Commands.md",
+                "file": "programming/Web_software_development/Git's Basic and Usage.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Web_software_development/Linux Commands.md",
+                "file": "programming/Web_software_development/Git's Basic and Usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Web_software_development/Linux Commands.md"
+                "file": "programming/Web_software_development/Git's Basic and Usage.md"
               }
             }
           }
@@ -156,8 +156,9 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "programming/Web_software_development/Linux.md",
     "programming/Web_software_development/Linux Commands.md",
+    "programming/Web_software_development/Git's Basic and Usage.md",
+    "programming/Web_software_development/Linux.md",
     "programming/Data_Structure/Questions on ADT Tree.md",
     "programming/Data_Structure/questionsOnList.md",
     "programming/Statistics/The t-distribution.md",
