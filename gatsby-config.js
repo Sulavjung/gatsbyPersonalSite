@@ -10,10 +10,13 @@
 module.exports = {
   siteMetadata: {
     title: `sulavhamal`,
+    siteUrl: 'https://www.sulavhamal.com',
   },
   plugins: [
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
+    'gatsby-plugin-sitemap',
+    'gatsby-plugin-robots-txt',
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
