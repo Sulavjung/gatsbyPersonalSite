@@ -8,7 +8,10 @@ import "./prism.css"
 import ExploreAndBlog from "../components/exploreAndBlog"
 import { Helmet } from "react-helmet"
 import ClassTopics from "../components/classComponents/relatedClassTopics"
+import "prismjs/components/prism-java"
+import "prismjs/components/prism-bash"
 require(`katex/dist/katex.min.css`)
+
 
 const ClassTemplate = ({ data }) => {
   const { html, tableOfContents } = data.markdownRemark

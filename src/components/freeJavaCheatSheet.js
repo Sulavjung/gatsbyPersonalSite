@@ -2,6 +2,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import "./freeJavaCheatSheet.css"
 import React, { useState } from "react"
 
+
 export function Img() {
   return (
     <StaticImage
@@ -16,7 +17,7 @@ export function Img1() {
   return (
     <StaticImage
       className="javacheat img-fluid rounded"
-      src="../assets/Java Cheat Sheet 2.jpg"
+      src="../assets/JavaCheatSheetMockup.png"
       alt="A Cheat"
     />
   )
@@ -50,6 +51,8 @@ export default function FreeJavaCheatSheet() {
   const handleClosePopup = () => {
     setShowPopup(false)
   }
+
+
 
   return (
     <div className="container-xxl py-2 px-xxl-0">
@@ -89,22 +92,24 @@ export default function FreeJavaCheatSheet() {
               <div>
                 {/* email input field with bootstrap styling */}
                 <p></p>
+                <label for="validationTooltip05" class="form-label">
+                  Email:
+                </label>
                 <input
                   type="email"
-                  className={`form-control${isEmailValid ? "" : " is-invalid"}`}
-                  id="email"
-                  value={email}
-                  onChange={handleEmailChange}
-                  placeholder="Email Address"
+                  class="form-control"
+                  id="validationTooltip05"
                   required
                 />
+                <div class="invalid-tooltip">Please provide a valid email.</div>
               </div>
               <br />
               {/* download button with bootstrap styling */}
               <button
                 type="submit"
-                className="btn btn-primary mx-auto d-block"
+                className="btn btn-primary mx-auto d-block fw-bold"
                 id="downloadable"
+                
               >
                 Download
               </button>

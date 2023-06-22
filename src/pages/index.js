@@ -10,6 +10,8 @@ import "../components/index.css"
 import FreeJavaCheatSheet from "../components/freeJavaCheatSheet"
 import { Helmet } from "react-helmet"
 
+
+
 const indexPage = () => {
   return (
     <>
@@ -26,6 +28,7 @@ const indexPage = () => {
       <FreeJavaCheatSheet />
       <ExploreAndBlog />
       <Footer />
+
     </>
   )
 }

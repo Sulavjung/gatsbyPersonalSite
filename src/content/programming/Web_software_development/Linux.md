@@ -38,7 +38,7 @@ Like most operating systems, Linux has control systems in place to manage access
 
 To view permissions of a file or directory, you can use the following command:
 
-```
+```bash
 ls -l
 ```
 
@@ -63,12 +63,12 @@ There are three basic permission types:
 Permissions are represented in a structured format. Taking two examples:
 
 - For a directory:
-```shell
+```bash
 drwxr-xr-x 2 sulav sulav 4.0K Jan 23 20:53 Videos
 ```
 
 - For a file:
-```shell
+```bash
 -rw-r--r-- 1 sulav sulav 360K Aug 10 23:26 Photos
 ```
 
@@ -91,7 +91,7 @@ Permissions can be modified using the `chmod` command, while file ownership can 
 
 Linux uses octal (base-8) representation to represent permission bits. Here's a table for easy reference:
 
-```
+```bash
 Octal Digit | Binary Representation (rwx) | Permission
 ------------|----------------------------|-----------
 0           | 000                        | none
@@ -106,7 +106,7 @@ Octal Digit | Binary Representation (rwx) | Permission
 
 Remembering the octal values can help in setting permissions efficiently.
 
-```
+```bash
 Read (r)   -> 4
 Write (w)  -> 2
 Execute (x)-> 1

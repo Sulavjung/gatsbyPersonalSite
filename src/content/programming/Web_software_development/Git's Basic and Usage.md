@@ -18,18 +18,22 @@ Tag:
 # Git 
 Throughout our careers, we have encountered the term **Git** in various contexts. While we may have had a general understanding of its purpose, we often found ourselves puzzled and uncertain. Today, let's delve into this concept and ensure that we gain a clear and comprehensive understanding of what **Git** truly is. In one of the most basic sense and most broadly explained terms, **Git** is a **VCS**(Version Control System). Firstly, let's understand what **VCS** is and we will come back to what **Git** is. 
 
+---
+
 # VCS (Version Control System)
 **Version Control System (VCS)** refers to a **software tool or system** that enables developers to keep track of changes made to files and folders over time. It serves as a central repository where all modifications are recorded, allowing multiple authors or developers to collaborate on a project while maintaining a history of changes. VCS not only tracks who made which changes but also provides information about why the changes were made through commit messages. 
 
 Git is the one possible application of this concept of version control. There are other software that also provide us with a way to do similar thing which we can differentiate in two different categories. 
 
-## Centralized VCS (Subversion, CVS):
+## 1. Centralized VCS (Subversion, CVS):
 In a centralized version control system like **Subversion (svn)** and **CVS (Concurrent Versions System)**, there is a central server that holds the master repository. All commits and changes made by developers are sent directly to the central server. The server acts as a single source of truth, maintaining the complete history and latest version of the project. Developers work on their local copies of the files, but the central server is responsible for merging and managing the changes from multiple contributors.
 
-## Distributed VCS (Git, Mercurial):
+## 2. Distributed VCS (Git, Mercurial):
 In contrast, distributed version control systems like Git and Mercurial follow a different approach. While there is still a server that hosts the master repository, each developer has their own local copy or clone of the entire repository on their machine. This allows developers to work independently and make changes locally without the need for a constant connection to the central server. The distributed nature of these systems enables greater flexibility, offline work, and faster operations as most actions can be performed locally without relying heavily on the server.
 
 With these concept of VCS understood, let's go back to understanding **Git as VCS**. 
+
+---
 
 # Git as VCS
 Git is an **open source distributed VCS** designed for speed and efficiency. Firstly, it was created by Linus Torvalds, the renowned creator of Linux. It is one of the most widely used VCS tools in the software development industry.
@@ -51,6 +55,8 @@ Here is the workflow in it's barebone form.
 4. **Commit** your work with a clear commit message using `git commit -m "message"`.
 5. **Push** your changes to a remote repository using `git push remotename localbranch:remotebranch`.
 
+---
+
 # Git's main concepts and Most used Commands
 Now, let's talk about some of the key concepts and the command for each concepts in concise details. 
 Certainly! Here is the list of key concepts in Git with each concept as an H2 heading, followed by a brief description and an example code block:
@@ -69,6 +75,8 @@ Example:
 ```bash
 git clone <repository-url>
 ```
+
+---
 
 ## B. Checking What's changed. 
 ### 1. Status
@@ -94,6 +102,8 @@ git diff --staged         # Show staged changes
 git diff commit1 commit2  # Show differences between two commits
 ```
 
+---
+
 ## C. Storing Edits
 ### 1. Commit
 A commit represents a **snapshot** of the repository at a specific point in time. It captures the changes made to files and folders, along with a commit message describing the changes. It has three pieces of information. Information about how the files changed from a previous commit, a reference to the commit that came before it and a hash code name. 
@@ -113,6 +123,8 @@ git add file.txt
 git add .
 ```
 
+---
+
 ## D. Marking Important Events in History
 ### 1. Tag
 A tag is a special type of commit as such, just like any other commit, the tag only exists locally. Tags in Git are used to mark important points in the commit history, such as releases, milestones, or significant versions of the project. They serve as stable references to specific commits and are often used for versioning and to indicate specific points in the development process.
@@ -124,6 +136,8 @@ git tag v1.0        # Tag the current commit as the v1.0.
 
 git tag -a v1.1 -m "Tagging version 1.1 with extra feature"      # Tag with a message. 
 ```
+
+---
 
 ## E. Updating your local repo
 ### 1. Pull
@@ -139,6 +153,8 @@ Example:
 ```bash
 git fetch origin
 ```
+
+---
 
 ## F. Branch/History Management
 ### 1. Branch
@@ -191,6 +207,8 @@ Here are some common use cases of `git checkout`:
    ```
    By providing a commit hash, you can check out a specific commit. This puts the repository in a "detached HEAD" state, meaning you are no longer on any branch but directly on the commit you checked out. It allows you to review and work with the repository at a specific point in its history.
 
+---
+
 ## G. Storing changes offsite/off box
 ### 1. Push
 Pushing sends local commits to a remote repository. It updates the remote branch with the latest changes made locally, allowing other team members to access the new commits.
@@ -216,6 +234,8 @@ Example:
 ```bash
 git revert <commit-hash>
 ```
+
+---
 
 ## I. Few other handy commands
 ### 1. Remote
@@ -284,6 +304,8 @@ Example:
 ```bash
 git fork
 ```
+
+---
 
 > I’m working on a cheat sheet for the Git commands. If you are into that, check out the website at later times. 
 

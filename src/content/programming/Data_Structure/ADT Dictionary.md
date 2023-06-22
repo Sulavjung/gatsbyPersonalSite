@@ -101,7 +101,7 @@ When dealing with large datasets, the ADT Dictionary can be used to aggregate an
 
 The Java interface for the ADT Dictionary represents a key-value data structure where unique keys are associated with corresponding values. It provides methods for adding, retrieving, and removing key-value pairs, as well as functionalities for determining the size of the Dictionary and checking if it is empty. The interface also includes iterators to iterate over the keys and values stored in the Dictionary. By defining this interface, developers can implement the ADT Dictionary in various ways, allowing for efficient storage and retrieval of data in a wide range of applications.
 
-```js
+```java
 /**
  * The ADT Dictionary interface represents a key-value data structure.
  * It allows for efficient storage and retrieval of key-value pairs.
