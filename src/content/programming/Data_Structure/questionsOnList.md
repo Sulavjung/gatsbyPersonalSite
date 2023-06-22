@@ -19,7 +19,7 @@ Tag:
 ---
 
 #### 1. With the code to create and update the myL list object in the code below, show the state of the list object after each statement is executed [10 pts]
-```js
+```java
 ListInterface<String> myList = new MyList();
 
 myList.add("alpha");
@@ -41,7 +41,7 @@ Ans:
  - #### Name of the list is nameList  
  - #### Position of the object that needs to be replaced in the above list is called location - The replacement object is called newObj
 Ans: 
-```js
+```java
 /**
  * Replaces an object at a given position in a list with a new object.
  * 
@@ -74,7 +74,7 @@ Note:
 You may put all the code in one method, or first remove lowest from the list and then call another method that takes a list and computes average of the list.
 
 Ans: FYI I've also included the class in the attached files. 
-```js
+```java
 /**
  * This will calculate the Average removing the lowest score from the list. 
  * @param quizScores is the list of the score. 
@@ -107,7 +107,7 @@ public static double computeAvgWithoutLowest(List<Double> quizScores){
 
 ---
 #### 4.  Consider the method getPosition that is outlined in the Exercise 4 of Chapter 10. Write an implementation of this method for the class AList, as referenced in the implementation of class RoadRace in Listing 10-2 and also Listing 11-1. [15 pts]
-```js
+```java
 /**
  * Finds the position of the specified object in this list.
  *
@@ -128,7 +128,7 @@ public int getPosition(T anObject){
 #### 5.  The method replace for the ADT list returns the replaced object
 #### (a) Implement a method replace for the class AList that returns a boolean instead [5 pts]
 Ans: 
-```js
+```java
 //Replace method that will return boolean.
 public boolean replace(int givenPosition, T newEntry) {
     checkIntegrity();
@@ -149,7 +149,7 @@ Ans: No, you cannot modify the return type of the `replace` method without revis
 `   public void addAll(T[] items)`
 #### Write an implementation of this method for the class LList as defined in the Listing 12-1 [15 pts]
 Ans: 
-```js
+```java
 /**
  * Adds an array of items to the end of the list.
  * @param items the array of items to be added
@@ -167,7 +167,7 @@ public void addAll(T[] items) {
 `public ListInterface<T> getAllLessThan(Comparable<T> anObject)`
 #### Write an implementation of above method for the class LList. Make sure your method does not alter the state of the original list in any way. In other words, ensure contents of the original list remain unchanged. [20 pts]
 Ans: 
-```js
+```java
 /**
  * Returns a new list containing all items in the original list that are less than the specified object.
  * The original list is not modified.
@@ -191,7 +191,7 @@ public ListInterface<T> getAllLessThan(Comparable<T> anObject) {
 # Question on Recursion
 ---
 #### 8. Consider the following method implementation:
-```js
+```java
 public int aFunction(int n){
  int result = 0;
  if (n <= 4)

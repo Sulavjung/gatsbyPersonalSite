@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Web_software_development/Git's Basic and Usage.md",
+                "file": "programming/Web_software_development/HTML Basics and Usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Web_software_development/Git's Basic and Usage.md",
+                "file": "programming/Web_software_development/HTML Basics and Usage.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Web_software_development/Git's Basic and Usage.md",
+                "file": "programming/Web_software_development/HTML Basics and Usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Web_software_development/Git's Basic and Usage.md"
+                "file": "programming/Web_software_development/HTML Basics and Usage.md"
               }
             }
           }
@@ -142,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5
+    "width": 263.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,11 +157,14 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "programming/Web_software_development/Linux Commands.md",
-    "programming/Web_software_development/Git's Basic and Usage.md",
     "programming/Web_software_development/Linux.md",
-    "programming/Data_Structure/Questions on ADT Tree.md",
+    "programming/Web_software_development/Linux Commands.md",
+    "programming/Data_Structure/Tree and Binary Tree.md",
     "programming/Data_Structure/questionsOnList.md",
+    "programming/Data_Structure/ADT Dictionary.md",
+    "programming/Data_Structure/Questions on ADT Tree.md",
+    "programming/Web_software_development/Git's Basic and Usage.md",
+    "programming/Web_software_development/HTML Basics and Usage.md",
     "programming/Statistics/The t-distribution.md",
     "programming/Web_software_development/Overview.md",
     "blogPost/E-Myth Revisited.md",
@@ -183,9 +187,7 @@
     "programming/Data_Structure/Images/ADTtree3.png",
     "programming/Data_Structure/Images/ADTTreeImage.png",
     "programming/Data_Structure/Images/ADTTreeImage2.png",
-    "programming/Data_Structure/Tree and Binary Tree.md",
     "programming/Data_Structure/overview.md",
-    "programming/Data_Structure/ADT Dictionary.md",
     "SCR-20230429-mln.png.md"
   ]
 }

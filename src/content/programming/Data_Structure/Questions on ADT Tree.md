@@ -28,7 +28,7 @@ Ans: Maximum number of leaves in 3 level tree and 10-level tree are:
 ---
 #### 2. Write a recursive algorithm, that counts the nodes in a binary tree. Only Pseudo Code is required, along the lines of the format on slide 20 of the class presentation 
 Ans: 
-```js
+```java
 Algorithm countNodes(root)
     if root is null then
         return 0
@@ -51,7 +51,7 @@ Next, we encounter the value 7, which must be the right child of 6. The value 10
 
 So, the constructed binary search tree is:
 
-```js
+```java
          6
        /   \
       2     7
@@ -63,13 +63,13 @@ So, the constructed binary search tree is:
 
 To find the postorder traversal, we visit the left subtree, then the right subtree, and finally the root. So the postorder traversal for the above tree is:
 
-```js
+```java
 1 3 4 2 9 11 10 7 6
 ```
 ---
 #### 4. Write an interface GeneralTreeInterface for a general tree, along the lines of Slide 13, with interface for a binary tree. 
 Ans: 
-```js
+```java
 //Interface for a binary tree. 
 public interface generalTreeInterface<T> extends treeInterface<T>, treeIteratorInterface<T> {
 
@@ -129,7 +129,7 @@ Ans:
 ![ADT Trees](./Images/ADTTreeImage2.png)
 
 #### (b) Put it in an array and write a method to add an element to the minheap and continue to maintain it as a minheap after addition [15 pts]
-```js
+```java
 import java.util.Arrays;
 
 /**
@@ -235,7 +235,7 @@ In max heap, the parent nodes are always greater than their child nodes. However
 #### (c) Test your method, once using an array that represents a minheap and once with an array that does not represent a minheap
 Ans: 
 
-```js
+```java
 /**
  * Name: Sulav Jung Hamal
  * Class: 2023 Spring Sem CS220. 

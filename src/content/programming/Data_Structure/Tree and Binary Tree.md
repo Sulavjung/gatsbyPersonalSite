@@ -62,7 +62,7 @@ If anyone asks you on how do you traverse through the binary tree, you can think
     -   Traverse the left sub-tree in pre-order
     -   Traverse the right sub-tree in pre-order
     -   Resulting sequence: parent, left child, right child
-```js
+```java
 private void postorderTraverse(BinaryNode<T> node) {
     if (node != null) {
         // Traverse the left sub-tree in post-order
@@ -86,7 +86,7 @@ public void postorderTraverse() {
     -   Visit node r
     -   Traverse the right sub-tree in in-order
     -   Resulting sequence: left child, parent, right child
-```js
+```java
 public void inorderTraverse() {  
 	inorderTraverse(root);  
 } // end inorderTraverse
@@ -105,7 +105,7 @@ private void inorderTraverse(BinaryNode<T> node) {
     -   Traverse the right sub-tree in post-order
     -   Visit node r
     -   Resulting sequence: left child, right child, parent
-```js
+```java
 private void postorderTraverse(BinaryNode<T> node) {
     if (node != null) {
         // Traverse the left sub-tree in post-order
@@ -125,7 +125,7 @@ public void postorderTraverse() {
 ```
 
 ## Binary Search Tree
-```js
+```java
 bstSearch (binarySearchTree, desiredObject) {  
 // Searches a binary search tree for a given object.  
 // Returns true if the object is found.  
