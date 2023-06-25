@@ -28,6 +28,18 @@ const Project = () => {
   const buttonName1 = "Live Demo"
 
 
+/* For the Tools Project Card */
+  const mainImage2 = "../../assets/Java Cheat.png"
+  const logo2 = "../../assets/javacheatlogo.png"
+  const title2 = "Java Reference"
+  const type2 = "Guide"
+  const year2 = "2023"
+  const description2 =
+    "💼 Affordable and user-friendly tools for small businesses, fueling productivity, efficiency, and growth. 💡"
+  const link2 = "https://sulavhamal.com/cheatsheet"
+  const buttonName2 = "Live Demo"
+
+
   return (
 	<>
     <div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
@@ -49,9 +61,9 @@ const Project = () => {
                   alt="Register Management System"
                 />
               </div>
-              <h1 className="mt-2">
+              <h2 className="mt-2 fs-1">
                 <strong>{title}</strong>
-              </h1>
+              </h2>
               <p className="projectSubText">
                 <strong>{type} &#9864; {year}</strong>{" "}
               </p>
@@ -79,6 +91,8 @@ const Project = () => {
         </div>
       </div>
     </div>
+
+    {/* Bob's Liquor Tools */}
 	<div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
 	<div className="row projectCont">
 	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage">
@@ -98,9 +112,9 @@ const Project = () => {
 				alt="Register Management System"
 			  />
 			</div>
-			<h1 className="mt-2">
+			<h2 className="mt-2 fs-1">
 			  <strong>{title1}</strong>
-			</h1>
+			</h2>
 			<p className="projectSubText">
 			  <strong>{type1} &#9864; {year1}</strong>{" "}
 			</p>
@@ -120,6 +134,57 @@ const Project = () => {
 			  >
 				<p className="px-4 m-0" id="download">
 				  {buttonName1}
+				</p>
+			  </button>
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+  {/* Java Cheat */}
+	<div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
+	<div className="row projectCont">
+	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage">
+		<StaticImage
+		  className="javacheat img-fluid"
+		  src={mainImage2}
+		  alt="Register Management System"
+		/>
+	  </div>
+	  <div className="col-lg-6 order-lg-1 order-1  d-flex align-items-center projectText">
+		<div className="p-1 p-sm-5 pt-3 pt-lg-0 pb-lg-0">
+		  <div className="labelcheat text-start p-3 p-sm-4">
+			<div className="registerLogo">
+			  <StaticImage
+				className="javacheat img-fluid"
+				src={logo2}
+				alt="Register Management System"
+			  />
+			</div>
+			<h2 className="mt-2 fs-1">
+			  <strong>{title2}</strong>
+			</h2>
+			<p className="projectSubText">
+			  <strong>{type2} &#9864; {year2}</strong>{" "}
+			</p>
+			<div className="py-1">
+			  <p>
+				{description2}
+			  </p>
+			</div>
+			<p>
+			  <button
+				onClick={() =>
+				  window.open(
+					link2,
+					"_blank"
+				  )
+				}
+			  >
+				<p className="px-4 m-0" id="download">
+				  {buttonName2}
 				</p>
 			  </button>
 			</p>

@@ -17,7 +17,7 @@ export default class AestheticButton extends Component {
           href="https://docs.google.com/forms/d/e/1FAIpQLSdfep5ckUOnM6fPO6A81dNSMwZMTveitIMTHT8Fye4N1qy7xw/viewform?usp=sf_link"
         >
           <button className="signups">
-            	<h5 className="sign p-0 m-0 mx-4">{this.state.buttonName}</h5>
+            	<h4 className="sign p-0 m-0 mx-4 fs-4 fw-bold">{this.state.buttonName}</h4>
           </button>
         </a>
       </div>
