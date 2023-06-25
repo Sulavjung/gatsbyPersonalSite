@@ -9,6 +9,7 @@ import Footer from "../components/footer"
 import "../components/index.css"
 import FreeJavaCheatSheet from "../components/freeJavaCheatSheet"
 import { Helmet } from "react-helmet"
+import Project from "../components/projectComponent/project"
 
 
 
@@ -26,6 +27,7 @@ const indexPage = () => {
       <Eyecatcher />
       <BoxesContents />
       <FreeJavaCheatSheet />
+      <Project />
       <ExploreAndBlog />
       <Footer />
 
