@@ -13,6 +13,7 @@ export default class BoxesContents extends Component {
             Interests.map(record => {
               return (
                 <BoxContentDisplay
+                  key={record.title}
                   icon={record.icons}
                   title={record.title}
                   description={record.description}

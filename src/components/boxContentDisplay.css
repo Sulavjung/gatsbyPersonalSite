@@ -65,12 +65,13 @@
   font-size: large;
 }
 
-#h1Title {
-  font-family: sans-serif;
-  font-weight: 600;
+#h2Title {
+  font-size: 40px !important;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
 }
 
-#h1Icon {
+#h2Icon {
   font-size: 32pt;
 }
 

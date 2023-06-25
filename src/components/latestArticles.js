@@ -40,7 +40,7 @@ const LatestArticles = () => {
 					<div key={post.node.id}>
 						<p className='pb-0 mb-1 type '>{post.node.frontmatter.Type}</p>
 						<a className='text-decoration-none link' href={'/blogs/' + post.node.frontmatter.slug}>
-							<h4 className='p-0 mb-1 fw-bold'>{post.node.frontmatter.Title}</h4>
+							<h3 className='p-0 my-1 fw-bold fs-4'>{post.node.frontmatter.Title}</h3>
 						</a>
 						<p>{post.node.frontmatter.Author} - {post.node.frontmatter.Date}- <span className='genera'>{post.node.frontmatter.Genera}</span></p>
 						

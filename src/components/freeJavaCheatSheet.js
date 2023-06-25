@@ -61,9 +61,9 @@ export default function FreeJavaCheatSheet() {
         <div className="col-lg-6 order-lg-1 d-flex align-items-center">
           <div className="freeJavaContent p-1 p-sm-0">
             <div className="labelcheat text-start">
-              <h1>
-                <strong>Get a Free Java Cheat Sheet</strong>
-              </h1>
+              <h2>
+                Get a Free Java Cheat Sheet
+              </h2>
               <p className="fs-">🚀 Essential Java concepts and syntax</p>
               <p>🧑‍💻 Examples for quick reference</p>
               <p>📚 Understandable explanations of each topic</p>
