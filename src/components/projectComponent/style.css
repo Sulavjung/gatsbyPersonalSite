@@ -1,0 +1,32 @@
+.projectCont {
+	border-radius: 25px;
+	background: #ffffff;
+  }
+  
+  @media (min-width: 991.98px) {
+	.projectCont {
+	  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+	}
+  
+	.projectCont:hover {
+	  transform: scale(1.01);
+	  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+	  background: #fcfdff;
+	}
+  }
+
+.projectImage {
+  padding-inline-end: 0% !important;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+
+.registerLogo img {
+  height: 35px;
+  width: 35px;
+  margin-bottom: 8px;
+}
+
+.projectSubText {
+  color: #5e5e63 !important;
+}
