@@ -17,7 +17,8 @@ const indexPage = () => {
   return (
     <>
       <Helmet>
-        <title>Sulav: Hello. How are you? </title>
+        <meta charset="UTF-8"/>
+        <title>Sulav</title>
         <meta
           name="description"
           content="Myself Sulav here. A fellow Computer Science student. Follow me on my website for computer science related topics, blog on recent learnings, and much more!"
