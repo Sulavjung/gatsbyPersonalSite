@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md",
+                "file": "blogPost/Why your friends aren't supporting you?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md",
+                "file": "blogPost/Why your friends aren't supporting you?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md",
+                "file": "blogPost/Why your friends aren't supporting you?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/E-Myth Revisited.md"
+                "file": "blogPost/Why your friends aren't supporting you?.md"
               }
             }
           }
@@ -157,6 +157,13 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
+    "blogPost/How to get rid of your friends?.md",
+    "blogPost/Why your friends aren't supporting you?.md",
+    "blogPost/Let's Find Out A Taco Stand.md",
+    "blogPost/How to Use Templates in Django Project.md",
+    "blogPost/How to use Static Files in Django?.md",
+    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
+    "blogPost/E-Myth Revisited.md",
     "programming/Web_software_development/HTML Basics and Usage.md",
     "programming/Web_software_development/Linux.md",
     "programming/Web_software_development/Linux Commands.md",
@@ -167,20 +174,15 @@
     "programming/Web_software_development/Git's Basic and Usage.md",
     "programming/Statistics/The t-distribution.md",
     "programming/Web_software_development/Overview.md",
-    "blogPost/E-Myth Revisited.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
-    "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/Steal Like an.md",
     "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Images/rmsmain.png",
     "blogPost/Images/rmsallproduct.png",
-    "blogPost/How to Use Templates in Django Project.md",
     "blogPost/Images",
-    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/Setting up the Django Admin Interface for Beginners.md",
-    "blogPost/How to use Static Files in Django?.md",
     "blogPost/Linear Combination of Random Variables.md",
     "programming/Data_Structure/Images/ADTTree3 1.png",
     "programming/Data_Structure/Images/ADTTree3.png",

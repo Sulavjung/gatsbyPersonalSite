@@ -8,7 +8,7 @@ slug: emythRevisited
 Genera: Business
 Status: Finished
 Fun_Meter: Informative
-Cover_Image: https://source.unsplash.com/dfciEWEztFs/1320x800
+Cover_Image: https://source.unsplash.com/ip9R11FMbV8/1320x800
 Description: In "The E-Myth Revisited," Michael E. Gerber explores the common pitfalls and challenges faced by small business owners. He reveals the myth that most entrepreneurs start businesses because they are skilled technicians in their respective fields. Gerber argues that to succeed, entrepreneurs must not only excel in their technical work but also develop the mindset and skills of an entrepreneur and a manager. By understanding the three personalities within themselves and implementing systems, entrepreneurs can build businesses that thrive.
 Tag:
   - "Book"
