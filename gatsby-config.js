@@ -41,6 +41,13 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-LDEWL5BV0Y",
+        head: true,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,

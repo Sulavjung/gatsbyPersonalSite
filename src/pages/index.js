@@ -23,6 +23,8 @@ const indexPage = () => {
           name="description"
           content="Myself Sulav here. A fellow Computer Science student. Follow me on my website for computer science related topics, blog on recent learnings, and much more!"
         />
+
+
       </Helmet>
       <Navbar />
       <Eyecatcher />

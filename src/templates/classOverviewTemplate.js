@@ -4,13 +4,12 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 import "./personal.css"
 import ExploreAndBlog from "../components/exploreAndBlog"
-import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 
 export default function ClassOverviewTemplate({ data }) {
   const { markdownRemark, allMarkdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html } = markdownRemark
-  const imglink = `../pages/programming/AssetsProgramming/${frontmatter.slug}.png`
+
 
   return (
     <>
@@ -19,11 +18,6 @@ export default function ClassOverviewTemplate({ data }) {
       </Helmet>
       <Navbar />
       <div className="container-xxl px-2 p-xxl-0" id="classRandom">
-        <StaticImage
-          className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce"
-          src={imglink}
-          alt="Class Image"
-        />
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <div className="container-xxl mt-4 p-0 pb-3">
