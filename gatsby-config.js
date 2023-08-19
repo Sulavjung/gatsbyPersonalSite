@@ -13,6 +13,14 @@ module.exports = {
     siteUrl: 'https://www.sulavhamal.com',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-LDEWL5BV0Y",
+        head: true,
+        defer: false,
+      },
+    },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
     'gatsby-plugin-sitemap',
@@ -40,13 +48,6 @@ module.exports = {
       },
     },
     `gatsby-plugin-catch-links`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: "G-LDEWL5BV0Y",
-        head: true,
-      },
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
