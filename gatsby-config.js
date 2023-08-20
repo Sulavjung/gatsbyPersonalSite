@@ -14,11 +14,17 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: "G-LDEWL5BV0Y",
-        head: true,
-        defer: false,
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-HSPL305P6W", // Google Analytics / GA
+        ],
+        // This object is used for configuration specific to this plugin
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
       },
     },
     `gatsby-plugin-image`,
