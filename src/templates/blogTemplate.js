@@ -13,12 +13,14 @@ const BlogTemplate = ({ data }) => {
   console.log(data)
 
   const { html } = data.markdownRemark
-  const { Author, Date, Title, Type, Cover_Image, Description } =
+  const { Author, Date, Title, Type, Cover_Image, Description, slug } =
     data.markdownRemark.frontmatter
 
   useEffect(() => {
     Prism.highlightAll()
   }, [])
+
+  console.log(data.fourArticles);
 
   const TitleBox = props => {
     return (
@@ -71,7 +73,7 @@ const BlogTemplate = ({ data }) => {
         <hr className="pt-2 border border-start-0 border-end-0 border-dark" />
       </div>
 
-      <ExploreAndBlog />
+      <ExploreAndBlog currentSlug={slug} fourArticles = {data.fourArticles}/>
       <Footer />
     </>
   )
@@ -80,24 +82,50 @@ const BlogTemplate = ({ data }) => {
 export default BlogTemplate
 
 export const singleBlog = graphql`
-  query MyBlogQuery($slug: String) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        Author
-        Date
-        Fun_Meter
-        Genera
-        Status
-        Tag
-        slug
-        Title
-        Type
-        Cover_Image
-        Description
+query MyBlogQuery($slug: String) {
+  markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+    html
+    frontmatter {
+      Author
+      Date
+      Fun_Meter
+      Genera
+      Status
+      Tag
+      slug
+      Title
+      Type
+      Cover_Image
+      Description
+    }
+    timeToRead
+    tableOfContents
+  }
+
+  # Query for the four articles using a fragment
+  fourArticles: allMarkdownRemark(
+     sort: { frontmatter: { Date: DESC } }
+    filter: {
+      frontmatter: { slug: { ne: $slug } } # Exclude the current slug
+    }
+    limit: 5
+  ) {
+    edges {
+      node {
+        frontmatter {
+          Author
+          Date
+          Fun_Meter
+          Genera
+          Status
+          Tag
+          slug
+          Title
+          Type
+        }
+        id
       }
-      timeToRead
-      tableOfContents
     }
   }
+}
 `

@@ -9,8 +9,8 @@ export default class Navbar extends Component {
     return (
       <>
         <div id="navbar">
-          <nav className="navbar navbar-expand bg-body-tertiary p-0 m-0">
-            <div className="container-xxl ">
+          <nav className="container-sm p-0 m-0 mx-2 mt-2 rounded-pill flex align-center" draggable="true">
+            <div className="container-xxl navCont ">
               <Link
                 to="/"
                 className="navbar-brand fs-1 py-0 cursor-pointer"
@@ -20,23 +20,13 @@ export default class Navbar extends Component {
                   src={logo}
                   alt="Logo"
                   className="logo-image pt-2 p-1"
-                  style={{ height: "50px", width: "auto" }}
+                  style={{ height: "40px", width: "auto" }}
                 />
               </Link>
 
-              <button
-                className="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-              >
-                <span className="navbar-toggler-icon"></span>
-              </button>
-              <div
-                className="collapse navbar-collapse justify-content-end"
-                id="navbarSupportedContent"
-              >
-                <ul className="navbar-nav">
+            
+              <div>
+                <ul className="navbar-nav" >
                   {/* <li className="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"
@@ -45,10 +35,11 @@ export default class Navbar extends Component {
                       Home
                     </Link>
                   </li> */}
-                  <li className="nav-item mx-2">
-                    <Link
-                      className="nav-link fw-bold text-dark cursor-pointer"
+                  <li className="nav-item" id="navbar-button">
+                    <Link 
+                      className="navButton"
                       to="/blogs"
+                      activeClassName="active"
                     >
                       Blogs
                     </Link>

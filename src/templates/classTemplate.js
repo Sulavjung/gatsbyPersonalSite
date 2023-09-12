@@ -107,7 +107,7 @@ export const classQuery = graphql`
           Type: { eq: "Class" }
         }
       }
-      limit: 4
+      limit: 5
     ) {
       edges {
         node {

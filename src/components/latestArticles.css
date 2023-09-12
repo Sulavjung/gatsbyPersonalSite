@@ -3,15 +3,18 @@
 }
 
 .genera{
-	background-color: #5d7e85 ;
+	background-color: #1fb605 ;
 	border-radius: 5px;
 	padding-left: 6px;
 	padding-right: 6px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	color: white;
+	font-weight: bold;
 }
 
 .type{
 	opacity: 75%;
 }
+
+

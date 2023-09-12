@@ -9,7 +9,7 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="container-fluid bg-dark text-light text-center p-4 mt-5 ">
+        <div className="container-fluid bg-dark text-light text-center p-4 ">
           <div className="container-xxl">
             <div className="flex d-flex justify-content-evenly px-sm-5 mx-sm-5">
               <a

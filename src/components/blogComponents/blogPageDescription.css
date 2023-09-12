@@ -19,11 +19,11 @@
 }
 
 
-a{
+.cardss > a{
 	text-decoration: none;
-	color: black;
+	color: black !important;
 }
 
-a:hover{
-	color: #1674FD ;
+.cardss > a:hover{
+	color: #1674FD !important ;
 }

@@ -10,10 +10,41 @@ import "../components/index.css"
 import FreeJavaCheatSheet from "../components/freeJavaCheatSheet"
 import { Helmet } from "react-helmet"
 import Project from "../components/projectComponent/project"
+import { useStaticQuery, graphql } from "gatsby"
 
 
 
-const indexPage = () => {
+const IndexPage = () => {
+
+  var data = useStaticQuery(graphql`
+  query MyQuery {
+    # Query for the four articles
+    fourArticles: allMarkdownRemark(
+      sort: { fields: [frontmatter___Date], order: DESC }
+      filter: { frontmatter: { slug: { ne: "" } } }
+      limit: 4
+    ) {
+      edges {
+        node {
+          frontmatter {
+            Author
+            Date
+            Fun_Meter
+            Genera
+            Status
+            Tag
+            slug
+            Title
+            Type
+          }
+          id
+        }
+      }
+    }
+  }
+`);
+
+
   return (
     <>
       <Helmet>
@@ -31,11 +62,11 @@ const indexPage = () => {
       <BoxesContents />
       <FreeJavaCheatSheet />
       <Project />
-      <ExploreAndBlog />
+      <ExploreAndBlog fourArticles={data.fourArticles} />
       <Footer />
 
     </>
   )
 }
 
-export default indexPage
+export default IndexPage

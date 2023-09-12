@@ -42,30 +42,54 @@ export default function ClassOverviewTemplate({ data }) {
           </div>
         </div>
       </div>
-      <ExploreAndBlog />
+      <ExploreAndBlog fourArticles={data.fourArticles} />
       <Footer />
     </>
   )
 }
 
 export const query = graphql`
-  query ($slug: String!) {
-    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-      html
-      frontmatter {
-        Class
-      }
+query ($slug: String!) {
+  markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+    html
+    frontmatter {
+      Class
     }
-    allMarkdownRemark(
-      filter: { frontmatter: { Class: { eq: $slug }, Type: { eq: "Class" } } }
-    ) {
-      nodes {
-        frontmatter {
-          Title
-          slug
-          Description
-        }
+  }
+  allMarkdownRemark(
+    filter: { frontmatter: { Class: { eq: $slug }, Type: { eq: "Class" } } }
+  ) {
+    nodes {
+      frontmatter {
+        Title
+        slug
+        Description
       }
     }
   }
+  # Query for the four articles
+  fourArticles: allMarkdownRemark(
+    sort: { fields: [frontmatter___Date], order: DESC }
+    filter: { frontmatter: { slug: { ne: "" } } }
+    limit: 5
+  ) {
+    edges {
+      node {
+        frontmatter {
+          Author
+          Date
+          Fun_Meter
+          Genera
+          Status
+          Tag
+          slug
+          Title
+          Type
+        }
+        id
+      }
+    }
+  }
+}
+
 `

@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./blogPageDescription.css"
 import BlogCards from "./blogCards"
 import ArticleBlogCard from "./articleBlogCard"
+import './blogPageDescription.css'
 
 const BlogPageDescription = props => {
   var data = useStaticQuery(graphql`
@@ -26,13 +27,13 @@ const BlogPageDescription = props => {
     }
   `)
 
-  console.log(props.slug)
+
 
   const link = "/blogs/" + props.slug
   return (
     <>
       {/* Here goes the Image and the Blogs Title */}
-      <div className="container py-4 d-flex justify-content-between">
+      <div className="container-xxl py-4 d-flex justify-content-between">
         <h1 className="fw-bold mt-2">Blogs</h1>
         <img
           className="rounded-circle my-2"
@@ -44,7 +45,7 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Short Description of the Blog. */}
-      <div className="container mb-5">
+      <div className="container-xxl mb-5">
         <p className="fs-5 py-1 mb-1">
           Discover the power of learning, creation and inspiration with Blogs.
         </p>
@@ -56,7 +57,7 @@ const BlogPageDescription = props => {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-arrow-right-circle"
+            className="bi bi-arrow-right-circle"
             viewBox="0 0 16 16"
           >
             <path
@@ -68,7 +69,7 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Books */}
-      <div className="container">
+      <div className="container-xxl">
         <h2 className="fw-bold pb-2">Book Suggestions</h2>
         <p className="fs-5">
           Dive into the world of literature, learn essential skills, and
@@ -78,7 +79,7 @@ const BlogPageDescription = props => {
 
       {/* Here are the cards feature. */}
       <div
-        className=" container-sm caraso d-flex pt-2 px-2 pb-4 mb-4"
+        className=" container-xxl caraso d-flex pt-2 px-2 pb-4 mb-4"
         id="caraso"
       >
         {data.allMarkdownRemark.edges.map(post => (
@@ -92,7 +93,7 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Articles */}
-      <div className="container">
+      <div className="container-xxl">
         <h2 className="fw-bold pb-2">Articles</h2>
         <p className="fs-5">
           Unlock the power of clear and compelling articles on topics such as

@@ -32,7 +32,7 @@ const ArticleBlogCard = () => {
   return (
 	<>
 		{/* Here are the cards feature. */}
-		<div className="container-sm caraso d-flex pt-2 px-2 pb-4 mb-4" id='caraso'>
+		<div className="container-xxl caraso d-flex pt-2 px-2 pb-4 mb-4" id='caraso'>
 		{data.allMarkdownRemark.edges.map(post => (
 			<BlogCards key = {post.node.id} title = {post.node.frontmatter.Title} img = {post.node.frontmatter.Cover_Image} slug = {post.node.frontmatter.slug}/>
 		))}

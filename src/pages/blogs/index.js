@@ -3,7 +3,6 @@ import Footer from '../../components/footer'
 import Navbar from '../../components/navbar'
 import { graphql } from 'gatsby'
 import '../blogbox.css'
-import ExploreForFullPage from '../../components/exploreForFullPage'
 import BlogPageDescription from '../../components/blogComponents/blogPageDescription'
 import ExploreAndBlog from '../../components/exploreAndBlog'
 import { Helmet } from 'react-helmet'
@@ -11,8 +10,11 @@ import { Helmet } from 'react-helmet'
 
 
 
-const blogs = ({data}) => {
+const Blogs = ({data}) => {
 	const {slug} = data.allMarkdownRemark.edges[0].node.frontmatter;
+
+
+
   return (
 	<>
 		<Helmet>
@@ -24,7 +26,7 @@ const blogs = ({data}) => {
 		</Helmet>
 		<Navbar />
 		<BlogPageDescription slug = {slug} />
-		<ExploreAndBlog />
+		<ExploreAndBlog fourArticles={data.fourArticles} />
 		<Footer />
 	</>
   )
@@ -32,9 +34,34 @@ const blogs = ({data}) => {
 
 export const pageQuery = graphql`
 query MyBlogsQuery {
+	# Query for the four articles
+	fourArticles: allMarkdownRemark(
+	  sort: { fields: [frontmatter___Date], order: DESC }
+	  filter: { frontmatter: { slug: { ne: "" } } }
+	  limit: 4
+	) {
+	  edges {
+		node {
+		  frontmatter {
+			Author
+			Date
+			Fun_Meter
+			Genera
+			Status
+			Tag
+			slug
+			Title
+			Type
+		  }
+		  id
+		}
+	  }
+	}
+  
+	# Query for the latest blogs (if needed)
 	allMarkdownRemark(
-	  sort: {frontmatter: {Date: DESC}}
-	  filter: {frontmatter: {}}
+	  sort: { frontmatter: { Date: DESC } }
+	  filter: { frontmatter: {} }
 	  limit: 4
 	) {
 	  edges {
@@ -59,6 +86,9 @@ query MyBlogsQuery {
 	  }
 	}
   }
+  
+  
 `
 
-export default blogs;
+export default Blogs;
+
