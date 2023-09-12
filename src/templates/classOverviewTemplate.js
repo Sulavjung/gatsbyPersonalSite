@@ -48,16 +48,15 @@ export default function ClassOverviewTemplate({ data }) {
   )
 }
 
-export const query = graphql`
-query ($slug: String!) {
-  markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+export const query = graphql`query ($slug: String!) {
+  markdownRemark(frontmatter: {slug: {eq: $slug}}) {
     html
     frontmatter {
       Class
     }
   }
   allMarkdownRemark(
-    filter: { frontmatter: { Class: { eq: $slug }, Type: { eq: "Class" } } }
+    filter: {frontmatter: {Class: {eq: $slug}, Type: {eq: "Class"}}}
   ) {
     nodes {
       frontmatter {
@@ -67,10 +66,9 @@ query ($slug: String!) {
       }
     }
   }
-  # Query for the four articles
   fourArticles: allMarkdownRemark(
-    sort: { fields: [frontmatter___Date], order: DESC }
-    filter: { frontmatter: { slug: { ne: "" } } }
+    sort: {frontmatter: {Date: DESC}}
+    filter: {frontmatter: {slug: {ne: ""}}}
     limit: 5
   ) {
     edges {
@@ -90,6 +88,4 @@ query ($slug: String!) {
       }
     }
   }
-}
-
-`
+}`

@@ -32,63 +32,56 @@ const Blogs = ({data}) => {
   )
 }
 
-export const pageQuery = graphql`
-query MyBlogsQuery {
-	# Query for the four articles
-	fourArticles: allMarkdownRemark(
-	  sort: { fields: [frontmatter___Date], order: DESC }
-	  filter: { frontmatter: { slug: { ne: "" } } }
-	  limit: 4
-	) {
-	  edges {
-		node {
-		  frontmatter {
-			Author
-			Date
-			Fun_Meter
-			Genera
-			Status
-			Tag
-			slug
-			Title
-			Type
-		  }
-		  id
-		}
-	  }
-	}
-  
-	# Query for the latest blogs (if needed)
-	allMarkdownRemark(
-	  sort: { frontmatter: { Date: DESC } }
-	  filter: { frontmatter: {} }
-	  limit: 4
-	) {
-	  edges {
-		node {
-		  frontmatter {
-			Author
-			Date
-			Fun_Meter
-			Genera
-			Status
-			Tag
-			slug
-			Title
-		  }
-		  html
-		  wordCount {
-			words
-		  }
-		  tableOfContents
-		  id
-		}
-	  }
-	}
+export const pageQuery = graphql`query MyBlogsQuery {
+  fourArticles: allMarkdownRemark(
+    sort: {frontmatter: {Date: DESC}}
+    filter: {frontmatter: {slug: {ne: ""}}}
+    limit: 4
+  ) {
+    edges {
+      node {
+        frontmatter {
+          Author
+          Date
+          Fun_Meter
+          Genera
+          Status
+          Tag
+          slug
+          Title
+          Type
+        }
+        id
+      }
+    }
   }
-  
-  
-`
+  allMarkdownRemark(
+    sort: {frontmatter: {Date: DESC}}
+    filter: {frontmatter: {}}
+    limit: 4
+  ) {
+    edges {
+      node {
+        frontmatter {
+          Author
+          Date
+          Fun_Meter
+          Genera
+          Status
+          Tag
+          slug
+          Title
+        }
+        html
+        wordCount {
+          words
+        }
+        tableOfContents
+        id
+      }
+    }
+  }
+}`
 
 export default Blogs;
 

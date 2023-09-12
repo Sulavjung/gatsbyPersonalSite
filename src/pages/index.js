@@ -16,33 +16,30 @@ import { useStaticQuery, graphql } from "gatsby"
 
 const IndexPage = () => {
 
-  var data = useStaticQuery(graphql`
-  query MyQuery {
-    # Query for the four articles
-    fourArticles: allMarkdownRemark(
-      sort: { fields: [frontmatter___Date], order: DESC }
-      filter: { frontmatter: { slug: { ne: "" } } }
-      limit: 4
-    ) {
-      edges {
-        node {
-          frontmatter {
-            Author
-            Date
-            Fun_Meter
-            Genera
-            Status
-            Tag
-            slug
-            Title
-            Type
-          }
-          id
+  var data = useStaticQuery(graphql`query MyQuery {
+  fourArticles: allMarkdownRemark(
+    sort: {frontmatter: {Date: DESC}}
+    filter: {frontmatter: {slug: {ne: ""}}}
+    limit: 4
+  ) {
+    edges {
+      node {
+        frontmatter {
+          Author
+          Date
+          Fun_Meter
+          Genera
+          Status
+          Tag
+          slug
+          Title
+          Type
         }
+        id
       }
     }
   }
-`);
+}`);
 
 
   return (
