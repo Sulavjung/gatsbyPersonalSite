@@ -77,7 +77,7 @@ const ClassTemplate = ({ data }) => {
           </div>
         </div>
       </div>
-      <ExploreAndBlog />
+      <ExploreAndBlog fourArticles={data.fourArticles} />
       <Footer />
     </>
   )
@@ -117,6 +117,28 @@ export const classQuery = graphql`
             slug
             Class
           }
+        }
+      }
+    }
+    fourArticles: allMarkdownRemark(
+      sort: {frontmatter: {Date: DESC}}
+      filter: {frontmatter: {slug: {ne: ""}}}
+      limit: 5
+    ) {
+      edges {
+        node {
+          frontmatter {
+            Author
+            Date
+            Fun_Meter
+            Genera
+            Status
+            Tag
+            slug
+            Title
+            Type
+          }
+          id
         }
       }
     }
