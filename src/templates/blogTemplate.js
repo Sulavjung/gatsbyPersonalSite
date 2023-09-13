@@ -37,7 +37,7 @@ const BlogTemplate = ({ data }) => {
         <>
             <div>
               <div className="text-center py-4  pb-0 fw-bold text-sm-start">
-                <h4 className="fs-sm-1 fw-bold pb-0 blogTitle">{props.titlename}</h4>
+                <h1 className="fs-sm-1 fw-bold pb-0 blogTitle">{props.titlename}</h1>
               </div>
 
               <div className="text-center fw-regular fs-10 text-sm-start pt-0">
