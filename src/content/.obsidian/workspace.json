@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Learn React Server Components in fun way..md",
+                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Learn React Server Components in fun way..md",
+                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Learn React Server Components in fun way..md",
+                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Learn React Server Components in fun way..md"
+                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
     "blogPost/Learn React Server Components in fun way..md",
+    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/How to Use Templates in Django Project.md",
     "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
