@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
+                "file": "blogPost/How to use Static Files in Django?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
+                "file": "blogPost/How to use Static Files in Django?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md",
+                "file": "blogPost/How to use Static Files in Django?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Setting up the Django Admin Interface for Beginners.md"
+                "file": "blogPost/How to use Static Files in Django?.md"
               }
             }
           }
@@ -156,17 +156,19 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "blogPost/Learn React Server Components in fun way..md",
-    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
+    "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/How to Use Templates in Django Project.md",
-    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
-    "blogPost/Let's Find Out A Taco Stand.md",
+    "blogPost/How to use Static Files in Django?.md",
+    "blogPost/What does it mean to have an understanding of the data structure?.md",
+    "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "blogPost/Setting up the Django Admin Interface for Beginners.md",
+    "blogPost/Learn React Server Components in fun way..md",
+    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
+    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Linear Combination of Random Variables.md",
     "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/How to get rid of your friends?.md",
-    "blogPost/How to use Static Files in Django?.md",
     "blogPost/E-Myth Revisited.md",
     "programming/Web_software_development/HTML Basics and Usage.md",
     "programming/Web_software_development/Linux.md",
@@ -190,7 +192,6 @@
     "programming/Data_Structure/Images/ADTtree3.png",
     "programming/Data_Structure/Images/ADTTreeImage.png",
     "programming/Data_Structure/Images/ADTTreeImage2.png",
-    "programming/Data_Structure/overview.md",
-    "SCR-20230429-mln.png.md"
+    "programming/Data_Structure/overview.md"
   ]
 }
