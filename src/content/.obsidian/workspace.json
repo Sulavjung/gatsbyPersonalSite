@@ -38,7 +38,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTime"
               }
             }
           },
@@ -156,8 +156,9 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
+    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
     "blogPost/Learn React Server Components in fun way..md",
+    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/How to Use Templates in Django Project.md",
     "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Let's Find Out A Taco Stand.md",

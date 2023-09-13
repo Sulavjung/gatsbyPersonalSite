@@ -15,14 +15,20 @@ const BlogTemplate = ({ data }) => {
 
 
   const { html, tableOfContents, timeToRead, wordCount } = data.markdownRemark
-  const { Author, Date, Title, Type, Cover_Image, Description, slug } =
+  const { Author, Date, Title, Type, Cover_Image, Description, slug, tags } =
     data.markdownRemark.frontmatter
 
   useEffect(() => {
     Prism.highlightAll()
   }, [])
 
+  let tagsString = "";
 
+  if(tags && tags.length > 0){
+     tagsString = tags.join(", ");
+  } else {
+    tagsString = "web technologies, react, web development, tech, news, update, ios, apple, macbook"
+  }
 
   const TitleBox = props => {
     return (
@@ -52,10 +58,23 @@ const BlogTemplate = ({ data }) => {
     <>
       <Helmet>
         <title>{Title}</title>
+
+        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+        <meta name="twitter:image" content={Cover_Image}/>
+
+        <meta property="og:title" content={Title} />
         <meta property="og:description" content={Description} />
         <meta property="og:image" content={Cover_Image} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+
+        <meta name="robots" content="nofollow"/>
+
+
+        <meta name="keywords" content={tagsString}/>
+                        
       </Helmet>
       <Navbar />
       <div className="container-xxl pb-2 blogCont">
@@ -116,7 +135,7 @@ query MyBlogQuery($slug: String) {
       Fun_Meter
       Genera
       Status
-      Tag
+      tags
       slug
       Title
       Type
