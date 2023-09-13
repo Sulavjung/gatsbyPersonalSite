@@ -7,12 +7,14 @@ import ExploreAndBlog from "../components/exploreAndBlog"
 import { Helmet } from "react-helmet"
 import Prism from "prismjs"
 import "./prism.css"
+import { BsPlayCircle, BsStopwatch } from "react-icons/bs"
 require(`katex/dist/katex.min.css`)
 
-const BlogTemplate = ({ data }) => {
-  console.log(data)
 
-  const { html } = data.markdownRemark
+const BlogTemplate = ({ data }) => {
+
+
+  const { html, tableOfContents, timeToRead, wordCount } = data.markdownRemark
   const { Author, Date, Title, Type, Cover_Image, Description, slug } =
     data.markdownRemark.frontmatter
 
@@ -20,28 +22,27 @@ const BlogTemplate = ({ data }) => {
     Prism.highlightAll()
   }, [])
 
-  console.log(data.fourArticles);
+
 
   const TitleBox = props => {
     return (
       <>
         <div className="d-flex flex-sm-column flex-row curvy-line pb-4">
+        <>
+            <div>
+              <div className="text-center py-4  pb-0 fw-bold text-sm-start">
+                <h4 className="fs-sm-1 fw-bold pb-0 blogTitle">{props.titlename}</h4>
+              </div>
+
+              <div className="text-center fw-regular fs-10 text-sm-start pt-0">
+                <p className="p-0 m-0 pb-4"><small>{props.authorName} - {props.type} - {props.dateCreated}</small></p>
+              </div>
+            </div>
+          </>
           <div className="sulav ">
             <img src={props.cover} alt="Cover" />
           </div>
 
-          <>
-            <div>
-              <div className="text-start py-4  pb-0 fw-bold text-sm-center">
-                <h4 className="fs-sm-1 fw-bold">{props.titlename}</h4>
-              </div>
-
-              <div className="text-start  fw-regular fs-10 text-sm-center">
-                <p className="p-0 m-0"><small>{props.authorName} - {props.type} - {props.dateCreated}</small></p>
-              </div>
-            </div>
-          </>
-          
         </div>
 
       </>
@@ -57,7 +58,8 @@ const BlogTemplate = ({ data }) => {
         <meta property="og:image:height" content="630" />
       </Helmet>
       <Navbar />
-      <div className="container-xxl pb-2">
+      <div className="container-xxl pb-2 blogCont">
+        <div>
         <TitleBox
           titlename={Title}
           authorName={Author}
@@ -70,7 +72,30 @@ const BlogTemplate = ({ data }) => {
           className="blogPost pb-0"
           dangerouslySetInnerHTML={{ __html: html }}
         />
-        <hr className="pt-2 border border-start-0 border-end-0 border-dark" />
+        </div>
+        <div className="tocMainContainer">
+              
+              {/* Table of Contents */}
+              <div className="tocContainerBlogs">
+                <div className="">
+                  <h2 className="p-2">Table of contents</h2>
+                  <div className="tocContentsContainer"
+                    dangerouslySetInnerHTML={{ __html: tableOfContents }}
+                  ></div>
+                </div>
+              </div>
+              <div className="toolsForReading">
+                <div>
+                <BsStopwatch className="stopwatch" />
+                <p><span className="actualtimetofinishthisblog">{timeToRead} mins</span> to finish this <span className="blogWord">blog.</span></p>
+                </div>
+                <div>
+                  <BsPlayCircle className="playcircle text-primary"/>
+                  <p><span className="text-primary fw-bold">{wordCount.words}</span> words read. <span className="text-primary">Hooray!</span> </p>
+                </div>
+              </div>
+            </div>
+        
       </div>
 
       <ExploreAndBlog currentSlug={slug} fourArticles = {data.fourArticles}/>
@@ -99,7 +124,8 @@ query MyBlogQuery($slug: String) {
       Description
     }
     timeToRead
-    tableOfContents
+    tableOfContents(maxDepth: 3)
+    wordCount{words}
   }
 
   # Query for the four articles using a fragment

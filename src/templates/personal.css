@@ -1,7 +1,9 @@
 /* What is this?  */
 /* Font */
 body {
-  font-family: Arial, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Roboto,
+    Arial;
   font-size: 16px;
   padding-top: 100px;
 }
@@ -15,7 +17,7 @@ h3,
 #classRandom h6 {
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 24px;
+  margin-top: 30px;
   margin-bottom: 4px;
 }
 
@@ -69,7 +71,7 @@ pre {
   display: flex;
   flex-wrap: wrap !important;
   position: relative; /* Add this line */
-  background-color: #fbfbfb;
+  background-color: hsl(0, 0%, 100%) !important;
   border-radius: 5px;
   border-color: #f01c09;
   color: #000000;
@@ -77,11 +79,16 @@ pre {
   word-wrap: break-word !important; /* Add this line */
   font-size: 14px;
   line-height: 1.5;
-  padding-top: 20px !important;
-  box-shadow: 0 0.5rem 1rem #d5d3d3;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
   overflow: hidden;
   overflow-x: auto !important;
   padding: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+pre:hover{
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 code {
@@ -94,6 +101,10 @@ code {
   overflow-x: auto !important;
   white-space: pre-wrap !important;
   overflow: hidden !important;
+}
+
+pre > code {
+  padding: 20px;
 }
 
 /* Blockquotes */
@@ -163,16 +174,16 @@ a:hover {
   transition: background-color 0.3s;
 }
 
-@media  (min-width: 623px) {
+@media (min-width: 623px) {
   .personal-background:hover,
-.personal-background:active {
-  /* Inverted colors */
-  background: rgba(255, 255, 255, 0.978);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-  color: #000000; /* Change the text color to white or any desired color */
-  border-color: rgba(0, 0, 0, 0.18);
-  animation: colorInvert 0.3s forwards;
-}
+  .personal-background:active {
+    /* Inverted colors */
+    background: rgba(255, 255, 255, 0.978);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: #000000; /* Change the text color to white or any desired color */
+    border-color: rgba(0, 0, 0, 0.18);
+    animation: colorInvert 0.3s forwards;
+  }
 }
 
 .personal-background:active {
@@ -200,13 +211,11 @@ a:hover {
   }
 }
 
-
 .toc-container {
   position: sticky;
   top: 0;
   height: 100vh;
   overflow-y: auto;
-  
 }
 
 .toc-container ul {
@@ -269,7 +278,7 @@ a:hover {
   font-weight: bold;
   margin-top: 2px;
 }
-.toc-container p{
+.toc-container p {
   padding: 0;
   font-weight: bold;
   margin: 0 !important;
@@ -280,15 +289,11 @@ a:hover {
   padding-inline: 8px !important;
 }
 
-
 @media (max-width: 987px) {
   .toc-container {
     display: none; /* Correct class name */
   }
 }
-
-
-
 
 .notes table {
   padding-top: 5px;
@@ -298,9 +303,10 @@ a:hover {
 }
 .notes th {
   background-color: #000000;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.notes th, td {
+.notes th,
+td {
   padding: 10px;
   border: 1px solid #000000;
 }
@@ -320,7 +326,6 @@ a:hover {
 .notes tr:last-child td:last-child {
   border-bottom-right-radius: 10px;
 }
-
 
 #classRandom pre {
   position: relative !important;
@@ -347,13 +352,13 @@ a:hover {
   color: white;
   font-weight: bold !important;
   color: #ffffff;
-  font-family:Tahoma, sans-serif;
+  font-family: Tahoma, sans-serif;
   padding-left: 10px;
   padding-top: 4px;
 }
 
 #classRandom pre.language-html::before {
-  content: "HTML" !important; 
+  content: "HTML" !important;
 }
 
 #classRandom pre.language-java::before {
@@ -369,10 +374,7 @@ a:hover {
   font-weight: 500 !important;
 }
 
-
-
-
-#classRandom pre>code {
+#classRandom pre > code {
   color: rgb(80, 171, 72);
   border-radius: 4px;
   line-height: 1.6;

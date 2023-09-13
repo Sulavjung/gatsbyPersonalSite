@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Let's Find Out A Taco Stand.md",
+                "file": "blogPost/Learn React Server Components in fun way..md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Let's Find Out A Taco Stand.md",
+                "file": "blogPost/Learn React Server Components in fun way..md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Let's Find Out A Taco Stand.md",
+                "file": "blogPost/Learn React Server Components in fun way..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Let's Find Out A Taco Stand.md"
+                "file": "blogPost/Learn React Server Components in fun way..md"
               }
             }
           }
@@ -142,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 263.5,
-    "collapsed": true
+    "width": 263.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -157,12 +156,16 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
+    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
+    "blogPost/Learn React Server Components in fun way..md",
+    "blogPost/How to Use Templates in Django Project.md",
+    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
+    "blogPost/Let's Find Out A Taco Stand.md",
+    "blogPost/Setting up the Django Admin Interface for Beginners.md",
+    "blogPost/Linear Combination of Random Variables.md",
     "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/How to get rid of your friends?.md",
-    "blogPost/Let's Find Out A Taco Stand.md",
-    "blogPost/How to Use Templates in Django Project.md",
     "blogPost/How to use Static Files in Django?.md",
-    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/E-Myth Revisited.md",
     "programming/Web_software_development/HTML Basics and Usage.md",
     "programming/Web_software_development/Linux.md",
@@ -178,12 +181,9 @@
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
     "blogPost/Steal Like an.md",
-    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Images/rmsmain.png",
     "blogPost/Images/rmsallproduct.png",
     "blogPost/Images",
-    "blogPost/Setting up the Django Admin Interface for Beginners.md",
-    "blogPost/Linear Combination of Random Variables.md",
     "programming/Data_Structure/Images/ADTTree3 1.png",
     "programming/Data_Structure/Images/ADTTree3.png",
     "programming/Data_Structure/Images/ADTtree3.png",
