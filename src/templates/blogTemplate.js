@@ -66,12 +66,13 @@ const BlogTemplate = ({ data }) => {
         <meta name="twitter:site" content="@sulav_J_hamal" />
         <meta name="twitter:creator" content="@sulav_J_hamal" />
 
-        <meta property="og:url" content={`https://sulavhamal.com/blogs/${slug}/`} />
-        <meta property="og:title" content={Title} />
-        <meta property="og:description" content={Description} />
-        <meta property="og:image" content={Cover_Image} />
+        <meta  property="og:url" content={`https://sulavhamal.com/blogs/${slug}/`} />
+        <meta name="title" property="og:title" content={Title} />
+        <meta name="description" property="og:description" content={Description} />
+        <meta name="image" property="og:image" content={Cover_Image} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
+        <meta name="author" content={Author} />
 
         <meta name="robots" content="nofollow"/>
 
