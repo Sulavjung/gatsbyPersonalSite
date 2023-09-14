@@ -15,19 +15,50 @@ require(`katex/dist/katex.min.css`)
 
 const ClassTemplate = ({ data }) => {
   const { html, tableOfContents } = data.markdownRemark
-  const { Title } = data.markdownRemark.frontmatter
+  const { Title, tags, Description, slug, Author } = data.markdownRemark.frontmatter
   const { allMarkdownRemark } = data
 
-  console.log(allMarkdownRemark)
-
+  
   useEffect(() => {
     Prism.highlightAll()
   }, [])
+
+
+
+  let tagsString = "";
+
+  if(tags && tags.length > 0){
+     tagsString = tags.join(", ");
+  } else {
+    tagsString = "web technologies, react, web development, tech, news, update, ios, apple, macbook"
+  }
+
+
 
   return (
     <>
       <Helmet>
         <title>{Title}</title>
+        <meta name="robots" content="nofollow"/>
+        <meta name="keywords"/>
+
+        <meta name="keywords" content={tagsString}/>
+
+        <meta name="title" property="og:title" content={Title} />
+        <meta  property="og:url" content={`https://sulavhamal.com/blogs/${slug}/`} />
+        
+        <meta name="description" property="og:description" content={Description} />
+        <meta name="image" property="og:image" content="https://source.unsplash.com//M5s9Ffs1KqU/1320x400" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta name="author" content={Author} />
+
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content={Title} />
+        <meta name="twitter:description" content={Description} />
+        <meta name="twitter:image" content="https://source.unsplash.com//M5s9Ffs1KqU/1320x400"/>
+        <meta name="twitter:site" content="@sulav_J_hamal" />
+        <meta name="twitter:creator" content="@sulav_J_hamal" />
       </Helmet>
       <Navbar />
       <div className="px-2">
@@ -91,12 +122,15 @@ export const classQuery = graphql`
       html
       tableOfContents(maxDepth: 2)
       frontmatter {
+        Description
         Title
         Author
         Date
         Cover_Image
         slug
         Class
+        tags
+        Author
       }
     }
     allMarkdownRemark(

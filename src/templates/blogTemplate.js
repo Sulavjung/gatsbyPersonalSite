@@ -68,7 +68,7 @@ const BlogTemplate = ({ data }) => {
         <meta property="og:image:height" content="630" />
         <meta name="author" content={Author} />
 
-        <meta name="twitter:card" content="summary"/>
+        <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:title" content={Title} />
         <meta name="twitter:description" content={Description} />
         <meta name="twitter:image" content={Cover_Image}/>

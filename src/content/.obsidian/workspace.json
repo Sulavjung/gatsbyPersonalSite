@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/How to use Static Files in Django?.md",
+                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/How to use Static Files in Django?.md",
+                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/How to use Static Files in Django?.md",
+                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/How to use Static Files in Django?.md"
+                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md"
               }
             }
           }
@@ -156,10 +156,15 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
+    "programming/Web_software_development/Git's Basic and Usage.md",
+    "programming/Data_Structure/ADT Dictionary.md",
+    "programming/Data_Structure/Tree and Binary Tree.md",
+    "programming/Data_Structure/Questions on ADT Tree.md",
+    "programming/Data_Structure/questionsOnList.md",
+    "blogPost/How to use Static Files in Django?.md",
     "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/How to Use Templates in Django Project.md",
-    "blogPost/How to use Static Files in Django?.md",
     "blogPost/What does it mean to have an understanding of the data structure?.md",
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "blogPost/Setting up the Django Admin Interface for Beginners.md",
@@ -173,11 +178,6 @@
     "programming/Web_software_development/HTML Basics and Usage.md",
     "programming/Web_software_development/Linux.md",
     "programming/Web_software_development/Linux Commands.md",
-    "programming/Data_Structure/Tree and Binary Tree.md",
-    "programming/Data_Structure/questionsOnList.md",
-    "programming/Data_Structure/ADT Dictionary.md",
-    "programming/Data_Structure/Questions on ADT Tree.md",
-    "programming/Web_software_development/Git's Basic and Usage.md",
     "programming/Statistics/The t-distribution.md",
     "programming/Web_software_development/Overview.md",
     "blogPost/Images/emythrevisited 1.png",

@@ -53,6 +53,7 @@ const IndexPage = () => {
           content="Myself Sulav here. A fellow Computer Science student. Follow me on my website for computer science related topics, blog on recent learnings, and much more!"
         />
         <meta name="keywords" content="web technologies, react, web development, tech, news, update, ios, apple, macbook" data-react-helmet="true" />
+        <meta name="robots" content="nofollow"/>
 
 
       </Helmet>

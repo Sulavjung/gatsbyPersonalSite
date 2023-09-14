@@ -15,6 +15,7 @@ export default function ClassOverviewTemplate({ data }) {
     <>
       <Helmet>
         <title>{frontmatter.Title}</title>
+        <meta name="robots" content="nofollow"/>
       </Helmet>
       <Navbar />
       <div className="container-xxl px-2 p-xxl-0" id="classRandom">
