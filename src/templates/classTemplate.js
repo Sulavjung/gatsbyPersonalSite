@@ -38,26 +38,28 @@ const ClassTemplate = ({ data }) => {
         // Set the button's innerHTML
         copyButton.innerHTML = buttonHtml
 
-        const copiedMessage = document.createElement('p');
-        copiedMessage.textContent = 'Copied';
+        const copiedMessage = document.createElement("p")
+        copiedMessage.textContent = "Copied"
 
         // Add a click event listener to the button
-        copyButton.addEventListener('click', () => {
-        
-          // Show the "Copied" message
-          copiedMessage.style.display = 'block';
-        
-          // Append the "Copied" message
-          copyButton.appendChild(copiedMessage);
-        
+        copyButton.addEventListener("click", () => {
+          navigator.clipboard.writeText(preElementText)
+
+          console.log(preElementText);
+
+
+          copyButton.appendChild(copiedMessage)
+
           // Hide the "Copied" message and remove it after 5 seconds
           setTimeout(() => {
-            copiedMessage.style.display = 'none';
-        
-            // Remove the "Copied" message from the button
-            copyButton.removeChild(copiedMessage);
-          }, 3000); // 5000 milliseconds (5 seconds)
-        });
+            copiedMessage.style.display = "none"
+
+            // Check if the "Copied" message is still a child of the button
+            if (copiedMessage.parentNode === copyButton) {
+              copyButton.removeChild(copiedMessage)
+            }
+          }, 3000) // 5000 milliseconds (5 seconds)
+        })
 
         // Append the button to the <pre> element
         preElement.appendChild(copyButton)

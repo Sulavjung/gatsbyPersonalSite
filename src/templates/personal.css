@@ -96,7 +96,7 @@ button.copy-button {
   top: 0; /* Align to the top of the parent <pre> element */
   right: 0; /* Align to the left of the parent <pre> element */
   z-index: 1; /* Ensure it's above the content */
-  color: #9b9b9b; /* Text color */
+  color: #959595; /* Text color */
   background-color: black;
   border-radius: 4px;
   border: none;
@@ -108,7 +108,7 @@ button.copy-button {
 }
 
 button.copy-button:hover{
-  color: white;
+  color: white !important;
 }
 
 button.copy-button > p {
