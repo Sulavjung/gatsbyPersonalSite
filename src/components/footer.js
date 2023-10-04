@@ -5,10 +5,19 @@ import { BsGithub } from "react-icons/bs"
 import { BsTwitter } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
 
+const appleEmbed = `<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:1320px;overflow:hidden;border-radius:40px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/sulavs-daily/pl.u-pMylg4bI4RRY987"></iframe>`
+
 class Footer extends Component {
   render() {
     return (
       <div>
+        <div className="container cotainer-xxl mb-5">
+        <h2 className='m-0 fw-bold fs-1 mt-5 pt-2'>Daily Vibes</h2>
+          <hr className='mt-0' />
+          <div className="text-center p-0 m-0">
+          <div dangerouslySetInnerHTML={{ __html: appleEmbed }} className="shadow-sm rounded-5 p-0 m-0"></div>
+          </div>
+        </div>
         <div className="container-fluid bg-dark text-light text-center p-4 ">
           <div className="container-xxl">
             <div className="flex d-flex justify-content-evenly px-sm-5 mx-sm-5">

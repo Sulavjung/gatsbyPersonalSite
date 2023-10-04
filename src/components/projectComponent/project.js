@@ -102,7 +102,7 @@ const Project = () => {
 		  alt="Register Management System"
 		/>
 	  </div>
-	  <div className="col-lg-6 order-lg-1 order-1  d-flex align-items-center projectText">
+	  <div className="col-lg-6 order-lg-2 order-1  d-flex align-items-center projectText">
 		<div className="p-1 p-sm-5 pt-3 pt-lg-0 pb-lg-0">
 		  <div className="labelcheat text-start p-3 p-sm-4">
 			<div className="registerLogo">
