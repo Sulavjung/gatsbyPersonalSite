@@ -11,11 +11,16 @@ class Footer extends Component {
   render() {
     return (
       <div>
-        <div className="container cotainer-xxl mb-5">
-        <h2 className='m-0 fw-bold fs-1 mt-5 pt-2'>Daily Vibes</h2>
-          <hr className='mt-0' />
+        <div>
+          <div className="container-xxl mb-5">
+          <h2 className="m-0 fw-bold fs-1 mt-5 pt-2">Daily Vibes</h2>
+          <hr className="mt-0" />
           <div className="text-center p-0 m-0">
-          <div dangerouslySetInnerHTML={{ __html: appleEmbed }} className="shadow-sm p-0 m-0 projectCont height450"></div>
+            <div
+              dangerouslySetInnerHTML={{ __html: appleEmbed }}
+              className="shadow-sm p-0 m-0 projectCont height450"
+            ></div>
+          </div>
           </div>
         </div>
         <div className="container-fluid bg-dark text-light text-center p-4 ">
