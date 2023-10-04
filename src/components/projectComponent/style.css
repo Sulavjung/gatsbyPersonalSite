@@ -6,6 +6,16 @@
 .height450{
 	max-height: 450px;
 }
+
+@media (max-width: 520px){
+	.height450 {
+		min-width: 835px;
+		width: 100%;
+		transform-origin: top left; /* Set the transformation origin to the top left corner */
+  		transform: scale(0.5); /* Scale */
+		max-height: 225px;
+	}
+}
   
   @media (min-width: 991.98px) {
 	.projectCont {

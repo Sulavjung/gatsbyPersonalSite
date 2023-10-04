@@ -15,7 +15,7 @@ class Footer extends Component {
           <div className="container-xxl mb-5 px-xxl-0 px-2">
           <h2 className="m-0 fw-bold fs-1 mt-5 pt-2">Daily Vibes</h2>
           <hr className="mt-0" />
-          <div className="text-center p-0 m-0">
+          <div className="p-0 m-0">
             <div
               dangerouslySetInnerHTML={{ __html: appleEmbed }}
               className="shadow-sm p-0 m-0 projectCont height450"
