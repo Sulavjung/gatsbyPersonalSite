@@ -1,4 +1,7 @@
 {
 	"workbench.iconTheme": "ayu",
-	"workbench.colorTheme": "Tomorrow Night Blue"
+	"workbench.colorTheme": "Tomorrow Night Blue",
+	"githubPullRequests.ignoredPullRequestBranches": [
+		"main"
+	]
 }
