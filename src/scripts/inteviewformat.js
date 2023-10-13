@@ -42,51 +42,58 @@ function onClickOFTheEachQuestion(content) {
       const contentElement = content[h3Element.textContent]
 
       if (contentElement) {
-        // Remove the commas in the contentElement array
-        const contentText = contentElement.join("") // Join the elements without commas
-
-        // Create a modal overlay
-        const modalOverlay = document.createElement("div")
-        modalOverlay.classList.add("modal-overlay")
-        modalOverlay.id = "modal-overlay"
-
-        // Create a modal content div
-        const modalContent = document.createElement("div")
-        modalContent.classList.add("modal-content")
-
-        // Create a close button
-        const closeButton = document.createElement("span")
-        closeButton.id = "close-button"
-        closeButton.textContent = "X"
-
-        // Append the close button to the modal content
-        modalContent.appendChild(closeButton)
-
-        // Create a copy of the h3 element
-        const h3Copy = h3Element.cloneNode(true)
-
-        // Append the h3 element and content to the modal content
-        modalContent.appendChild(h3Copy)
-        modalContent.innerHTML += contentText // Use the modified contentText without commas
-
-        // Append the modal content to the modal overlay
-        modalOverlay.appendChild(modalContent)
-
-        // Append the modal overlay to the body
-        document.body.appendChild(modalOverlay)
-
-        const closeButtonElement = document.getElementById("close-button")
-
-        if (closeButtonElement) {
-          closeButtonElement.addEventListener("click", function (event) {
-            console.log(event)
-            const modalOverlay = document.getElementById("modal-overlay")
-            if (modalOverlay) {
-              modalOverlay.remove() // Remove the modal overlay
-            }
-          })
-        }
-      }
+		// Remove the commas in the contentElement array
+		const contentText = contentElement.join("");
+	  
+		// Create a modal overlay
+		const modalOverlay = document.createElement("div");
+		modalOverlay.classList.add("modal-overlay");
+		modalOverlay.id = "modal-overlay";
+	  
+		// Create a new div for additional content
+		const additionalContentDiv = document.createElement("div");
+		additionalContentDiv.classList.add("additional-content");
+	  
+		// Create a modal content div
+		const modalContent = document.createElement("div");
+		modalContent.classList.add("modal-content");
+	  
+		// Create a close button
+		const closeButton = document.createElement("span");
+		closeButton.id = "close-button";
+		closeButton.textContent = "X";
+	  
+		// Append the close button to the modal content
+		modalContent.appendChild(closeButton);
+	  
+		// Create a copy of the h3 element
+		const h3Copy = h3Element.cloneNode(true);
+	  
+		// Append the h3 element and content to the modal content
+		modalContent.appendChild(h3Copy);
+		modalContent.innerHTML += contentText;
+	  
+		// Append the modal content to the additional content div
+		additionalContentDiv.appendChild(modalContent);
+	  
+		// Append the additional content div to the modal overlay
+		modalOverlay.appendChild(additionalContentDiv);
+	  
+		// Append the modal overlay to the body
+		document.body.appendChild(modalOverlay);
+	  
+		const closeButtonElement = document.getElementById("close-button");
+	  
+		if (closeButtonElement) {
+		  closeButtonElement.addEventListener("click", function (event) {
+			console.log(event);
+			const modalOverlay = document.getElementById("modal-overlay");
+			if (modalOverlay) {
+			  modalOverlay.remove(); // Remove the modal overlay
+			}
+		  });
+		}
+	  }
     })
   })
 }
