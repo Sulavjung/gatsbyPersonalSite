@@ -3,7 +3,7 @@ Title: How to use Static Files in Django project?
 Date: 2023/05/03
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 🎒 Dev
+Type: Blog
 slug: how_to_use_static_files_in_django_project
 Genera: Data Science
 Status: Draft

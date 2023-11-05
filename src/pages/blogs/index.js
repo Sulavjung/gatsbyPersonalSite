@@ -33,7 +33,7 @@ export const pageQuery = graphql`
   query MyBlogsQuery {
     fourArticles: allMarkdownRemark(
       sort: { frontmatter: { Date: DESC } }
-      filter: { frontmatter: { slug: { ne: "" } } }
+      filter: {frontmatter: {Type: {eq: "Blog"}}}
       limit: 4
     ) {
       edges {
@@ -55,7 +55,7 @@ export const pageQuery = graphql`
     }
     allMarkdownRemark(
       sort: { frontmatter: { Date: DESC } }
-      filter: { frontmatter: {} }
+      filter: {frontmatter: {Type: {eq: "Blog"}}}
       limit: 4
     ) {
       edges {

@@ -1,17 +1,17 @@
 ---
-Title: "The 4-Hour Workweek - Summary"
-Date: "2022/12/23"
-Author: "Sulav Jung Hamal"
-BookAuthor: "Timothy Ferris"
-Type: "📚Book"
-slug: "the4hourWorkweek"
-Genera: "Business, Finance"
-Status: "Finished"
-Fun_Meter: "Awesome"
-Cover_Image: "https://source.unsplash.com/xcI7f25UQSs/1320x400"
+Title: The 4-Hour Workweek - Summary
+Date: 2022/12/23
+Author: Sulav Jung Hamal
+BookAuthor: Timothy Ferris
+Type: Blog
+slug: the4hourWorkweek
+Genera: Book
+Status: Finished
+Fun_Meter: Awesome
+Cover_Image: https://source.unsplash.com/xcI7f25UQSs/1320x400
 Description: Over the last few years of my life, I've learned to love, enjoy, and update my understanding from book. With that in mind, I have gone through books that talks about productivity, business, relationships, and so much more.
-Tag:
- - "Book"
+tags:
+  - Book
 ---
 
 

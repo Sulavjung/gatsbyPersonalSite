@@ -3,14 +3,14 @@ Title: "Understanding Data Structures: A Comprehensive Guide for Beginners"
 Date: 2023/03/26
 Due_Date: 2023/03/26
 Author: Sulav Jung Hamal
-BookAuthor:
-Type: 💻 Programming
+BookAuthor: 
+Type: Blog
 slug: data-structures-101-understanding-arrays-trees-hashes-and-more
 Genera: Personal Growth
 Status: Posted ✅
 Cover_Image: https://source.unsplash.com/gC_aoAjQl2Q/1320x400
 Description: Arrays are a simple data structure used to store a collection of elements of the same data type. They are useful for implementing algorithms that require random access to elements. Linked lists, on the other hand, are useful for implementing data structures that require dynamic memory allocation. They are used to implement stacks, queues, and other similar data structures.
-Tag:
+tags:
   - Programming
   - Article
 ---

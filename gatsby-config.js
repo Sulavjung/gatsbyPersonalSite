@@ -58,14 +58,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `Sulav`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
-        display: `minimal-ui`,
+        display: `standalone`,
         icon: `src/assets/favicon.png`, // This path is relative to the root of the site.
       },
     },

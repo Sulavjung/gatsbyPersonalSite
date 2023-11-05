@@ -83,6 +83,8 @@ function onClickOFTheEachQuestion(content) {
 		document.body.appendChild(modalOverlay);
 	  
 		const closeButtonElement = document.getElementById("close-button");
+
+		const modalOverlayExist = document.getElementById("modal-overlay");
 	  
 		if (closeButtonElement) {
 		  closeButtonElement.addEventListener("click", function (event) {
@@ -92,6 +94,16 @@ function onClickOFTheEachQuestion(content) {
 			  modalOverlay.remove(); // Remove the modal overlay
 			}
 		  });
+		}
+
+		if(modalOverlayExist){
+			modalOverlayExist.addEventListener("click", function (event) {
+				console.log(event);
+				const modalOverlay = document.getElementById("modal-overlay");
+				if (modalOverlay) {
+				  modalOverlay.remove(); // Remove the modal overlay
+				}
+			  });
 		}
 	  }
     })

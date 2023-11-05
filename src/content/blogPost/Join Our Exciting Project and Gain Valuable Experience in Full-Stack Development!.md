@@ -3,7 +3,7 @@ Title: Join Our Exciting Project and Gain Valuable Experience in Full-Stack Deve
 Date: 2023/05/17
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 🤼‍♀️ Project
+Type: Blog
 slug: join_our_exciting_project_and_gain_valuable_experience_in_full_stack_development
 Genera: Technology
 Status: Draft 📝

@@ -54,11 +54,13 @@
 	height: 100%;
 	background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 	z-index: 1000; /* Ensure it's on top of everything */
+	
   }
+
 
   .additional-content {
 	background-color: #fff; /* Background color of the modal content */
-	padding: 20px;
+	padding: 10px;
 	border: 1px solid #333;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -76,8 +78,8 @@
   /* Style for the close button */
   #close-button {
 	position: absolute;
-	top: 5x;
-	right: 5px;
+	top: 2px;
+	right: 2px;
 	cursor: pointer;
 	font-size: 15px;
 	line-height: 10px;
@@ -128,6 +130,10 @@
 
 	#interview li {
 		padding: 20px;
+	}
+
+	.additional-content{
+		max-width: 1000px;
 	}
   }
   

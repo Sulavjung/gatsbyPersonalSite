@@ -157,9 +157,7 @@ query MyBlogQuery($slug: String) {
   # Query for the four articles using a fragment
   fourArticles: allMarkdownRemark(
      sort: { frontmatter: { Date: DESC } }
-    filter: {
-      frontmatter: { slug: { ne: $slug } } # Exclude the current slug
-    }
+     filter: {frontmatter: {Type: {eq: "Blog"}}}
     limit: 5
   ) {
     edges {

@@ -217,7 +217,7 @@ export const classQuery = graphql`
     }
     fourArticles: allMarkdownRemark(
       sort: { frontmatter: { Date: DESC } }
-      filter: { frontmatter: { slug: { ne: "" } } }
+      filter: {frontmatter: {Type: {eq: "Blog"}}}
       limit: 5
     ) {
       edges {

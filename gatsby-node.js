@@ -74,33 +74,31 @@ exports.createPages = async ({ graphql, actions }) => {
   data.allMarkdownRemark.nodes.forEach(node => {
     const { slug, Type, Class } = node.frontmatter
 
-    if(Type === "interview"){        //To create an interview page for a certain language you should have at least a Type metadata with interview as the type. Also, have slug. 
+
+    //This is creating the pages from the md files depending on the frontmatter Type. Type could only be: [Interview, Class, Blog, Class_overview]
+
+    if (Type === "Interview") {
       actions.createPage({
         path: `/programming/${Type}/${slug}`,
         component: path.resolve("src/templates/interview.js"),
-        context: {Class: Class, slug: slug},
+        context: { Class: Class, slug: slug },
       })
     }
 
 
-    //IF type is class, the slug part should be programming. If not: The slug should start with blogs. 
-    //So, have Type = Class to create class path
-    //Or, have Type = anythig other than class to have the slug start with blogs. 
-    //Read this: If you have type of just Class, then that means, it is a page of one of the class. But if the type is class overview, then it is the part of the class main page.
-    //But if the type is anything other than the class or class overiew or interview, it is blogpost. 
-    let basePath = Type === "Class" ? "/programming" : "/blogs" 
-    if (Class) {
-      basePath += `/${Class}`
+
+    if (Type === "Class") {
+      actions.createPage({
+        path: `/programming/${Class}/${slug}`,
+        component: path.resolve("./src/templates/classTemplate.js"),
+        context: { Class: Class, slug: slug },
+      })
     }
 
-    //If Type is not Class_overview then 
-    if (Type !== "Class_overview") {
+    if (Type === "Blog") {
       actions.createPage({
-        path: `${basePath}/${slug}`,
-        component: path.resolve(
-          "./src/templates/" +
-            (Type === "Class" ? "classTemplate.js" : "blogTemplate.js")
-        ),
+        path: `blogs/${slug}`,
+        component: path.resolve("./src/templates/blogTemplate.js"),
         context: { Class: Class, slug: slug },
       })
     }

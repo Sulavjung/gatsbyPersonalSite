@@ -4,13 +4,13 @@ import { useStaticQuery, graphql } from "gatsby"
 import "./blogPageDescription.css"
 import BlogCards from "./blogCards"
 import ArticleBlogCard from "./articleBlogCard"
-import './blogPageDescription.css'
+import "./blogPageDescription.css"
 
 const BlogPageDescription = props => {
   var data = useStaticQuery(graphql`
     query boxLinks {
       allMarkdownRemark(
-        filter: { frontmatter: { Tag: { eq: "Book" } } }
+        filter: { frontmatter: { Type: { eq: "Blog" } } }
         sort: { frontmatter: { Date: DESC } }
       ) {
         edges {
@@ -19,6 +19,7 @@ const BlogPageDescription = props => {
               Cover_Image
               Title
               slug
+              Genera
             }
             id
           }
@@ -27,13 +28,11 @@ const BlogPageDescription = props => {
     }
   `)
 
-
-
   const link = "/blogs/" + props.slug
   return (
     <>
       {/* Here goes the Image and the Blogs Title */}
-      <div className="container-xxl py-4 d-flex justify-content-between">
+      <div className="container-xxl py-0 py-md-4 d-flex justify-content-between">
         <h1 className="fw-bold mt-2">Blogs</h1>
         <img
           className="rounded-circle my-2"
@@ -82,14 +81,21 @@ const BlogPageDescription = props => {
         className=" container-xxl caraso d-flex pt-2 px-2 pb-4 mb-4"
         id="caraso"
       >
-        {data.allMarkdownRemark.edges.map(post => (
-          <BlogCards
-            key={post.node.id}
-            title={post.node.frontmatter.Title}
-            img={post.node.frontmatter.Cover_Image}
-            slug={post.node.frontmatter.slug}
-          />
-        ))}
+        {data.allMarkdownRemark.edges.map(post => {
+          if (post.node.frontmatter.Genera === "Book") {
+            return (
+              <BlogCards
+                key={post.node.id}
+                title={post.node.frontmatter.Title}
+                img={post.node.frontmatter.Cover_Image}
+                slug={post.node.frontmatter.slug}
+              />
+            )
+          } else {
+            // You can include optional logic here for posts that don't match the condition.
+            return null // or any other rendering logic
+          }
+        })}
       </div>
 
       {/* Articles */}
@@ -102,7 +108,26 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Here are the cards feature. */}
-      <ArticleBlogCard />
+      <div
+        className=" container-xxl caraso d-flex pt-2 px-2 pb-4 mb-4"
+        id="caraso"
+      >
+        {data.allMarkdownRemark.edges.map(post => {
+          if (post.node.frontmatter.Genera !== "Book") {
+            return (
+              <BlogCards
+                key={post.node.id}
+                title={post.node.frontmatter.Title}
+                img={post.node.frontmatter.Cover_Image}
+                slug={post.node.frontmatter.slug}
+              />
+            )
+          } else {
+            // You can include optional logic here for posts that don't match the condition.
+            return null // or any other rendering logic
+          }
+        })}
+      </div>
     </>
   )
 }

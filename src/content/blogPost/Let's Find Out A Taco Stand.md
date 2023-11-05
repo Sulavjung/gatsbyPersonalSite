@@ -3,7 +3,7 @@ Title: "Let's Find Out A Taco Stand"
 Date: "2023/03/24"
 Author: "Sulav Jung Hamal"
 BookAuthor: ""
-Type: "📄 Article"
+Type: Blog
 slug: "fearless_unknownshowtobe"
 Genera: "Personal Growth"
 Status: "Finished"

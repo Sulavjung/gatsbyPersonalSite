@@ -3,7 +3,7 @@ Title: Learn React Server Components in Fun Way.
 Date: 2023/09/12
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 💻 Programming
+Type: Blog
 slug: learnReactServerComponentsInFunniestWay
 Genera: React
 Status: Posted 🔗

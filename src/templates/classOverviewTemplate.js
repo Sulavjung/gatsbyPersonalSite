@@ -69,7 +69,7 @@ export const query = graphql`query ($slug: String!) {
   }
   fourArticles: allMarkdownRemark(
     sort: {frontmatter: {Date: DESC}}
-    filter: {frontmatter: {slug: {ne: ""}}}
+    filter: {frontmatter: {Type: {eq: "Blog"}}}
     limit: 5
   ) {
     edges {

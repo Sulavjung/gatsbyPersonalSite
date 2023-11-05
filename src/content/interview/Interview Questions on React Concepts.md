@@ -1,5 +1,5 @@
 ---
-Type: interview
+Type: Interview
 slug: reactjs
 Title: Interview Questions on React Concepts.
 tags:

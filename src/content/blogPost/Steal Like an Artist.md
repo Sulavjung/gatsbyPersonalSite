@@ -1,17 +1,17 @@
 ---
-Title: "Steal Like An Artist"
-Date: "2022/10/14"
-Author: "Sulav Jung Hamal"
-BookAuthor: "Austin Kleon"
-Type: "📚Book"
-slug: "stealLikeAnArtist"
-Genera: "Productivity"
-Status: "Finished"
-Fun_Meter: "Awesome"
-Cover_Image: "https://source.unsplash.com/9DaOYUYnOls/1320x400"
-Description: Steal from anywhere that resonates or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams, random conversations, architecture, bridges, street signs, trees, clouds, bodies of water, light and shadows. Select only things to steal from that speak directly to your soul. If you do this, your work will be authentic. - Jim Jarmusch. 
-Tag:
- - "Book"
+Title: Steal Like An Artist
+Date: 2022/10/14
+Author: Sulav Jung Hamal
+BookAuthor: Austin Kleon
+Type: Blog
+slug: stealLikeAnArtist
+Genera: Book
+Status: Finished
+Fun_Meter: Awesome
+Cover_Image: https://source.unsplash.com/9DaOYUYnOls/1320x400
+Description: Steal from anywhere that resonates or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams, random conversations, architecture, bridges, street signs, trees, clouds, bodies of water, light and shadows. Select only things to steal from that speak directly to your soul. If you do this, your work will be authentic. - Jim Jarmusch.
+tags:
+  - Book
 ---
 
 

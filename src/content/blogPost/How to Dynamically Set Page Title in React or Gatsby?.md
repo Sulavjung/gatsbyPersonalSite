@@ -3,7 +3,7 @@ Title: How to Dynamically Set Page Title in React or Gatsby?
 Date: 2023/04/27
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 💻 Programming
+Type: Blog
 slug: how_to_dynamically_set_page_title_in_react_or_gatsby
 Genera: Data Science
 Status: Posted 🔗

@@ -1,17 +1,17 @@
 ---
-Title: "What did I learn in the process of watching the first Formula 1 motorsport racing event today?"
-Date: "2023/03/22"
-Author: "Sulav Jung Hamal"
+Title: What did I learn in the process of watching the first Formula 1 motorsport racing event today?
+Date: 2023/03/22
+Author: Sulav Jung Hamal
 BookAuthor: ""
-Type: "📄 Article"
-slug: "whatdidIlearnintheprocessofwatchingthefirstformula1motorsportracingeventtoday"
-Genera: "Entertainment"
-Status: "Finished"
-Fun_Meter: "Awesome"
-Cover_Image: "https://source.unsplash.com//M5s9Ffs1KqU/1320x400"
-Description: One of the first things you may have noticed when watching a Formula 1 race is the teams. There are ten teams that compete in each race, each with two drivers. These teams are selected by the FIA, the sport's governing body, based on their performance in previous seasons and other criteria. Some of the most successful teams in Formula 1 history include Scuderia Ferrari, Mercedes-AMG Petronas Formula One Team, and Red Bull Racing. 
-Tag:
- - "Article"
+Type: Blog
+slug: whatdidIlearnintheprocessofwatchingthefirstformula1motorsportracingeventtoday
+Genera: Entertainment
+Status: Finished
+Fun_Meter: Awesome
+Cover_Image: https://source.unsplash.com//M5s9Ffs1KqU/1320x400
+Description: One of the first things you may have noticed when watching a Formula 1 race is the teams. There are ten teams that compete in each race, each with two drivers. These teams are selected by the FIA, the sport's governing body, based on their performance in previous seasons and other criteria. Some of the most successful teams in Formula 1 history include Scuderia Ferrari, Mercedes-AMG Petronas Formula One Team, and Red Bull Racing.
+tags:
+  - Article
 ---
 
 ## 📁 Overview

@@ -3,7 +3,7 @@ Title: How to use templates in Django project?
 Date: 2023/05/02
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 🎒 Dev
+Type: Blog
 slug: how_to_use_templates_in_django_project
 Genera: Data Science
 Status: Draft

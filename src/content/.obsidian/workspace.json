@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
+                "file": "blogPost/Steal Like an Artist.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
+                "file": "blogPost/Steal Like an Artist.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
+                "file": "blogPost/Steal Like an Artist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md"
+                "file": "blogPost/Steal Like an Artist.md"
+              }
+            }
+          },
+          {
+            "id": "f648de644a9f038a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -156,34 +166,35 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "programming/Web_software_development/Git's Basic and Usage.md",
+    "blogPost/The4-HourWorkweek.md",
+    "blogPost/E-Myth Revisited.md",
+    "blogPost/Learn React Server Components in fun way..md",
+    "interview/Interview Questions on React Concepts.md",
     "programming/Data_Structure/ADT Dictionary.md",
-    "programming/Data_Structure/Tree and Binary Tree.md",
-    "programming/Data_Structure/Questions on ADT Tree.md",
+    "programming/Data_Structure/overview.md",
+    "blogPost/Why Productivity matters in this day and age b0b455cb301147b08ffa045b1189f828.md",
+    "programming/Statistics/The t-distribution.md",
     "programming/Data_Structure/questionsOnList.md",
     "blogPost/How to use Static Files in Django?.md",
-    "blogPost/Let's Find Out A Taco Stand.md",
-    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/How to Use Templates in Django Project.md",
+    "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
+    "blogPost/Let's Find Out A Taco Stand.md",
+    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
+    "blogPost/Steal Like an Artist.md",
+    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
+    "blogPost/Setting up the Django Admin Interface for Beginners.md",
+    "blogPost/Linear Combination of Random Variables.md",
     "blogPost/What does it mean to have an understanding of the data structure?.md",
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
-    "blogPost/Setting up the Django Admin Interface for Beginners.md",
-    "blogPost/Learn React Server Components in fun way..md",
-    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
-    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
-    "blogPost/Linear Combination of Random Variables.md",
     "blogPost/Why your friends aren't supporting you?.md",
+    "programming/Web_software_development/Git's Basic and Usage.md",
+    "programming/Data_Structure/Tree and Binary Tree.md",
+    "programming/Data_Structure/Questions on ADT Tree.md",
     "blogPost/How to get rid of your friends?.md",
-    "blogPost/E-Myth Revisited.md",
     "programming/Web_software_development/HTML Basics and Usage.md",
-    "programming/Web_software_development/Linux.md",
-    "programming/Web_software_development/Linux Commands.md",
-    "programming/Statistics/The t-distribution.md",
-    "programming/Web_software_development/Overview.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
-    "blogPost/Steal Like an.md",
     "blogPost/Images/rmsmain.png",
     "blogPost/Images/rmsallproduct.png",
     "blogPost/Images",
@@ -191,7 +202,6 @@
     "programming/Data_Structure/Images/ADTTree3.png",
     "programming/Data_Structure/Images/ADTtree3.png",
     "programming/Data_Structure/Images/ADTTreeImage.png",
-    "programming/Data_Structure/Images/ADTTreeImage2.png",
-    "programming/Data_Structure/overview.md"
+    "programming/Data_Structure/Images/ADTTreeImage2.png"
   ]
 }

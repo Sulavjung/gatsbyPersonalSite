@@ -3,7 +3,7 @@ Title: Linear Combination of Random Variables
 Date: 2023/04/13
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: 💻 Programming
+Type: Blog
 slug: linear_combination_of_random_variables
 Genera: Data Science 
 Status: Planning 🔗

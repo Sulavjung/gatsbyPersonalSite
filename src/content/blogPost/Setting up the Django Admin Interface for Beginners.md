@@ -2,19 +2,21 @@
 Title: Setting up the Django Admin Interface for Beginners
 Date: 2023/05/12
 Author: Sulav Jung Hamal
-Type: 🎒 Dev
+Type: Blog
 slug: django-admin-for-beginners
 Genera: Web Development
 Status: Draft
 Due_Date: 05/15/2023
 Cover_Image: https://source.unsplash.com/ieic5Tq8YMk/1320x400
 Description: The Django admin interface is a powerful tool for managing your application's data. In this article, we'll go through the steps to set up the Django admin interface for beginners, including creating a superuser, registering models, customizing the admin site, and more.
-Tag:
-- Django
-- Web Development
-- Admin Interface
-- Beginners
-- Article
+tags:
+  - Django
+  - Web
+  - Development
+  - Admin
+  - Interface
+  - Beginners
+  - Article
 ---
 
 Django is a powerful web framework that makes building web applications a breeze. One of its most useful features is the built-in admin interface, which provides an easy-to-use interface for managing the content of a web application. In this article, we'll walk through how to set up the Django admin interface for a beginner-friendly experience.

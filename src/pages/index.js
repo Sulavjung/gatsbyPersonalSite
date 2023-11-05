@@ -19,7 +19,7 @@ const IndexPage = () => {
   var data = useStaticQuery(graphql`query MyQuery {
   fourArticles: allMarkdownRemark(
     sort: {frontmatter: {Date: DESC}}
-    filter: {frontmatter: {slug: {ne: ""}}}
+    filter: {frontmatter: {Type: {eq: "Blog"}}}
     limit: 4
   ) {
     edges {
