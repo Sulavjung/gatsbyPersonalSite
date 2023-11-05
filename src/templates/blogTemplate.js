@@ -10,10 +10,7 @@ import "./prism.css"
 import { BsPlayCircle, BsStopwatch } from "react-icons/bs"
 require(`katex/dist/katex.min.css`)
 
-
 const BlogTemplate = ({ data }) => {
-
-
   const { html, tableOfContents, timeToRead, wordCount } = data.markdownRemark
   const { Author, Date, Title, Type, Cover_Image, Description, slug, tags } =
     data.markdownRemark.frontmatter
@@ -22,35 +19,40 @@ const BlogTemplate = ({ data }) => {
     Prism.highlightAll()
   }, [])
 
-  let tagsString = "";
+  let tagsString = ""
 
-  if(tags && tags.length > 0){
-     tagsString = tags.join(", ");
+  if (tags && tags.length > 0) {
+    tagsString = tags.join(", ")
   } else {
-    tagsString = "web technologies, react, web development, tech, news, update, ios, apple, macbook"
+    tagsString =
+      "web technologies, react, web development, tech, news, update, ios, apple, macbook"
   }
 
   const TitleBox = props => {
     return (
       <>
         <div className="d-flex flex-sm-column flex-row curvy-line pb-4">
-        <>
+          <>
             <div>
               <div className="text-center py-4  pb-0 fw-bold text-sm-start">
-                <h1 className="fs-sm-1 fw-bold pb-0 blogTitle">{props.titlename}</h1>
+                <h1 className="fs-sm-1 fw-bold pb-0 blogTitle">
+                  {props.titlename}
+                </h1>
               </div>
 
               <div className="text-center fw-regular fs-10 text-sm-start pt-0">
-                <p className="p-0 m-0 pb-4"><small>{props.authorName} - {props.type} - {props.dateCreated}</small></p>
+                <p className="p-0 m-0 pb-4">
+                  <small>
+                    {props.authorName} - {props.type} - {props.dateCreated}
+                  </small>
+                </p>
               </div>
             </div>
           </>
           <div className="sulav ">
             <img src={props.cover} alt="Cover" />
           </div>
-
         </div>
-
       </>
     )
   }
@@ -60,71 +62,81 @@ const BlogTemplate = ({ data }) => {
         <title>{Title}</title>
 
         <meta name="title" property="og:title" content={Title} />
-        <meta  property="og:url" content={`https://sulavhamal.com/blogs/${slug}/`} />
-        
-        <meta name="description" property="og:description" content={Description} />
+        <meta
+          property="og:url"
+          content={`https://sulavhamal.com/blogs/${slug}/`}
+        />
+
+        <meta
+          name="description"
+          property="og:description"
+          content={Description}
+        />
         <meta name="image" property="og:image" content={Cover_Image} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="author" content={Author} />
 
-        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={Title} />
         <meta name="twitter:description" content={Description} />
-        <meta name="twitter:image" content={Cover_Image}/>
+        <meta name="twitter:image" content={Cover_Image} />
         <meta name="twitter:site" content="@sulav_J_hamal" />
         <meta name="twitter:creator" content="@sulav_J_hamal" />
 
-        
+        <meta name="robots" content="nofollow" />
 
-        <meta name="robots" content="nofollow"/>
-
-
-        <meta name="keywords" content={tagsString}/>
-                        
+        <meta name="keywords" content={tagsString} />
       </Helmet>
       <Navbar />
       <div className="container-xxl pb-2 blogCont">
         <div>
-        <TitleBox
-          titlename={Title}
-          authorName={Author}
-          dateCreated={Date}
-          type={Type}
-          cover={Cover_Image}
-        />
+          <TitleBox
+            titlename={Title}
+            authorName={Author}
+            dateCreated={Date}
+            type={Type}
+            cover={Cover_Image}
+          />
 
-        <div
-          className="blogPost pb-0"
-          dangerouslySetInnerHTML={{ __html: html }}
-        />
+          <div
+            className="blogPost pb-0"
+            dangerouslySetInnerHTML={{ __html: html }}
+          />
         </div>
         <div className="tocMainContainer">
-              
-              {/* Table of Contents */}
-              <div className="tocContainerBlogs">
-                <div className="">
-                  <h2 className="p-2">Table of contents</h2>
-                  <div className="tocContentsContainer"
-                    dangerouslySetInnerHTML={{ __html: tableOfContents }}
-                  ></div>
-                </div>
-              </div>
-              <div className="toolsForReading">
-                <div>
-                <BsStopwatch className="stopwatch" />
-                <p><span className="actualtimetofinishthisblog">{timeToRead} mins</span> to finish this <span className="blogWord">blog.</span></p>
-                </div>
-                <div>
-                  <BsPlayCircle className="playcircle text-primary"/>
-                  <p><span className="text-primary fw-bold">{wordCount.words}</span> words read. <span className="text-primary">Hooray!</span> </p>
-                </div>
-              </div>
+          {/* Table of Contents */}
+          <div className="tocContainerBlogs">
+            <div className="">
+              <h2 className="p-2">Table of contents</h2>
+              <div
+                className="tocContentsContainer"
+                dangerouslySetInnerHTML={{ __html: tableOfContents }}
+              ></div>
             </div>
-        
+          </div>
+          <div className="toolsForReading">
+            <div>
+              <BsStopwatch className="stopwatch" />
+              <p>
+                <span className="actualtimetofinishthisblog">
+                  {timeToRead} mins
+                </span>{" "}
+                to finish this <span className="blogWord">blog.</span>
+              </p>
+            </div>
+            <div>
+              <BsPlayCircle className="playcircle text-primary" />
+              <p>
+                <span className="text-primary fw-bold">{wordCount.words}</span>{" "}
+                words read. <span className="text-primary">Hooray!</span>{" "}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <ExploreAndBlog currentSlug={slug} fourArticles = {data.fourArticles}/>
+      <ExploreAndBlog currentSlug={slug} fourArticles={data.fourArticles} />
       <Footer />
     </>
   )
@@ -133,49 +145,53 @@ const BlogTemplate = ({ data }) => {
 export default BlogTemplate
 
 export const singleBlog = graphql`
-query MyBlogQuery($slug: String) {
-  markdownRemark(frontmatter: { slug: { eq: $slug } }) {
-    html
-    frontmatter {
-      Author
-      Date
-      Fun_Meter
-      Genera
-      Status
-      tags
-      slug
-      Title
-      Type
-      Cover_Image
-      Description
+  query MyBlogQuery($slug: String) {
+    markdownRemark(frontmatter: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        Author
+        Date
+        Fun_Meter
+        Genera
+        Status
+        tags
+        slug
+        Title
+        Type
+        Cover_Image
+        Description
+      }
+      timeToRead
+      tableOfContents(maxDepth: 3)
+      wordCount {
+        words
+      }
     }
-    timeToRead
-    tableOfContents(maxDepth: 3)
-    wordCount{words}
-  }
 
-  # Query for the four articles using a fragment
-  fourArticles: allMarkdownRemark(
-     sort: { frontmatter: { Date: DESC } }
-     filter: {frontmatter: {Type: {eq: "Blog"}}}
-    limit: 5
-  ) {
-    edges {
-      node {
-        frontmatter {
-          Author
-          Date
-          Fun_Meter
-          Genera
-          Status
-          Tag
-          slug
-          Title
-          Type
+    # Query for the four articles using a fragment
+    fourArticles: allMarkdownRemark(
+      sort: { frontmatter: { Date: DESC } }
+      filter: {
+        frontmatter: { Type: { eq: "Blog" }, slug: { ne: $slug } } # Exclude the current slug
+      }
+      limit: 5
+    ) {
+      edges {
+        node {
+          frontmatter {
+            Author
+            Date
+            Fun_Meter
+            Genera
+            Status
+            Tag
+            slug
+            Title
+            Type
+          }
+          id
         }
-        id
       }
     }
   }
-}
 `
