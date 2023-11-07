@@ -62,7 +62,7 @@
 
   .additional-content {
 	background-color: #fff; /* Background color of the modal content */
-	padding: 20px;
+	padding: 20px !important;
 	border: 1px solid #333;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -112,7 +112,7 @@
 	}
 
 	.additional-content p{
-		font-size: larger;
+		font-size: larger !important;
 	}
   }
   
