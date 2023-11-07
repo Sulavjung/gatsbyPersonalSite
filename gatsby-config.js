@@ -59,9 +59,9 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Sulav`,
-        short_name: `starter`,
+        short_name: `Sulav`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#f0f9ff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
