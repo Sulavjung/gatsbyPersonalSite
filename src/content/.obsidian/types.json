@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Genera": "text"
+    "Genera": "text",
+    "Date": "text"
   }
 }
