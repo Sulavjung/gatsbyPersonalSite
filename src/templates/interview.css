@@ -27,6 +27,8 @@
 
 
 
+
+
 #interview li {
 	display: flex;
 	border: 1px solid black;
@@ -60,7 +62,7 @@
 
   .additional-content {
 	background-color: #fff; /* Background color of the modal content */
-	padding: 10px;
+	padding: 20px;
 	border: 1px solid #333;
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -107,6 +109,10 @@
 	
 	#interview h3{
 		font-size: 20px;
+	}
+
+	.additional-content p{
+		font-size: larger;
 	}
   }
   
