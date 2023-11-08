@@ -47,6 +47,10 @@ h3,
   margin-bottom: 4px;
 }
 
+.blogPost h2:first-child{
+  margin-top: 12px;
+}
+
 
 
 .blogPost h1 {

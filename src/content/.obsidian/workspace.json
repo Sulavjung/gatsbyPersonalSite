@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/What is an API?.md",
+                "file": "blogPost/What are Progressive Web Apps?.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/What is an API?.md",
+                "file": "blogPost/What are Progressive Web Apps?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/What is an API?.md",
+                "file": "blogPost/What are Progressive Web Apps?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/What is an API?.md"
+                "file": "blogPost/What are Progressive Web Apps?.md"
               }
             }
           },
@@ -167,8 +167,10 @@
   },
   "active": "569696ea4577e1ee",
   "lastOpenFiles": [
-    "blogPost/Learn React Server Components in fun way..md",
+    "blogPost/What are Progressive Web Apps?.md",
+    "blogPost/What are Progressive Web Apps?.md",
     "blogPost/What is an API?.md",
+    "blogPost/Learn React Server Components in fun way..md",
     "blogPost/E-Myth Revisited.md",
     "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/How to use Static Files in Django?.md",
@@ -191,8 +193,6 @@
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "programming/Web_software_development/Git's Basic and Usage.md",
     "programming/Data_Structure/Tree and Binary Tree.md",
-    "programming/Data_Structure/Questions on ADT Tree.md",
-    "blogPost/How to get rid of your friends?.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
