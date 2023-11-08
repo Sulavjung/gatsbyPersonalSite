@@ -15,12 +15,12 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	filter: blur(1px);
+	filter: brightness(0.3) blur(1px);
   }
   
   .textContainerStyle {
 	color: white;
-	font-size: 12px;
+	font-size: 8px;
 	padding-inline-start: 6%;
 	padding-bottom: 10%;
 	position: absolute;
@@ -30,7 +30,7 @@
   
   .textContainerStyle1 {
 	color: white;
-	font-size: 8px;
+	font-size: 6px;
 	padding-inline-start: 6%;
 	padding-bottom: 5%;
 	position: absolute;
