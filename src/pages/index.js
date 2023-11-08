@@ -14,6 +14,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 
 
+
 const IndexPage = () => {
 
   var data = useStaticQuery(graphql`query MyQuery {
@@ -64,7 +65,6 @@ const IndexPage = () => {
       <Project />
       <ExploreAndBlog fourArticles={data.fourArticles} />
       <Footer />
-
     </>
   )
 }
