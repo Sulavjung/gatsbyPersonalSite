@@ -1,12 +1,12 @@
 import React from "react";
-import { toPng } from "html-to-image";
+import { toJpeg } from "html-to-image";
 import "./DownloadBlogToShare.css"; // Import the CSS file
 
 const DownloadBlogToShare = ({ coverImage, Title, author, Description, setShowDownloadPopup }) => {
   const downloadAsPNG = (divId, fileName) => {
     const divToCapture = document.getElementById(divId);
 
-    toPng(divToCapture)
+    toJpeg(divToCapture)
       .then((dataUrl) => {
         const link = document.createElement("a");
         link.href = dataUrl;
