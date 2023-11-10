@@ -125,7 +125,7 @@ const ClassTemplate = ({ data }) => {
         <meta name="twitter:creator" content="@sulav_J_hamal" />
       </Helmet>
       <Navbar />
-      <div className="px-2">
+      <div className="px-2 interviewPage">
         <div className="container-xxl p-0" id="interview">
           <div className="row">
             <div>
