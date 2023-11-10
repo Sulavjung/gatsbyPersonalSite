@@ -44,3 +44,7 @@
 .projectSubText {
   color: #5e5e63 !important;
 }
+
+.projectCont .bg-reactjs{
+	background-color: #FF2D46;
+}

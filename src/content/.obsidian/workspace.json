@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "58097d75054a7abb",
+        "id": "2f51d36ae3f69526",
         "type": "tabs",
         "children": [
           {
-            "id": "569696ea4577e1ee",
+            "id": "eb0d7557c33bac20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/What are Progressive Web Apps?.md",
+                "file": "interview/Interview Questions on React Concepts.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "565c669979a0e610",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/What are Progressive Web Apps?.md",
+                "file": "interview/Interview Questions on React Concepts.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/What are Progressive Web Apps?.md",
+                "file": "interview/Interview Questions on React Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/What are Progressive Web Apps?.md"
+                "file": "interview/Interview Questions on React Concepts.md"
               }
             }
           },
@@ -165,7 +164,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "569696ea4577e1ee",
+  "active": "eb0d7557c33bac20",
   "lastOpenFiles": [
     "blogPost/What are Progressive Web Apps?.md",
     "blogPost/What are Progressive Web Apps?.md",

@@ -7,7 +7,7 @@ export default function BlogCards(props) {
       <img
         src={props.img}
         className="cardssImage"
-        alt="Maya"
+        alt={props.title}
         height="400px"
         width="400px"
       />

@@ -47,6 +47,7 @@ import img3 from "./AssetsProgramming/websoftwaredevelopment.png"
 import profile from "../../images/blogSideProfileImage.jpeg"
 import "./style.css"
 import { Helmet } from "react-helmet"
+import InterviewCards from "../../components/programmingComponents/interviewCard.js"
 
 export default function programming() {
   const link = "/programming/dataStructure/overview"
@@ -61,7 +62,7 @@ export default function programming() {
       </Helmet>
       <Navbar />
       {/* Here goes the Image and the Programming Title */}
-      <div className="container py-4 d-flex justify-content-between">
+      <div className="container-xxl py-4 d-flex justify-content-between p-xxl-0">
         <h1 className="fw-bold mt-2">Programming</h1>
         <img
           className="rounded-circle my-2"
@@ -73,7 +74,7 @@ export default function programming() {
       </div>
 
       {/* Short Description of the Blog. */}
-      <div className="container mb-5">
+      <div className="container-xxl mb-5 p-xxl-0">
         <p className="fs-5 py-1 mb-1">
           Discover the power of learning, creation and inspiration with topics
           related to programming.
@@ -102,11 +103,11 @@ export default function programming() {
       </div>
 
       {/* Here goes the Class Title */}
-      <div className="container d-flex justify-content-between">
+      <div className="container-xxl d-flex justify-content-between p-xxl-0">
         <h2 className="fw-bold mt-2 pb-2 px-2">Classes</h2>
       </div>
 
-      <div className="container">
+      <div className="container-xxl p-xxl-0">
         <Link
           to={`/programming/dataStructure`}
           className="text-decoration-none"
@@ -122,7 +123,7 @@ export default function programming() {
 
       </div>
       <br />
-      <div className="container mb-4">
+      <div className="container-xxl mb-4 p-xxl-0">
         <Link
           to={`/programming/Probability_and_Statistics_with_Computing`}
           className="text-decoration-none"
@@ -137,7 +138,7 @@ export default function programming() {
         {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
 
       </div>
-      <div className="container mb-5">
+      <div className="container-xxl mb-5 p-xxl-0">
         <Link
           to={`/programming/websoftwaredevelopment`}
           className="text-decoration-none"
@@ -152,6 +153,29 @@ export default function programming() {
         {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
      
       </div>
+
+      <div className="container-xxl d-flex justify-content-between p-xxl-0">
+        <h2 className="fw-bold mt-2 pb-2 px-2">Interview</h2>
+      </div>
+
+      {/* The Interview Component */}
+      <InterviewCards />
+
+{/*       <div className="container-xxl mb-5 p-md-0">
+        <Link
+          to={`/programming/Interview/reactjs`}
+          className="text-decoration-none"
+        >
+          <img
+            className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce "
+            src={img3}
+            id="classes"
+            alt="Hello"
+          />
+        </Link>
+      
+     
+      </div> */}
       <Footer />
     </>
   )

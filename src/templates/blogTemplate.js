@@ -55,7 +55,7 @@ const BlogTemplate = ({ data }) => {
             </div>
           </>
           <div className="sulav ">
-            <img src={props.cover} alt="Cover" />
+            <img src={props.cover} alt={props.titlename} />
           </div>
         </div>
       </>
