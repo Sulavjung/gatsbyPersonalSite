@@ -46,15 +46,17 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: radial-gradient(#444cf7 0.9px, transparent 0.5px),
-    radial-gradient(#444cf7 0.9px, transparent 0.5px);
+  background-image: radial-gradient(#000000 0.9px, transparent 0.5px),
+    radial-gradient(#000000 0.9px, transparent 0.5px);
   background-size: 20px 20px;
   background-position: 0 0, 10px 10px;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   z-index: 10000; /* Ensure it's on top of everything */
-  animation: moveBackground 5s linear infinite;
+  animation: moveBackground 10s cubic-bezier(0.4, 0.2, 0.2, 1) infinite;
 }
+
+
 
 @keyframes moveBackground {
 	0% {
