@@ -46,5 +46,9 @@
 }
 
 .projectCont .bg-reactjs{
-	background-color: #FF2D46;
+	background-color: #00D8FF;
+}
+
+.projectCont .bg-javaScript{
+	background-color: #decd2e;
 }

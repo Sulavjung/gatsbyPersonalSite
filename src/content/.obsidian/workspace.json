@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interview/Interview Questions on React Concepts.md",
+                "file": "interview/Interview Questions on JavaScript.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "565c669979a0e610",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "interview/Interview Questions on React Concepts.md",
+                "file": "interview/Interview Questions on JavaScript.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "interview/Interview Questions on React Concepts.md",
+                "file": "interview/Interview Questions on JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "interview/Interview Questions on React Concepts.md"
+                "file": "interview/Interview Questions on JavaScript.md"
               }
             }
           },
@@ -166,6 +167,8 @@
   },
   "active": "eb0d7557c33bac20",
   "lastOpenFiles": [
+    "interview/Interview Questions on React Concepts.md",
+    "interview/Interview Questions on JavaScript.md",
     "blogPost/What are Progressive Web Apps?.md",
     "blogPost/What are Progressive Web Apps?.md",
     "blogPost/What is an API?.md",
@@ -173,7 +176,6 @@
     "blogPost/E-Myth Revisited.md",
     "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/How to use Static Files in Django?.md",
-    "interview/Interview Questions on React Concepts.md",
     "blogPost/Steal Like an Artist.md",
     "blogPost/The4-HourWorkweek.md",
     "programming/Data_Structure/ADT Dictionary.md",
@@ -191,7 +193,6 @@
     "blogPost/What does it mean to have an understanding of the data structure?.md",
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "programming/Web_software_development/Git's Basic and Usage.md",
-    "programming/Data_Structure/Tree and Binary Tree.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
