@@ -40,7 +40,7 @@ const InterviewCards = () => {
               <div className="labelcheat text-start p-3 p-sm-4">
                 <div className="registerLogo">
                   <StaticImage
-                    className="javacheat img-fluid"
+                    className="javacheat img-fluid rouded"
                     src={logo}
                     alt="Register Management System"
                   />
@@ -74,7 +74,7 @@ const InterviewCards = () => {
 {/* This is the part where I show JavaScript Interview Card */}
       <div className="container-xxl py-2 px-xxl-0 p-4 mt-0 mb-5 ">
         <div className="row projectCont">
-          <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage">
+          <div className="col-lg-6 order-lg-1 order-2 pt-lg-5 mt-lg-5 projectImage">
             <StaticImage
               className="javacheat img-fluid"
               src={mainImage1}

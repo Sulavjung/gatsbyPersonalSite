@@ -52,3 +52,7 @@
 .projectCont .bg-javaScript{
 	background-color: #decd2e;
 }
+
+.projectImage img{
+	border-radius: 20px;
+}
