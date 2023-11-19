@@ -95,7 +95,7 @@
   padding: 20px !important;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  max-width: 80%;
+  max-width: 85%;
   max-height: 90%;
   overflow: auto; /* Enable scrolling for long content */
   transition: box-shadow 0.8s, cursor 0.4s, opacity 0.5s; /* Add opacity transition */
