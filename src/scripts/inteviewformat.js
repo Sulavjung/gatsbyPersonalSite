@@ -140,8 +140,9 @@ function onClickOFTheEachQuestion(content) {
         }
 
         const closeButtonElement = document.getElementById("close-button")
-
         const modalOverlayExist = document.getElementById("modal-overlay")
+        const additionalContentElement = document.querySelector(".additional-content");
+
 
         if (closeButtonElement) {
           closeButtonElement.addEventListener("click", function (event) {
@@ -155,13 +156,23 @@ function onClickOFTheEachQuestion(content) {
 
         if (modalOverlayExist) {
           modalOverlayExist.addEventListener("click", function (event) {
-            console.log(event)
-            const modalOverlay = document.getElementById("modal-overlay")
-            if (modalOverlay) {
-              modalOverlay.remove() // Remove the modal overlay
+            console.log(event);
+        
+            const modalOverlay = document.getElementById("modal-overlay");
+        
+            // Check if the click occurred on the element with the classname 'additional-content'
+            if (additionalContentElement.contains(event.target)) {
+              // Do nothing if the click occurred inside the element with the classname 'additional-content'
+              return;
             }
-          })
+        
+            // If the click occurred outside modalOverlayExist and outside 'additional-content', remove the modal overlay
+            if (modalOverlay) {
+              modalOverlay.remove();
+            }
+          });
         }
+        
       }
     })
   })

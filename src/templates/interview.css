@@ -52,12 +52,12 @@
   background-position: 0 0, 10px 10px;
 
   z-index: 10000; /* Ensure it's on top of everything */
-  animation: moveBackground 30s cubic-bezier(0.4, 0.2, 0.2, 1) infinite;
+  animation: moveBackground 20s cubic-bezier(0.4, 0.2, 0.2, 1) infinite;
   height: 100vh;
 	--u: 10px;
-	--c1: #414141;
-	--c2: #38e702;
-	--c3: #00699b;
+  --c1: #fff;
+  --c2: #00fff3;
+  --c3: #f79700;
 	--gp: 50%/ calc(var(--u) * 16.9) calc(var(--u) * 12.8);
 	background: 
 		conic-gradient(from 122deg at 50% 85.15%, var(--c2) 0 58deg, var(--c3) 0 116deg, #fff0 0 100%) var(--gp),
@@ -80,13 +80,13 @@
 
 @keyframes moveBackground {
 	0% {
-	  background-position: 0 0, 10px 10px;
+	  background-position: 10px 10px, 10px 10px;
 	}
 	50% {
 	  background-position: 80px 80px, 80px 80px; /* Adjust the final position */
 	}
   100% {
-	  background-position: 0 0, 10px 10px;
+	  background-position: 10px 10px, 10px 10px;
 	}
   }
 
@@ -95,7 +95,7 @@
   padding: 20px !important;
   border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  max-width: 95%;
+  max-width: 80%;
   max-height: 90%;
   overflow: auto; /* Enable scrolling for long content */
   transition: box-shadow 0.8s, cursor 0.4s, opacity 0.5s; /* Add opacity transition */
@@ -118,6 +118,17 @@
 }
 
 
+.additional-content button{
+  color: black;
+  background-color: #ffffff;
+}
+
+
+.additional-content button:hover{
+  color: purple !important;
+}
+
+
 /* Styles for screens up to 800px */
 @media screen and (min-width: 500px) {
   /* Your styles for screens between 450px and 800px go here */
@@ -137,6 +148,7 @@
     font-size: 20px !important;
   }
 }
+
 
 /* Styles for screens greater than 800px */
 @media screen and (min-width: 1001px) {
