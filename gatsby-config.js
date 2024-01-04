@@ -13,6 +13,7 @@ module.exports = {
     siteUrl: 'https://www.sulavhamal.com',
   },
   plugins: [
+    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-google-gtag`,

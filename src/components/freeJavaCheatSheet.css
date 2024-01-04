@@ -11,13 +11,13 @@
 	right: 60%;
 	transform: translate(-10%, -50%);
 	text-align: start;
-	color: black;
-
+	color: var(--bg)
   }
 
   .labelText p{
 	margin-top: 0;
 	margin-bottom: 8px;
+	color: var(--textTitle);
   }
 
   .labelcheat button{
@@ -28,9 +28,13 @@
 	color: white;
   }
 
+  .labelcheat{
+	color: var(--textTitle);
+  }
+
   .labelcheat p{
 	font-size:large;
-
+	color: var(--textTitle);
   }
 
   @media (max-width: 767px) {
@@ -50,7 +54,6 @@
 	  transform: initial;
 	  text-align: center;
 	  width: initial;
-	  
 	}
 
 	.labelText h1{
@@ -71,6 +74,7 @@
 	font-size: x-large;
 	font-family: 'Basier Circle';
 	font-weight: bold;
+	color: var(--bg);
 }
 
   .popup {

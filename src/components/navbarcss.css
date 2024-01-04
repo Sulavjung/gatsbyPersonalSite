@@ -44,20 +44,27 @@ nav {
 .navButton {
   text-decoration: none;
   font-weight: bold;
-  color: rgb(109, 109, 109);
+  color: var(--textTitle);
   padding: 10px;
   padding-inline: 30px;
   border-radius: 100px;
 }
 
 .navButton:hover {
-  background: rgba(0, 0, 0, 0.793);
+  background: var(--textTitle);
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: var(--bg);
 }
 
 .active {
   background: rgba(0, 0, 0, 0.793);
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+body.dark {
+  .logo-image{
+    filter: invert();
+  }
+
 }

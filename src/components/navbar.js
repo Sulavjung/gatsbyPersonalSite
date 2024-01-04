@@ -3,6 +3,7 @@ import "./navbarcss.css"
 import { Link } from "gatsby-link"
 import "./index.css"
 import logo from "../assets/LogoInPng.svg"
+import ThemeButton from "./ThemeButton"
 
 export default class Navbar extends Component {
   render() {
@@ -43,6 +44,7 @@ export default class Navbar extends Component {
                     >
                       Blogs
                     </Link>
+                    <ThemeButton/>
                   </li>
                   {/* <li class="nav-item mx-2">
 								<Link className="nav-link" to="/bucketlist">Bucketlist</Link>

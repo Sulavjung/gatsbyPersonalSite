@@ -9,11 +9,13 @@
 #Languages {
   text-align: center;
   background: #eff9ff;
-  box-shadow: 10px 10px 20px rgba(111, 182, 225, 0.57), -10px -10px 20px #ffffff;
+  background: var(--cardBackground);
+
+ /*box-shadow: 10px 10px 20px rgba(111, 182, 225, 0.57), -10px -10px 20px #ffffff;*/
+  border: var(--textTitle) 2px solid;
   border-radius: 20px;
-  border: none;
   text-decoration: none !important;
-  color: inherit;
+  color: var(--textTitle);
 }
 
 #Books {

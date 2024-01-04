@@ -1,5 +1,6 @@
 import React from 'react';
 import './latestArticles.css'
+import "./index.css"
 
 
 const LatestArticles = (props) => {

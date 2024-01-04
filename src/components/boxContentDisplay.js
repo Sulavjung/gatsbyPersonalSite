@@ -25,7 +25,6 @@ export default class BoxContentDisplay extends Component {
 
   render() {
     return (
-
       <button className="boxes column pt-4" id={this.state.title} key={this.state.title} onClick={this.handleButtonClick}>
         <div id="links">
           <h2 className="mt-3 pt-2 pb-2 text-xxl" id="h2Icon">
@@ -39,7 +38,6 @@ export default class BoxContentDisplay extends Component {
           </p>
         </div>
       </button>
-
     )
   }
 }

@@ -1,5 +1,5 @@
 .link h3 {
-  color: #2a646f;
+  color: var(--textLink);
 }
 
 .genera {
@@ -13,6 +13,10 @@
   font-weight: bold;
 }
 
+.latestPostMainHeading {
+  color: var(--textTitle);
+}
+
 .type {
   opacity: 75%;
   display: inline;
@@ -20,12 +24,23 @@
   border-radius: 4px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  background-color: black;
-  color: linear-gradient(to right, darkblue, darkorchid);
+  background-color: white;
+  color: black;
   font-weight: 600;
-  background: radial-gradient(circle, rgba(145,43,213,1) 22%, rgba(255,0,0,1) 45%, rgba(255,149,0,1) 83%, rgba(144,251,0,1) 100%);
-  background-clip: text;
-  color: transparent;
+  /* background: radial-gradient(circle, rgba(145,43,213,1) 22%, rgba(255,0,0,1) 45%, rgba(255,149,0,1) 83%, rgba(144,251,0,1) 100%);
+  background-clip: text; 
+  color: transparent;*/
 }
 
+.postsOfLatestPost {
+  color: var(--textTitle);
+}
+
+
+body.dark {
+  .type {
+    background-color: black;
+    color: white;
+  }
+}
 

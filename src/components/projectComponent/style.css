@@ -1,11 +1,13 @@
 .projectCont {
 	border-radius: 25px;
-	background: #ffffff;
+	background: var(--cardBackground);
   }
 
 .height450{
 	max-height: 450px;
 }
+
+
 
 @media (max-width: 520px){
 	.height450 {
@@ -26,6 +28,12 @@
 	  transform: scale(1.01);
 	  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 	  background: #fcfdff;
+	}
+
+	body.dark{
+		.projectCont:hover {
+			background: var(--bg);
+		}
 	}
   }
 
@@ -55,4 +63,10 @@
 
 .projectImage img{
 	border-radius: 20px;
+}
+
+body.dark{
+	.projectImage img{
+		filter: invert();
+	}
 }

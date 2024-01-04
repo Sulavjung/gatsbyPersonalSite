@@ -1,5 +1,6 @@
-import { StaticImage } from "gatsby-plugin-image"
 import "./freeJavaCheatSheet.css"
+import "./index.css"
+import { StaticImage } from "gatsby-plugin-image"
 import React, { useState } from "react"
 
 
@@ -58,7 +59,7 @@ export default function FreeJavaCheatSheet() {
     <div className="container-xxl py-2 px-xxl-0">
       <div className="mt-5 mb-0 row">
         <div className="col-lg-6 order-lg-2">{Img()}</div>
-        <div className="col-lg-6 order-lg-1 d-flex align-items-center">
+        <div className="col-lg-6 order-lg-1 d-flex align-items-center justify-content-center">
           <div className="freeJavaContent p-1 p-sm-0">
             <div className="labelcheat text-start">
               <h2>
