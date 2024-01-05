@@ -3,6 +3,7 @@ import "./navbarcss.css"
 import { Link } from "gatsby-link"
 import "./index.css"
 import logo from "../assets/LogoInPng.svg"
+import {} from "react-icons/bi"
 import ThemeButton from "./ThemeButton"
 
 export default class Navbar extends Component {
@@ -10,7 +11,10 @@ export default class Navbar extends Component {
     return (
       <>
         <div id="navbar">
-          <nav className="container-sm p-0 m-0 mx-2 mt-2 rounded-pill flex align-center" draggable="true">
+          <nav
+            className="container-sm p-0 m-0 mx-2 mt-2 rounded-pill flex align-center"
+            draggable="true"
+          >
             <div className="container-xxl navCont ">
               <Link
                 to="/"
@@ -25,9 +29,9 @@ export default class Navbar extends Component {
                 />
               </Link>
 
-            
-              <div>
-                <ul className="navbar-nav" >
+              <div className="d-flex flex-row align-items-center">
+                <ThemeButton />
+                <ul className="navbar-nav">
                   {/* <li className="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"
@@ -37,15 +41,15 @@ export default class Navbar extends Component {
                     </Link>
                   </li> */}
                   <li className="nav-item" id="navbar-button">
-                    <Link 
+                    <Link
                       className="navButton"
                       to="/blogs"
                       activeClassName="active"
                     >
                       Blogs
                     </Link>
-                    <ThemeButton/>
                   </li>
+
                   {/* <li class="nav-item mx-2">
 								<Link className="nav-link" to="/bucketlist">Bucketlist</Link>
 							</li> */}

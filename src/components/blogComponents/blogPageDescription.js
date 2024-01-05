@@ -30,9 +30,9 @@ const BlogPageDescription = props => {
 
   const link = "/blogs/" + props.slug
   return (
-    <>
+    <div className="blogPage">
       {/* Here goes the Image and the Blogs Title */}
-      <div className="container-xxl py-0 py-md-4 d-flex justify-content-between">
+      <div className="container-xxl py-0 py-md-4 d-flex justify-content-between ">
         <h1 className="fw-bold mt-2">Blogs</h1>
         <img
           className="rounded-circle my-2"
@@ -68,9 +68,9 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Books */}
-      <div className="container-xxl">
+      <div className="container-xxl pb-0">
         <h2 className="fw-bold pb-2">Book Suggestions</h2>
-        <p className="fs-5">
+        <p className="fs-5 mb-0">
           Dive into the world of literature, learn essential skills, and
           experiment with different genres with my book suggestions.
         </p>
@@ -78,7 +78,7 @@ const BlogPageDescription = props => {
 
       {/* Here are the cards feature. */}
       <div
-        className=" container-xxl caraso d-flex pt-2 px-2 pb-4 mb-4"
+        className=" container-xxl caraso d-flex pt-4 px-2 pb-4 mb-4"
         id="caraso"
       >
         {data.allMarkdownRemark.edges.map(post => {
@@ -101,7 +101,7 @@ const BlogPageDescription = props => {
       {/* Articles */}
       <div className="container-xxl">
         <h2 className="fw-bold pb-2">Articles</h2>
-        <p className="fs-5">
+        <p className="fs-5 mb-0">
           Unlock the power of clear and compelling articles on topics such as
           technology, science, personal growth, and more.
         </p>
@@ -109,7 +109,7 @@ const BlogPageDescription = props => {
 
       {/* Here are the cards feature. */}
       <div
-        className=" container-xxl caraso d-flex pt-2 px-2 pb-4 mb-4"
+        className=" container-xxl caraso d-flex pt-4 px-2 pb-4 mb-4"
         id="caraso"
       >
         {data.allMarkdownRemark.edges.map(post => {
@@ -128,7 +128,7 @@ const BlogPageDescription = props => {
           }
         })}
       </div>
-    </>
+    </div>
   )
 }
 

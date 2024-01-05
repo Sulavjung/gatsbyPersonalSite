@@ -22,7 +22,7 @@ export default function ClassOverviewTemplate({ data }) {
 
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <div className="container-xxl mt-4 p-0 pb-3">
-          <h1 className="text-dark">Related Topics</h1>
+          <h1>Related Topics</h1>
           <hr className="mt-0" />
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
             {allMarkdownRemark.nodes.map(node => (

@@ -27,12 +27,12 @@
 	.projectCont:hover {
 	  transform: scale(1.01);
 	  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
-	  background: #fcfdff;
 	}
 
 	body.dark{
 		.projectCont:hover {
-			background: var(--bg);
+			box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 10px, rgba(157, 0, 255, 0.15) 0px 28px 20px 0px, rgba(242, 0, 255, 0.334) 0px 28px 20px 0px, rgba(0, 238, 255, 0.666) 0px 28px 20px 0px;
+
 		}
 	}
   }
@@ -66,7 +66,7 @@
 }
 
 body.dark{
-	.projectImage img{
+	.imageInvert img{
 		filter: invert();
 	}
 }

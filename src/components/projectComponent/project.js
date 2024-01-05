@@ -44,7 +44,7 @@ const Project = () => {
 	<>
     <div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
       <div className="row projectCont">
-        <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage">
+        <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage imageInvert">
           <StaticImage
             className="javacheat img-fluid"
             src={mainImage}
@@ -95,7 +95,7 @@ const Project = () => {
     {/* Bob's Liquor Tools */}
 	<div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
 	<div className="row projectCont">
-	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage">
+	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage  imageInvert">
 		<StaticImage
 		  className="javacheat img-fluid"
 		  src={mainImage1}
@@ -146,7 +146,7 @@ const Project = () => {
   {/* Java Cheat */}
 	<div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
 	<div className="row projectCont">
-	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage">
+	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage  imageInvert">
 		<StaticImage
 		  className="javacheat img-fluid"
 		  src={mainImage2}

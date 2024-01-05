@@ -191,9 +191,11 @@
 }
 
 .pattern {
-	background-color: #EFF9FF;
+	background-color: var(--bg);
 opacity: 0.8;
-background-image:  radial-gradient(#000 0.4px, transparent 0.4px), radial-gradient(#000 0.4px, #EFF9FF 0.4px);
+background-image:  radial-gradient(#000 0.4px, transparent 0.4px), radial-gradient(#000 0.4px, var(--bg) 0.4px);
 background-size: 16px 16px;
 background-position: 0 0,8px 8px;
 }
+
+

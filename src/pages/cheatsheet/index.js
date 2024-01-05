@@ -24,7 +24,7 @@ const Cheatsheet = () => {
   }, [])
 
   return (
-	<>
+	<div className="cheatsheetPage">
 	<Navbar/>
     <div className="container-fluid pattern">
       <div className="cols-12">
@@ -74,7 +74,7 @@ const Cheatsheet = () => {
       <script src="../../templates/prism.js"></script>
     </div>
 	<Footer />
-	</>
+	</div>
   )
 }
 

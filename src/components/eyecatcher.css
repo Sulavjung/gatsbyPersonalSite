@@ -19,3 +19,9 @@
   font-weight: 400;
   color: var(--textTitle)
 }
+
+body.dark{
+  .heroImageCont img{
+    filter: brightness(0.6);
+  }
+}

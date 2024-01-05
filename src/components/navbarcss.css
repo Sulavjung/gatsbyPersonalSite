@@ -57,9 +57,9 @@ nav {
 }
 
 .active {
-  background: rgba(0, 0, 0, 0.793);
+  background: var(--black);
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: var(--white);
 }
 
 body.dark {
@@ -68,3 +68,4 @@ body.dark {
   }
 
 }
+

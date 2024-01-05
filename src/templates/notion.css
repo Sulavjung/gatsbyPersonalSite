@@ -3,9 +3,13 @@
 } */
 
 .blogPost a {
-  color: #0869da !important;
+  color: var(--textLink) !important;
   line-height: 150%;
   padding: 3px;
+}
+
+.blogTitleBox {
+  color: var(--textTitle)!important;
 }
 
 .blogPost a:link {
@@ -27,6 +31,7 @@
   padding-bottom: 10px;
   border-bottom: 1px solid #37352f;
   margin-top: 50px;
+  color: var(--textTitle)!important;
 }
 
 .blogPost .subtitle {
@@ -60,7 +65,7 @@ h3,
 
 .blogPost h2 {
   font-size: 30px;
-  color: #000000;
+  color: var(--textTitle)!important;
   margin-top: 70px;
   
 }
@@ -91,6 +96,7 @@ h3,
   margin-top: 0;
   margin-bottom: 16px;
   line-height: 30px;
+  color: var(--textTitle)!important;
 }
 
 /* Lists */
@@ -100,6 +106,7 @@ ol {
   margin-bottom: 16px;
   padding-left: 24px;
   font-size: 18px;
+  color: var(--black);
 }
 .blogPost button {
   background-color: #f0f2f4;
@@ -246,6 +253,7 @@ div.sulav img {
   height: 450px;
   width: 100%;
   object-fit: cover;
+  border-radius: 20px;
 }
 
 .tocMainContainer {
@@ -284,7 +292,7 @@ div.sulav img {
     height: 100%;
     width: 100%;
     object-fit: cover !important;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 }
 
@@ -318,20 +326,21 @@ div.sulav img {
     display: block;
     position: sticky;
     position: -webkit-sticky; /* For Safari */
-    top: 300px;
+    top: 200px;
     z-index: 100; /* Optional z-index to control stacking order */
   }
 
   .tocContainerBlogs {
-    background-color: #ffffff;
+    background-color: var(--white);
     border-radius: 16px;
     padding: 30px 5px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--boxShadow);
     transition: box-shadow 0.3s ease; /* Add a transition for box-shadow */
+    color: var(--black);
   }
 
   .tocContainerBlogs:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--boxShadowTransition);
   }
 
   .tocContainerBlogs > div > h2 {
@@ -339,7 +348,7 @@ div.sulav img {
   }
 
   .tocContentsContainer ul {
-    color: black;
+    color: var(--black);
     font-weight: bold;
   }
 
@@ -358,7 +367,7 @@ div.sulav img {
 
   .tocContentsContainer a {
     text-decoration: underline;
-    color: black;
+    color: var(--black);
   }
 
   .toolsForReading {
@@ -366,10 +375,11 @@ div.sulav img {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     padding-top: 10px;
+    color: var(--black);
   }
 
   .toolsForReading > div {
-    background: white;
+    background: var(--white);
     border-radius: 12px;
     aspect-ratio: 1;
   }
@@ -377,12 +387,12 @@ div.sulav img {
   .toolsForReading > div {
     padding: 25px 15px;
     font-size: large;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: var(--boxShadow);
     transition: box-shadow 0.3s ease; /* Add a transition for box-shadow */
   }
 
   .toolsForReading > div:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Change the box-shadow on hover */
+    box-shadow:var(--boxShadowTransition); /* Change the box-shadow on hover */
   }
 
   .toolsForReading p {

@@ -33,7 +33,7 @@ const BlogTemplate = ({ data }) => {
   const TitleBox = props => {
     return (
       <>
-        <div className="d-flex flex-sm-column flex-row curvy-line pb-4">
+        <div className="d-flex flex-sm-column flex-row curvy-line pb-4 blogTitleBox">
           <>
             <div>
               <div className="text-center py-4  pb-0 fw-bold text-sm-start">

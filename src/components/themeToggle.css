@@ -1,0 +1,8 @@
+.themeToggler button{
+	background: transparent;
+	border: none;
+}
+
+.toggle{
+	fill: var(--textLink);
+  }

@@ -9,3 +9,7 @@
   transform: scale(1.005); /* add zoom-in effect on hover */
   filter: brightness(98%); /* add dark overlay on hover */
 }
+
+.programmingPage{
+  color: var(--black);
+}

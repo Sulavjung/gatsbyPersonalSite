@@ -119,7 +119,7 @@ const ClassTemplate = ({ data }) => {
         <meta name="twitter:creator" content="@sulav_J_hamal" />
       </Helmet>
       <Navbar />
-      <div className="px-2">
+      <div className="px-2 overflow-hidden">
         <div className="container-xxl p-0" id="classRandom">
           <div className="row">
             <div className="col-lg-9">
@@ -144,7 +144,7 @@ const ClassTemplate = ({ data }) => {
           </div>
         </div>
 
-        <div className="container-xxl mt-4 p-0 pb-3">
+        <div className="container-xxl mt-4 p-0 pb-3 similarTopics">
           <h1 className="fw-bold pb-0 mb-0">Similar Topics</h1>
           <hr className="m-0 mb-1" />
           <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">

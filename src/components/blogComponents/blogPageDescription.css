@@ -15,15 +15,20 @@
 
 .cardss{
 	width: 400px;
-	box-shadow: 0 0 20px #efefef;
+	box-shadow: var(--boxShadowBlogCards);
+	background: var(--white);
 }
 
 
 .cardss > a{
 	text-decoration: none;
-	color: black !important;
+	color: var(--black) !important;
 }
 
 .cardss > a:hover{
 	color: #1674FD !important ;
+}
+
+.blogPage{
+	color: var(--textTitle);
 }

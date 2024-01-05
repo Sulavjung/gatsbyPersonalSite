@@ -55,8 +55,8 @@ const IndexPage = () => {
         />
         <meta name="keywords" content="web technologies, react, web development, tech, news, update, ios, apple, macbook" data-react-helmet="true" />
         <meta name="robots" content="nofollow"/>
-
-
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
+        <link rel="apple-touch-startup-image" href="../assets/favicon.png"></link>
       </Helmet>
       <Navbar />
       <Eyecatcher />

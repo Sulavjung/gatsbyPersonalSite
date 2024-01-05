@@ -7,7 +7,7 @@ export default function Eyecatcher() {
   return (
     <div className="container-xxl justify-content-between px-4 px-sm-0">
       <div className="row flex-column flex-sm-row">
-        <div className="col col-lg-6">
+        <div className="col col-lg-6 heroImageCont">
           <br />
           <img className="img-fluid" src={img} id="helloImage" alt="Hello" />
         </div>
@@ -15,7 +15,7 @@ export default function Eyecatcher() {
           <div className="p-xl-5">
             <br />
             <br />
-            <h1 id="eyecatcher">Hey,</h1>
+            <h1 id="eyecatcher">Hey,</h1> 
             <p id="paragraph">
               Myself <strong>Sulav</strong> here. A fellow{" "}
               <strong>Computer Science</strong> student. Happy to see you.

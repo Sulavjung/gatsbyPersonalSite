@@ -62,7 +62,7 @@ module.exports = {
         name: `Sulav`,
         short_name: `Sulav`,
         start_url: `/`,
-        background_color: `#f0f9ff`,
+        theme_color: `white`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,

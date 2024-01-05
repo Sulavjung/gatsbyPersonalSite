@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
 
 const InterviewCards = () => {
-  const mainImage = "../../assets/reactInterview.jpg"
+  const mainImage = "../../assets/reactInterview.png"
   const logo = "../../assets/RegisterManagementLogo.png"
   const title = "React JS"
   const type = "Questions"
@@ -13,7 +13,7 @@ const InterviewCards = () => {
   const buttonName = "Learn React"
 
   /* For the JavaScript Interview Questions on Concepts. */
-  const mainImage1 = "../../assets/javaScriptInterview.jpg"
+  const mainImage1 = "../../assets/javaScriptInterview.png"
   const logo1 = "../../assets/javaScriptlogo.png"
   const title1 = "JavaScript"
   const type1 = "Interview Questions"

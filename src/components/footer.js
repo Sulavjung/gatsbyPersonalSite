@@ -4,6 +4,7 @@ import { BsInstagram } from "react-icons/bs"
 import { BsGithub } from "react-icons/bs"
 import { BsTwitter } from "react-icons/bs"
 import { BsLinkedin } from "react-icons/bs"
+import './footer.css'
 
 const appleEmbed = `<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:1320px;overflow:hidden;border-radius:25px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/playlist/sulavs-daily/pl.u-pMylg4bI4RRY987"></iframe>`
 
@@ -12,15 +13,15 @@ class Footer extends Component {
     return (
       <div>
         <div>
-          <div className="container-xxl mb-5 px-xxl-0 px-2">
-          <h2 className="m-0 fw-bold fs-1 mt-5 pt-2">Daily Vibes</h2>
-          <hr className="mt-0" />
-          <div className="p-0 m-0">
-            <div
-              dangerouslySetInnerHTML={{ __html: appleEmbed }}
-              className="shadow-sm p-0 m-0 projectCont height450"
-            ></div>
-          </div>
+          <div className="container-xxl mb-5 px-xxl-0 px-2 dailyVibes">
+            <h2 className="m-0 fw-bold fs-1 mt-5 pt-2">Daily Vibes</h2>
+            <hr className="mt-0" />
+            <div className="p-0 m-0">
+              <div
+                dangerouslySetInnerHTML={{ __html: appleEmbed }}
+                className="shadow-sm p-0 m-0 projectCont height450"
+              ></div>
+            </div>
           </div>
         </div>
         <div className="container-fluid bg-dark text-light text-center p-4 ">

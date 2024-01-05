@@ -1,6 +1,6 @@
+import { StaticImage } from "gatsby-plugin-image"
 import "./freeJavaCheatSheet.css"
 import "./index.css"
-import { StaticImage } from "gatsby-plugin-image"
 import React, { useState } from "react"
 
 
