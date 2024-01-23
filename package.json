@@ -49,7 +49,7 @@
   ],
   "license": "0BSD",
   "scripts": {
-    "build": "npm install --legacy-peer-deps && gatsby build",
+    "build": "gatsby build",
     "develop": "gatsby develop -H 0.0.0.0",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
