@@ -33,16 +33,16 @@ const BlogTemplate = ({ data }) => {
   const TitleBox = props => {
     return (
       <>
-        <div className="d-flex flex-sm-column flex-row curvy-line pb-4 blogTitleBox">
+        <div className="d-flex flex-column curvy-line pb-4 blogTitleBox">
           <>
             <div>
-              <div className="text-center py-4  pb-0 fw-bold text-sm-start">
+              <div className="py-4  pb-0 fw-bold text-start">
                 <h1 className="fs-sm-1 fw-bold pb-0 blogTitle">
                   {props.titlename}
                 </h1>
               </div>
 
-              <div className="text-center fw-regular fs-10 text-sm-start pt-0">
+              <div className="fw-regular fs-10 text-start pt-0">
                 <p className="p-0 m-0 pb-4">
                   <small>
                     {props.authorName} - {props.type} - {props.dateCreated} -{" "}

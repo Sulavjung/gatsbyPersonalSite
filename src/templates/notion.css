@@ -260,41 +260,12 @@ div.sulav img {
   display: none;
 }
 
-@media (max-width: 576px) {
-  div.sulav {
-    height: auto;
-    width: 100px;
-    min-width: 100px;
-    max-height: 100px;
-    margin-top: 12px;
-    margin-bottom: 15px;
-    margin-inline: 10px;
-    transform: perspective(1000px) translate3d(0px, 0px, -250px) rotateX(27deg)
-      scale(0.9, 0.9);
-    border-radius: 10px;
-    box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
-    transition: 0.4s ease-in-out transform;
-    animation: rotate 20s linear infinite; /* 5s duration, linear timing function, infinite loop */
-  }
-
-  @keyframes rotate {
-    0% {
-      transform: perspective(1000px) translate3d(0px, 0px, -250px)
-        rotateX(27deg) rotateY(0deg) scale(0.9, 0.9);
-    }
-    100% {
-      transform: perspective(1000px) translate3d(0px, 0px, -250px)
-        rotateX(27deg) rotateY(360deg) scale(0.9, 0.9);
-    }
-  }
-
-  div.sulav img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover !important;
-    border-radius: 20px;
+@media (max-width: 576px){
+  div.sulav img{
+    height:200px;
   }
 }
+
 
 @media (min-width: 576px) {
   .blogPost p {
@@ -320,6 +291,7 @@ div.sulav img {
 
   .blogTitle {
     font-size: 50px !important;
+    text-align: left !important;
   }
 
   .tocMainContainer {
