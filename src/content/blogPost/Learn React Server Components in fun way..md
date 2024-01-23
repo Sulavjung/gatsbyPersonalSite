@@ -8,17 +8,21 @@ slug: learnReactServerComponentsInFunniestWay
 Genera: React
 Status: Posted 🔗
 Due_Date: 2023/09/12
-Cover_Image: https://source.unsplash.com/UYsBCu9RP3Y/1320x400
+Cover_Image: https://source.unsplash.com/a-close-up-of-a-computer-keyboard-with-a-blurry-background-OYWV8FCrneM/1320x400
 Description: Step into the future of web development with our in-depth exploration of React Server Components (RSCs). In this enlightening article, we demystify the transformative power of RSCs and how they are reshaping the way we build web applications.
 tags:
   - Article
   - React
-  - React Server Components
-  - Web Development
+  - React
+  - Server
+  - Components
+  - Web
+  - Development
   - Components
   - Tech
   - Gatsby
-  - Web Technologies
+  - Web
+  - Technologies
 ---
 
 In the not-so-distant past, the React team unveiled the "Zero-Bundle-Size React Server Components" concept. It's like when they discovered peanut butter and jelly go together – a game-changer! Since then, the React community has been doing some virtual somersaults to understand and implement this fancy new approach.

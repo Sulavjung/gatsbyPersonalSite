@@ -8,7 +8,7 @@ slug: whatareProgressiveWebApps
 Genera: Web Development
 Status: Posted 🔗
 Due_Date: 2023/11/08
-Cover_Image: https://source.unsplash.com/black-android-smartphone-sScmok4Iq1o
+Cover_Image: https://source.unsplash.com/blue-red-and-green-letters-illustration-mr4JG4SYOF8
 Description: Progressive Web Apps (PWAs) have emerged as a transformative force, bridging the gap between traditional web applications and native mobile apps. PWAs offer a seamless user experience, combining the best of both worlds
 tags:
   - Article

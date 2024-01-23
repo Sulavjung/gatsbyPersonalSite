@@ -8,7 +8,7 @@ slug: whatisanAPI
 Genera: Computer Science
 Status: Posted 🔗
 Due_Date: 2023/11/07
-Cover_Image: https://source.unsplash.com/geometric-shape-digital-wallpaper-oyXis2kALVg/
+Cover_Image: https://source.unsplash.com/a-white-cube-with-blue-squares-4sRFTaQSM8Q
 Description: An API or Application Programming Interface is a software/code/rules/way that allows two application to communicate with each other. It can also be described as a document or standard that allow other to know how to communicate with your devices. It is like gate to your house. If you have keys, you can easily enter and navigate inside. Key here represents API specification or a document that describes how to use such a connection or interface.
 tags:
   - Article

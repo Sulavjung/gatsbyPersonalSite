@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
+                "file": "blogPost/Why your friends aren't supporting you?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
+                "file": "blogPost/Why your friends aren't supporting you?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
+                "file": "blogPost/Why your friends aren't supporting you?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/A Comprehensive Guide to Modern Computing Architecture.md"
+                "file": "blogPost/Why your friends aren't supporting you?.md"
               }
             }
           },
@@ -168,7 +168,9 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
+    "blogPost/What is an API?.md",
     "blogPost/What are Progressive Web Apps?.md",
+    "blogPost/Learn React Server Components in fun way..md",
     "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
     "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
     "blogPost/Let's Find Out A Taco Stand.md",
@@ -180,10 +182,8 @@
     "blogPost/Steal Like an Artist.md",
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "blogPost/The 4-HourWorkweek.md",
-    "blogPost/What is an API?.md",
     "interview/Interview Questions on JavaScript.md",
     "interview/Interview Questions on React Concepts.md",
-    "blogPost/Learn React Server Components in fun way..md",
     "blogPost/E-Myth Revisited.md",
     "blogPost/How to use Static Files in Django?.md",
     "programming/Data_Structure/ADT Dictionary.md",
