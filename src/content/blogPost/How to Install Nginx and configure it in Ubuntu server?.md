@@ -147,8 +147,6 @@ After that, you can just go ahead to the browser and go to your ip address. It s
 
 If you did everything as outlined above, you should be able to see your web page.
 
-> Note:
->
 > 1. I recommend you to use the basic html file for hosting initially to get an idea of it.
 > 2. Also, make sure that you are using `http://` but not `https://` if you haven't yet configured the SSL certificate.
 

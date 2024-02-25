@@ -9,7 +9,7 @@
 }
 
 .blogTitleBox {
-  color: var(--textTitle)!important;
+  color: var(--textTitle) !important;
 }
 
 .blogPost a:link {
@@ -31,7 +31,7 @@
   padding-bottom: 10px;
   border-bottom: 1px solid #37352f;
   margin-top: 50px;
-  color: var(--textTitle)!important;
+  color: var(--textTitle) !important;
 }
 
 .blogPost .subtitle {
@@ -52,11 +52,9 @@ h3,
   margin-bottom: 4px;
 }
 
-.blogPost h2:first-child{
+.blogPost h2:first-child {
   margin-top: 12px;
 }
-
-
 
 .blogPost h1 {
   font-size: 34px;
@@ -65,9 +63,8 @@ h3,
 
 .blogPost h2 {
   font-size: 30px;
-  color: var(--textTitle)!important;
+  color: var(--textTitle) !important;
   margin-top: 70px;
-  
 }
 
 .blogPost h3 {
@@ -96,7 +93,7 @@ h3,
   margin-top: 0;
   margin-bottom: 16px;
   line-height: 30px;
-  color: var(--textTitle)!important;
+  color: var(--textTitle) !important;
 }
 
 /* Lists */
@@ -169,7 +166,7 @@ textarea {
 }
 
 blockquote {
-  background: #f0f9f8;
+  background: var(--white);
   border-style: solid;
   border-width: 2px;
   border-color: #00ffe1;
@@ -183,7 +180,7 @@ blockquote::before {
   content: "\1F4DD\00A0Note\00A0";
   font-weight: bold;
   font-size: 1.2em;
-  color: #000000;
+  color: var(--textTitle);
   margin-right: 0.5em;
 }
 
@@ -260,12 +257,11 @@ div.sulav img {
   display: none;
 }
 
-@media (max-width: 576px){
-  div.sulav img{
-    height:200px;
+@media (max-width: 576px) {
+  div.sulav img {
+    height: 200px;
   }
 }
-
 
 @media (min-width: 576px) {
   .blogPost p {
@@ -364,7 +360,7 @@ div.sulav img {
   }
 
   .toolsForReading > div:hover {
-    box-shadow:var(--boxShadowTransition); /* Change the box-shadow on hover */
+    box-shadow: var(--boxShadowTransition); /* Change the box-shadow on hover */
   }
 
   .toolsForReading p {
@@ -388,27 +384,26 @@ div.sulav img {
 
   .blogPost h1 {
     font-size: 40px;
-    
   }
-  
+
   .blogPost h2 {
     font-size: 36px;
     color: #000000;
   }
-  
+
   .blogPost h3 {
     font-size: 32px;
     color: #62afee;
   }
-  
+
   .blogPost h4 {
     font-size: 28px;
   }
-  
+
   .blogPost h5 {
     font-size: 26px;
   }
-  
+
   .blogPost h6 {
     font-size: 22px;
   }

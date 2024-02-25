@@ -24,8 +24,8 @@
   border-radius: 4px;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
     rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
-  background-color: white;
-  color: black;
+  border: 1px solid var(--textForSubBox);
+  color: var(--textForSubBox) !important;
   font-weight: 600;
   /* background: radial-gradient(circle, rgba(145,43,213,1) 22%, rgba(255,0,0,1) 45%, rgba(255,149,0,1) 83%, rgba(144,251,0,1) 100%);
   background-clip: text; 
@@ -36,11 +36,9 @@
   color: var(--textTitle);
 }
 
-
 body.dark {
   .type {
     background-color: black;
     color: white;
   }
 }
-
