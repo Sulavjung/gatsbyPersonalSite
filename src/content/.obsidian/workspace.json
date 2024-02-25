@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Why your friends aren't supporting you?.md",
+                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Why your friends aren't supporting you?.md",
+                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Why your friends aren't supporting you?.md",
+                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Why your friends aren't supporting you?.md"
+                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "blogPost/What is an API?.md",
     "blogPost/What are Progressive Web Apps?.md",
+    "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
+    "blogPost/Why your friends aren't supporting you?.md",
+    "blogPost/What is an API?.md",
     "blogPost/Learn React Server Components in fun way..md",
     "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
     "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
@@ -178,7 +180,6 @@
     "blogPost/How to Use Templates in Django Project.md",
     "blogPost/What does it mean to have an understanding of the data structure?.md",
     "blogPost/Why Productivity matters in this day and age?.md",
-    "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/Steal Like an Artist.md",
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "blogPost/The 4-HourWorkweek.md",
@@ -193,7 +194,6 @@
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Setting up the Django Admin Interface for Beginners.md",
-    "programming/Web_software_development/Git's Basic and Usage.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
