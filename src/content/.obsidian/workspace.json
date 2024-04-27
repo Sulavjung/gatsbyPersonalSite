@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
+                "file": "blogPost/Horrible Week of Front End Submission.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
+                "file": "blogPost/Horrible Week of Front End Submission.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
+                "file": "blogPost/Horrible Week of Front End Submission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/How to Install Nginx and configure it in Ubuntu server?.md"
+                "file": "blogPost/Horrible Week of Front End Submission.md"
               }
             }
           },
@@ -168,8 +168,9 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "blogPost/What are Progressive Web Apps?.md",
     "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
+    "blogPost/Horrible Week of Front End Submission.md",
+    "blogPost/What are Progressive Web Apps?.md",
     "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/What is an API?.md",
     "blogPost/Learn React Server Components in fun way..md",
@@ -193,7 +194,6 @@
     "programming/Data_Structure/questionsOnList.md",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
     "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
-    "blogPost/Setting up the Django Admin Interface for Beginners.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",

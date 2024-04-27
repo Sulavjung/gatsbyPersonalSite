@@ -36,7 +36,7 @@ const BlogTemplate = ({ data }) => {
         <div className="d-flex flex-column curvy-line pb-4 blogTitleBox">
           <>
             <div>
-              <div className="py-4  pb-0 fw-bold text-start">
+              <div className="py-0  pb-0 fw-bold text-start">
                 <h1 className="fs-sm-1 fw-bold pb-0 blogTitle">
                   {props.titlename}
                 </h1>
@@ -46,7 +46,10 @@ const BlogTemplate = ({ data }) => {
                 <p className="p-0 m-0 pb-4">
                   <small>
                     {props.authorName} - {props.type} - {props.dateCreated} -{" "}
-                    <button onClick={() => props.setShowDownloadPopup(true)} className="border rounded fw-bold px-2 text-white bg-black">
+                    <button
+                      onClick={() => props.setShowDownloadPopup(true)}
+                      className="border rounded fw-bold px-2 text-white bg-black"
+                    >
                       Download
                     </button>
                   </small>
@@ -110,7 +113,7 @@ const BlogTemplate = ({ data }) => {
               Title={Title}
               author={Author}
               Description={Description}
-              setShowDownloadPopup = {setShowDownloadPopup}
+              setShowDownloadPopup={setShowDownloadPopup}
             />
           )}
 
