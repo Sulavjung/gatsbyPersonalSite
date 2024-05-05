@@ -13,9 +13,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Horrible Week of Front End Submission.md",
+                "file": "blogPost/20 things, one week, and one me.md",
                 "mode": "source",
                 "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "dc29a9d095af5405",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "265976132c14c2ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "blogPost/Horrible Week of Front End Submission.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -93,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/Horrible Week of Front End Submission.md",
+                "file": "blogPost/20 things, one week, and one me.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/Horrible Week of Front End Submission.md",
+                "file": "blogPost/20 things, one week, and one me.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/Horrible Week of Front End Submission.md"
+                "file": "blogPost/20 things, one week, and one me.md"
               }
             }
           },
@@ -168,8 +186,9 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
     "blogPost/Horrible Week of Front End Submission.md",
+    "blogPost/20 things, one week, and one me.md",
+    "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
     "blogPost/What are Progressive Web Apps?.md",
     "blogPost/Why your friends aren't supporting you?.md",
     "blogPost/What is an API?.md",
@@ -193,7 +212,6 @@
     "programming/Statistics/The t-distribution.md",
     "programming/Data_Structure/questionsOnList.md",
     "blogPost/How to Dynamically Set Page Title in React or Gatsby?.md",
-    "blogPost/Join Our Exciting Project and Gain Valuable Experience in Full-Stack Development!.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
