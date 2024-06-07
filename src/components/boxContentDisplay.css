@@ -11,11 +11,12 @@
   background: #eff9ff;
   background: var(--cardBackground);
 
- /*box-shadow: 10px 10px 20px rgba(111, 182, 225, 0.57), -10px -10px 20px #ffffff;*/
+  /*box-shadow: 10px 10px 20px rgba(111, 182, 225, 0.57), -10px -10px 20px #ffffff;*/
   border: var(--textTitle) 2px solid;
   border-radius: 20px;
   text-decoration: none !important;
   color: var(--textTitle);
+  overflow: hidden;
 }
 
 #Books {
@@ -42,25 +43,21 @@
   transition: transform 0.3s ease;
 }
 
-#Languages:hover {
-  transform: scale(0.99);
-}
-
-#Trails:hover {
-  transform: scale(0.99);
-}
-
-#Photos:hover {
-  transform: scale(0.99);
-}
-#Quotes:hover {
-  transform: scale(0.99);
-}
-#Blogs:hover {
-  transform: scale(0.99);
-}
+#Languages:hover,
+#Trails:hover,
+#Photos:hover,
+#Quotes:hover,
+#Blogs:hover,
 #Books:hover {
-  transform: scale(0.99);
+  transform: scale(1.02);
+
+  #h2Icon {
+    text-shadow: rgba(255, 0, 234, 0.6) 0px 0px 0px,
+      rgba(77, 255, 0, 0.9) 120px 24px 20px, rgb(255, 191, 0) -110px 4px 20px,
+      rgba(0, 26, 255, 0.64) 170px 150px 60px,
+      rgba(242, 0, 255, 0.64) -160px 120px 60px,
+      rgba(208, 0, 255, 0.666) 10px 4px 30px;
+  }
 }
 
 #pdescription {
@@ -75,6 +72,12 @@
 
 #h2Icon {
   font-size: 32pt;
+  text-shadow: rgba(255, 0, 234, 0.6) 0px 0px 0px,
+    rgba(157, 0, 255, 0.65) 120px 24px 20px, rgb(255, 191, 0) -120px 4px 20px,
+    rgba(0, 26, 255, 0.64) 180px 150px 20px,
+    rgba(242, 0, 255, 0.64) -120px 120px 20px,
+    rgba(208, 0, 255, 0.666) 0px 4px 30px;
+  transition: all 3s ease-out;
 }
 
 #links {

@@ -49,7 +49,6 @@ import "./style.css"
 import { Helmet } from "react-helmet"
 import InterviewCards from "../../components/programmingComponents/interviewCard.js"
 
-
 export default function programming() {
   const link = "/programming/dataStructure/overview"
   return (
@@ -141,6 +140,20 @@ export default function programming() {
         <div className="container-xxl mb-5 p-xxl-0">
           <Link
             to={`/programming/websoftwaredevelopment`}
+            className="text-decoration-none"
+          >
+            <img
+              className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce "
+              src={img3}
+              id="classes"
+              alt="Hello"
+            />
+          </Link>
+          {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
+        </div>
+        <div className="container-xxl mb-5 p-xxl-0">
+          <Link
+            to={`/programming/analysisOfAlgorithm/`}
             className="text-decoration-none"
           >
             <img

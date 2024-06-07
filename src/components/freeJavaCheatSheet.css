@@ -1,97 +1,101 @@
 .freeJavaContent {
-	position: relative; /* add this to make the z-index work */
-	z-index: 1; /* add this to ensure the content is above other elements */
-
-  }
-  
-  .labelText {
-	position: absolute;
-	top: 48%;
-	left: 10%;
-	right: 60%;
-	transform: translate(-10%, -50%);
-	text-align: start;
-	color: var(--bg)
-  }
-
-  .labelText p{
-	margin-top: 0;
-	margin-bottom: 8px;
-	color: var(--textTitle);
-  }
-
-  .labelcheat button{
-	background-color: #3897D3;
-	filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-	border-radius: 8px;
-	border: none;
-	color: white;
-  }
-
-  .labelcheat button:hover{
-	box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, rgba(157, 0, 255, 0.15) 0px 28px 20px 0px, rgba(242, 0, 255, 0.334) 0px 4px 20px 0px, rgba(0, 238, 255, 0.666) 0px 4px 20px 0px;
-  }
-
-  .labelcheat{
-	color: var(--textTitle);
-  }
-
-  .labelcheat p{
-	font-size:large;
-	color: var(--textTitle);
-  }
-
-  @media (max-width: 767px) {
-	.freeJavaContent {
-	  position: initial;
-	  display: block;
-	  margin: initial;
-	  padding: initial;
-	}
-  
-	.labelText {
-	  position: initial;
-	  top: initial;
-	  left: initial;
-	  right: initial;
-	  bottom: initial;
-	  transform: initial;
-	  text-align: center;
-	  width: initial;
-	}
-
-	.labelText h1{
-		margin-top: 16px;
-	}
-
-	.labelText p{
-		text-size-adjust: 20px;
-	}
-
-	body.dark{
-		.labelcheat button{
-			box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, rgba(157, 0, 255, 0.15) 0px 28px 20px 0px, rgba(242, 0, 255, 0.334) 0px 4px 20px 0px, rgba(0, 238, 255, 0.666) 0px 4px 20px 0px;
-		  }
-
-		.labelcheat button:active{
-			box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 2px, rgba(157, 0, 255, 0.15) 0px 28px 20px 0px, rgba(242, 0, 255, 0.334) 0px 4px 20px 0px, rgba(68, 255, 0, 0.666) 0px 4px 20px 0px;
-		}
-	}
-
-	
-
-	
-	
-  }
-
-  #download{
-	font-size: x-large;
-	font-family: 'Basier Circle';
-	font-weight: bold;
-	color: var(--bg);
+  position: relative; /* add this to make the z-index work */
+  z-index: 1; /* add this to ensure the content is above other elements */
 }
 
-  .popup {
+.labelText {
+  position: absolute;
+  top: 48%;
+  left: 10%;
+  right: 60%;
+  transform: translate(-10%, -50%);
+  text-align: start;
+  color: var(--bg);
+}
+
+.labelText p {
+  margin-top: 0;
+  margin-bottom: 8px;
+  color: var(--textTitle);
+}
+
+.labelcheat button {
+  background-color: #3897d3;
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  border-radius: 8px;
+  border: none;
+  color: white;
+  transition: all 0.4s ease-out;
+}
+
+.labelcheat button:hover {
+  box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 2px,
+    rgba(157, 0, 255, 0.15) 0px 28px 20px 0px,
+    rgba(242, 0, 255, 0.334) 0px 4px 20px 0px,
+    rgba(0, 238, 255, 0.666) 0px 4px 20px 0px;
+}
+
+.labelcheat {
+  color: var(--textTitle);
+}
+
+.labelcheat p {
+  font-size: large;
+  color: var(--textTitle);
+}
+
+@media (max-width: 767px) {
+  .freeJavaContent {
+    position: initial;
+    display: block;
+    margin: initial;
+    padding: initial;
+  }
+
+  .labelText {
+    position: initial;
+    top: initial;
+    left: initial;
+    right: initial;
+    bottom: initial;
+    transform: initial;
+    text-align: center;
+    width: initial;
+  }
+
+  .labelText h1 {
+    margin-top: 16px;
+  }
+
+  .labelText p {
+    text-size-adjust: 20px;
+  }
+
+  body.dark {
+    .labelcheat button {
+      box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 2px,
+        rgba(157, 0, 255, 0.15) 0px 28px 20px 0px,
+        rgba(242, 0, 255, 0.334) 0px 4px 20px 0px,
+        rgba(0, 238, 255, 0.666) 0px 4px 20px 0px;
+    }
+
+    .labelcheat button:active {
+      box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 0px 2px,
+        rgba(157, 0, 255, 0.15) 0px 28px 20px 0px,
+        rgba(242, 0, 255, 0.334) 0px 4px 20px 0px,
+        rgba(68, 255, 0, 0.666) 0px 4px 20px 0px;
+    }
+  }
+}
+
+#download {
+  font-size: x-large;
+  font-family: "Basier Circle";
+  font-weight: bold;
+  color: var(--bg);
+}
+
+.popup {
   position: fixed;
   left: 0;
   top: 0;
@@ -125,43 +129,37 @@
   z-index: 1;
 }
 
-#downloadable{
-	background-color: #3897D3;
+#downloadable {
+  background-color: #3897d3;
 }
-
 
 .popup img {
-	pointer-events: none;
+  pointer-events: none;
 }
 
-
-  @keyframes fadeIn {
-	from {
-	  opacity: 0;
-	}
-	to {
-	  opacity: 1;
-	}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-
-.mockupImage img{
-	box-shadow: none !important;
+  to {
+    opacity: 1;
+  }
 }
-  
 
-        
+.mockupImage img {
+  box-shadow: none !important;
+}
+
 #gradient-canvas {
-	width:100%;
-	height:100%;
-	--gradient-color-1: #D1D5D8; 
-	--gradient-color-2: #3498DB; 
-	--gradient-color-3: #E74C3C;  
-	--gradient-color-4: #F1C40F;
-  }
-		
+  width: 100%;
+  height: 100%;
+  --gradient-color-1: #d1d5d8;
+  --gradient-color-2: #3498db;
+  --gradient-color-3: #e74c3c;
+  --gradient-color-4: #f1c40f;
+}
 
 .labelcheat > h2 {
-	font-size: 40px;
-	font-weight: 700 !important;
-	
+  font-size: 40px;
+  font-weight: 700 !important;
 }

@@ -1,34 +1,37 @@
 /* This is the css for the blog Page Description .js file.  */
 
-.cardssImage{
-	border-radius: 10px 10px 0px 0px;
-	object-fit: cover;
+.cardssImage {
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
 }
 
-#caraso{
-	overflow: scroll;
+#caraso {
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding-left: 20px;
+  padding-left: 20px;
 }
 
-#caraso::-webkit-scrollbar{
-	display: none;
+#caraso::-webkit-scrollbar {
+  display: none;
 }
 
-.cardss{
-	width: 400px;
-	box-shadow: var(--boxShadowBlogCards);
-	background: var(--white);
+.cardss {
+  width: 400px;
+  box-shadow: var(--boxShadowBlogCards);
+  background: var(--white);
+  scroll-snap-align: start;
 }
 
-
-.cardss > a{
-	text-decoration: none;
-	color: var(--black) !important;
+.cardss > a {
+  text-decoration: none;
+  color: var(--black) !important;
 }
 
-.cardss > a:hover{
-	color: #1674FD !important ;
+.cardss > a:hover {
+  color: #1674fd !important ;
 }
 
-.blogPage{
-	color: var(--textTitle);
+.blogPage {
+  color: var(--textTitle);
 }

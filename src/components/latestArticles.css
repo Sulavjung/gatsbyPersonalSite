@@ -2,6 +2,66 @@
   color: var(--textLink);
 }
 
+.latestPostContainer {
+  position: relative;
+}
+
+.forcolor {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  background-color: transparent;
+  border-radius: 20px;
+  z-index: -10;
+  box-shadow: rgb(255, 255, 0) 400px -120px 80px 40px,
+    rgb(255, 255, 0) -280px -180px 80px 40px,
+    rgb(34, 255, 0) -20px -100px 20px 40px, rgb(255, 255, 0) -280px 0px 10px 6px,
+    rgb(162, 0, 255) -200px 130px 20px 10px, rgb(255, 0, 255) 200px 130px 10px;
+  transition: all 1s ease-in-out;
+  animation: complexShadowAnimation 10s ease-out infinite;
+}
+
+@keyframes complexShadowAnimation {
+  0% {
+    box-shadow: rgb(255, 255, 0) 400px -120px 80px 40px,
+      rgb(255, 255, 0) -280px -180px 80px 40px,
+      rgb(34, 255, 0) -20px -100px 20px 40px,
+      rgb(255, 255, 0) -280px 0px 10px 6px,
+      rgb(162, 0, 255) -200px 130px 20px 10px, rgb(255, 0, 255) 200px 130px 10px;
+  }
+  25% {
+    box-shadow: rgb(255, 255, 0) 350px -100px 70px 35px,
+      rgb(255, 255, 0) -240px -160px 70px 35px,
+      rgb(34, 255, 0) -10px -90px 25px 35px,
+      rgb(255, 255, 0) -250px 10px 15px 10px,
+      rgb(162, 0, 255) -180px 120px 25px 15px, rgb(255, 0, 255) 190px 120px 15px;
+  }
+  50% {
+    box-shadow: rgb(255, 255, 0) 300px -80px 60px 30px,
+      rgb(255, 255, 0) -200px -140px 60px 30px,
+      rgb(34, 255, 0) 0px -80px 30px 30px,
+      rgb(255, 255, 0) -220px 20px 20px 15px,
+      rgb(162, 0, 255) -160px 110px 30px 20px,
+      rgb(255, 0, 255) 180px 110px 20px 10px;
+  }
+  75% {
+    box-shadow: rgb(255, 255, 0) 350px -100px 70px 35px,
+      rgb(255, 255, 0) -240px -160px 70px 35px,
+      rgb(34, 255, 0) -10px -90px 25px 35px,
+      rgb(255, 255, 0) -250px 10px 15px 10px,
+      rgb(162, 0, 255) -180px 120px 25px 15px, rgb(255, 0, 255) 190px 120px 15px;
+  }
+  100% {
+    box-shadow: rgb(255, 255, 0) 400px -120px 80px 40px,
+      rgb(255, 255, 0) -280px -180px 80px 40px,
+      rgb(34, 255, 0) -20px -100px 20px 40px,
+      rgb(255, 255, 0) -280px 0px 10px 6px,
+      rgb(162, 0, 255) -200px 130px 20px 10px, rgb(255, 0, 255) 200px 130px 10px;
+  }
+}
+
 .genera {
   background-color: #1fb605;
   border-radius: 5px;
@@ -34,6 +94,34 @@
 
 .postsOfLatestPost {
   color: var(--textTitle);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+
+  box-shadow: inset 0 0 0.5px 1px hsla(0, 0%, 100%, 0.075),
+    /* shadow ring 👇 */ 0 0 0 1px hsla(0, 0%, 0%, 0.05),
+    /* multiple soft shadows 👇 */ 0 0.3px 0.4px hsla(0, 0%, 0%, 0.02),
+    0 0.9px 1.5px hsla(0, 0%, 0%, 0.045), 0 3.5px 6px hsla(0, 0%, 0%, 0.09);
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  transition: all 0.4s ease-out;
+  background: var(--backgroundForLatestPostPosts);
+  backdrop-filter: blur(60px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+.postsOfLatestPost:hover {
+  .type {
+    box-shadow: (255, 0, 234, 0.6) 0px 0px 0px 0px,
+      rgba(77, 255, 0, 0.9) 120px 24px 20px, rgb(255, 191, 0) -110px 4px 20px,
+      rgba(0, 26, 255, 0.64) 170px 150px 60px 0px,
+      rgba(242, 0, 255, 0.64) -160px 120px 60px 0px,
+      rgba(208, 0, 255, 0.666) 10px 4px 30px 0px;
+  }
+}
+
+.postsOfLatestPost > p {
+  margin-bottom: 0px;
 }
 
 body.dark {

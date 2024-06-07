@@ -45,8 +45,7 @@ const ClassTemplate = ({ data }) => {
         copyButton.addEventListener("click", () => {
           navigator.clipboard.writeText(preElementText)
 
-          console.log(preElementText);
-
+          console.log(preElementText)
 
           copyButton.appendChild(copiedMessage)
 
@@ -119,54 +118,40 @@ const ClassTemplate = ({ data }) => {
         <meta name="twitter:creator" content="@sulav_J_hamal" />
       </Helmet>
       <Navbar />
-      <div className="px-2 overflow-hidden">
-        <div className="container-xxl p-0" id="classRandom">
-          <div className="row">
-            <div className="col-lg-9">
-              {/* Content */}
-              <div
-                className="notes"
-                dangerouslySetInnerHTML={{ __html: html }}
-              ></div>
-            </div>
-            <div className="tableOfContent col-lg-3">
-              {/* Table of Contents */}
-              {/* Render your table of contents here */}
-              <div className="toc-container py-5">
-                <div className="border-start">
-                  <h2 className="p-2 link-underline-primary">Contents</h2>
-                  <div
-                    dangerouslySetInnerHTML={{ __html: tableOfContents }}
-                  ></div>
-                </div>
-              </div>
-            </div>
+
+      <div className="container-xxl p-0 classNotes" id="classRandom">
+        {/* Content */}
+        <div className="notes" dangerouslySetInnerHTML={{ __html: html }}></div>
+        <div className="toc-container py-5">
+          <div className="border-start">
+            <h2 className="p-2 link-underline-primary">Contents</h2>
+            <div dangerouslySetInnerHTML={{ __html: tableOfContents }}></div>
           </div>
         </div>
+      </div>
 
-        <div className="container-xxl mt-4 p-0 pb-3 similarTopics">
-          <h1 className="fw-bold pb-0 mb-0">Similar Topics</h1>
-          <hr className="m-0 mb-1" />
-          <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
-            {allMarkdownRemark.edges.map(({ node }) => (
-              <div className="col my-1 " key={node.frontmatter.slug}>
-                <Link
-                  to={`/programming/${node.frontmatter.Class}/${node.frontmatter.slug}`}
-                  className="text-decoration-none"
-                  key={node.frontmatter.slug}
-                >
-                  <div className="personal-background p-3 py-sm-3 h-100 d-flex align-items-center m-0">
-                    <div className="p-1 ">
-                      <div className="blogPost">
-                        <h5 className="p-0 m-0">{node.frontmatter.Title}</h5>
-                      </div>
-                      <p className="p-0 m-0">{node.frontmatter.Description}</p>
+      <div className="container-xxl mt-4 p-0 pb-3 similarTopics">
+        <h1 className="fw-bold pb-0 mb-0">Similar Topics</h1>
+        <hr className="m-0 mb-1" />
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
+          {allMarkdownRemark.edges.map(({ node }) => (
+            <div className="card col my-1 " key={node.frontmatter.slug}>
+              <Link
+                to={`/programming/${node.frontmatter.Class}/${node.frontmatter.slug}`}
+                className="text-decoration-none"
+                key={node.frontmatter.slug}
+              >
+                <div className="personal-background p-3 py-sm-3 h-100 d-flex align-items-center m-0">
+                  <div className="p-1 ">
+                    <div className="blogPost">
+                      <h5 className="p-0 m-0">{node.frontmatter.Title}</h5>
                     </div>
+                    <p className="p-0 m-0">{node.frontmatter.Description}</p>
                   </div>
-                </Link>
-              </div>
-            ))}
-          </div>
+                </div>
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
       <ExploreAndBlog fourArticles={data.fourArticles} />
@@ -217,7 +202,7 @@ export const classQuery = graphql`
     }
     fourArticles: allMarkdownRemark(
       sort: { frontmatter: { Date: DESC } }
-      filter: {frontmatter: {Type: {eq: "Blog"}}}
+      filter: { frontmatter: { Type: { eq: "Blog" } } }
       limit: 5
     ) {
       edges {

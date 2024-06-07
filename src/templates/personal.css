@@ -4,11 +4,13 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif, Roboto,
     Arial;
-  padding-top: 100px;
+  padding-top: 80px;
+  scroll-behavior: smooth;
 }
 
-#classRandom{
+#classRandom {
   font-size: 18px !important;
+  font-family: "Times New Roman", Times, serif;
 }
 
 /* Headers */
@@ -25,13 +27,14 @@ h3,
 }
 
 #classRandom h1 {
-  font-size: 2em;
+  font-size: 34px;
   color: var(--black);
 }
 
 #classRandom h2 {
-  font-size: 1.8em;
-  color: #62afee;
+  font-size: 30px;
+  color: var(--textTitle) !important;
+  margin-top: 70px;
 }
 
 #classRandom h3 {
@@ -78,7 +81,7 @@ pre {
   display: flex;
   flex-wrap: wrap !important;
   position: relative; /* Add this line */
-  background-color: white !important;
+  background-color: rgb(255, 255, 255) !important;
   border-radius: 5px;
   border-color: #f01c09;
   color: #000000;
@@ -97,15 +100,13 @@ pre {
 
 button.copy-button {
   position: absolute;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  display: flex;
-  justify-content: center;
-  gap: 5px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   top: 0; /* Align to the top of the parent <pre> element */
   right: 0; /* Align to the left of the parent <pre> element */
   z-index: 1; /* Ensure it's above the content */
   color: #959595; /* Text color */
-  background-color: black;
+  background-color: transparent;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -116,18 +117,13 @@ button.copy-button {
   margin-right: 10px;
 }
 
-button.copy-button:hover{
-  color: white !important;
+button.copy-button:hover {
+  scale: 1.1;
 }
 
 button.copy-button > p {
   align-items: center !important;
   margin: 0px !important;
-}
-
-
-pre:hover{
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
 code {
@@ -186,11 +182,15 @@ a:hover {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   text-decoration: none;
-  transition: background-color 0.3s;
+  transition: background-color 0.6s ease-out;
 }
 
 .personal-background p {
   color: var(--black);
+}
+
+.personalCard {
+  transition: all 1s ease-out;
 }
 
 @media (min-width: 623px) {
@@ -198,17 +198,26 @@ a:hover {
   .personal-background:active {
     /* Inverted colors */
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-     /* Change the text color to white or any desired color */
+    /* Change the text color to white or any desired color */
     border-color: rgba(0, 0, 0, 0.18);
     animation: colorInvert 0.3s forwards;
   }
 
-  #classRandom{
+  .classNotes {
+    font-size: 22px !important;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+    grid-template-columns: 3fr 1fr;
+  }
+
+  #classRandom {
     font-size: 22px !important;
   }
 }
 
-.personal-background:active {
+.psersonal-background:active {
   animation: clickAnimation 0.3s;
 }
 
@@ -234,10 +243,11 @@ a:hover {
 }
 
 .toc-container {
+  display: block;
   position: sticky;
-  top: 0;
-  height: 100vh;
-  overflow-y: auto;
+  position: -webkit-sticky; /* For Safari */
+  top: 80px;
+  z-index: 100; /* Optional z-index to control stacking order */
 }
 
 .toc-container ul {
@@ -364,22 +374,6 @@ td {
   margin-bottom: 20px !important;
 }
 
-#classRandom pre::before {
-  content: "" !important;
-  position: absolute !important;
-  top: 0 !important;
-  left: 0 !important;
-  width: 100% !important;
-  height: 30px !important;
-  background-color: #000000 !important;
-  color: white;
-  font-weight: bold !important;
-  color: #ffffff;
-  font-family: Tahoma, sans-serif;
-  padding-left: 10px;
-  padding-top: 4px;
-}
-
 #classRandom pre.language-html::before {
   content: "HTML" !important;
 }
@@ -397,18 +391,24 @@ td {
   font-weight: 500 !important;
 }
 
+#classRandom pre::before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  padding: 10px;
+  color: #8a8a8a;
+}
+
 #classRandom pre > code {
   color: rgb(80, 171, 72);
   border-radius: 4px;
   line-height: 1.6;
-  margin-top: 20px;
-  margin-bottom: -10px;
+  padding: 30px 0px 0px 10px;
   word-wrap: break-word !important; /* Add this line */
   overflow-x: auto !important;
   white-space: pre-wrap !important;
   overflow: hidden !important;
 }
-
 
 .similarTopics {
   color: var(--black);

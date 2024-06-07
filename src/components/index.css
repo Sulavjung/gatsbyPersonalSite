@@ -13,6 +13,7 @@ body {
   --boxShadowTransition: 0 0 8px rgba(0, 0, 0, 0.3);
   --boxShadowBlogCards: 0 0 20px #efefef;
   --textForSubBox: #8800ff;
+  --backgroundForLatestPostPosts: rgba(255, 255, 255, 0.25);
 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -36,11 +37,12 @@ body.dark {
   --bg: black;
   --textNormal: rgba(255, 255, 255, 0.88);
   --textTitle: white;
-  --textLink: #bb85fc;
+  --textLink: #ff8000;
   --hr: hsla(0, 0%, 100%, 0.2);
   --cardBackground: rgb(15, 15, 15);
   --textForSubBox: red;
   background: var(--bg);
+  --backgroundForLatestPostPosts: rgba(72, 72, 72, 0.25);
 }
 
 code {
