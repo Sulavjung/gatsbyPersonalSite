@@ -7,8 +7,8 @@ Type: Blog
 slug: horribleWeek
 Genera: Personal
 Status: Completed
-Cover_Image:NONE
-Description: Be my gues to know what I did for the second last week of April. 
+Cover_Image: NONE
+Description: Be my gues to know what I did for the second last week of April.
 tags:
   - Personal
   - Ubuntu
