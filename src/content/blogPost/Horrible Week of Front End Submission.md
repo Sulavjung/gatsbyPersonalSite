@@ -7,7 +7,7 @@ Type: Blog
 slug: horribleWeek
 Genera: Personal
 Status: Completed
-Cover_Image: https://source.unsplash.com/lego-blocks-on-brown-wooden-table-I_y1lb2FzJQ/1320x400
+Cover_Image:NONE
 Description: Be my gues to know what I did for the second last week of April. 
 tags:
   - Personal
@@ -18,9 +18,9 @@ tags:
   - Tutorial
 ---
 
-Let me talk about the cover image quickly. That is how I felt this week, all chaos and barely organized. 
+Let me talk about the cover image quickly. That is how I felt this week, all chaos and barely organized.
 
-It's been a couple of months since I last wrote a blog post. Blog posts have always been about something exciting that I learned and that I want to share with other people. Sometimes they are about things that I find hard to figure out. When I do, I want to have them available for others to find and make that process easier. 
+It's been a couple of months since I last wrote a blog post. Blog posts have always been about something exciting that I learned and that I want to share with other people. Sometimes they are about things that I find hard to figure out. When I do, I want to have them available for others to find and make that process easier.
 
 It's not that I haven't learned anything interesting in the last couple of months. Actually, the last couple of months have been one of the most stressful and yet quite life-changing educational periods for me. I've been diving into different technologies and learning intricate details that could be used in the field of software development. I could write about them all day long, but this blog post isn't about software or technologies. What it is about is still something that I'm trying to figure out, to be honest. I have no idea what it will turn out to be. But I know for a fact, I don't want to write about any technical or methodological ideas.
 
@@ -37,6 +37,7 @@ Don't get me wrong, but it's not like I hate them. I find them reasonable for sh
 Anyway, I wanted to add a couple of different sections to these weekly blogs. If you are interested in sharing your point of view, feel free to send me a message, and we could do something about it.
 
 ## Pickly
+
 If you know me personally, you know that I like to take pictures that aren't portraits of others. This week wasn't that interesting as there was a lot of college work pressure. We had a front-end submission for our big project, and I had a couple of all-nighters and headaches. So, I don't have pictures from this week, but I do have pictures that I took in the last couple of months. Here are those:
 
 <div class="images3">
@@ -48,16 +49,16 @@ If you know me personally, you know that I like to take pictures that aren't por
 
 ## Content Admired
 
-Even though I mentioned I don't like watching Instagram but it isn't always the case. When I do, I try to follow the people that creates the content that moves me someway or makes me want to do thing that is out of my comfort zone. So, I wanted to tag the person here or have his posts linked but for some reason, my way of conversion from my document to html isn't allowing me to embed the link. I'll have that working on the next weekly. 
+Even though I mentioned I don't like watching Instagram but it isn't always the case. When I do, I try to follow the people that creates the content that moves me someway or makes me want to do thing that is out of my comfort zone. So, I wanted to tag the person here or have his posts linked but for some reason, my way of conversion from my document to html isn't allowing me to embed the link. I'll have that working on the next weekly.
 
-But for now, the artist that I started following this week is: [Justin Lim (@hurtingbombz)](https://www.instagram.com/hurtingbombz?igsh=MzRlODBiNWFlZA==) in instagram. Check him out and his content. I liked his style of videography that is all soothing and vintagy. I don't think "vintagy" is a word but that is how I feel it. 
+But for now, the artist that I started following this week is: [Justin Lim (@hurtingbombz)](https://www.instagram.com/hurtingbombz?igsh=MzRlODBiNWFlZA==) in instagram. Check him out and his content. I liked his style of videography that is all soothing and vintagy. I don't think "vintagy" is a word but that is how I feel it.
 
 ## Friendly Reminder
+
 <img class="inlineImage" src="https://source.unsplash.com/clear-hour-glass-Xd_H7iOwKN0" />
 
-Time flies and it is flying fast. It is April 27 of 2024, **ALREADY**. That meant, we are about 36%  of the way in this year. I was thinking that yesterday and thought I shouldn't be the only person stressing about it. 
-
+Time flies and it is flying fast. It is April 27 of 2024, **ALREADY**. That meant, we are about 36% of the way in this year. I was thinking that yesterday and thought I shouldn't be the only person stressing about it.
 
 ## Finally
 
-**Sorry, about the title**. I had to have it a little catchy but it wasn't horrible at all. With all of that out of the way, I'll catch you up next week. Send me your lovely creation on instagram. **Chao**. 
+**Sorry, about the title**. I had to have it a little catchy but it wasn't horrible at all. With all of that out of the way, I'll catch you up next week. Send me your lovely creation on instagram. **Chao**.

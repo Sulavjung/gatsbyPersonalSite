@@ -8,7 +8,7 @@ slug: learnReactServerComponentsInFunniestWay
 Genera: React
 Status: Posted 🔗
 Due_Date: 2023/09/12
-Cover_Image: https://source.unsplash.com/a-close-up-of-a-computer-keyboard-with-a-blurry-background-OYWV8FCrneM/1320x400
+Cover_Image: NONE
 Description: Step into the future of web development with our in-depth exploration of React Server Components (RSCs). In this enlightening article, we demystify the transformative power of RSCs and how they are reshaping the way we build web applications.
 tags:
   - Article
@@ -68,20 +68,20 @@ These components have VIP access to the server. No more waiting in line for netw
 With React Server Components, you can write code like this:
 
 ```js
-import { dbConnect } from '@/services/mongo'
-import { addCourseToDB } from './actions/add-course'
-import CourseList from './components/CourseList'
+import { dbConnect } from "@/services/mongo"
+import { addCourseToDB } from "./actions/add-course"
+import CourseList from "./components/CourseList"
 
 export default async function Home() {
   // Get a MongoDB connection
-  await dbConnect();
+  await dbConnect()
   // Fetch all courses from the db
-  const allCourses = await courses.find();
+  const allCourses = await courses.find()
   // No need for useState or useEffect – it's that simple!
   return (
     <main>
       <div>
-        <CourseList allCourses={allCourses} />  
+        <CourseList allCourses={allCourses} />
       </div>
     </main>
   )
@@ -102,7 +102,7 @@ Of course, every superhero has its quirks. React Server Components can't do ever
 
 Your app can be a blend of server and client components. Think of it like a superhero team-up movie – server components handle the heavy lifting, while client
 
- components bring the interactivity.
+components bring the interactivity.
 
 Server components can invite client components to the party, but not the other way around. It's like inviting your friend's dog to a BBQ – it's there, but it can't host the party.
 

@@ -1,7 +1,7 @@
 ---
 Area: Personal
 Author: Sulav Jung Hamal
-Cover_Image: https://source.unsplash.com/lAx4E6Gl06s/1320x400
+Cover_Image: NONE
 Date: 2023/03/25
 Fun_Meter: Awesome
 Genera: Personal Growth, Productivity
@@ -17,7 +17,7 @@ tags:
 ---
 
 Hello lovely human being,
-You clicked this link to learn more about productivity and how to stay productive. I can tell you exactly what every other productivity guru says, and also exactly what you came here to hear. But how often have you actually applied those productivity mantras after reading or hearing them? None, right? Then what's the point of repeating them to you again and again? So let me be honest with you. Even, I started writing this article with the intention of giving some productivity tips, but then I realized that writing this article itself is a waste of time for me. Well,  What do I even know about productivity then?
+You clicked this link to learn more about productivity and how to stay productive. I can tell you exactly what every other productivity guru says, and also exactly what you came here to hear. But how often have you actually applied those productivity mantras after reading or hearing them? None, right? Then what's the point of repeating them to you again and again? So let me be honest with you. Even, I started writing this article with the intention of giving some productivity tips, but then I realized that writing this article itself is a waste of time for me. Well, What do I even know about productivity then?
 
 With that being said, I do know a few things that can help you stay on track and motivate yourself. However, I suggest you listen to them with one ear and release them from the other like most of us usually do. These tips will only give you a dopamine release for a few minutes, so stay with this article for a split second.
 

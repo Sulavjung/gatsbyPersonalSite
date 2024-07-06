@@ -8,14 +8,13 @@ slug: stealLikeAnArtist
 Genera: Book
 Status: Finished
 Fun_Meter: Awesome
-Cover_Image: https://source.unsplash.com/9DaOYUYnOls/1320x400
+Cover_Image: NONE
 Description: Steal from anywhere that resonates or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams, random conversations, architecture, bridges, street signs, trees, clouds, bodies of water, light and shadows. Select only things to steal from that speak directly to your soul. If you do this, your work will be authentic. - Jim Jarmusch.
 tags:
   - Book
 ---
 
-
-In our world brimming with information, where countless voices clamor for attention, it's easy to overlook the wisdom that's been shared time and time again. As the saying goes, "Everything that needs to be said has already been said. But, since no one was listening, everything must be said again." It's a reminder that inspiration often hides in plain sight, waiting for us to pay attention. Here are some of the things that I learned from the book "Steal Like An Artist" by Austin Kleon. 
+In our world brimming with information, where countless voices clamor for attention, it's easy to overlook the wisdom that's been shared time and time again. As the saying goes, "Everything that needs to be said has already been said. But, since no one was listening, everything must be said again." It's a reminder that inspiration often hides in plain sight, waiting for us to pay attention. Here are some of the things that I learned from the book "Steal Like An Artist" by Austin Kleon.
 
 ## The Sum of Our Influences
 
@@ -45,8 +44,8 @@ Imposter Syndrome, that feeling of being a phony, haunts even the most creative 
 
 Pretend to be something you're not until you are. Dress for the job you want and start doing the work you aspire to do. The path to becoming is often paved with actions, and by pretending to make something, you'll eventually make it.
 
-
 ## Conclusion
+
 In the grand tapestry of creativity, your journey is an intricate thread. The world is a reservoir of inspiration, and your unique experiences and interpretations enrich the narrative. As you embrace the art of stealing like an artist, remember that creativity is a dynamic process of addition, subtraction, and, most importantly, self-discovery.
 
 So, start today. Make things, know thyself, and let your unique creativity flourish. You are ready. Your story is waiting to be written, your art waiting to be created. Your journey of inspiration and self-discovery begins now.

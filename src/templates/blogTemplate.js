@@ -31,6 +31,12 @@ const BlogTemplate = ({ data }) => {
   }
 
   const TitleBox = props => {
+    let img = null
+
+    if (props.cover !== "NONE") {
+      img = require(`../content/blogPost/Images/${props.cover}`)
+    }
+
     return (
       <>
         <div className="d-flex flex-column curvy-line pb-4 blogTitleBox">
@@ -58,7 +64,16 @@ const BlogTemplate = ({ data }) => {
             </div>
           </>
           <div className="sulav ">
-            <img src={props.cover} alt={props.titlename} />
+            {img ? (
+              <img
+                src={img.default}
+                alt={props.titlename}
+                height="200px"
+                width="400px"
+              />
+            ) : (
+              <></>
+            )}
           </div>
         </div>
       </>

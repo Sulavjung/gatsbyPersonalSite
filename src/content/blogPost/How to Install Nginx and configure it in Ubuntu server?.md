@@ -7,7 +7,7 @@ Type: Blog
 slug: howtoinstallnginxandconfigureitinubuntuserver
 Genera: Tech Tutorial
 Status: Completed
-Cover_Image: https://source.unsplash.com/an-abstract-image-of-a-sphere-on-a-black-background-grH6lq1PXbo/1320x400
+Cover_Image: NONE
 Description: Learn how to install and configure Nginx on your Ubuntu server to effectively serve web content and deploy web applications.
 tags:
   - Nginx

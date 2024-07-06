@@ -3,6 +3,20 @@
 .cardssImage {
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
+  transition: all 2s;
+}
+
+.cardssImagePlaceholder {
+  border-radius: 10px 10px 0px 0px;
+  height: 400px;
+  width: 400px;
+  background-color: var(--cardBackground);
+  opacity: 0.9;
+  transition: all 2s;
+}
+
+.emojisBlog {
+  text-shadow: var(--boxShadowBlogCards);
 }
 
 #caraso {
@@ -17,19 +31,24 @@
 }
 
 .cardss {
-  width: 400px;
-  box-shadow: var(--boxShadowBlogCards);
+  width: 400px !important;
   background: var(--white);
+  box-shadow: var(--boxShadowBlogCards);
+  box-sizing: content-box;
   scroll-snap-align: start;
+  transition: all 0.2s;
 }
 
-.cardss > a {
+.cardTitle {
   text-decoration: none;
-  color: var(--black) !important;
+  color: var(--black);
+  transition: all ease-in-out 0.4s;
 }
 
-.cardss > a:hover {
-  color: #1674fd !important ;
+.cardss:hover {
+  .cardTitle {
+    color: var(--link);
+  }
 }
 
 .blogPage {
