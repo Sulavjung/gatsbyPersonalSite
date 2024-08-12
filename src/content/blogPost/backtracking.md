@@ -1,5 +1,5 @@
 ---
-Title: Backtracking in Algorithms: An In-Depth Exploration  
+Title: "Backtracking in Algorithms: An In-Depth Exploration"  
 Date: 2024/08/11  
 Author: Sulav Jung Hamal  
 BookAuthor: Sulav Jung Hamal  
