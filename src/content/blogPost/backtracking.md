@@ -118,7 +118,7 @@ The backtracking approach to the N-Queens problem is straightforward:
 
 A Python implementation of the N-Queens problem using backtracking might look as follows:
 
-```python
+```js
 def is_safe(board, row, col):
     # Check column and diagonals for conflicts
     for i in range(row):
@@ -175,7 +175,7 @@ The backtracking approach to solving Sudoku involves the following steps:
 
 A Python implementation of a Sudoku solver using backtracking might look as follows:
 
-```python
+```js
 def is_valid(board, row, col, num):
     # Check if num is not in the current row, column, or 3x3 subgrid
     for i in range(9):
@@ -248,7 +248,7 @@ The backtracking approach to solving the Hamiltonian Path problem involves the f
 
 A Python implementation of the Hamiltonian Path problem using backtracking might look as follows:
 
-```python
+```js
 def is_safe(v, pos, path, graph):
     if graph[path[pos - 1]][v] == 0:
         return False
@@ -317,7 +317,7 @@ The backtracking approach to solving the Knight's Tour problem involves the foll
 
 A Python implementation of the Knight's Tour problem using backtracking might look as follows:
 
-```python
+```js
 def is_safe(x, y, board, N):
     return x >= 0 and y >= 0 and x < N and y < N and board[x][y] == -1
 
