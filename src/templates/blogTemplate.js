@@ -17,6 +17,8 @@ const BlogTemplate = ({ data }) => {
   const { Author, Date, Title, Type, Cover_Image, Description, slug, tags } =
     data.markdownRemark.frontmatter
 
+  const loadLanguages = require("prismjs/components/")
+  loadLanguages(["python"])
   useEffect(() => {
     Prism.highlightAll()
   }, [])
@@ -42,11 +44,11 @@ const BlogTemplate = ({ data }) => {
         <div className="d-flex flex-column curvy-line pb-4 blogTitleBox">
           <>
             <div>
-              <div className="py-0  pb-0 fw-bold text-start">
+              <header className="py-0  pb-0 fw-bold text-start">
                 <h1 className="fs-sm-1 fw-bold pb-0 blogTitle">
                   {props.titlename}
                 </h1>
-              </div>
+              </header>
 
               <div className="fw-regular fs-10 text-start pt-0">
                 <p className="p-0 m-0 pb-4">

@@ -13,6 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "programming/Analysis_Of_Algorithm/Branch and Bound.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "30e618a27f86a398",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c814fc534bd4b4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "programming/Analysis_Of_Algorithm/Step Counting.md",
                 "mode": "source",
                 "source": true
@@ -93,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Analysis_Of_Algorithm/Step Counting.md",
+                "file": "programming/Analysis_Of_Algorithm/Branch and Bound.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Analysis_Of_Algorithm/Step Counting.md",
+                "file": "programming/Analysis_Of_Algorithm/Branch and Bound.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Analysis_Of_Algorithm/Step Counting.md"
+                "file": "programming/Analysis_Of_Algorithm/Branch and Bound.md"
               }
             }
           },
@@ -168,8 +186,9 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "programming/Analysis_Of_Algorithm/Overview.md",
     "programming/Analysis_Of_Algorithm/Step Counting.md",
+    "programming/Analysis_Of_Algorithm/Branch and Bound.md",
+    "programming/Analysis_Of_Algorithm/Overview.md",
     "programming/Data_Structure/Tree and Binary Tree.md",
     "programming/Data_Structure/overview.md",
     "programming/Analysis_Of_Algorithm",
@@ -194,7 +213,6 @@
     "interview/Interview Questions on React Concepts.md",
     "blogPost/E-Myth Revisited.md",
     "blogPost/How to use Static Files in Django?.md",
-    "programming/Data_Structure/ADT Dictionary.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",

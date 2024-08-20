@@ -72,39 +72,39 @@ h3,
 }
 
 .blogPost h1 {
-  font-size: 34px;
+  font-size: 1em;
   color: #50a150;
 }
 
 .blogPost h2 {
-  font-size: 30px;
+  font-size: 2em;
   color: var(--textTitle) !important;
   margin-top: 70px;
 }
 
 .blogPost h3 {
-  font-size: 26px;
+  font-size: 1.8em;
   color: #62afee;
 }
 
 .blogPost h4 {
-  font-size: 22px;
+  font-size: 1.6em;
   color: #50a150;
 }
 
 .blogPost h5 {
-  font-size: 18px;
+  font-size: 1.5em;
   color: #62afee;
 }
 
 .blogPost h6 {
-  font-size: 16px;
+  font-size: 1.4em;
   color: #a627a4;
 }
 
 /* Paragraphs */
 .blogPost p {
-  font-size: 19px !important;
+  font-size: 1em !important;
   margin-top: 0;
   margin-bottom: 16px;
   line-height: 30px;

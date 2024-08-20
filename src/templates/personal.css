@@ -22,8 +22,9 @@ h3,
 #classRandom h6 {
   font-weight: 600;
   line-height: 1.25;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 4px;
+  font-family: Arial, sans-serif;
 }
 
 #classRandom h1 {
@@ -34,7 +35,7 @@ h3,
 #classRandom h2 {
   font-size: 30px;
   color: var(--textTitle) !important;
-  margin-top: 70px;
+  margin-top: 10px;
 }
 
 #classRandom h3 {
@@ -180,7 +181,6 @@ a:hover {
   backdrop-filter: blur(8.5px);
   -webkit-backdrop-filter: blur(8.5px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
   text-decoration: none;
   transition: background-color 0.6s ease-out;
 }
@@ -325,6 +325,10 @@ a:hover {
   .toc-container {
     display: none; /* Correct class name */
   }
+}
+
+.notes {
+  padding: 20px;
 }
 
 .notes table {

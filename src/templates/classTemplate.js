@@ -10,6 +10,7 @@ import { Helmet } from "react-helmet"
 import ClassTopics from "../components/classComponents/relatedClassTopics"
 import "prismjs/components/prism-java"
 import "prismjs/components/prism-bash"
+import "prismjs/components/prism-python"
 require(`katex/dist/katex.min.css`)
 
 const ClassTemplate = ({ data }) => {
@@ -130,12 +131,12 @@ const ClassTemplate = ({ data }) => {
         </div>
       </div>
 
-      <div className="container-xxl mt-4 p-0 pb-3 similarTopics">
+      <div className="container-xxl mt-4 p-0 pb-3 px-2 px-sm-0  similarTopics">
         <h1 className="fw-bold pb-0 mb-0">Similar Topics</h1>
         <hr className="m-0 mb-1" />
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 p-0">
           {allMarkdownRemark.edges.map(({ node }) => (
-            <div className="card col my-1 " key={node.frontmatter.slug}>
+            <div className="col my-1 " key={node.frontmatter.slug}>
               <Link
                 to={`/programming/${node.frontmatter.Class}/${node.frontmatter.slug}`}
                 className="text-decoration-none"
