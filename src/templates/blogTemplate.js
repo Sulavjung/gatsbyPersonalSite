@@ -8,6 +8,9 @@ import { Helmet } from "react-helmet"
 import Prism from "prismjs"
 import "./prism.css"
 import { BsPlayCircle, BsStopwatch } from "react-icons/bs"
+import "prismjs/components/prism-java"
+import "prismjs/components/prism-bash"
+import "prismjs/components/prism-python"
 import DownloadBlogToShare from "../components/blogComponents/blogDownloadToShare"
 require(`katex/dist/katex.min.css`)
 
@@ -17,8 +20,6 @@ const BlogTemplate = ({ data }) => {
   const { Author, Date, Title, Type, Cover_Image, Description, slug, tags } =
     data.markdownRemark.frontmatter
 
-  const loadLanguages = require("prismjs/components/")
-  loadLanguages(["python"])
   useEffect(() => {
     Prism.highlightAll()
   }, [])

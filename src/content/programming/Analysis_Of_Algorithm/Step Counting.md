@@ -3,7 +3,7 @@ Title: Step Counting
 Date: 04/13/2023
 Author: Sulav Jung Hamal
 BookAuthor: Sulav Jung Hamal
-Type: Class
+Type: Class[[backtracking]]
 Class: analysisOfAlgorithm
 slug: stepCounting
 Genera: Data Science 
