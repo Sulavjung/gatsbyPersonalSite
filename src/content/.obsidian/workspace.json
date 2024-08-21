@@ -11,11 +11,9 @@
             "id": "ec2a04d64d36d927",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "blogPost/branch and bound.md",
-                "mode": "source",
-                "source": true
+                "file": "blogPost/Images/BranchandBound.png"
               }
             }
           }
@@ -124,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/branch and bound.md",
+                "file": "blogPost/Images/BranchandBound.png",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/branch and bound.md",
+                "file": "blogPost/Images/BranchandBound.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/branch and bound.md"
+                "file": "blogPost/Images/BranchandBound.png"
               }
             }
           },
@@ -185,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,15 +197,18 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "blogPost/backtracking.md",
     "blogPost/branch and bound.md",
+    "blogPost/Images/BranchandBound.png",
+    "blogPost/Images/BranchandBound.png",
+    "blogPost/E-Myth Revisited.md",
+    "blogPost/20 things, one week, and one me.md",
+    "blogPost/backtracking.md",
     "programming/Analysis_Of_Algorithm/Step Counting.md",
     "programming/Analysis_Of_Algorithm/Branch and Bound.md",
     "programming/Analysis_Of_Algorithm/Overview.md",
     "programming/Data_Structure/Tree and Binary Tree.md",
     "programming/Data_Structure/overview.md",
     "programming/Analysis_Of_Algorithm",
-    "blogPost/20 things, one week, and one me.md",
     "blogPost/Horrible Week of Front End Submission.md",
     "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
     "blogPost/What are Progressive Web Apps?.md",
@@ -224,8 +225,6 @@
     "blogPost/Steal Like an Artist.md",
     "blogPost/What did I learn in the process of watching the first Formula 1 motorsport racing event today?.md",
     "blogPost/The 4-HourWorkweek.md",
-    "interview/Interview Questions on JavaScript.md",
-    "interview/Interview Questions on React Concepts.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
@@ -234,8 +233,6 @@
     "blogPost/Images",
     "programming/Data_Structure/Images/ADTTree3 1.png",
     "programming/Data_Structure/Images/ADTTree3.png",
-    "programming/Data_Structure/Images/ADTtree3.png",
-    "programming/Data_Structure/Images/ADTTreeImage.png",
-    "programming/Data_Structure/Images/ADTTreeImage2.png"
+    "programming/Data_Structure/Images/ADTtree3.png"
   ]
 }

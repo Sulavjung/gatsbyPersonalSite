@@ -7,7 +7,7 @@ Type: Blog
 Genera: Computer Science  
 Status: Completed  
 slug: branchandboundBlog
-Cover_Image: NONE  
+Cover_Image: BranchandBound.png 
 Description: This paper provides a detailed explanation of the Branch and Bound algorithm, a powerful optimization technique in combinatorial optimization problems. We explore its fundamental principles, step-by-step application, and its role in solving classical problems such as the Travelling Salesman Problem, the Knapsack Problem, and others.
 tags:  
 - Algorithms  
@@ -52,7 +52,7 @@ Another closely related technique is the Backtracking algorithm. While Backtrack
 
 The **state space tree** is the backbone of the Branch and Bound method. Each node in this tree represents a partial solution to the problem. The root node represents the initial problem, and branching corresponds to making a decision that leads to subproblems. Each subsequent node then represents a further refined decision or set of decisions.
 
-The branching process effectively divides the original problem into smaller, more manageable subproblems. For example, in the Travelling Salesman Problem (TSP), the state space tree starts with a decision about which city to visit first. The next branch could represent the choice of the second city, and so on, until the algorithm has built a complete path.
+The branching process effectively divides the original problem into smaller, more manageable subproblems. For example, in the Traveling Salesman Problem (TSP), the state space tree starts with a decision about which city to visit first. The next branch could represent the choice of the second city, and so on, until the algorithm has built a complete path.
 
 ### 2.2 Branching: Dividing the Problem
 
