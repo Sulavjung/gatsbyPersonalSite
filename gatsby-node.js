@@ -74,7 +74,6 @@ exports.createPages = async ({ graphql, actions }) => {
   data.allMarkdownRemark.nodes.forEach(node => {
     const { slug, Type, Class } = node.frontmatter
 
-
     //This is creating the pages from the md files depending on the frontmatter Type. Type could only be: [Interview, Class, Blog, Class_overview]
 
     if (Type === "Interview") {
@@ -84,8 +83,6 @@ exports.createPages = async ({ graphql, actions }) => {
         context: { Class: Class, slug: slug },
       })
     }
-
-
 
     if (Type === "Class") {
       actions.createPage({
@@ -108,6 +105,15 @@ exports.createPages = async ({ graphql, actions }) => {
         path: `/programming/${slug}`,
         component: path.resolve("./src/templates/classOverviewTemplate.js"),
         context: { slug, Class },
+      })
+    }
+
+    // Add AcademicPaper type
+    if (Type === "Activity") {
+      actions.createPage({
+        path: `/activity/${slug}`,
+        component: path.resolve("./src/templates/paperReviewTemplate.js"),
+        context: { slug },
       })
     }
   })

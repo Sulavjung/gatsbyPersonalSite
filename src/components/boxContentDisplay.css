@@ -6,7 +6,8 @@
 #Quotes,
 #Photos,
 #Trails,
-#Languages {
+#Languages,
+#Activity {
   text-align: center;
   background: #eff9ff;
   background: var(--cardBackground);

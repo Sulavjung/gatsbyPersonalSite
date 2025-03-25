@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `sulavhamal`,
-    siteUrl: 'https://www.sulavhamal.com',
+    siteUrl: "https://www.sulavhamal.com",
   },
   plugins: [
     `gatsby-plugin-dark-mode`,
@@ -31,8 +31,8 @@ module.exports = {
     },
     `gatsby-plugin-image`,
     `gatsby-transformer-sharp`,
-    'gatsby-plugin-sitemap',
-    'gatsby-plugin-robots-txt',
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-robots-txt",
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
@@ -49,7 +49,7 @@ module.exports = {
             resolve: `gatsby-remark-katex`,
             options: {
               // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-              strict: `ignore`
+              strict: `ignore`,
             },
           },
         ],
@@ -73,7 +73,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name:  `content`,
+        name: `content`,
         path: `${__dirname}/src/content`,
       },
     },
