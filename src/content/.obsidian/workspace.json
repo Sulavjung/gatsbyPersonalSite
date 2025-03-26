@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academicPapers/model_agnostic_meta_learning.md",
+                "file": "academicPapers/ns-charts.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "model_agnostic_meta_learning"
+              "title": "ns-charts"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "academicPapers/model_agnostic_meta_learning.md",
+                "file": "blogPost/When Did we Become so Shallow?.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for model_agnostic_meta_learning"
+              "title": "Backlinks for When Did we Become so Shallow?"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "academicPapers/model_agnostic_meta_learning.md",
+                "file": "blogPost/When Did we Become so Shallow?.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from model_agnostic_meta_learning"
+              "title": "Outgoing links from When Did we Become so Shallow?"
             }
           },
           {
@@ -138,9 +138,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -152,13 +150,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "academicPapers/model_agnostic_meta_learning.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "file": "blogPost/When Did we Become so Shallow?.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of model_agnostic_meta_learning"
+              "title": "Outline of When Did we Become so Shallow?"
             }
           },
           {
@@ -180,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,16 +190,14 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "Pasted image 20250325132620.png",
     "academicPapers/model_agnostic_meta_learning.md",
+    "academicPapers/ns-charts.md",
     "academicPapers/What is Generative Adversial Network (GAN)?.md",
-    "academicPapers/paper1 copy 3.md",
-    "academicPapers/paper1 copy 2.md",
-    "academicPapers/paper1 copy.md",
-    "academicPapers/paper1 copy 4.md",
-    "academicPapers/paper1 copy 5.md",
+    "blogPost/When Did we Become so Shallow?.md",
     "academicPapers/paper1.md",
+    "academicPapers",
     "blogPost/Images/BranchandBound.png",
+    "What did we plan to do on the journal and task integeration? I just wanted to know about that as.md",
     "blogPost/branch and bound.md",
     "blogPost/E-Myth Revisited.md",
     "blogPost/20 things, one week, and one me.md",
@@ -222,6 +216,9 @@
     "blogPost/Learn React Server Components in fun way..md",
     "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
     "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
+    "blogPost/Let's Find Out A Taco Stand.md",
+    "blogPost/Linear Combination of Random Variables.md",
+    "blogPost/How to Use Templates in Django Project.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
