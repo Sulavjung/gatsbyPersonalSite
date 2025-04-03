@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academicPapers/ns-charts.md",
+                "file": "academicPapers/http.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ns-charts"
+              "title": "http"
             }
           }
         ]
@@ -190,9 +190,10 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "academicPapers/model_agnostic_meta_learning.md",
     "academicPapers/ns-charts.md",
+    "academicPapers/http.md",
     "academicPapers/What is Generative Adversial Network (GAN)?.md",
+    "academicPapers/model_agnostic_meta_learning.md",
     "blogPost/When Did we Become so Shallow?.md",
     "academicPapers/paper1.md",
     "academicPapers",
@@ -218,7 +219,6 @@
     "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
     "blogPost/Let's Find Out A Taco Stand.md",
     "blogPost/Linear Combination of Random Variables.md",
-    "blogPost/How to Use Templates in Django Project.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",

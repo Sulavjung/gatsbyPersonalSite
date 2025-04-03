@@ -4,6 +4,7 @@
     "cssclasses": "multitext",
     "tags": "tags",
     "Genera": "text",
-    "Date": "text"
+    "Date": "text",
+    "Author": "text"
   }
 }
