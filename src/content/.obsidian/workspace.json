@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "academicPapers/http.md",
+                "file": "interview/Interview Questions on JavaScript.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "http"
+              "title": "Interview Questions on JavaScript"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blogPost/When Did we Become so Shallow?.md",
+                "file": "academicPapers/model_agnostic_meta_learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for When Did we Become so Shallow?"
+              "title": "Backlinks for model_agnostic_meta_learning"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "blogPost/When Did we Become so Shallow?.md",
+                "file": "academicPapers/model_agnostic_meta_learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from When Did we Become so Shallow?"
+              "title": "Outgoing links from model_agnostic_meta_learning"
             }
           },
           {
@@ -138,7 +138,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -150,10 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blogPost/When Did we Become so Shallow?.md"
+                "file": "interview/Interview Questions on JavaScript.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of When Did we Become so Shallow?"
+              "title": "Outline of Interview Questions on JavaScript"
             }
           },
           {
@@ -175,8 +180,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,15 +194,21 @@
   },
   "active": "ec2a04d64d36d927",
   "lastOpenFiles": [
-    "academicPapers/ns-charts.md",
+    "interview/Interview Questions on React Concepts.md",
+    "interview/Interview Questions on JavaScript.md",
+    "academicPapers/ics-standard.md",
     "academicPapers/http.md",
-    "academicPapers/What is Generative Adversial Network (GAN)?.md",
     "academicPapers/model_agnostic_meta_learning.md",
-    "blogPost/When Did we Become so Shallow?.md",
+    "academicPapers/ns-charts.md",
+    "Pasted image 20250325132620.png",
+    "academicPapers/What is Generative Adversial Network (GAN)?.md",
+    "academicPapers/paper1 copy 3.md",
+    "academicPapers/paper1 copy 2.md",
+    "academicPapers/paper1 copy.md",
+    "academicPapers/paper1 copy 4.md",
+    "academicPapers/paper1 copy 5.md",
     "academicPapers/paper1.md",
-    "academicPapers",
     "blogPost/Images/BranchandBound.png",
-    "What did we plan to do on the journal and task integeration? I just wanted to know about that as.md",
     "blogPost/branch and bound.md",
     "blogPost/E-Myth Revisited.md",
     "blogPost/20 things, one week, and one me.md",
@@ -213,12 +223,6 @@
     "blogPost/How to Install Nginx and configure it in Ubuntu server?.md",
     "blogPost/What are Progressive Web Apps?.md",
     "blogPost/Why your friends aren't supporting you?.md",
-    "blogPost/What is an API?.md",
-    "blogPost/Learn React Server Components in fun way..md",
-    "blogPost/A Comprehensive Guide to Modern Computing Architecture.md",
-    "blogPost/The Science of Early Rising - Understanding the Benefits of Waking Up Early.md",
-    "blogPost/Let's Find Out A Taco Stand.md",
-    "blogPost/Linear Combination of Random Variables.md",
     "blogPost/Images/emythrevisited 1.png",
     "blogPost/Images/emythrevisited.png",
     "blogPost/Images/MacBook Pro 14_ -2.png",
