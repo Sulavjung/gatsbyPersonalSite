@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "theme": "professional",
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  },
+  "basics": {
+    "name": "Sulav Jung Hamal",
+    "label": "Full Stack Developer",
+    "image": "",
+    "email": "hamalsulavjung@gmail.com",
+    "phone": "4158156033",
+    "url": "https://sulavhamal.com",
+    "summary": "Passionate full stack developer with a focus on building AI-driven web and mobile applications, retail automation tools, and scalable systems. Experienced in React, TypeScript, Java, and cloud infrastructure, I excel at creating user-focused solutions for real-world problems. My work spans startup ventures, nonprofit contributions, and practical tools for small businesses, with a strong foundation in computer science and a commitment to leveraging technology for positive impact.",
+    "location": {
+      "address": "San Francisco Bay Area",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "sulavjunghamal",
+        "url": "https://www.linkedin.com/in/sulavjunghamal/"
+      },
+      {
+        "network": "github",
+        "username": "Sulavjung",
+        "url": "https://github.com/Sulavjung"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TodoToday AI Startup Project",
+      "position": "Co-founder & Full Stack Developer",
+      "startDate": "2024-01-31",
+      "endDate": "",
+      "summary": "Collaborated with a six-person team to develop an AI-driven task management and journaling web app using React, Express, MySQL, and Docker, hosted on AWS EC2. Evolved from a class project into a startup, incorporating system design patterns for scalability and advancing iOS/Android versions to 80% completion with AI-first features.",
+      "url": "",
+      "location": "San Francisco, California, United States",
+      "highlights": [
+        "Developed front-end with React and Redux for responsive UI",
+        "Implemented Express and MySQL backend for robust data management",
+        "Containerized deployment using Docker on AWS EC2",
+        "Integrated AI-driven features to enhance user productivity"
+      ]
+    },
+    {
+      "name": "Bobs Liquor",
+      "position": "Retail Technology & Operations Manager",
+      "startDate": "2022-08-31",
+      "endDate": "2024-01-31",
+      "summary": "Managed retail operations and developed custom technology solutions, including a front-end label creator app using React, Vite, and Redux for barcode scanning and inventory management. Streamlined store processes, improving efficiency and reducing manual effort.",
+      "url": "",
+      "location": "San Mateo, California, United States",
+      "highlights": [
+        "Built and deployed label creator tool for daily use",
+        "Optimized inventory display with JSON/CSV integration",
+        "Enhanced operational workflows for small business retail"
+      ]
+    },
+    {
+      "name": "The Wide Zone Org",
+      "position": "Board Member",
+      "startDate": "2021-08-31",
+      "endDate": "2023-08-31",
+      "summary": "Contributed to a nonprofit empowering underrepresented communities through technology, education, and leadership development. Shaped strategic vision, ensured organizational transparency, and drove initiatives to provide tech access and education locally and globally.",
+      "url": "",
+      "location": "San Francisco Bay Area",
+      "highlights": [
+        "Collaborated on strategic planning for tech-focused community programs",
+        "Promoted transparency and accountability in nonprofit operations",
+        "Supported initiatives for digital literacy and leadership development"
+      ]
+    },
+    {
+      "name": "The Grove SF",
+      "position": "Front Lead",
+      "startDate": "2019-12-31",
+      "endDate": "2022-08-31",
+      "summary": "Led front-of-house operations, ensuring excellent customer service and efficient team coordination in a high-paced environment. Developed skills in leadership, communication, and operational management.",
+      "url": "https://www.linkedin.com/company/71616561",
+      "location": "San Francisco, California, United States",
+      "highlights": [
+        "Managed team scheduling and customer-facing operations",
+        "Improved service efficiency through process optimization",
+        "Fostered a positive team environment to enhance customer experience"
+      ]
+    },
+    {
+      "name": "The Grove SF",
+      "position": "Cashier",
+      "startDate": "2019-03-31",
+      "endDate": "2019-12-31",
+      "summary": "Handled customer transactions and provided high-quality service in a fast-paced retail environment. Developed foundational skills in customer interaction and operational efficiency.",
+      "url": "https://www.linkedin.com/company/71616561",
+      "location": "San Francisco, California, United States",
+      "highlights": [
+        "Processed transactions accurately and efficiently",
+        "Built strong customer relationships through attentive service",
+        "Supported team in maintaining operational standards"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "San Francisco State University",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science - BS",
+      "startDate": "2023-01-31",
+      "endDate": "2025-05-31",
+      "score": "",
+      "courses": [
+        "CS220 - Data Structure with Java",
+        "Math 0324 - Probability and Statistics with Computing",
+        "CSC 413 - Software Development",
+        "CSC415 - Operating System Principles",
+        "CSC 510 - Analysis of Algorithms",
+        "CSC 667 - Internet App Design and Dev",
+        "CSC 645 - Computer Networks",
+        "CSC 600 - Programming Paradigms and Languages",
+        "CSC 675 - Database Systems",
+        "CSC 340 - Programming Methodology"
+      ]
+    },
+    {
+      "institution": "City College of San Francisco",
+      "area": "Computer Science",
+      "studyType": "Transfer Degree",
+      "startDate": "2021-05-31",
+      "endDate": "2023-01-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Snowflake Dev Day Gen AI Bootcamp 2025",
+      "issuer": "Snowflake",
+      "date": "2025-06-30",
+      "url": "https://developerbadges.snowflake.com/5929c842-8bb3-4a16-a4ad-93bac317bf4b"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "React.js",
+        "GatsbyJS",
+        "JavaScript",
+        "TypeScript",
+        "HTML5",
+        "CSS3",
+        "Tailwind",
+        "Bootstrap",
+        "Redux",
+        "JSX",
+        "EJS",
+        "Vite"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Intermediate",
+      "keywords": [
+        "Node.js",
+        "Express.js",
+        "Java",
+        "C",
+        "C++",
+        "Python",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "SQLite",
+        "JDBC",
+        "WebSocket"
+      ]
+    },
+    {
+      "name": "DevOps & Infrastructure",
+      "level": "Intermediate",
+      "keywords": [
+        "AWS (EC2)",
+        "Docker",
+        "Linux",
+        "Git",
+        "Netlify",
+        "System Administration"
+      ]
+    },
+    {
+      "name": "AI & Data Tools",
+      "level": "Beginner",
+      "keywords": [
+        "Semantic Search",
+        "AI-powered SQL generation",
+        "LLM orchestration",
+        "Streaming responses",
+        "NumPy",
+        "OpenCV"
+      ]
+    },
+    {
+      "name": "Software Engineering",
+      "level": "Intermediate",
+      "keywords": [
+        "Object-Oriented Programming (OOP)",
+        "Software Design Patterns",
+        "Algorithm Analysis",
+        "Debugging",
+        "Computer Networking",
+        "Operating Systems",
+        "Database Systems",
+        "Internet Application Development"
+      ]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "",
+      "keywords": [
+        "Communication",
+        "Critical Thinking",
+        "Analytical Skills",
+        "Logical Approach",
+        "Team Collaboration"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent Speaker"
+    },
+    {
+      "language": "Nepali",
+      "fluency": "Native Speaker"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Fluent Speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Hiking",
+      "keywords": ["Outdoor Activities"]
+    },
+    {
+      "name": "Reading",
+      "keywords": ["Books", "Audiobooks"]
+    },
+    {
+      "name": "Music",
+      "keywords": ["Listening", "Audiobooks"]
+    }
+  ],
+"projects": [
+  {
+    "name": "Label Creator",
+    "startDate": "2025-02-28",
+    "endDate": "",
+    "description": "Created a front-end application for a retail liquor shop to streamline barcode scanning and label printing, with additional tools for register closeouts, price calculations, and business reporting. Built with React, Vite, and Redux, it supports JSON/CSV uploads for inventory management.",
+    "highlights": [
+      "Deployed daily to improve retail inventory efficiency",
+      "Enabled JSON/CSV integration for flexible data handling",
+      "Developed price calculator and monthly business reports",
+      "Inspired vision for retail automation startup"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Banker",
+    "startDate": "2025-01-24",
+    "endDate": "2025-02-14",
+    "description": "Built an offline-first personal finance tracker using TypeScript, Vite, and Redux. Features a document-based system for JSON file storage and a responsive interface for intuitive budget tracking and financial data visualization.",
+    "highlights": [
+      "Developed with TypeScript for type-safe code",
+      "Enabled offline JSON-based data storage",
+      "Designed responsive UI with reusable components",
+      "Empowered users with flexible financial tracking"
+    ],
+    "url": ""
+  },
+  {
+    "name": "TodoToday AI Startup",
+    "startDate": "2024-01-31",
+    "endDate": "",
+    "description": "Co-founded a startup to build an AI-driven task management and journaling platform using React, Express, MySQL, and Docker, hosted on AWS EC2. Evolved from a class project, incorporating system design patterns and advancing iOS/Android apps to 80% completion.",
+    "highlights": [
+      "Developed scalable web app with React and Express",
+      "Containerized deployment on AWS EC2 using Docker",
+      "Integrated AI features for enhanced productivity",
+      "Led six-person team to balance academic and entrepreneurial goals"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Poker Multiplayer Game",
+    "startDate": "2024-09-20",
+    "endDate": "2024-12-20",
+    "description": "Created a real-time multiplayer poker game using TypeScript, EJS, CSS, and PostgreSQL, with WebSocket for seamless player interactions. Features a responsive front-end and a scalable backend for engaging cross-device gameplay.",
+    "highlights": [
+      "Implemented real-time gameplay with WebSocket",
+      "Built scalable backend with PostgreSQL",
+      "Designed responsive UI for cross-device play",
+      "Showcased full-stack development skills"
+    ],
+    "url": "https://github.com/sfsu-csc-667-fall-2024-roberts/term-project-codingblocks"
+  },
+  {
+    "name": "Simple HTTP Web Server",
+    "startDate": "2024-08-29",
+    "endDate": "2024-09-20",
+    "description": "Built a lightweight Java-based HTTP web server using socket programming to serve static content. Collaborated with a teammate to ensure robust network handling and error management, gaining expertise in network protocols.",
+    "highlights": [
+      "Developed with Java and socket programming",
+      "Handled static content requests efficiently",
+      "Collaborated for robust error management",
+      "Strengthened understanding of network protocols"
+    ],
+    "url": "https://github.com/sfsu-csc-667-fall-2024-roberts/jrob-fail-web-server-team-sulav-and-zachary"
+  },
+  {
+    "name": "Device Driver",
+    "startDate": "2024-07-27",
+    "endDate": "2024-08-09",
+    "description": "Developed a device driver in C to facilitate hardware communication within an operating system. Ensured compatibility and reliability through extensive testing, deepening expertise in kernel-level programming.",
+    "highlights": [
+      "Coded in C for hardware integration",
+      "Tested extensively for stable performance",
+      "Enhanced kernel-level programming skills",
+      "Achieved reliable device communication"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Simple Shell in Linux",
+    "startDate": "2024-06-20",
+    "endDate": "2024-07-04",
+    "description": "Implemented a lightweight Linux shell in C, supporting command execution and piping. Optimized for fast and accurate command processing, enhancing skills in low-level programming and process management.",
+    "highlights": [
+      "Built in C with command execution and piping",
+      "Optimized for efficient command processing",
+      "Lightweight interface mimicking standard shells",
+      "Improved process management expertise"
+    ],
+    "url": ""
+  },
+  {
+    "name": "File System",
+    "startDate": "2024-06-08",
+    "endDate": "2024-07-27",
+    "description": "Crafted a custom file system in C for efficient data storage, creation, and deletion. Designed for reliability to prevent data corruption, improving knowledge of low-level data structures and storage mechanisms.",
+    "highlights": [
+      "Implemented robust file management in C",
+      "Designed to prevent data corruption",
+      "Optimized for efficient storage operations",
+      "Deepened expertise in low-level data structures"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Register Management Database System",
+    "startDate": "2024-08-20",
+    "endDate": "2024-12-20",
+    "description": "Developed a scalable database-driven system for small businesses using Java, JDBC, DAO, and DTO patterns. Focused on efficient transaction and inventory management, with a modular design for integration with larger workflows.",
+    "highlights": [
+      "Built with Java, JDBC, DAO, and DTO patterns",
+      "Optimized for scalable transaction management",
+      "Designed for maintainability and future integrations",
+      "Streamlined business data operations"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Interpreter in Java",
+    "startDate": "2023-12-31",
+    "endDate": "2023-12-31",
+    "description": "Developed a Java-based interpreter using the ByteCodeLoader class to read and execute bytecode instructions via reflection. The VirtualMachine class manages runtime components like the stack and program counter, enabling modular instruction execution.",
+    "highlights": [
+      "Implemented bytecode interpretation with reflection",
+      "Managed runtime stack and program counter",
+      "Designed modular architecture for extensibility",
+      "Enhanced skills in low-level programming"
+    ],
+    "url": ""
+  },
+  {
+    "name": "Personal Website",
+    "startDate": "2023-07-31",
+    "endDate": "2023-11-30",
+    "description": "Developed a Gatsby-powered portfolio to showcase my work in AI, machine learning, and web development. Features a responsive interface, a Markdown-driven blog, and resources like cheat sheets and structured class materials, designed for learners and professionals.",
+    "highlights": [
+      "Built with Gatsby, React, HTML, CSS, and JavaScript",
+      "Integrated Markdown blog for technical insights",
+      "Responsive design accessible across devices",
+      "Central hub for professional and research updates"
+    ],
+    "url": "https://sulavhamal.com"
+  },
+  {
+    "name": "YouTube Clone",
+    "startDate": "2023-05-31",
+    "endDate": "2023-07-31",
+    "description": "Engineered a video-sharing platform as a class project to learn full-stack development, using Express, MySQL, and Handlebars. Implemented video uploads, user profiles, and metadata management with secure input validation and password hashing.",
+    "highlights": [
+      "Built full-stack app with Express and MySQL",
+      "Secured with validator and bcrypt for data privacy",
+      "Streamlined video upload and playback functionality",
+      "Deepened understanding of full-stack architecture"
+    ],
+    "url": ""
+  }],
+  "references": [],
+  "volunteer": [],
+  "publications": []
+}
