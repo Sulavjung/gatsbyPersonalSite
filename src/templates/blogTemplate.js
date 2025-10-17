@@ -60,7 +60,7 @@ const BlogTemplate = ({ data }) => {
           <div className="sulav ">
             {img ? (
               <img
-                src={img.default}
+                src={`/images/${props.cover}`}
                 alt={props.titlename}
                 height="200px"
                 width="400px"
@@ -89,7 +89,7 @@ const BlogTemplate = ({ data }) => {
           property="og:description"
           content={Description}
         />
-        <meta name="image" property="og:image" content={Cover_Image} />
+        <meta name="image" property="og:image" content={`https://sulavhamal.com/images/${Cover_Image}`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta name="author" content={Author} />
@@ -97,7 +97,7 @@ const BlogTemplate = ({ data }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={Title} />
         <meta name="twitter:description" content={Description} />
-        <meta name="twitter:image" content={Cover_Image} />
+        <meta name="twitter:image" content={`https://sulavhamal.com/images/${Cover_Image}`} />
         <meta name="twitter:site" content="@sulav_J_hamal" />
         <meta name="twitter:creator" content="@sulav_J_hamal" />
 
