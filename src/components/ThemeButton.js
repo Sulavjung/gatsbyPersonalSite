@@ -12,8 +12,8 @@ const ThemeButton = () => {
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="60"
-              height="60"
+              width="16"
+              height="16"
               class="bi bi-circle-half toggle"
               viewBox="0 0 16 16"
             >

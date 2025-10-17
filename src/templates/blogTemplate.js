@@ -1,5 +1,5 @@
 import { graphql } from "gatsby"
-import React, { useEffect, useState } from "react"
+import React, { useEffect } from "react"
 import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 import "./notion.css"
@@ -11,11 +11,9 @@ import { BsPlayCircle, BsStopwatch } from "react-icons/bs"
 import "prismjs/components/prism-java"
 import "prismjs/components/prism-bash"
 import "prismjs/components/prism-python"
-import DownloadBlogToShare from "../components/blogComponents/blogDownloadToShare"
 require(`katex/dist/katex.min.css`)
 
 const BlogTemplate = ({ data }) => {
-  const [showDownloadPopup, setShowDownloadPopup] = useState(false)
   const { html, tableOfContents, timeToRead, wordCount } = data.markdownRemark
   const { Author, Date, Title, Type, Cover_Image, Description, slug, tags } =
     data.markdownRemark.frontmatter
@@ -54,14 +52,7 @@ const BlogTemplate = ({ data }) => {
               <div className="fw-regular fs-10 text-start pt-0">
                 <p className="p-0 m-0 pb-4">
                   <small>
-                    {props.authorName} - {props.type} - {props.dateCreated} -{" "}
-                    <button
-                      onClick={() => props.setShowDownloadPopup(true)}
-                      className="border rounded fw-bold px-2 text-white bg-black"
-                    >
-                      Download
-                    </button>
-                  </small>
+                    {props.authorName} - {props.type} - {props.dateCreated}                   </small>
                 </p>
               </div>
             </div>
@@ -123,17 +114,7 @@ const BlogTemplate = ({ data }) => {
             dateCreated={Date}
             type={Type}
             cover={Cover_Image}
-            setShowDownloadPopup={setShowDownloadPopup}
           />
-          {showDownloadPopup && (
-            <DownloadBlogToShare
-              coverImage={Cover_Image}
-              Title={Title}
-              author={Author}
-              Description={Description}
-              setShowDownloadPopup={setShowDownloadPopup}
-            />
-          )}
 
           <div
             className="blogPost pb-0"
