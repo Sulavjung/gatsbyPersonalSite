@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioObject from "./portfolio1.json";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaLink, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 const Resume = () => {
   return <ResumeRenderer data={PortfolioObject} />;
@@ -440,7 +441,9 @@ const ResumeRenderer = ({ data }) => {
   `;
 
   return (
-    <>
+    <> <Helmet>
+      <title> Resume </title>
+    </Helmet>
       <style>{customStyles}</style>
       <div className="container bg-white py-5">
         <Basics basics={data.basics} />
