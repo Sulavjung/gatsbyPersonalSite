@@ -17,7 +17,10 @@ export default function ClassOverviewTemplate({ data }) {
         <meta name="robots" content="nofollow" />
       </Helmet>
       <Navbar />
-      <div className="container-xxl px-2 p-xxl-0 " id="classRandom">
+      <div
+        className="container-xxl px-2 p-xxl-0 md:mt-40 mt-20"
+        id="classRandom"
+      >
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <div className="container-xxl mt-4 p-0 pb-3">
           <h1>Related Topics</h1>

@@ -1,26 +1,22 @@
 import React from "react"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
-import "./themeToggle.css"
+import { Moon, Sun } from "lucide-react"
 
 const ThemeButton = () => {
   return (
     <ThemeToggler>
       {({ theme, toggleTheme }) => (
-        <div className="themeToggler">
-          <button
-            onClick={() => toggleTheme(theme === "dark" ? "light" : "dark")}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              class="bi bi-circle-half toggle"
-              viewBox="0 0 16 16"
-            >
-              <path d="M8 15A7 7 0 1 0 8 1zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16" />
-            </svg>
-          </button>
-        </div>
+        <button
+          onClick={() => toggleTheme(theme === "dark" ? "light" : "dark")}
+          className="p-1 rounded-lg bg-gray-200 dark:bg-gray-800 hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-300 ease-in-out transform hover:scale-110 active:scale-95"
+          aria-label="Toggle theme"
+        >
+          {theme === "dark" ? (
+            <Sun className="w-5 h-5 text-yellow-500 animate-spin-slow" />
+          ) : (
+            <Moon className="w-5 h-5 text-blue-600" />
+          )}
+        </button>
       )}
     </ThemeToggler>
   )

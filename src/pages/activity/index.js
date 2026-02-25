@@ -82,7 +82,7 @@ const AcademicPapers = ({ data }) => {
         ></script>
       </Helmet>
       <Navbar />
-      <section className="container-xxl py-4 bg-light rounded rounded-xl pbg-normal">
+      <section className="container-xxl py-4 bg-light rounded rounded-xl pbg-normal md:mt-30 mt-20">
         <div className="d-flex justify-content-between align-items-center mb-4 px-2">
           <h1 className="h2 fw-semibold text-black">Activity</h1>
           <div className="dropdown">

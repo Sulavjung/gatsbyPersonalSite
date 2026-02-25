@@ -1,10 +1,9 @@
 import React from "react"
 import img from "../../images/blogSideProfileImage.jpeg"
 import { useStaticQuery, graphql } from "gatsby"
-import "./blogPageDescription.css"
 import BlogCards from "./blogCards"
 import ArticleBlogCard from "./articleBlogCard"
-import "./blogPageDescription.css"
+import { ArrowRight, ArrowRightIcon } from "lucide-react"
 
 const BlogPageDescription = props => {
   var data = useStaticQuery(graphql`
@@ -20,6 +19,8 @@ const BlogPageDescription = props => {
               Title
               slug
               Genera
+              Author
+              Date
             }
             id
           }
@@ -30,12 +31,26 @@ const BlogPageDescription = props => {
 
   const link = "/blogs/" + props.slug
   return (
-    <div className="blogPage">
+    <div className="text-gray-900 dark:text-white md:mt-30 mt-20 px-2 md:px-4">
+      <div
+        className="absolute inset-0 z-[-1] opacity-60"
+        style={{
+          backgroundImage: `
+        linear-gradient(to right, #e1e8f0 1px, transparent 1px)
+      `,
+          backgroundSize: "20px 20px",
+          WebkitMaskImage:
+            "radial-gradient(ellipse 70% 60% at 50% 0%, #000 20%, transparent 100%)",
+          maskImage:
+            "radial-gradient(ellipse 70% 60% at 50% 0%, #000 20%, transparent 100%)",
+        }}
+      />
+
       {/* Here goes the Image and the Blogs Title */}
-      <div className="container-xxl py-0 py-md-4 d-flex justify-content-between ">
-        <h1 className="fw-bold mt-2">Blogs</h1>
+      <div className="max-w-7xl mx-auto py-0  md:py-4 flex justify-between">
+        <h1 className="text-2xl md:text-3xl font-bold mt-2">Blogs</h1>
         <img
-          className="rounded-circle my-2"
+          className="rounded-full h-10 w-10 my-2"
           src={img}
           alt="Profile"
           height="37px"
@@ -44,43 +59,31 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Short Description of the Blog. */}
-      <div className="container-xxl mb-5">
-        <p className="fs-5 py-1 mb-1">
+      <div className="max-w-7xl mx-auto mb-5">
+        <p className="text-lg py-1 mb-1">
           Discover the power of learning, creation and inspiration with Blogs.
         </p>
-        <a className="text-primary text-decoration-none" href={link}>
+        <a className="text-blue-600 no-underline" href={link}>
           Recent blog post &nbsp;
           {/* This is the svg file of the arrow.  */}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            className="bi bi-arrow-right-circle"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
-            />
-          </svg>
+          <ArrowRightIcon className="inline-block w-4 h-4" />
         </a>
       </div>
 
       {/* Books */}
-      <div className="container-xxl pb-0">
-        <h2 className="fw-bold pb-2">Book Suggestions</h2>
-        <p className="fs-5 mb-0">
+      <div className="max-w-7xl mx-auto pb-0">
+        <h2 className="font-bold pb-2">Book Suggestions</h2>
+        <p className="text-lg mb-0">
           Dive into the world of literature, learn essential skills, and
           experiment with different genres with my book suggestions.
         </p>
       </div>
 
+      {/* Here is the list of book suggestion articles. */}
+
       {/* Here are the cards feature. */}
-      <div
-        className=" container-xxl caraso d-flex pt-4 px-2 pb-4 mb-4"
-        id="caraso"
-      >
+      <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto  pt-4 pb-4 mb-4 gap-6">
+        {" "}
         {data.allMarkdownRemark.edges.map(post => {
           if (post.node.frontmatter.Genera === "Book") {
             return (
@@ -89,6 +92,8 @@ const BlogPageDescription = props => {
                 title={post.node.frontmatter.Title}
                 img={post.node.frontmatter.Cover_Image}
                 slug={post.node.frontmatter.slug}
+                date={post.node.frontmatter.Date}
+                author={post.node.frontmatter.Author}
               />
             )
           } else {
@@ -99,19 +104,17 @@ const BlogPageDescription = props => {
       </div>
 
       {/* Articles */}
-      <div className="container-xxl">
-        <h2 className="fw-bold pb-2">Articles</h2>
-        <p className="fs-5 mb-0">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="font-bold pb-2">Articles</h2>
+        <p className="text-lg mb-0">
           Unlock the power of clear and compelling articles on topics such as
           technology, science, personal growth, and more.
         </p>
       </div>
 
       {/* Here are the cards feature. */}
-      <div
-        className=" container-xxl caraso d-flex pt-4 px-2 pb-4 mb-4"
-        id="caraso"
-      >
+      <div className="max-w-7xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto  pt-4 px-2 pb-4 mb-4 gap-6">
+        {" "}
         {data.allMarkdownRemark.edges.map(post => {
           if (post.node.frontmatter.Genera !== "Book") {
             return (
@@ -120,6 +123,8 @@ const BlogPageDescription = props => {
                 title={post.node.frontmatter.Title}
                 img={post.node.frontmatter.Cover_Image}
                 slug={post.node.frontmatter.slug}
+                date={post.node.frontmatter.Date}
+                author={post.node.frontmatter.Author}
               />
             )
           } else {

@@ -48,6 +48,8 @@ import profile from "../../images/blogSideProfileImage.jpeg"
 import "./style.css"
 import { Helmet } from "react-helmet"
 import InterviewCards from "../../components/programmingComponents/interviewCard.js"
+import { motion } from "framer-motion"
+import { ArrowLeft } from "lucide-react"
 
 export default function programming() {
   const link = "/programming/dataStructure/overview"
@@ -62,11 +64,11 @@ export default function programming() {
       </Helmet>
       <Navbar />
       {/* Here goes the Image and the Programming Title */}
-      <div className="programmingPage">
+      <div className="programmingPage md:mt-40 mt-20">
         <div className="container-xxl py-4 d-flex justify-content-between p-xxl-0">
-          <h1 className="fw-bold mt-2">Programming</h1>
+          <h1 className="text-3xl font-bold">Programming</h1>
           <img
-            className="rounded-circle my-2"
+            className="rounded-full w-10 h-10 object-cover"
             src={profile}
             alt="Profile"
             height="37px"
@@ -80,89 +82,105 @@ export default function programming() {
             Discover the power of learning, creation and inspiration with topics
             related to programming.
           </p>
-          <p className="fs-5 py-1 mb-1">
+          <p className="text-muted py-1 mb-1">
             Help yourself with the topics that you want to dive into. Topics are
             seperated with classes.
           </p>
-          <a className="text-primary text-decoration-none" href={link}>
+          <a className="flex flex-row items-center" href={link}>
             Explore recent topic &nbsp;
             {/* This is the svg file of the arrow.  */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              class="bi bi-arrow-right-circle"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
-              />
-            </svg>
+            <ArrowLeft className="rotate-180" size={18} />
           </a>
         </div>
 
         {/* Here goes the Class Title */}
         <div className="container-xxl d-flex justify-content-between p-xxl-0">
-          <h2 className="fw-bold mt-2 pb-2 px-2">Classes</h2>
+          <h2 className="text-xl font-bold mt-2 pb-2 px-2">Classes</h2>
         </div>
 
         <div className="container-xxl p-xxl-0">
-          <Link
-            to={`/programming/dataStructure`}
-            className="text-decoration-none"
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0 }}
           >
-            <img
-              className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce"
-              src={img}
-              id="classes"
-              alt="Hello"
-            />
-          </Link>
+            <Link
+              to={`/programming/dataStructure`}
+              className="text-decoration-none"
+            >
+              <img
+                className="img-fluid rounded shadow cursor-pointer"
+                src={img}
+                id="classes"
+                alt="Data Structure Class"
+              />
+            </Link>
+          </motion.div>
           {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
         </div>
         <br />
         <div className="container-xxl mb-4 p-xxl-0">
-          <Link
-            to={`/programming/Probability_and_Statistics_with_Computing`}
-            className="text-decoration-none"
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.2 }}
           >
-            <img
-              className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce "
-              src={img2}
-              id="classes"
-              alt="Hello"
-            />
-          </Link>
+            <Link
+              to={`/programming/Probability_and_Statistics_with_Computing`}
+              className="text-decoration-none"
+            >
+              <img
+                className="img-fluid rounded shadow cursor-pointer"
+                src={img2}
+                id="classes"
+                alt="Probability and Statistics Class"
+              />
+            </Link>
+          </motion.div>
           {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
         </div>
         <div className="container-xxl mb-5 p-xxl-0">
-          <Link
-            to={`/programming/websoftwaredevelopment`}
-            className="text-decoration-none"
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.4 }}
           >
-            <img
-              className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce "
-              src={img3}
-              id="classes"
-              alt="Hello"
-            />
-          </Link>
+            <Link
+              to={`/programming/websoftwaredevelopment`}
+              className="text-decoration-none"
+            >
+              <img
+                className="img-fluid rounded shadow cursor-pointer"
+                src={img3}
+                id="classes"
+                alt="Web Software Development Class"
+              />
+            </Link>
+          </motion.div>
           {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
         </div>
         <div className="container-xxl mb-5 p-xxl-0">
-          <Link
-            to={`/programming/analysisOfAlgorithm/`}
-            className="text-decoration-none"
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.6 }}
           >
-            <img
-              className="img-fluid rounded shadow cursor-pointer animate__animated animate__bounce "
-              src={img3}
-              id="classes"
-              alt="Hello"
-            />
-          </Link>
+            <Link
+              to={`/programming/analysisOfAlgorithm/`}
+              className="text-decoration-none"
+            >
+              <img
+                className="img-fluid rounded shadow cursor-pointer"
+                src={img3}
+                id="classes"
+                alt="Analysis of Algorithm Class"
+              />
+            </Link>
+          </motion.div>
           {/* Image for the Data Structure Class Main Image. But I think this isn't what I wanted it to look.  */}
         </div>
 

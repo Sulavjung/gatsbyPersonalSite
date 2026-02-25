@@ -1,5 +1,5 @@
 import { graphql, Link } from "gatsby"
-import React, { useEffect, useLayoutEffect} from "react"
+import React, { useEffect, useLayoutEffect } from "react"
 import Footer from "../components/footer"
 import Navbar from "../components/navbar"
 import "./interview.css"
@@ -11,7 +11,10 @@ import ClassTopics from "../components/classComponents/relatedClassTopics"
 import "prismjs/components/prism-java"
 import "prismjs/components/prism-bash"
 import "prismjs/components/prism-jsx"
-import { extractAndRemoveH3WithContent, onClickOFTheEachQuestion} from "../scripts/inteviewformat"
+import {
+  extractAndRemoveH3WithContent,
+  onClickOFTheEachQuestion,
+} from "../scripts/inteviewformat"
 require(`katex/dist/katex.min.css`)
 
 const ClassTemplate = ({ data }) => {
@@ -26,12 +29,10 @@ const ClassTemplate = ({ data }) => {
 </svg>`
 
   useLayoutEffect(() => {
+    const h3AndContet = extractAndRemoveH3WithContent()
 
-	const h3AndContet = extractAndRemoveH3WithContent();
+    onClickOFTheEachQuestion(h3AndContet)
 
-	onClickOFTheEachQuestion(h3AndContet);
-
-	
     const preElements = document.getElementsByTagName("pre")
 
     if (preElements.length > 0) {
@@ -53,8 +54,7 @@ const ClassTemplate = ({ data }) => {
         copyButton.addEventListener("click", () => {
           navigator.clipboard.writeText(preElementText)
 
-          console.log(preElementText);
-
+          console.log(preElementText)
 
           copyButton.appendChild(copiedMessage)
 
@@ -125,7 +125,7 @@ const ClassTemplate = ({ data }) => {
         <meta name="twitter:creator" content="@sulav_J_hamal" />
       </Helmet>
       <Navbar />
-      <div className="px-2 interviewPage">
+      <div className="px-2 interviewPage md:mt-40 mt-20">
         <div className="container-xxl p-0" id="interview">
           <div className="row">
             <div>
@@ -137,8 +137,8 @@ const ClassTemplate = ({ data }) => {
             </div>
             {/* <div className="tableOfContent col-lg-3">
               {/* Table of Contents */}
-              {/* Render your table of contents here */}
-              {/* <div className="toc-container py-5">
+            {/* Render your table of contents here */}
+            {/* <div className="toc-container py-5">
                 <div className="border-start">
                   <h2 className="p-2 link-underline-primary">Contents</h2>
                   <div

@@ -1,200 +1,194 @@
-import React from "react"
-import { StaticImage } from "gatsby-plugin-image"
-import "./style.css"
+import React, { useRef } from "react"
+import {
+  motion,
+  useScroll,
+  useTransform,
+  useMotionValue,
+  useSpring,
+} from "framer-motion"
 
+import registerImage from "../../assets/registerManagement.png"
+import registerLogo from "../../assets/RegisterManagementLogo.png"
+import businessImage from "../../assets/realEstateAnalysis.png"
+import businessLogo from "../../assets/realEstateAnalysislogo.png"
+import javaImage from "../../assets/Java Cheat.png"
+import javaLogo from "../../assets/javacheatlogo.png"
 
-const Project = () => {
+const projects = [
+  {
+    title: "Register System",
+    type: "Utility",
+    year: "2023",
+    description:
+      "🧑‍💻 This project came out of the necessity to build something that would be useful for the small business who cannot afford to pay the expensive fees of the Register Systems.",
+    link: "https://registermanagement.onrender.com",
+    mainImage: registerImage,
+    logo: registerLogo,
+    imgAlt: "Register System",
+  },
+  {
+    title: "Business Tools",
+    type: "Utility",
+    year: "2023",
+    description:
+      "💼 Affordable and user-friendly tools for small businesses, fueling productivity, efficiency, and growth. 💡",
+    link: "https://sulavtools.netlify.app",
+    mainImage: businessImage,
+    logo: businessLogo,
+    imgAlt: "Business Tools",
+  },
+  {
+    title: "Java Reference",
+    type: "Guide",
+    year: "2023",
+    description:
+      "📖 Quick and easy Java cheat sheets for programmers and students.",
+    link: "https://sulavhamal.com/cheatsheet",
+    mainImage: javaImage,
+    logo: javaLogo,
+    imgAlt: "Java Reference",
+  },
+]
 
+/* ---------------------------
+   PARALLAX IMAGE
+---------------------------- */
 
-  const mainImage = "../../assets/registerManagement.png"
-  const logo = "../../assets/RegisterManagementLogo.png"
-  const title = "Register System"
-  const type = "Utility"
-  const year = "2023"
-  const description =
-    "🧑‍💻 This project came out of the necessity to build something that would be useful for the small business who cannot afford to pay the expensive fees of the Register Systems."
-  const link = "https://registermanagement.onrender.com"
-  const buttonName = "Live Demo"
+function ParallaxImage({ src, alt }) {
+  const ref = useRef(null)
 
-/* For the Tools Project Card */
-  const mainImage1 = "../../assets/realEstateAnalysis.png"
-  const logo1 = "../../assets/realEstateAnalysislogo.png"
-  const title1 = "Business Tools"
-  const type1 = "Utility"
-  const year1 = "2023"
-  const description1 =
-    "💼 Affordable and user-friendly tools for small businesses, fueling productivity, efficiency, and growth. 💡"
-  const link1 = "https://sulavtools.netlify.app"
-  const buttonName1 = "Live Demo"
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  })
 
-
-/* For the Tools Project Card */
-  const mainImage2 = "../../assets/Java Cheat.png"
-  const logo2 = "../../assets/javacheatlogo.png"
-  const title2 = "Java Reference"
-  const type2 = "Guide"
-  const year2 = "2023"
-  const description2 =
-    "💼 Affordable and user-friendly tools for small businesses, fueling productivity, efficiency, and growth. 💡"
-  const link2 = "https://sulavhamal.com/cheatsheet"
-  const buttonName2 = "Live Demo"
-
+  const y = useTransform(scrollYProgress, [0, 1], [100, -0])
 
   return (
-	<>
-    <div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
-      <div className="row projectCont">
-        <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage imageInvert">
-          <StaticImage
-            className="javacheat img-fluid"
-            src={mainImage}
-            alt="Register Management System"
-          />
-        </div>
-        <div className="col-lg-6 order-lg-1 order-1  d-flex align-items-center projectText">
-          <div className="p-1 p-sm-5 pt-3 pt-lg-0 pb-lg-0">
-            <div className="labelcheat text-start p-3 p-sm-4">
-              <div className="registerLogo">
-                <StaticImage
-                  className="javacheat img-fluid"
-                  src={logo}
-                  alt="Register Management System"
-                />
-              </div>
-              <h2 className="mt-2 fs-1">
-                <strong>{title}</strong>
-              </h2>
-              <p className="projectSubText">
-                <strong>{type} &#9864; {year}</strong>{" "}
-              </p>
-              <div className="py-1">
-                <p>
-                  {description}
-                </p>
-              </div>
-              <p>
-                <button
-                  onClick={() =>
-                    window.open(
-                      link,
-                      "_blank"
-                    )
-                  }
-                >
-                  <p className="px-4 m-0" id="download">
-                    {buttonName}
-                  </p>
-                </button>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div ref={ref} className="relative h-full overflow-hidden">
+      <motion.img
+        src={src}
+        alt={alt}
+        style={{ y }}
+        className="w-full h-full object-cover"
+      />
     </div>
-
-    {/* Bob's Liquor Tools */}
-	<div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
-	<div className="row projectCont">
-	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage  imageInvert">
-		<StaticImage
-		  className="javacheat img-fluid"
-		  src={mainImage1}
-		  alt="Register Management System"
-		/>
-	  </div>
-	  <div className="col-lg-6 order-lg-2 order-1  d-flex align-items-center projectText">
-		<div className="p-1 p-sm-5 pt-3 pt-lg-0 pb-lg-0">
-		  <div className="labelcheat text-start p-3 p-sm-4">
-			<div className="registerLogo">
-			  <StaticImage
-				className="javacheat img-fluid"
-				src={logo1}
-				alt="Register Management System"
-			  />
-			</div>
-			<h2 className="mt-2 fs-1">
-			  <strong>{title1}</strong>
-			</h2>
-			<p className="projectSubText">
-			  <strong>{type1} &#9864; {year1}</strong>{" "}
-			</p>
-			<div className="py-1">
-			  <p>
-				{description1}
-			  </p>
-			</div>
-			<p>
-			  <button
-				onClick={() =>
-				  window.open(
-					link1,
-					"_blank"
-				  )
-				}
-			  >
-				<p className="px-4 m-0" id="download">
-				  {buttonName1}
-				</p>
-			  </button>
-			</p>
-		  </div>
-		</div>
-	  </div>
-	</div>
-  </div>
-
-  {/* Java Cheat */}
-	<div className="container-xxl py-2 px-xxl-0 p-4 mt-5 mb-5 ">
-	<div className="row projectCont">
-	  <div className="col-lg-6 order-lg-2 order-2 pt-lg-5 mt-lg-5 projectImage  imageInvert">
-		<StaticImage
-		  className="javacheat img-fluid"
-		  src={mainImage2}
-		  alt="Register Management System"
-		/>
-	  </div>
-	  <div className="col-lg-6 order-lg-1 order-1  d-flex align-items-center projectText">
-		<div className="p-1 p-sm-5 pt-3 pt-lg-0 pb-lg-0">
-		  <div className="labelcheat text-start p-3 p-sm-4">
-			<div className="registerLogo">
-			  <StaticImage
-				className="javacheat img-fluid"
-				src={logo2}
-				alt="Register Management System"
-			  />
-			</div>
-			<h2 className="mt-2 fs-1">
-			  <strong>{title2}</strong>
-			</h2>
-			<p className="projectSubText">
-			  <strong>{type2} &#9864; {year2}</strong>{" "}
-			</p>
-			<div className="py-1">
-			  <p>
-				{description2}
-			  </p>
-			</div>
-			<p>
-			  <button
-				onClick={() =>
-				  window.open(
-					link2,
-					"_blank"
-				  )
-				}
-			  >
-				<p className="px-4 m-0" id="download">
-				  {buttonName2}
-				</p>
-			  </button>
-			</p>
-		  </div>
-		</div>
-	  </div>
-	</div>
-  </div>
-  </>
   )
 }
 
-export default Project;
+function ProjectCard({ project, reverse }) {
+  const rotateX = useMotionValue(0)
+  const rotateY = useMotionValue(0)
+
+  const smoothX = useSpring(rotateX, {
+    stiffness: 180,
+    damping: 20,
+  })
+
+  const smoothY = useSpring(rotateY, {
+    stiffness: 180,
+    damping: 20,
+  })
+
+  const handleMouseMove = e => {
+    const rect = e.currentTarget.getBoundingClientRect()
+    const width = rect.width
+    const height = rect.height
+
+    const x = e.clientX - rect.left
+    const y = e.clientY - rect.top
+
+    const rotateYValue = (x / width - 0.5) * 15
+    const rotateXValue = -(y / height - 0.5) * 15
+
+    rotateX.set(rotateXValue)
+    rotateY.set(rotateYValue)
+  }
+
+  const handleMouseLeave = () => {
+    rotateX.set(0)
+    rotateY.set(0)
+  }
+
+  return (
+    <div style={{ perspective: 1200 }}>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.7 }}
+        onMouseMove={handleMouseMove}
+        onMouseLeave={handleMouseLeave}
+        style={{
+          rotateX: smoothX,
+          rotateY: smoothY,
+          transformStyle: "preserve-3d",
+        }}
+        className={`flex flex-col md:flex-row items-center
+          bg-gray-50 dark:bg-gray-900
+          rounded-3xl shadow-lg
+          transition-shadow duration-300
+		  overflow-hidden
+          hover:shadow-2xl
+          ${reverse ? "md:flex-row-reverse" : ""}`}
+      >
+        {/* Content */}
+        <div className="w-full md:w-1/2 p-6 md:p-16 flex flex-col justify-center gap-6">
+          <div className="flex items-center justify-start mb-4">
+            <img
+              src={project.logo}
+              alt={`${project.title} logo`}
+              className="w-12 h-12 rounded-lg object-cover"
+            />
+          </div>
+
+          <h2 className="text-2xl md:text-4xl font-bold text-gray-900 dark:text-white">
+            {project.title}
+          </h2>
+
+          <p className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+            {project.type} &#9864; {project.year}
+          </p>
+
+          <p className="text-gray-700 dark:text-gray-300">
+            {project.description}
+          </p>
+
+          <button
+            onClick={() => window.open(project.link, "_blank")}
+            className="inline-block bg-gray-900 hover:bg-blue-700 dark:bg-gray-50 text-gray-50 dark:text-gray-900 font-medium px-6 py-3 rounded-lg shadow-lg transition-all duration-300"
+          >
+            Live Demo
+          </button>
+        </div>
+
+        {/* Image */}
+        <div className="w-full md:w-1/2 relative overflow-hidden">
+          <ParallaxImage src={project.mainImage} alt={project.imgAlt} />
+        </div>
+      </motion.div>
+    </div>
+  )
+}
+
+/* ---------------------------
+   PROJECT SECTION
+---------------------------- */
+
+export default function Project() {
+  return (
+    <section className="max-w-7xl mx-auto px-4 py-24 flex flex-col gap-12">
+      <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white text-start mb-12">
+        Projects
+      </h1>
+
+      {projects.map((project, i) => (
+        <ProjectCard
+          key={project.title}
+          project={project}
+          reverse={i % 2 === 1}
+        />
+      ))}
+    </section>
+  )
+}

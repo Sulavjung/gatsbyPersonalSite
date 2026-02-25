@@ -6,3 +6,4 @@
 
 // You can delete this file if you're not using it
 require("./src/templates/prism.css")
+require("./src/styles/global.css")

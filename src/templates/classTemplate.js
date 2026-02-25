@@ -120,7 +120,10 @@ const ClassTemplate = ({ data }) => {
       </Helmet>
       <Navbar />
 
-      <div className="container-xxl p-0 classNotes" id="classRandom">
+      <div
+        className="container-xxl p-0 classNotes md:mt-40 mt-20"
+        id="classRandom"
+      >
         {/* Content */}
         <div className="notes" dangerouslySetInnerHTML={{ __html: html }}></div>
         <div className="toc-container py-5">

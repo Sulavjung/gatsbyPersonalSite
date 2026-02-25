@@ -1,37 +1,25 @@
 import React, { Component } from "react"
-import "./navbarcss.css"
 import { Link } from "gatsby-link"
-import "./index.css"
 import logo from "../assets/LogoInPng.svg"
-import {} from "react-icons/bi"
 import ThemeButton from "./ThemeButton"
 
 export default class Navbar extends Component {
   render() {
     return (
       <>
-        <div id="navbar">
-          <nav
-            className="container-sm p-0 m-0 mx-2 mt-2 rounded-pill flex align-center"
-            draggable="true"
-          >
-            <div className="container-xxl navCont ">
+        <div className="fixed top-0 left-0 right-0 flex items-center justify-center z-50 pt-2 px-2">
+          <nav className="w-full max-w-7xl p-0 m-0 rounded-pill flex items-center bg-white/40 dark:bg-gray-900/40 backdrop-blur-lg border border-white/20 dark:border-gray-700/20 shadow-lg">
+            <div className="w-full flex flex-row items-center justify-between px-6 py-3">
               <Link
                 to="/"
-                className="navbar-brand fs-1 py-0 cursor-pointer"
-                id="logoName"
+                className="flex items-center text-lg font-bold text-gray-900 dark:text-white cursor-pointer hover:opacity-80 transition-opacity"
               >
-                <img
-                  src={logo}
-                  alt="Logo"
-                  className="logo-image pt-2 p-1"
-                  style={{ height: "40px", width: "auto" }}
-                />
+                <img src={logo} alt="Logo" className="h-6 w-auto dark:invert" />
               </Link>
 
-              <div className="d-flex flex-row align-items-center">
+              <div className="flex flex-row items-center gap-6">
                 <ThemeButton />
-                <ul className="navbar-nav">
+                <ul className="hidden md:flex flex-row gap-2">
                   {/* <li className="nav-item mx-2">
                     <Link
                       className="nav-link fw-bold text-dark cursor-pointer"
@@ -40,11 +28,11 @@ export default class Navbar extends Component {
                       Home
                     </Link>
                   </li> */}
-                  <li className="nav-item" id="navbar-button">
+                  <li className="nav-item">
                     <Link
-                      className="navButton"
+                      className="text-gray-700 dark:text-gray-300 font-semibold px-6 py-2 rounded-full hover:bg-gray-900 dark:hover:bg-white hover:text-white dark:hover:text-gray-900 transition-all duration-200"
                       to="/blogs"
-                      activeClassName="active"
+                      activeClassName="bg-gray-900 dark:bg-white text-white dark:text-gray-900"
                     >
                       Blogs
                     </Link>

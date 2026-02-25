@@ -4,15 +4,21 @@
  * See: https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/
  */
 
+const path = require("path")
+
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+  },
   siteMetadata: {
     title: `sulavhamal`,
     siteUrl: "https://www.sulavhamal.com",
   },
   plugins: [
+    `gatsby-plugin-postcss`,
     `gatsby-plugin-dark-mode`,
     `gatsby-plugin-react-helmet`,
     {
@@ -78,4 +84,14 @@ module.exports = {
       },
     },
   ],
+}
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "src"),
+      },
+    },
+  })
 }

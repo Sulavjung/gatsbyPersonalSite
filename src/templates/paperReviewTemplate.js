@@ -19,7 +19,7 @@ const PaperReviewTemplate = ({ data }) => {
         <meta name="robots" content="nofollow" />
       </Helmet>
       <Navbar />
-      <section className="container-xxl py-4 pbg-white">
+      <section className="container-xxl py-4 pbg-white md:mt-40 mt-20">
         <h1 className="h2 fw-semibold text-black mb-4 ">
           {paper.frontmatter.Title}
         </h1>
