@@ -3,8 +3,18 @@
 		{
 			"icon": "🧑🏼‍💻",
 			"title": "Languages",
-			"description":"Tap in to see how I got into computer science field and to learn more on my journey so far.",
-			"link":"/programming"
+			"description":"In this journey of learning programming, I have learned few tips and tricks. Wanted to share those with you.",
+			"link":"/programming",
+			"buttons":[
+				{
+					"name": "See Projects",
+					"link": "/programming"
+				},
+				{
+					"name": "Github",
+					"link": "https://github.com/sulavjung"
+				}
+			]
 			
 		},
 		{
@@ -22,29 +32,41 @@
 		{
 			"icon": "📚",
 			"title": "Books",
-			"description":"Reading is one of the most important part in my life. So, here are the book recomendation for you.",
-			"link":"https://www.instagram.com/sulav_hamal/guide/books-that-i-loved/18178536955270469/?utm_source=ig_web_copy_link&utm_campaign=&utm_medium="
+			"description":"I have always been a book lover. I read a lot of books and I have a lot of fun doing it. Here are some of the books that I loved.",
+			"link":"https://www.instagram.com/sulav_hamal/guide/books-that-i-loved/18178536955270469/?utm_source=ig_web_copy_link&utm_campaign=&utm_medium=",
+			"buttons":[
+				{
+					"name":"Books I Loved",
+					"link":"/blogs"
+				}
+			]
 		},
 		{
 			"icon": "🧨",
 			"title": "Activity",
-			"description":"There is something unique about quotes. They motivates and inspires you. So, tap to see some what my favourites are.",
-			"link":"/activity/"
+			"description":"I read papers of all kind. I write down my thoughts on them. I also write down my thoughts on random things that I find interesting.",
+			"link":"/activity/",
+			"buttons":[
+				{
+					"name":"Quick Thoughts",
+					"link":"/activity/"
+				}
+			]
 		},
 		
 		{
 			"icon": "📸",
 			"title": "Photos",
-			"description":"Taking pictures and visiting new places gives me the enjoyment and remind me of being alive.",
+			"description":"Photography is one of the most beautiful art form. I have been doing it for a while now and I have a lot of fun doing it. Here are some of my photos.",
 			"link":"https://unsplash.com/@sulavjunghamal?utm_source=unsplash&utm_medium=referral&utm_content=credit-photographer&utm_campaign=unsplash-ios",
 			"buttons":[
 				{
 					"name":"Unsplash",
-					"link":"/projects"
+					"link":"https://unsplash.com/@sulavjunghamal?utm_source=unsplash&utm_medium=referral&utm_content=credit-photographer&utm_campaign=unsplash-ios"
 				},
 				{
 					"name":"Pexels",
-					"link":"/blogs"
+					"link":"https://www.pexels.com/@sulav-jung-hamal-742656/"
 				}
 			]
 		},
@@ -52,7 +74,13 @@
 			"icon": "🏃🏻‍♂️",
 			"title": "Trails",
 			"description":"I'm not a pro-athlete by any means but I always had this idea of doing adventure. Hiking has always been an affordable way to live that adventure life.",
-			"link":"https://alltrails.com/en/members/sulav-jung-hamal?utm_campaign=mobile-iphone&sh=567eta"
+			"link":"https://alltrails.com/en/members/sulav-jung-hamal?utm_campaign=mobile-iphone&sh=567eta",
+			"buttons":[
+				{
+					"name":"AllTrails",
+					"link":"https://alltrails.com/en/members/sulav-jung-hamal?utm_campaign=mobile-iphone&sh=567eta"
+				}
+			]
 		}
 		
 	]

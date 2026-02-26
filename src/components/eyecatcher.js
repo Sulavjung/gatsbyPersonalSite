@@ -44,6 +44,7 @@ export default function HeroSection() {
           <motion.span
             initial={{ opacity: 0, y: 10, scale: 2 }}
             whileInView={{ opacity: 1, y: 0, scale: 1, rotate: -2 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{
               type: "spring",
               stiffness: 150,
@@ -59,6 +60,7 @@ export default function HeroSection() {
           <motion.span
             initial={{ opacity: 0, y: 10, scale: 1.5 }}
             whileInView={{ opacity: 1, y: 0, rotate: 2, scale: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{
               type: "spring",
               stiffness: 150,
@@ -74,6 +76,7 @@ export default function HeroSection() {
           <motion.span
             initial={{ opacity: 0, scale: 2 }}
             whileInView={{ opacity: 1, scale: 1, rotate: 3 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{
               type: "spring",
               stiffness: 160,
@@ -89,6 +92,7 @@ export default function HeroSection() {
           <motion.span
             initial={{ opacity: 0, scale: 1.2 }}
             whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.5 }}
             transition={{
               type: "spring",
               stiffness: 150,

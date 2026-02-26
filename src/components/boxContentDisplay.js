@@ -71,6 +71,18 @@ export default function BoxContentDisplay({
                  shadow-sm transition-shadow duration-300
                  ${!buttons || buttons.length === 0 ? "hover:shadow-2xl" : ""}`}
     >
+      <div
+        className="absolute top-4 right-4 w-6 h-6 rounded-full 
+                bg-white dark:bg-black 
+                border border-neutral-200 dark:border-neutral-700
+                z-20"
+        style={{
+          boxShadow: `
+      inset 0 4px 6px rgba(0,0,0,0.25),
+      inset 0 -2px 4px rgba(255,255,255,0.2)
+    `,
+        }}
+      />
       <div className="relative z-10 flex flex-col h-full justify-between">
         <div>
           <motion.div className="text-4xl mb-4">{icon}</motion.div>
@@ -81,7 +93,7 @@ export default function BoxContentDisplay({
         </div>
 
         <div>
-          <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-300 leading-relaxed">
+          <p className="mt-4 text-md text-neutral-600 dark:text-neutral-300 leading-relaxed">
             {description}
           </p>
 

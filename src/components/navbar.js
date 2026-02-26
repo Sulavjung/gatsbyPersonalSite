@@ -32,7 +32,7 @@ export default class Navbar extends Component {
                     <Link
                       className="text-gray-700 dark:text-gray-300 font-semibold px-6 py-2 rounded-full hover:bg-gray-900 dark:hover:bg-white hover:text-white dark:hover:text-gray-900 transition-all duration-200"
                       to="/blogs"
-                      activeClassName="bg-gray-900 dark:bg-white text-white dark:text-gray-900"
+                      activeClassName="bg-gray-900 dark:bg-gray-800 text-white dark:text-gray-900"
                     >
                       Blogs
                     </Link>

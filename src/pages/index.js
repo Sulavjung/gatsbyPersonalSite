@@ -11,6 +11,7 @@ import FreeJavaCheatSheet from "../components/freeJavaCheatSheet"
 import { Helmet } from "react-helmet"
 import Project from "../components/projectComponent/project"
 import { useStaticQuery, graphql } from "gatsby"
+import CustomCursor from "../components/CustomCursor"
 
 const IndexPage = () => {
   var data = useStaticQuery(graphql`
@@ -41,7 +42,8 @@ const IndexPage = () => {
   `)
 
   return (
-    <>
+    <div className="cursor-none">
+      <CustomCursor />
       <Helmet>
         {/* ✅ Basic Metadata */}
         <meta charSet="UTF-8" />
@@ -58,25 +60,37 @@ const IndexPage = () => {
 
         {/* ✅ Open Graph / Facebook / LinkedIn */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Sulav Hamal — Computer Science Student & Developer" />
+        <meta
+          property="og:title"
+          content="Sulav Hamal — Computer Science Student & Developer"
+        />
         <meta
           property="og:description"
           content="Exploring the intersection of logic, design, and technology — one project at a time. Follow along for blogs, projects, and ideas."
         />
         <meta property="og:url" content="https://sulavhamal.com/" />
         <meta property="og:site_name" content="Sulav Hamal" />
-        <meta property="og:image" content="https://sulavhamal.com/images/profile-cover.png" />
+        <meta
+          property="og:image"
+          content="https://sulavhamal.com/images/profile-cover.png"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
         {/* ✅ Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Sulav Hamal — Computer Science Student & Developer" />
+        <meta
+          name="twitter:title"
+          content="Sulav Hamal — Computer Science Student & Developer"
+        />
         <meta
           name="twitter:description"
           content="I'm Sulav, a Computer Science student sharing thoughts on technology, creativity, and code."
         />
-        <meta name="twitter:image" content="https://sulavhamal.com/images/profile-cover.png" />
+        <meta
+          name="twitter:image"
+          content="https://sulavhamal.com/images/profile-cover.png"
+        />
         <meta name="twitter:site" content="@sulav_J_hamal" />
         <meta name="twitter:creator" content="@sulav_J_hamal" />
 
@@ -87,10 +101,17 @@ const IndexPage = () => {
 
         {/* ✅ Apple Touch */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta
+          name="apple-mobile-web-app-status-bar-style"
+          content="black-translucent"
+        />
 
         {/* ✅ Fallback favicon */}
-        <link rel="icon" href="https://sulavhamal.com/images/favicon.png" type="image/png" />
+        <link
+          rel="icon"
+          href="https://sulavhamal.com/images/favicon.png"
+          type="image/png"
+        />
 
         {/* ✅ Schema.org (Google Rich Results) */}
         <script type="application/ld+json">
@@ -111,6 +132,7 @@ const IndexPage = () => {
     `}
         </script>
       </Helmet>
+
       <Navbar />
       <Eyecatcher />
       <BoxesContents />
@@ -118,7 +140,7 @@ const IndexPage = () => {
       <Project />
       <ExploreAndBlog fourArticles={data.fourArticles} />
       <Footer />
-    </>
+    </div>
   )
 }
 
