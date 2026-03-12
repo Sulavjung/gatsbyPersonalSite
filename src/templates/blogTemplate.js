@@ -137,7 +137,13 @@ const BlogTemplate = ({ data }) => {
 
     return (
       <>
-        <div className="flex flex-col pb-4 md:mt-20 mt-20">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.8 }}
+          className="flex flex-col pb-4 md:mt-20 mt-20"
+        >
           <Breadcrumb className="my-2 px-2 py-1 bg-gray-50 dark:bg-gray-700 rounded-lg w-max text-sm">
             <BreadcrumbList className="mb-0 p-0">
               <BreadcrumbItem>
@@ -188,13 +194,13 @@ const BlogTemplate = ({ data }) => {
               <img
                 src={`/images/${props.cover}`}
                 alt={props.titlename}
-                className="w-full h-56 rounded-lg object-cover"
+                className="w-full rounded-lg object-cover"
               />
             ) : (
               <></>
             )}
           </div>
-        </div>
+        </motion.div>
       </>
     )
   }
@@ -321,10 +327,23 @@ const BlogTemplate = ({ data }) => {
             cover={Cover_Image}
           />
 
-          <div
-            className="prose prose-md md:prose-lg  max-w-none pb-0 dark:prose-invert"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
+          <div className="prose prose-md md:prose-lg max-w-none pb-0 dark:prose-invert">
+            {html
+              ? html
+                  .split("</p>") // split paragraphs
+                  .filter(Boolean)
+                  .map((p, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, amount: 0.1 }}
+                      transition={{ duration: 0.8 }}
+                      dangerouslySetInnerHTML={{ __html: p + "</p>" }}
+                    />
+                  ))
+              : null}
+          </div>
         </div>
       </div>
 
