@@ -105,7 +105,7 @@ export default function BoxContentDisplay({
                   onClick={e => handleButtonClick(e, button.link)}
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full px-4 py-2 rounded-lg bg-gray-900 dark:bg-gray-50 hover:bg-blue-700 dark:hover:bg-blue-600 text-gray-50 dark:text-gray-900 font-medium transition-colors duration-200"
+                  className="w-full px-4 py-2 rounded-lg bg-gray-900 dark:bg-gray-50 hover:bg-blue-700 dark:hover:bg-blue-600 text-gray-50 dark:text-gray-900 dark:hover:text-white font-medium transition-colors duration-200"
                 >
                   {button.name}
                 </motion.button>

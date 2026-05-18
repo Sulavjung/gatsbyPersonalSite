@@ -1,9 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import { motion } from "framer-motion"
 import BoxContentDisplay from "./boxContentDisplay"
 import Interests from "../jsonfiles/interest.json"
 
 export default function BoxesContents() {
+  const [hasEntered, setHasEntered] = useState(false)
+
   return (
     <section className="relative w-full max-w-7xl mx-auto px-6 py-24 flex flex-col items-center">
       {/* Dashed Center Fade Grid */}
@@ -57,28 +59,41 @@ export default function BoxesContents() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full">
         {Interests.map((record, index) => {
-          // random tilt between -6 and 6 degrees
           const randomRotate = (Math.random() - 0.5) * 12
 
           return (
             <motion.div
               key={record.title}
               initial={{
-                opacity: 0.9,
+                opacity: 0,
+                y: 40,
                 rotate: randomRotate,
               }}
               whileInView={{
                 opacity: 1,
+                y: 0,
                 rotate: 0,
               }}
-              viewport={{
-                amount: 0.5, // 50% visible before straightening
-                margin: "-20% 0px -20% 0px", // trigger earlier for better effect
+              onViewportEnter={() => {
+                setHasEntered(true)
               }}
+              viewport={{
+                amount: 0,
+                margin: "-20% 0px -20% 0px",
+              }}
+              animate={
+                hasEntered
+                  ? {
+                      opacity: 1,
+                      y: 0,
+                    }
+                  : {}
+              }
               transition={{
                 type: "spring",
                 stiffness: 120,
                 damping: 15,
+                delay: index * 0.15,
               }}
             >
               <BoxContentDisplay {...record} />
