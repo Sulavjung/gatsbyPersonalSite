@@ -21,13 +21,13 @@ const BookSection = ({ books, metadata }) => {
           className="text-center mb-20"
         >
 
-          <h2 className="text-5xl font-bold tracking-tight mb-5">
+          <h2 className="text-5xl font-bold tracking-tight mb-5 dark:text-white">
 
             {metadata.title}
 
           </h2>
 
-          <p className="text-zinc-400 max-w-xl mx-auto text-lg">
+          <p className="text-zinc-700 max-w-xl mx-auto text-lg dark:text-zinc-200">
             {metadata.subtitle}
           </p>
 
@@ -153,6 +153,7 @@ const BookSection = ({ books, metadata }) => {
                     text-sm
                     font-semibold
                     text-white
+                    dark:text-black
                     "
                   >
 
@@ -162,19 +163,20 @@ const BookSection = ({ books, metadata }) => {
 
 
 
-                  <h3 className="font-semibold text-2xl mb-1">
+                  <h3 className="font-semibold text-2xl mb-1 dark:text-zinc-50">
 
                     {book.title}
 
                   </h3>
 
-                  <p className="text-zinc-400 mb-2">
+                  <p className="text-zinc-800 mb-2 dark:text-zinc-200">
 
                     {book.author}
 
                   </p>
 
-                  <p className="leading-7 text-zinc-300">
+                  <p className="leading-7 text-zinc-700 dark:text-zinc-300
+                    ">
 
                     {book.review}
 

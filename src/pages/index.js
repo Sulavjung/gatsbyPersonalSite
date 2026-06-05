@@ -158,6 +158,11 @@ const IndexPage = () => {
         metadata={{ title: "Books that Changed My Thinking ", subtitle: "A small collection of books that shaped how I think, build, learn, and approach life." }}
       />
       <BookSection
+        metadata={{
+          title: "Three Books Every Programmer should Read",
+          subtitle:
+            "A collection of books influencing how I think about software engineering, algorithms, and modern AI systems."
+        }}
         books={[
           {
             title: "Software Engineering at Google",
@@ -178,11 +183,6 @@ const IndexPage = () => {
               "A fascinating bridge between theory and practice. Helped me understand how modern neural networks actually work while building real projects."
           }
         ]}
-        metadata={{
-          title: "Books That Shaped My Engineering Journey",
-          subtitle:
-            "A collection of books influencing how I think about software engineering, algorithms, and modern AI systems."
-        }}
       />
 
       <ExploreAndBlog fourArticles={data.fourArticles} />
