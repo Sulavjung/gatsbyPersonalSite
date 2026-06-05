@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: distributed-systems-explained
 Genera: Web Development
-Status: Posted 🔗
+Status: Completed
 Due_Date: 2024/01/23
 Cover_Image: NONE
 Description: Dive into the world of distributed systems as we unravel their significance and impact on modern computing. Here we delve into the intricate workings of distributed systems, offering insights into their architecture.

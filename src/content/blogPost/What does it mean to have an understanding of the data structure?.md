@@ -7,7 +7,7 @@ BookAuthor:
 Type: Blog
 slug: data-structures-101-understanding-arrays-trees-hashes-and-more
 Genera: Personal Growth
-Status: Posted ✅
+Status: Completed
 Cover_Image: NONE
 Description: Arrays are a simple data structure used to store a collection of elements of the same data type. They are useful for implementing algorithms that require random access to elements. Linked lists, on the other hand, are useful for implementing data structures that require dynamic memory allocation. They are used to implement stacks, queues, and other similar data structures.
 tags:

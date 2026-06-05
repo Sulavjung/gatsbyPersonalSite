@@ -1,13 +1,13 @@
 ---
-Title: "One of those things that should be fixed immediately."
+Title: One of those things that should be fixed immediately.
 Date: 2026/03/12
 Author: Sulav Jung Hamal
 Type: Blog
 slug: missing_receipt_standard_inventory
 Genera: Technology, Business, Retail
-Status: Draft
+Status: Completed
 Fun_Meter: Informative
-Cover_Image: retailInnovation.png 
+Cover_Image: retailInnovation.png
 Description: Despite massive technological advancements and standardized systems in almost every industry, receipt printing remains chaotic and inconsistent. For small shops, this creates a huge headache when tracking inventory. In this article, we'll explore why there is no universal receipt standard, how it affects inventory management, and propose the idea of an open-source solution that could transform retail operations.
 tags:
   - Technology

@@ -1,0 +1,50 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      or:
+        - Type == "Blog"
+        - Type == "DraftBlog"
+    order:
+      - Title
+      - Status
+      - Type
+      - Date
+      - Genera
+      - Author
+      - Description
+      - slug
+      - Tag
+      - Cover_Image
+      - Area
+      - BookAuthor
+      - Due_Date
+      - Fun_Meter
+      - Platform
+      - file.name
+    sort:
+      - property: Status
+        direction: DESC
+    columnSize:
+      note.Date: 106
+  - type: table
+    name: Publish
+    rowHeight: medium
+  - type: cards
+    name: Blog Status
+    filters:
+      and:
+        - Type == "Blog"
+    order:
+      - Title
+      - Status
+      - Type
+      - Date
+      - Genera
+    sort:
+      - property: Status
+        direction: DESC
+      - property: Date
+        direction: DESC
+    columnSize:
+      note.Date: 106

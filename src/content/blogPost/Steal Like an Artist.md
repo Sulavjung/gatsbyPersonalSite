@@ -6,7 +6,7 @@ BookAuthor: Austin Kleon
 Type: Blog
 slug: stealLikeAnArtist
 Genera: Book
-Status: Finished
+Status: Completed
 Fun_Meter: Awesome
 Cover_Image: NONE
 Description: Steal from anywhere that resonates or fuels your imagination. Devour old films, new films, music, books, paintings, photographs, poems, dreams, random conversations, architecture, bridges, street signs, trees, clouds, bodies of water, light and shadows. Select only things to steal from that speak directly to your soul. If you do this, your work will be authentic. - Jim Jarmusch.

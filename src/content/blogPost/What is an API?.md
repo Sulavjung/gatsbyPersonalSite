@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: whatisanAPI
 Genera: Computer Science
-Status: Posted 🔗
+Status: Completed
 Due_Date: 2023/11/07
 Cover_Image: NONE
 Description: An API or Application Programming Interface is a software/code/rules/way that allows two application to communicate with each other. It can also be described as a document or standard that allow other to know how to communicate with your devices. It is like gate to your house. If you have keys, you can easily enter and navigate inside. Key here represents API specification or a document that describes how to use such a connection or interface.

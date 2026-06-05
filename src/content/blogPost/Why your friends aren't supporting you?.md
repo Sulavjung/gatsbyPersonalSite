@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: whyyourfriendsarentsupportingyou
 Genera: Personal
-Status: Finished
+Status: Completed
 Fun_Meter: Informative
 Cover_Image: NONE
 Description: The whole article came about from me asking the same question. Then, when I sat down and start typing, I realized their perspectives and my own. We are just here with different feelings and different moods. Sometimes, we do things because we want to. But in the rest, we don't do things just because we don't want to. There is no more than that.

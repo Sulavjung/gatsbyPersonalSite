@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: how_to_use_templates_in_django_project
 Genera: Data Science
-Status: Draft
+Status: Completed
 Due_Date: 05/05/2023
 Cover_Image: NONE
 Tag:

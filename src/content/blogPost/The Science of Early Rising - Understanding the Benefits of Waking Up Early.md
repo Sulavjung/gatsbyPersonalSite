@@ -5,7 +5,7 @@ Author: Sulav Jung Hamal
 Type: Blog
 slug: the_science_of_early_rising
 Genera: Health, Personal Growth
-Status: Finished
+Status: Completed
 Fun_Meter: Awesome
 Cover_Image: NONE
 Description: Waking up early in the morning can be a challenging task for many of us, but did you know that it can have a variety of benefits for both your physical and mental well-being? From increased productivity to better sleep quality, the benefits of waking up early are numerous and well-documented. In this article, we'll take a closer look at the science behind early rising and explore how it can improve your life.

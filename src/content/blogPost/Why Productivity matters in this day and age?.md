@@ -6,7 +6,7 @@ Date: 2023/03/25
 Fun_Meter: Awesome
 Genera: Personal Growth, Productivity
 Platform: 🕸️ Website
-Status: Backlog
+Status: Completed
 Title: Why Productivity matters in this day and age?
 Type: Blog
 Visuals needed: Yes

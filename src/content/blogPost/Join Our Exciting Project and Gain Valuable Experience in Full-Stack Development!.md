@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: join_our_exciting_project_and_gain_valuable_experience_in_full_stack_development
 Genera: Technology
-Status: Draft 📝
+Status: Completed
 Due_Date: 05/30/2023
 Cover_Image: NONE
 Description: Are you a passionate developer looking for an opportunity to expand your skills and enhance your portfolio? Join our exciting project and gain valuable experience in full-stack development! Discover how you can contribute, learn, and grow with our collaborative community of developers.

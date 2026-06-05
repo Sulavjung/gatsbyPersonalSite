@@ -6,7 +6,7 @@ BookAuthor: Timothy Ferris
 Type: Blog
 slug: the4hourWorkweek
 Genera: Book
-Status: Finished
+Status: Completed
 Fun_Meter: Awesome
 Cover_Image: NONE
 Description: Over the last few years of my life, I've learned to love, enjoy, and update my understanding from book. With that in mind, I have gone through books that talks about productivity, business, relationships, and so much more.

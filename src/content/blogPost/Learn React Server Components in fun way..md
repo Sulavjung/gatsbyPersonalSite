@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: learnReactServerComponentsInFunniestWay
 Genera: React
-Status: Posted 🔗
+Status: Completed
 Due_Date: 2023/09/12
 Cover_Image: NONE
 Description: Step into the future of web development with our in-depth exploration of React Server Components (RSCs). In this enlightening article, we demystify the transformative power of RSCs and how they are reshaping the way we build web applications.

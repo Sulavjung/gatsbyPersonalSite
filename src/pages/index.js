@@ -7,11 +7,11 @@ import BoxesContents from "../components/boxesContents"
 import Footer from "../components/footer"
 
 import "../components/index.css"
-import FreeJavaCheatSheet from "../components/freeJavaCheatSheet"
 import { Helmet } from "react-helmet"
 import Project from "../components/projectComponent/project"
 import { useStaticQuery, graphql } from "gatsby"
 import CustomCursor from "../components/CustomCursor"
+import BookSection from "../components/BooksSection"
 
 const IndexPage = () => {
   var data = useStaticQuery(graphql`
@@ -136,8 +136,55 @@ const IndexPage = () => {
       <Navbar />
       <Eyecatcher />
       <BoxesContents />
-      <FreeJavaCheatSheet />
       <Project />
+      <BookSection
+        books={[
+          {
+            title: "Atomic Habits",
+            author: "James Clear",
+            review: "One of the best books on consistency and building systems."
+          },
+          {
+            title: "Deep Work",
+            author: "Cal Newport",
+            review: "Helped me rethink focus and distraction completely."
+          },
+          {
+            title: "The Pragmatic Programmer",
+            author: "Andrew Hunt",
+            review: "Changed how I approach writing maintainable software."
+          }
+        ]}
+        metadata={{ title: "Books that Changed My Thinking ", subtitle: "A small collection of books that shaped how I think, build, learn, and approach life." }}
+      />
+      <BookSection
+        books={[
+          {
+            title: "Software Engineering at Google",
+            author: "Titus Winters, Tom Manshreck & Hyrum Wright",
+            review:
+              "Completely changed how I think about large-scale engineering, maintainability, testing, and building systems that survive years rather than months."
+          },
+          {
+            title: "Algorithms in a Nutshell",
+            author: "George T. Heineman",
+            review:
+              "Currently reading this to strengthen my understanding of algorithms beyond interviews—focusing on practical implementation, tradeoffs, and deeper intuition."
+          },
+          {
+            title: "Deep Learning with Python",
+            author: "François Chollet",
+            review:
+              "A fascinating bridge between theory and practice. Helped me understand how modern neural networks actually work while building real projects."
+          }
+        ]}
+        metadata={{
+          title: "Books That Shaped My Engineering Journey",
+          subtitle:
+            "A collection of books influencing how I think about software engineering, algorithms, and modern AI systems."
+        }}
+      />
+
       <ExploreAndBlog fourArticles={data.fourArticles} />
       <Footer />
     </div>

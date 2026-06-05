@@ -1,17 +1,17 @@
 ---
-Title: "Let's Find Out A Taco Stand"
-Date: "2023/03/24"
-Author: "Sulav Jung Hamal"
+Title: Let's Find Out A Taco Stand
+Date: 2023/03/24
+Author: Sulav Jung Hamal
 BookAuthor: ""
 Type: Blog
-slug: "fearless_unknownshowtobe"
-Genera: "Personal Growth"
-Status: "Finished"
-Fun_Meter: "Awesome"
+slug: fearless_unknownshowtobe
+Genera: Personal Growth
+Status: Completed
+Fun_Meter: Awesome
 Cover_Image: NONE
 Description: When you head towards the unknown, you are stepping outside of your comfort zone and challenging yourself in new ways. This can help you to develop new skills, increase your confidence, and improve your overall sense of self-efficacy.
 Tag:
-  - "Article"
+  - Article
 ---
 
 ## 📄 Overview

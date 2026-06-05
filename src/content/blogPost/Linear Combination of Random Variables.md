@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: linear_combination_of_random_variables
 Genera: Data Science
-Status: Planning 🔗
+Status: Completed
 Due_Date: 04/13/2023
 Cover_Image: NONE
 Description: A linear combination of random variables is a new random variable that is formed by taking a weighted sum of two or more other random variables.

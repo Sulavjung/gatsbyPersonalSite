@@ -6,7 +6,7 @@ BookAuthor: Sulav Jung Hamal
 Type: Blog
 slug: whatareProgressiveWebApps
 Genera: Web Development
-Status: Posted 🔗
+Status: Completed
 Due_Date: 2023/11/08
 Cover_Image: NONE
 Description: Progressive Web Apps (PWAs) have emerged as a transformative force, bridging the gap between traditional web applications and native mobile apps. PWAs offer a seamless user experience, combining the best of both worlds
