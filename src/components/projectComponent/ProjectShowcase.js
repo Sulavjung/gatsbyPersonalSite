@@ -70,7 +70,7 @@ const ProjectShowcase = () => {
 
               </p>
 
-              <h2 className="text-5xl font-bold mt-3">
+              <h2 className="text-5xl font-bold mt-3 text-zinc-800 dark:text-zinc-200">
 
                 Things I Built
 
@@ -280,6 +280,7 @@ const ProjectShowcase = () => {
                       <h3 className="
                       text-4xl
                       font-bold
+                      text-zinc-800 dark:text-zinc-100
                       ">
 
                         {active.title}
@@ -292,7 +293,7 @@ const ProjectShowcase = () => {
 
 
                   <p className="
-                  text-zinc-300
+                  text-zinc-700 dark:text-zinc-300
                   text-lg
                   leading-8
                   max-w-3xl
@@ -317,8 +318,8 @@ const ProjectShowcase = () => {
                     px-6
                     py-3
                     rounded-full
-                    bg-white
-                    text-black
+                    dark:bg-zinc-50 bg-zinc-900
+                    text-zinc-50 dark:text-zinc-900
                     font-medium
                     "
                   >
