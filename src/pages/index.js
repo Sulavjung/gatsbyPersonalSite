@@ -12,6 +12,7 @@ import Project from "../components/projectComponent/project"
 import { useStaticQuery, graphql } from "gatsby"
 import CustomCursor from "../components/CustomCursor"
 import BookSection from "../components/BooksSection"
+import ProjectShowcase from "../components/projectComponent/ProjectShowcase"
 
 const IndexPage = () => {
   var data = useStaticQuery(graphql`
@@ -136,7 +137,7 @@ const IndexPage = () => {
       <Navbar />
       <Eyecatcher />
       <BoxesContents />
-      <Project />
+      <ProjectShowcase />
       <BookSection
         books={[
           {
