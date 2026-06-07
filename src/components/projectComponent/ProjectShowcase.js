@@ -10,6 +10,17 @@ import javaLogo from "../../assets/javacheatlogo.png"
 
 const projects = [
   {
+    title: "All Star Liquor Market",
+    type: "Website",
+    year: "2026",
+    description:
+      "Created and launched a modern website for All Star Liquor Market focused on increasing online visibility and improving customer engagement. Developed a responsive and performance-optimized platform hosted on Netlify while implementing local SEO strategies to strengthen search presence and business discoverability. The project helped expand digital reach, attract organic traffic, and create an accessible online experience that supports customer acquisition and business growth.",
+    link: "https://allstarliquormarket.netlify.app",
+    mainImage: javaImage,
+    logo: javaLogo,
+    imgAlt: "Website Image for All Start Liquor Market.",
+  },
+  {
     title: "Register System",
     type: "Utility",
     year: "2023",
@@ -19,6 +30,17 @@ const projects = [
     mainImage: registerImage,
     logo: registerLogo,
     imgAlt: "Register System",
+  },
+  {
+    title: "Bob's Liquor LLC Website",
+    type: "Website",
+    year: "2026",
+    description:
+      "Developed and deployed a full website for Bob’s Liquor LLC to establish a stronger digital presence and improve customer acquisition. Hosted on Netlify, the platform was optimized for performance, discoverability, and local SEO, including integration with Google Maps and Apple Maps to improve business visibility. The website currently drives approximately 300+ monthly visits and has generated multiple customer leads through organic traffic, helping transform the business’s online presence into a reliable lead-generation platform.",
+    link: "https://bobliquorllc.netlify.app",
+    mainImage: javaImage,
+    logo: javaLogo,
+    imgAlt: "Website Image for Bob's Liquor LLC Website.",
   },
   {
     title: "Business Tools",
