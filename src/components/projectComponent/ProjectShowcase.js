@@ -6,6 +6,10 @@ import businessImage from "../../assets/realEstateAnalysis.png"
 import businessLogo from "../../assets/realEstateAnalysislogo.png"
 import javaImage from "../../assets/Java Cheat.png"
 import javaLogo from "../../assets/javacheatlogo.png"
+import allStarLogo from "../../assets/allStarLiquorLogo.png"
+import allStarWebPage from "../../assets/AllStarLiquorWebPage.png"
+import bobsLiquorLogo from "../../assets/bobsLiquorLLCLogo.png"
+import bobsLiquorWebPage from "../../assets/BobsLiquorLLCWebPage.png"
 
 
 const projects = [
@@ -16,8 +20,8 @@ const projects = [
     description:
       "Created and launched a modern website for All Star Liquor Market focused on increasing online visibility and improving customer engagement. Developed a responsive and performance-optimized platform hosted on Netlify while implementing local SEO strategies to strengthen search presence and business discoverability. The project helped expand digital reach, attract organic traffic, and create an accessible online experience that supports customer acquisition and business growth.",
     link: "https://allstarliquormarket.netlify.app",
-    mainImage: javaImage,
-    logo: javaLogo,
+    mainImage: allStarWebPage,
+    logo: allStarLogo,
     imgAlt: "Website Image for All Start Liquor Market.",
   },
   {
@@ -38,8 +42,8 @@ const projects = [
     description:
       "Developed and deployed a full website for Bob’s Liquor LLC to establish a stronger digital presence and improve customer acquisition. Hosted on Netlify, the platform was optimized for performance, discoverability, and local SEO, including integration with Google Maps and Apple Maps to improve business visibility. The website currently drives approximately 300+ monthly visits and has generated multiple customer leads through organic traffic, helping transform the business’s online presence into a reliable lead-generation platform.",
     link: "https://bobliquorllc.netlify.app",
-    mainImage: javaImage,
-    logo: javaLogo,
+    mainImage: bobsLiquorWebPage,
+    logo: bobsLiquorLogo,
     imgAlt: "Website Image for Bob's Liquor LLC Website.",
   },
   {
@@ -76,7 +80,7 @@ const ProjectShowcase = () => {
   return (
     <section className="py-32">
 
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2 md:px-0 ">
 
         <div className="grid lg:grid-cols-[320px_1fr] gap-16 items-start">
 
