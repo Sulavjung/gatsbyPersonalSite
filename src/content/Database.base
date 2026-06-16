@@ -6,10 +6,10 @@ views:
         - Type == "Blog"
         - Type == "DraftBlog"
     order:
+      - Date
       - Title
       - Status
       - Type
-      - Date
       - Genera
       - Author
       - Description
@@ -29,22 +29,29 @@ views:
       note.Date: 106
   - type: table
     name: Publish
-    rowHeight: medium
-  - type: cards
-    name: Blog Status
     filters:
       and:
-        - Type == "Blog"
+        - Status.contains("Draft")
     order:
+      - Date
       - Title
       - Status
       - Type
-      - Date
       - Genera
-    sort:
-      - property: Status
-        direction: DESC
-      - property: Date
-        direction: DESC
-    columnSize:
-      note.Date: 106
+      - slug
+      - file.name
+    rowHeight: medium
+  - type: cards
+    name: Publish Card
+    filters:
+      and:
+        - Status.contains("Draft")
+    order:
+      - Date
+      - Title
+      - Status
+      - Type
+      - Genera
+      - slug
+      - file.name
+    rowHeight: medium

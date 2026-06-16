@@ -25,7 +25,11 @@ Even with that, it is necessary to have all the frontmatter properties as differ
 > ---
 > ```
 
-	
-	
 
 ![[Database.base]]
+
+
+## Unposted Blogs
+This section is to publish the unposted blogs. 
+![[Database.base#Publish]]
+

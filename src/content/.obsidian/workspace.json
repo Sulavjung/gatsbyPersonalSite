@@ -27,8 +27,9 @@
               "type": "markdown",
               "state": {
                 "file": "Overview.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Overview"
@@ -49,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -222,10 +223,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1cb0154327f48b38",
+  "active": "b4cecb1cdf0a514d",
   "lastOpenFiles": [
-    "Overview.md",
     "blogPost/Before and Laughter.md",
+    "Overview.md",
     "Database.base",
     "Before and Laughter.md",
     "blogPost/Linear Combination of Random Variables.md",
