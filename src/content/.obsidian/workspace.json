@@ -27,9 +27,8 @@
               "type": "markdown",
               "state": {
                 "file": "Overview.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "Overview"
@@ -41,16 +40,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Before and Laughter.md",
+                "file": "blogPost/Siri AI and the Evolution of Personal Computing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Before and Laughter"
+              "title": "Siri AI and the Evolution of Personal Computing"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,11 +222,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b4cecb1cdf0a514d",
+  "active": "a48d827d7eac8a4a",
   "lastOpenFiles": [
-    "blogPost/Before and Laughter.md",
     "Overview.md",
+    "blogPost/Siri AI and the Evolution of Personal Computing.md",
     "Database.base",
+    "blogPost/theMissingStandard.md",
+    "blogPost/Before and Laughter.md",
     "Before and Laughter.md",
     "blogPost/Linear Combination of Random Variables.md",
     "blogPost/What are Progressive Web Apps?.md",

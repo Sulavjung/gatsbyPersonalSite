@@ -23,7 +23,7 @@ views:
       - Platform
       - file.name
     sort:
-      - property: Status
+      - property: Date
         direction: DESC
     columnSize:
       note.Date: 106
