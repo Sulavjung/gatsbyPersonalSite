@@ -31,5 +31,7 @@ Even with that, it is necessary to have all the frontmatter properties as differ
 
 ## Unposted Blogs
 This section is to publish the unposted blogs. 
+To publish the blog, you have to set the status to `Completed` and type to `Blog`.
+
 ![[Database.base#Publish]]
 

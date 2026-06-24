@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blogPost/Siri AI and the Evolution of Personal Computing.md",
+                "file": "blogPost/20 things, one week, and one me.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Siri AI and the Evolution of Personal Computing"
+              "title": "20 things, one week, and one me"
             }
           }
         ],
@@ -222,13 +222,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a48d827d7eac8a4a",
+  "active": "1cb0154327f48b38",
   "lastOpenFiles": [
-    "Overview.md",
     "blogPost/Siri AI and the Evolution of Personal Computing.md",
-    "Database.base",
     "blogPost/theMissingStandard.md",
     "blogPost/Before and Laughter.md",
+    "Overview.md",
+    "Database.base",
+    "blogPost/Images/siriAI.png",
     "Before and Laughter.md",
     "blogPost/Linear Combination of Random Variables.md",
     "blogPost/What are Progressive Web Apps?.md",
@@ -253,7 +254,6 @@
     "academicPapers/paper1 copy 2.md",
     "academicPapers/paper1 copy.md",
     "academicPapers/paper1 copy 4.md",
-    "academicPapers/paper1 copy 5.md",
     "blogPost/Images/BranchandBound.png",
     "programming/Analysis_Of_Algorithm",
     "blogPost/Images/emythrevisited 1.png",
@@ -263,7 +263,6 @@
     "blogPost/Images/rmsallproduct.png",
     "blogPost/Images",
     "programming/Data_Structure/Images/ADTTree3 1.png",
-    "programming/Data_Structure/Images/ADTTree3.png",
-    "programming/Data_Structure/Images/ADTtree3.png"
+    "programming/Data_Structure/Images/ADTTree3.png"
   ]
 }
