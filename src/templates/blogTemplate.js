@@ -209,6 +209,8 @@ const BlogTemplate = ({ data }) => {
       <Helmet>
         <Navbar />
 
+        <title> {Title} </title>
+
         <meta name="title" property="og:title" content={Title} />
         <meta
           property="og:url"
