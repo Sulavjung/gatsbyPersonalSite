@@ -175,13 +175,13 @@ const BlogTemplate = ({ data }) => {
           <>
             <div>
               <header className="py-0 pb-0 font-bold text-start">
-                <h1 className="text-2xl md:text-4xl font-bold pb-0">
+                <h1 className="text-2xl md:text-4xl font-bold pb-0 dark:text-gray-100">
                   {props.titlename}
                 </h1>
               </header>
 
               <div className="font-normal text-sm text-start pt-0">
-                <p className="p-0 m-0 pb-4">
+                <p className="p-0 m-0 pb-4 dark:text-gray-300">
                   <small>
                     {props.authorName} - {props.type} - {props.dateCreated}{" "}
                   </small>
@@ -271,11 +271,10 @@ const BlogTemplate = ({ data }) => {
                       >
                         <button
                           onClick={() => scrollToSection(item.id)}
-                          className={`text-left w-full transition-all duration-200 hover:text-blue-600 dark:hover:text-blue-400 ${
-                            activeSection === item.id
-                              ? "text-blue-600 dark:text-blue-400 font-semibold bg-blue-50 dark:bg-blue-900/20 px-2 py-1 rounded"
-                              : "text-gray-700 dark:text-gray-300"
-                          } ${item.level === 2 ? "text-sm" : "text-base"}`}
+                          className={`text-left w-full transition-all duration-200 hover:text-blue-600 dark:hover:text-blue-400 ${activeSection === item.id
+                            ? "text-blue-600 dark:text-blue-400 font-semibold bg-blue-50 dark:bg-blue-900/20 px-2 py-1 rounded"
+                            : "text-gray-700 dark:text-gray-300"
+                            } ${item.level === 2 ? "text-sm" : "text-base"}`}
                         >
                           {item.text}
                         </button>
@@ -330,18 +329,18 @@ const BlogTemplate = ({ data }) => {
           <div className="prose prose-md md:prose-lg max-w-none pb-0 dark:prose-invert">
             {html
               ? html
-                  .split("</p>") // split paragraphs
-                  .filter(Boolean)
-                  .map((p, index) => (
-                    <motion.div
-                      key={index}
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      viewport={{ once: true, amount: 0.1 }}
-                      transition={{ duration: 0.8 }}
-                      dangerouslySetInnerHTML={{ __html: p + "</p>" }}
-                    />
-                  ))
+                .split("</p>") // split paragraphs
+                .filter(Boolean)
+                .map((p, index) => (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, amount: 0.1 }}
+                    transition={{ duration: 0.8 }}
+                    dangerouslySetInnerHTML={{ __html: p + "</p>" }}
+                  />
+                ))
               : null}
           </div>
         </div>
@@ -371,11 +370,10 @@ const BlogTemplate = ({ data }) => {
               >
                 <button
                   onClick={() => scrollToSection(item.id)}
-                  className={`text-left w-full transition-all duration-200 hover:text-blue-600 dark:hover:text-blue-400 ${
-                    activeSection === item.id
-                      ? "text-blue-600 dark:text-blue-400 font-semibold bg-blue-50 dark:bg-blue-900/20 px-2 py-1 rounded"
-                      : "text-gray-700 dark:text-gray-300"
-                  } ${item.level === 2 ? "text-sm" : "text-base"}`}
+                  className={`text-left w-full transition-all duration-200 hover:text-blue-600 dark:hover:text-blue-400 ${activeSection === item.id
+                    ? "text-blue-600 dark:text-blue-400 font-semibold bg-blue-50 dark:bg-blue-900/20 px-2 py-1 rounded"
+                    : "text-gray-700 dark:text-gray-300"
+                    } ${item.level === 2 ? "text-sm" : "text-base"}`}
                 >
                   {item.text}
                 </button>

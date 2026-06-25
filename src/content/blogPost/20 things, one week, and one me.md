@@ -18,6 +18,7 @@ tags:
   - Tutorial
 ---
 
+s
 Has it ever happened to you that you want to say so much, and yet you don't know how to put it? Or how to start it? It happens to me all the time. Most often than not, it occurs when I am trying to write papers. Academic papers have to have structure, and they always have to have an introduction where you define or explore your thesis. I remember holding off on starting the introduction until the second-last day of the submission. Why? It's something that I always wondered. It's not like I come up with something interesting to write on the second-last day. It is the constraint of time that would make me write whatever gibberish I could come up with and finish it before the deadline. Don't get the thought of me not doing that nowadays. I do that with every assignment.
 
 But not finishing chores on time and waiting until the last minute has its own way of making us deal with them. One way is to make us nervous and anxious all the time. The other would be to make us give up rather than making us believe we could finish them on time. Twenty things are the result of such a scenario. But this time around, it wasn't because I was lazy or anything. It was a little bit of distraction, a little bit of a rusty brain, and a little bit of everything.
